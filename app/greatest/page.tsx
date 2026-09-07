@@ -96,12 +96,12 @@ export default function GreatestPage() {
 
       <section className="ranking-section shell">
         <div className="section-heading compact">
-          <div><div className="eyebrow"><span>03</span> Ball-level impact</div><h2>Two disciplines.<br />Two scales.</h2></div>
-          <p>The combined score naturally favours wicket-takers, so batting and bowling are ranked separately here. Batting is runs above venue/phase par; bowling adds runs saved and 15 runs per credited wicket.</p>
+          <div><div className="eyebrow"><span>03</span> Ball-level ratings</div><h2>Two disciplines.<br />Two scales.</h2></div>
+          <p>Players are ranked separately because wickets heavily influence the combined measure. Batting shows runs scored above the venue-and-phase baseline. Bowling shows a composite score: estimated runs saved against that baseline, plus 15 points per credited wicket. The bowling figure is a rating, not literal runs.</p>
         </div>
         <div className="player-leaderboards">
           <section><h3>Batting above par</h3><div className="player-grid">{players.leaderboards.batting.map((row, index) => <article key={`${row.season}-${row.player}`}><span>{String(index + 1).padStart(2, "0")}</span><small>{row.season}</small><h3>{row.player}</h3><strong>{row.batting_runs_above_par.toFixed(0)}</strong><p>runs above par</p></article>)}</div></section>
-          <section><h3>Bowling impact</h3><div className="player-grid">{players.leaderboards.bowling.map((row, index) => <article key={`${row.season}-${row.player}`}><span>{String(index + 1).padStart(2, "0")}</span><small>{row.season}</small><h3>{row.player}</h3><strong>{row.bowling_impact_runs.toFixed(0)}</strong><p>{row.bowler_wickets} wickets · impact runs</p></article>)}</div></section>
+          <section><h3>Bowling score</h3><div className="player-grid">{players.leaderboards.bowling.map((row, index) => <article key={`${row.season}-${row.player}`}><span>{String(index + 1).padStart(2, "0")}</span><small>{row.season}</small><h3>{row.player}</h3><strong>{row.bowling_impact_runs.toFixed(0)}</strong><p>{row.bowler_wickets} wickets · composite rating</p></article>)}</div></section>
         </div>
       </section>
     </main>
