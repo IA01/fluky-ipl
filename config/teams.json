@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "aliases": {
+    "Chennai Super Kings": { "id": "chennai_super_kings", "name": "Chennai Super Kings", "abbr": "CSK" },
+    "Deccan Chargers": { "id": "deccan_chargers", "name": "Deccan Chargers", "abbr": "DEC" },
+    "Delhi Capitals": { "id": "delhi_capitals", "name": "Delhi Capitals", "abbr": "DC" },
+    "Delhi Daredevils": { "id": "delhi_capitals", "name": "Delhi Capitals", "abbr": "DC" },
+    "Gujarat Lions": { "id": "gujarat_lions", "name": "Gujarat Lions", "abbr": "GL" },
+    "Gujarat Titans": { "id": "gujarat_titans", "name": "Gujarat Titans", "abbr": "GT" },
+    "Kings XI Punjab": { "id": "punjab_kings", "name": "Punjab Kings", "abbr": "PBKS" },
+    "Kochi Tuskers Kerala": { "id": "kochi_tuskers_kerala", "name": "Kochi Tuskers Kerala", "abbr": "KTK" },
+    "Kolkata Knight Riders": { "id": "kolkata_knight_riders", "name": "Kolkata Knight Riders", "abbr": "KKR" },
+    "Lucknow Super Giants": { "id": "lucknow_super_giants", "name": "Lucknow Super Giants", "abbr": "LSG" },
+    "Mumbai Indians": { "id": "mumbai_indians", "name": "Mumbai Indians", "abbr": "MI" },
+    "Pune Warriors": { "id": "pune_warriors", "name": "Pune Warriors", "abbr": "PWI" },
+    "Punjab Kings": { "id": "punjab_kings", "name": "Punjab Kings", "abbr": "PBKS" },
+    "Rajasthan Royals": { "id": "rajasthan_royals", "name": "Rajasthan Royals", "abbr": "RR" },
+    "Rising Pune Supergiant": { "id": "rising_pune_supergiant", "name": "Rising Pune Supergiant", "abbr": "RPS" },
+    "Rising Pune Supergiants": { "id": "rising_pune_supergiant", "name": "Rising Pune Supergiant", "abbr": "RPS" },
+    "Royal Challengers Bangalore": { "id": "royal_challengers_bengaluru", "name": "Royal Challengers Bengaluru", "abbr": "RCB" },
+    "Royal Challengers Bengaluru": { "id": "royal_challengers_bengaluru", "name": "Royal Challengers Bengaluru", "abbr": "RCB" },
+    "Sunrisers Hyderabad": { "id": "sunrisers_hyderabad", "name": "Sunrisers Hyderabad", "abbr": "SRH" }
+  },
+  "lineage_notes": [
+    "Delhi Daredevils and Delhi Capitals are treated as one continuing franchise.",
+    "Kings XI Punjab and Punjab Kings are treated as one continuing franchise.",
+    "The Royal Challengers Bangalore/Bengaluru naming change is treated as one continuing franchise.",
+    "Deccan Chargers and Sunrisers Hyderabad remain separate entities: SRH was a replacement franchise, not a rename.",
+    "Rising Pune Supergiant and Gujarat Lions are independent 2016-17 teams, not continuations of CSK or RR."
+  ]
+}
+

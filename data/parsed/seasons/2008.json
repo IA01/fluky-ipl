@@ -1,0 +1,5239 @@
+{
+  "schema_version": 1,
+  "season": 2008,
+  "source": {
+    "provider": "Cricsheet",
+    "format": "JSON",
+    "data_version": "1.2.x",
+    "files": 58,
+    "configured_supplements": 1
+  },
+  "config": {
+    "defaults": {
+      "win_points": 2,
+      "no_result_points": 1,
+      "loss_points": 0,
+      "tie_breakers": [
+        "points",
+        "net_run_rate"
+      ],
+      "scheduled_overs": 20
+    },
+    "source_label": "2007/08",
+    "playoff_format": "two_semifinals_final",
+    "neutral_host": false,
+    "supplemental_fixtures": [
+      {
+        "id": "336030",
+        "date": "2008-05-22",
+        "city": "Delhi",
+        "venue": "Feroz Shah Kotla",
+        "stage": "league",
+        "match_number": 47,
+        "teams": [
+          "Delhi Daredevils",
+          "Kolkata Knight Riders"
+        ],
+        "outcome": "no_result",
+        "reason": "Abandoned before the toss without a ball bowled; absent from the ball-by-ball archive."
+      }
+    ]
+  },
+  "summary": {
+    "matches": 59,
+    "league_matches": 56,
+    "playoff_matches": 3,
+    "stages": {
+      "final": 1,
+      "league": 56,
+      "semi_final": 2
+    }
+  },
+  "team_identity_notes": [
+    "Delhi Daredevils and Delhi Capitals are treated as one continuing franchise.",
+    "Kings XI Punjab and Punjab Kings are treated as one continuing franchise.",
+    "The Royal Challengers Bangalore/Bengaluru naming change is treated as one continuing franchise.",
+    "Deccan Chargers and Sunrisers Hyderabad remain separate entities: SRH was a replacement franchise, not a rename.",
+    "Rising Pune Supergiant and Gujarat Lions are independent 2016-17 teams, not continuations of CSK or RR."
+  ],
+  "actual_table": [
+    {
+      "team": {
+        "id": "rajasthan_royals",
+        "name": "Rajasthan Royals",
+        "abbr": "RR"
+      },
+      "played": 14,
+      "won": 11,
+      "lost": 3,
+      "tied": 0,
+      "no_result": 0,
+      "points": 22,
+      "runs_for": 2245,
+      "balls_for": 1566,
+      "runs_against": 2153,
+      "balls_against": 1621,
+      "net_run_rate": 0.632,
+      "position": 1
+    },
+    {
+      "team": {
+        "id": "punjab_kings",
+        "name": "Punjab Kings",
+        "abbr": "PBKS"
+      },
+      "played": 14,
+      "won": 10,
+      "lost": 4,
+      "tied": 0,
+      "no_result": 0,
+      "points": 20,
+      "runs_for": 2352,
+      "balls_for": 1558,
+      "runs_against": 2271,
+      "balls_against": 1595,
+      "net_run_rate": 0.515,
+      "position": 2
+    },
+    {
+      "team": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "played": 14,
+      "won": 8,
+      "lost": 6,
+      "tied": 0,
+      "no_result": 0,
+      "points": 16,
+      "runs_for": 2241,
+      "balls_for": 1586,
+      "runs_against": 2195,
+      "balls_against": 1519,
+      "net_run_rate": -0.192,
+      "position": 3
+    },
+    {
+      "team": {
+        "id": "delhi_capitals",
+        "name": "Delhi Capitals",
+        "abbr": "DC"
+      },
+      "played": 14,
+      "won": 7,
+      "lost": 6,
+      "tied": 0,
+      "no_result": 1,
+      "points": 15,
+      "runs_for": 2001,
+      "balls_for": 1400,
+      "runs_against": 2031,
+      "balls_against": 1479,
+      "net_run_rate": 0.336,
+      "position": 4
+    },
+    {
+      "team": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "played": 14,
+      "won": 7,
+      "lost": 7,
+      "tied": 0,
+      "no_result": 0,
+      "points": 14,
+      "runs_for": 2080,
+      "balls_for": 1495,
+      "runs_against": 2096,
+      "balls_against": 1618,
+      "net_run_rate": 0.575,
+      "position": 5
+    },
+    {
+      "team": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "played": 14,
+      "won": 6,
+      "lost": 7,
+      "tied": 0,
+      "no_result": 1,
+      "points": 13,
+      "runs_for": 1845,
+      "balls_for": 1456,
+      "runs_against": 1718,
+      "balls_against": 1330,
+      "net_run_rate": -0.147,
+      "position": 6
+    },
+    {
+      "team": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "played": 14,
+      "won": 4,
+      "lost": 10,
+      "tied": 0,
+      "no_result": 0,
+      "points": 8,
+      "runs_for": 1983,
+      "balls_for": 1636,
+      "runs_against": 2205,
+      "balls_against": 1569,
+      "net_run_rate": -1.16,
+      "position": 7
+    },
+    {
+      "team": {
+        "id": "deccan_chargers",
+        "name": "Deccan Chargers",
+        "abbr": "DEC"
+      },
+      "played": 14,
+      "won": 2,
+      "lost": 12,
+      "tied": 0,
+      "no_result": 0,
+      "points": 4,
+      "runs_for": 2229,
+      "balls_for": 1621,
+      "runs_against": 2307,
+      "balls_against": 1587,
+      "net_run_rate": -0.472,
+      "position": 8
+    }
+  ],
+  "matches": [
+    {
+      "id": "335982",
+      "date": "2008-04-18",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 1,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 140,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 222,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 82,
+          "wickets": 10,
+          "legal_balls": 91,
+          "overs": "15.1",
+          "boundaries": {
+            "fours": 3,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 223
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335983",
+      "date": "2008-04-19",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "stage": "league",
+      "match_number": 2,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 33,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 240,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 16
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 207,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 241
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335984",
+      "date": "2008-04-19",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 3,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 129,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 132,
+          "wickets": 1,
+          "legal_balls": 91,
+          "overs": "15.1",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 130
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335985",
+      "date": "2008-04-20",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 5,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 165,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 166,
+          "wickets": 5,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 166
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335986",
+      "date": "2008-04-20",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 4,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 110,
+          "wickets": 10,
+          "legal_balls": 112,
+          "overs": "18.4",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        },
+        {
+          "runs": 112,
+          "wickets": 5,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 5,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 111
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335987",
+      "date": "2008-04-21",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 6,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 166,
+          "wickets": 8,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 168,
+          "wickets": 4,
+          "legal_balls": 109,
+          "overs": "18.1",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 167
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335988",
+      "date": "2008-04-22",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 7,
+      "teams": [
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 142,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        },
+        {
+          "runs": 143,
+          "wickets": 1,
+          "legal_balls": 78,
+          "overs": "13.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 143
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335989",
+      "date": "2008-04-23",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 8,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 208,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 24,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 202,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 209
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335990",
+      "date": "2008-04-24",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 9,
+      "teams": [
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 3,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 214,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 24,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        },
+        {
+          "runs": 217,
+          "wickets": 7,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 215
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335991",
+      "date": "2008-04-25",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "stage": "league",
+      "match_number": 10,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 66,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 182,
+          "wickets": 10,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 116,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 183
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335992",
+      "date": "2008-04-26",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 12,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 135,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 138,
+          "wickets": 3,
+          "legal_balls": 103,
+          "overs": "17.1",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 136
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335993",
+      "date": "2008-04-26",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 11,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 147,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 152,
+          "wickets": 1,
+          "legal_balls": 102,
+          "overs": "17.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 148
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335994",
+      "date": "2008-04-27",
+      "city": "Mumbai",
+      "venue": "Dr DY Patil Sports Academy",
+      "stage": "league",
+      "match_number": 14,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 154,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 155,
+          "wickets": 0,
+          "legal_balls": 73,
+          "overs": "12.1",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 155
+          },
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335995",
+      "date": "2008-04-27",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "stage": "league",
+      "match_number": 13,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 158,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 162,
+          "wickets": 6,
+          "legal_balls": 117,
+          "overs": "19.3",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 159
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335996",
+      "date": "2008-04-28",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 15,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 13,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 178,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 165,
+          "wickets": 10,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 179
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335997",
+      "date": "2008-04-29",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 16,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 137,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 138,
+          "wickets": 3,
+          "legal_balls": 112,
+          "overs": "18.4",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 138
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335998",
+      "date": "2008-04-30",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 17,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 191,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 181,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 192
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "335999",
+      "date": "2008-05-01",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 19,
+      "teams": [
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 164,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        },
+        {
+          "runs": 167,
+          "wickets": 3,
+          "legal_balls": 113,
+          "overs": "18.5",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 165
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336000",
+      "date": "2008-05-01",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 18,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 45,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 196,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 151,
+          "wickets": 10,
+          "legal_balls": 115,
+          "overs": "19.1",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 197
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336001",
+      "date": "2008-05-02",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 20,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 169,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 172,
+          "wickets": 2,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 170
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336003",
+      "date": "2008-05-03",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "stage": "league",
+      "match_number": 22,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 178,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 169,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 179
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336034",
+      "date": "2008-05-03",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 21,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 3,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 156,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 153,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 157
+          },
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336004",
+      "date": "2008-05-04",
+      "city": "Mumbai",
+      "venue": "Dr DY Patil Sports Academy",
+      "stage": "league",
+      "match_number": 23,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 29,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 162,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 133,
+          "wickets": 10,
+          "legal_balls": 113,
+          "overs": "18.5",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 163
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336005",
+      "date": "2008-05-04",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 24,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 109,
+          "wickets": 10,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 110,
+          "wickets": 2,
+          "legal_balls": 86,
+          "overs": "14.2",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 110
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336006",
+      "date": "2008-05-05",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 25,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 126,
+          "wickets": 10,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 127,
+          "wickets": 4,
+          "legal_balls": 110,
+          "overs": "18.2",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 127
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336007",
+      "date": "2008-05-06",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 26,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 144,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 148,
+          "wickets": 3,
+          "legal_balls": 108,
+          "overs": "18.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 145
+          },
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336008",
+      "date": "2008-05-07",
+      "city": "Mumbai",
+      "venue": "Dr DY Patil Sports Academy",
+      "stage": "league",
+      "match_number": 27,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 103,
+          "wickets": 10,
+          "legal_balls": 98,
+          "overs": "16.2",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 104,
+          "wickets": 3,
+          "legal_balls": 91,
+          "overs": "15.1",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 104
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336009",
+      "date": "2008-05-08",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 28,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 187,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 188,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 188
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336010",
+      "date": "2008-05-08",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 29,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 129,
+          "wickets": 7,
+          "legal_balls": 96,
+          "overs": "16.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 124,
+          "wickets": 4,
+          "legal_balls": 96,
+          "overs": "16.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 16,
+            "runs": 130
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336011",
+      "date": "2008-05-09",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 30,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 140,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        },
+        {
+          "runs": 141,
+          "wickets": 2,
+          "legal_balls": 96,
+          "overs": "16.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 141
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336013",
+      "date": "2008-05-10",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 31,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 18,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 181,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 163,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 182
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336014",
+      "date": "2008-05-11",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 32,
+      "teams": [
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 23,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 204,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 181,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 205
+          },
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336015",
+      "date": "2008-05-11",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 33,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 3,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 156,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 159,
+          "wickets": 7,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 157
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336016",
+      "date": "2008-05-12",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "stage": "league",
+      "match_number": 34,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 143,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 144,
+          "wickets": 1,
+          "legal_balls": 94,
+          "overs": "15.4",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 144
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336017",
+      "date": "2008-05-13",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 35,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 23,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 133,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 110,
+          "wickets": 10,
+          "legal_balls": 107,
+          "overs": "17.5",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 134
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336018",
+      "date": "2008-05-14",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 36,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 156,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 158,
+          "wickets": 1,
+          "legal_balls": 83,
+          "overs": "13.5",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 157
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336020",
+      "date": "2008-05-15",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 37,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 12,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 194,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 182,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 195
+          },
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336021",
+      "date": "2008-05-16",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 38,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 67,
+          "wickets": 10,
+          "legal_balls": 92,
+          "overs": "15.2",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 68,
+          "wickets": 2,
+          "legal_balls": 33,
+          "overs": "5.3",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 68
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336022",
+      "date": "2008-05-17",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 40,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "runs"
+        },
+        "method": "D/L"
+      },
+      "innings": [
+        {
+          "runs": 118,
+          "wickets": 4,
+          "legal_balls": 66,
+          "overs": "11.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 94,
+          "wickets": 3,
+          "legal_balls": 48,
+          "overs": "8.0",
+          "boundaries": {
+            "fours": 4,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 8,
+            "runs": 89
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336023",
+      "date": "2008-05-17",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 39,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 65,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 197,
+          "wickets": 1,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 132,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 198
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336024",
+      "date": "2008-05-18",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 42,
+      "teams": [
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 25,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 178,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 153,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 179
+          },
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336025",
+      "date": "2008-05-18",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 41,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 3,
+          "unit": "runs"
+        },
+        "method": "D/L"
+      },
+      "innings": [
+        {
+          "runs": 149,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 55,
+          "wickets": 0,
+          "legal_balls": 48,
+          "overs": "8.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 8,
+            "runs": 53
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336026",
+      "date": "2008-05-19",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 43,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 154,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 158,
+          "wickets": 5,
+          "legal_balls": 110,
+          "overs": "18.2",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 155
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336027",
+      "date": "2008-05-20",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 44,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 147,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 150,
+          "wickets": 4,
+          "legal_balls": 99,
+          "overs": "16.3",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 148
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336028",
+      "date": "2008-05-21",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 45,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 1,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 189,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 188,
+          "wickets": 10,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 190
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336029",
+      "date": "2008-05-21",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 46,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 14,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 126,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 112,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 127
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336030",
+      "date": "2008-05-22",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 47,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": null,
+        "decision": null
+      },
+      "outcome": {
+        "type": "no_result",
+        "winner": null,
+        "margin": null,
+        "method": null
+      },
+      "innings": [],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": false,
+      "source_kind": "season_config_supplement",
+      "source_note": "Abandoned before the toss without a ball bowled; absent from the ball-by-ball archive."
+    },
+    {
+      "id": "336031",
+      "date": "2008-05-23",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "stage": "league",
+      "match_number": 48,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 175,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        },
+        {
+          "runs": 178,
+          "wickets": 4,
+          "legal_balls": 117,
+          "overs": "19.3",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 176
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336032",
+      "date": "2008-05-24",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 50,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 176,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 179,
+          "wickets": 5,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 177
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336033",
+      "date": "2008-05-24",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 49,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 211,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 201,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 212
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336002",
+      "date": "2008-05-25",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 51,
+      "teams": [
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 165,
+          "wickets": 10,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        },
+        {
+          "runs": 171,
+          "wickets": 5,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 166
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336035",
+      "date": "2008-05-25",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 52,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 3,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 174,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 175,
+          "wickets": 7,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 175
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336036",
+      "date": "2008-05-26",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 53,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 145,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 146,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 146
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336037",
+      "date": "2008-05-27",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 54,
+      "teams": [
+        {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "deccan_chargers",
+          "name": "Deccan Chargers",
+          "abbr": "DEC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 147,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "deccan_chargers",
+            "name": "Deccan Chargers",
+            "abbr": "DEC"
+          }
+        },
+        {
+          "runs": 148,
+          "wickets": 3,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 148
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336012",
+      "date": "2008-05-28",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 55,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 122,
+          "wickets": 9,
+          "legal_balls": 108,
+          "overs": "18.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 126,
+          "wickets": 1,
+          "legal_balls": 96,
+          "overs": "16.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 18,
+            "runs": 123
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336019",
+      "date": "2008-05-28",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "stage": "league",
+      "match_number": 56,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 41,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 221,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 180,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 222
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336038",
+      "date": "2008-05-30",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "semi_final",
+      "match_number": "Semi Final",
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 105,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 192,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 87,
+          "wickets": 10,
+          "legal_balls": 97,
+          "overs": "16.1",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 193
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336039",
+      "date": "2008-05-31",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "semi_final",
+      "match_number": "Semi Final",
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 112,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 116,
+          "wickets": 1,
+          "legal_balls": 89,
+          "overs": "14.5",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 113
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    },
+    {
+      "id": "336040",
+      "date": "2008-06-01",
+      "city": "Mumbai",
+      "venue": "Dr DY Patil Sports Academy",
+      "stage": "final",
+      "match_number": "Final",
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 3,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 163,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 164,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 164
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "fluky-ipl",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "data:2008": "python3 scripts/parse_cricsheet.py --input 'ipl_json (1)' --output data/parsed/seasons --season 2008",
+    "test:data": "python3 -m unittest discover -s tests -v"
+  },
+  "dependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "18.3.18",
+    "@types/react-dom": "18.3.5",
+    "autoprefixer": "10.4.20",
+    "next": "14.2.35",
+    "postcss": "8.5.23",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

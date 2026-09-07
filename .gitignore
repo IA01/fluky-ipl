@@ -1,0 +1,14 @@
+.DS_Store
+.next/
+out/
+node_modules/
+.vercel/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Downloaded Cricsheet data is intentionally not committed.
+ipl_json/
+ipl_json (1)/
+data/raw/
+
