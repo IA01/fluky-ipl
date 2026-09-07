@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "base_rating": 1500,
+  "expansion_penalty": 35,
+  "k_factor_candidates": [8, 12, 16, 20, 24],
+  "mega_auction_years": [2011, 2014, 2018, 2022, 2025],
+  "mega_auction_carryover": 0.1,
+  "normal_carryover": 0.4,
+  "elo_scale_candidates": [400, 500, 600, 700, 800, 1000],
+  "home_advantage_candidates": [0, 20, 40, 60],
+  "calibration_holdout_start": 2019,
+  "simulation_count": 10000,
+  "client_simulation_count": 1000,
+  "seed_base": 24051992,
+  "no_result_policy": "Preserve the observed no-result and award one point to each team in every replay.",
+  "nrr_policy": "Match-level simulation uses a sampled performance-margin proxy for the NRR tiebreak; it does not fabricate ball-by-ball innings."
+}

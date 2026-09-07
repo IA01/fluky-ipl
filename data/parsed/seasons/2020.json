@@ -1,0 +1,5629 @@
+{
+  "schema_version": 1,
+  "season": 2020,
+  "source": {
+    "provider": "Cricsheet",
+    "format": "JSON",
+    "data_version": "1.2.x",
+    "files": 60,
+    "configured_supplements": 0
+  },
+  "config": {
+    "defaults": {
+      "win_points": 2,
+      "no_result_points": 1,
+      "loss_points": 0,
+      "tie_breakers": [
+        "points",
+        "wins",
+        "net_run_rate"
+      ],
+      "scheduled_overs": 20
+    },
+    "source_label": "2020/21",
+    "playoff_format": "page_playoff",
+    "neutral_host": true
+  },
+  "summary": {
+    "matches": 60,
+    "records": 60,
+    "league_matches": 56,
+    "playoff_matches": 4,
+    "voided_matches": 0,
+    "stages": {
+      "eliminator": 1,
+      "final": 1,
+      "league": 56,
+      "qualifier_1": 1,
+      "qualifier_2": 1
+    }
+  },
+  "team_identity_notes": [
+    "Delhi Daredevils and Delhi Capitals are treated as one continuing franchise.",
+    "Kings XI Punjab and Punjab Kings are treated as one continuing franchise.",
+    "The Royal Challengers Bangalore/Bengaluru naming change is treated as one continuing franchise.",
+    "Deccan Chargers and Sunrisers Hyderabad remain separate entities: SRH was a replacement franchise, not a rename.",
+    "Rising Pune Supergiant and Gujarat Lions are independent 2016-17 teams, not continuations of CSK or RR."
+  ],
+  "validation": {
+    "status": "passed",
+    "source_url": "https://en.wikipedia.org/wiki/2020_Indian_Premier_League",
+    "teams_checked": 8,
+    "fields_checked": [
+      "played",
+      "won",
+      "lost",
+      "no_result",
+      "points"
+    ],
+    "note": "Published NRR and ordering are authoritative; calculated NRR is retained for audit."
+  },
+  "actual_table": [
+    {
+      "team": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "played": 14,
+      "won": 9,
+      "lost": 5,
+      "tied": 0,
+      "no_result": 0,
+      "points": 18,
+      "runs_for": 2378,
+      "balls_for": 1574,
+      "runs_against": 2187,
+      "balls_against": 1649,
+      "net_run_rate": 1.107,
+      "position": 1,
+      "calculated_position": 1,
+      "calculated_net_run_rate": 1.107,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "delhi_capitals",
+        "name": "Delhi Capitals",
+        "abbr": "DC"
+      },
+      "played": 14,
+      "won": 8,
+      "lost": 6,
+      "tied": 0,
+      "no_result": 0,
+      "points": 16,
+      "runs_for": 2289,
+      "balls_for": 1673,
+      "runs_against": 2271,
+      "balls_against": 1638,
+      "net_run_rate": -0.109,
+      "position": 2,
+      "calculated_position": 2,
+      "calculated_net_run_rate": -0.109,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "sunrisers_hyderabad",
+        "name": "Sunrisers Hyderabad",
+        "abbr": "SRH"
+      },
+      "played": 14,
+      "won": 7,
+      "lost": 7,
+      "tied": 0,
+      "no_result": 0,
+      "points": 14,
+      "runs_for": 2225,
+      "balls_for": 1617,
+      "runs_against": 2125,
+      "balls_against": 1667,
+      "net_run_rate": 0.608,
+      "position": 3,
+      "calculated_position": 3,
+      "calculated_net_run_rate": 0.608,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "played": 14,
+      "won": 7,
+      "lost": 7,
+      "tied": 0,
+      "no_result": 0,
+      "points": 14,
+      "runs_for": 2147,
+      "balls_for": 1634,
+      "runs_against": 2183,
+      "balls_against": 1626,
+      "net_run_rate": -0.172,
+      "position": 4,
+      "calculated_position": 4,
+      "calculated_net_run_rate": -0.172,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "played": 14,
+      "won": 7,
+      "lost": 7,
+      "tied": 0,
+      "no_result": 0,
+      "points": 14,
+      "runs_for": 2219,
+      "balls_for": 1668,
+      "runs_against": 2206,
+      "balls_against": 1615,
+      "net_run_rate": -0.214,
+      "position": 5,
+      "calculated_position": 5,
+      "calculated_net_run_rate": -0.214,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "punjab_kings",
+        "name": "Punjab Kings",
+        "abbr": "PBKS"
+      },
+      "played": 14,
+      "won": 6,
+      "lost": 8,
+      "tied": 0,
+      "no_result": 0,
+      "points": 12,
+      "runs_for": 2335,
+      "balls_for": 1667,
+      "runs_against": 2343,
+      "balls_against": 1641,
+      "net_run_rate": -0.162,
+      "position": 6,
+      "calculated_position": 6,
+      "calculated_net_run_rate": -0.162,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "played": 14,
+      "won": 6,
+      "lost": 8,
+      "tied": 0,
+      "no_result": 0,
+      "points": 12,
+      "runs_for": 2191,
+      "balls_for": 1647,
+      "runs_against": 2275,
+      "balls_against": 1618,
+      "net_run_rate": -0.455,
+      "position": 7,
+      "calculated_position": 7,
+      "calculated_net_run_rate": -0.455,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "rajasthan_royals",
+        "name": "Rajasthan Royals",
+        "abbr": "RR"
+      },
+      "played": 14,
+      "won": 6,
+      "lost": 8,
+      "tied": 0,
+      "no_result": 0,
+      "points": 12,
+      "runs_for": 2288,
+      "balls_for": 1636,
+      "runs_against": 2482,
+      "balls_against": 1662,
+      "net_run_rate": -0.569,
+      "position": 8,
+      "calculated_position": 8,
+      "calculated_net_run_rate": -0.569,
+      "nrr_delta": 0.0
+    }
+  ],
+  "matches": [
+    {
+      "id": "1216492",
+      "date": "2020-09-19",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 1,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 162,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 166,
+          "wickets": 5,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 163
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216493",
+      "date": "2020-09-20",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 2,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "super_over_win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": null,
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 157,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 157,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 158
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 2,
+          "wickets": 2,
+          "legal_balls": 3,
+          "overs": "0.3",
+          "boundaries": {
+            "fours": 0,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 3,
+          "wickets": 0,
+          "legal_balls": 2,
+          "overs": "0.2",
+          "boundaries": {
+            "fours": 0,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216534",
+      "date": "2020-09-21",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 3,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 163,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 153,
+          "wickets": 10,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 164
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216496",
+      "date": "2020-09-22",
+      "city": null,
+      "venue": "Sharjah Cricket Stadium",
+      "stage": "league",
+      "match_number": 4,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 16,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 216,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 17
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 200,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 16
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 217
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216508",
+      "date": "2020-09-23",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 5,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 49,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 195,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 146,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 196
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216510",
+      "date": "2020-09-24",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 6,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 97,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 206,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 109,
+          "wickets": 10,
+          "legal_balls": 102,
+          "overs": "17.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 207
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216539",
+      "date": "2020-09-25",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 7,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 44,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 175,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 131,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 176
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216545",
+      "date": "2020-09-26",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 8,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 142,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 145,
+          "wickets": 3,
+          "legal_balls": 108,
+          "overs": "18.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 143
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216527",
+      "date": "2020-09-27",
+      "city": null,
+      "venue": "Sharjah Cricket Stadium",
+      "stage": "league",
+      "match_number": 9,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 223,
+          "wickets": 2,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 226,
+          "wickets": 6,
+          "legal_balls": 117,
+          "overs": "19.3",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 18
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 224
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216547",
+      "date": "2020-09-28",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 10,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "super_over_win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": null,
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 201,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 201,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 16
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 202
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 7,
+          "wickets": 1,
+          "legal_balls": 6,
+          "overs": "1.0",
+          "boundaries": {
+            "fours": 1,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 11,
+          "wickets": 0,
+          "legal_balls": 6,
+          "overs": "1.0",
+          "boundaries": {
+            "fours": 2,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216532",
+      "date": "2020-09-29",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 11,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 15,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 162,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 147,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 163
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216504",
+      "date": "2020-09-30",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 12,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 37,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 174,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 137,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 4,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 175
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216503",
+      "date": "2020-10-01",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 13,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 48,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 191,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 143,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 192
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216516",
+      "date": "2020-10-02",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 14,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 164,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 157,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 165
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216514",
+      "date": "2020-10-03",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 15,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 154,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 158,
+          "wickets": 2,
+          "legal_balls": 115,
+          "overs": "19.1",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 155
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216515",
+      "date": "2020-10-03",
+      "city": null,
+      "venue": "Sharjah Cricket Stadium",
+      "stage": "league",
+      "match_number": 16,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 18,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 228,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 210,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 229
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216513",
+      "date": "2020-10-04",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 18,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 178,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 181,
+          "wickets": 0,
+          "legal_balls": 106,
+          "overs": "17.4",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 179
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216538",
+      "date": "2020-10-04",
+      "city": null,
+      "venue": "Sharjah Cricket Stadium",
+      "stage": "league",
+      "match_number": 17,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 34,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 208,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 174,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 209
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216519",
+      "date": "2020-10-05",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 19,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 59,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 196,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 137,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 197
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216511",
+      "date": "2020-10-06",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 20,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 57,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 193,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 136,
+          "wickets": 10,
+          "legal_balls": 109,
+          "overs": "18.1",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 194
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216501",
+      "date": "2020-10-07",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 21,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 167,
+          "wickets": 10,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 157,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 168
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216542",
+      "date": "2020-10-08",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 22,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 69,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 201,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 132,
+          "wickets": 10,
+          "legal_balls": 101,
+          "overs": "16.5",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 202
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216500",
+      "date": "2020-10-09",
+      "city": null,
+      "venue": "Sharjah Cricket Stadium",
+      "stage": "league",
+      "match_number": 23,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 46,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 184,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 138,
+          "wickets": 10,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 185
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216523",
+      "date": "2020-10-10",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 24,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 2,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 164,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 162,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 165
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216525",
+      "date": "2020-10-10",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 25,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 37,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 169,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 132,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 170
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216507",
+      "date": "2020-10-11",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 26,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 158,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 163,
+          "wickets": 5,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 159
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216529",
+      "date": "2020-10-11",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 27,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 162,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 166,
+          "wickets": 5,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 163
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216540",
+      "date": "2020-10-12",
+      "city": null,
+      "venue": "Sharjah Cricket Stadium",
+      "stage": "league",
+      "match_number": 28,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 82,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 194,
+          "wickets": 2,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 112,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 195
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216528",
+      "date": "2020-10-13",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 29,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 20,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 167,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 147,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 168
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216543",
+      "date": "2020-10-14",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 30,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 13,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 161,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 148,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 162
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216531",
+      "date": "2020-10-15",
+      "city": null,
+      "venue": "Sharjah Cricket Stadium",
+      "stage": "league",
+      "match_number": 31,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 171,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 177,
+          "wickets": 2,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 172
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216526",
+      "date": "2020-10-16",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 32,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 148,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 149,
+          "wickets": 2,
+          "legal_balls": 101,
+          "overs": "16.5",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 149
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216509",
+      "date": "2020-10-17",
+      "city": null,
+      "venue": "Sharjah Cricket Stadium",
+      "stage": "league",
+      "match_number": 34,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 179,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 185,
+          "wickets": 5,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 180
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216522",
+      "date": "2020-10-17",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 33,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 177,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 179,
+          "wickets": 3,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 5,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 178
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216512",
+      "date": "2020-10-18",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 35,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "super_over_win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": null,
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 163,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 163,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 164
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 2,
+          "wickets": 2,
+          "legal_balls": 3,
+          "overs": "0.3",
+          "boundaries": {
+            "fours": 0,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 3,
+          "wickets": 0,
+          "legal_balls": 4,
+          "overs": "0.4",
+          "boundaries": {
+            "fours": 0,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216517",
+      "date": "2020-10-18",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 36,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "super_over_win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": null,
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 176,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 176,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 177
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 5,
+          "wickets": 2,
+          "legal_balls": 6,
+          "overs": "1.0",
+          "boundaries": {
+            "fours": 0,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 5,
+          "wickets": 1,
+          "legal_balls": 6,
+          "overs": "1.0",
+          "boundaries": {
+            "fours": 0,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 11,
+          "wickets": 1,
+          "legal_balls": 6,
+          "overs": "1.0",
+          "boundaries": {
+            "fours": 1,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 15,
+          "wickets": 0,
+          "legal_balls": 4,
+          "overs": "0.4",
+          "boundaries": {
+            "fours": 2,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216533",
+      "date": "2020-10-19",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 37,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 125,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 126,
+          "wickets": 3,
+          "legal_balls": 105,
+          "overs": "17.3",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 126
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216546",
+      "date": "2020-10-20",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 38,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 164,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 167,
+          "wickets": 5,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 165
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216494",
+      "date": "2020-10-21",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 39,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 84,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 85,
+          "wickets": 2,
+          "legal_balls": 81,
+          "overs": "13.3",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 85
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216518",
+      "date": "2020-10-22",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 40,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 154,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 156,
+          "wickets": 2,
+          "legal_balls": 109,
+          "overs": "18.1",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 155
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216521",
+      "date": "2020-10-23",
+      "city": null,
+      "venue": "Sharjah Cricket Stadium",
+      "stage": "league",
+      "match_number": 41,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 114,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 116,
+          "wickets": 0,
+          "legal_balls": 74,
+          "overs": "12.2",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 115
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216497",
+      "date": "2020-10-24",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 42,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 59,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 194,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 24,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 135,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 195
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216498",
+      "date": "2020-10-24",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 43,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 12,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 126,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 114,
+          "wickets": 10,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 127
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216541",
+      "date": "2020-10-25",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 45,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 195,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 196,
+          "wickets": 2,
+          "legal_balls": 110,
+          "overs": "18.2",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 196
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216544",
+      "date": "2020-10-25",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 44,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 145,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 150,
+          "wickets": 2,
+          "legal_balls": 112,
+          "overs": "18.4",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 146
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216520",
+      "date": "2020-10-26",
+      "city": null,
+      "venue": "Sharjah Cricket Stadium",
+      "stage": "league",
+      "match_number": 46,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 149,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 150,
+          "wickets": 2,
+          "legal_balls": 113,
+          "overs": "18.5",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 150
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216524",
+      "date": "2020-10-27",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 47,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 88,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 219,
+          "wickets": 2,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 25,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 131,
+          "wickets": 10,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 220
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216499",
+      "date": "2020-10-28",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 48,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 164,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 166,
+          "wickets": 5,
+          "legal_balls": 115,
+          "overs": "19.1",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 165
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216536",
+      "date": "2020-10-29",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 49,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 172,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 178,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 173
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216537",
+      "date": "2020-10-30",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 50,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 185,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 13
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 186,
+          "wickets": 3,
+          "legal_balls": 105,
+          "overs": "17.3",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 186
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216502",
+      "date": "2020-10-31",
+      "city": null,
+      "venue": "Sharjah Cricket Stadium",
+      "stage": "league",
+      "match_number": 52,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 120,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 121,
+          "wickets": 5,
+          "legal_balls": 85,
+          "overs": "14.1",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 121
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216535",
+      "date": "2020-10-31",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 51,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 110,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 111,
+          "wickets": 1,
+          "legal_balls": 86,
+          "overs": "14.2",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 111
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216506",
+      "date": "2020-11-01",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 53,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 153,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 154,
+          "wickets": 1,
+          "legal_balls": 113,
+          "overs": "18.5",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 154
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216530",
+      "date": "2020-11-01",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "league",
+      "match_number": 54,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 60,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 191,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 131,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 192
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216505",
+      "date": "2020-11-02",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "league",
+      "match_number": 55,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 152,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 154,
+          "wickets": 4,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 153
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1216495",
+      "date": "2020-11-03",
+      "city": null,
+      "venue": "Sharjah Cricket Stadium",
+      "stage": "league",
+      "match_number": 56,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 149,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 151,
+          "wickets": 0,
+          "legal_balls": 103,
+          "overs": "17.1",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 150
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1237177",
+      "date": "2020-11-05",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "qualifier_1",
+      "match_number": "Qualifier 1",
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 57,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 200,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 143,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 201
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1237178",
+      "date": "2020-11-06",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "eliminator",
+      "match_number": "Eliminator",
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 131,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 132,
+          "wickets": 4,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 132
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1237180",
+      "date": "2020-11-08",
+      "city": "Abu Dhabi",
+      "venue": "Sheikh Zayed Stadium",
+      "stage": "qualifier_2",
+      "match_number": "Qualifier 2",
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 17,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 189,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 172,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 190
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1237181",
+      "date": "2020-11-10",
+      "city": null,
+      "venue": "Dubai International Cricket Stadium",
+      "stage": "final",
+      "match_number": "Final",
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 156,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 157,
+          "wickets": 5,
+          "legal_balls": 112,
+          "overs": "18.4",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 157
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    }
+  ]
+}

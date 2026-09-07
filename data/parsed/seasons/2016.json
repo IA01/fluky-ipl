@@ -1,0 +1,5461 @@
+{
+  "schema_version": 1,
+  "season": 2016,
+  "source": {
+    "provider": "Cricsheet",
+    "format": "JSON",
+    "data_version": "1.2.x",
+    "files": 60,
+    "configured_supplements": 0
+  },
+  "config": {
+    "defaults": {
+      "win_points": 2,
+      "no_result_points": 1,
+      "loss_points": 0,
+      "tie_breakers": [
+        "points",
+        "wins",
+        "net_run_rate"
+      ],
+      "scheduled_overs": 20
+    },
+    "source_label": "2016",
+    "playoff_format": "page_playoff",
+    "neutral_host": false
+  },
+  "summary": {
+    "matches": 60,
+    "records": 60,
+    "league_matches": 56,
+    "playoff_matches": 4,
+    "voided_matches": 0,
+    "stages": {
+      "eliminator": 1,
+      "final": 1,
+      "league": 56,
+      "qualifier_1": 1,
+      "qualifier_2": 1
+    }
+  },
+  "team_identity_notes": [
+    "Delhi Daredevils and Delhi Capitals are treated as one continuing franchise.",
+    "Kings XI Punjab and Punjab Kings are treated as one continuing franchise.",
+    "The Royal Challengers Bangalore/Bengaluru naming change is treated as one continuing franchise.",
+    "Deccan Chargers and Sunrisers Hyderabad remain separate entities: SRH was a replacement franchise, not a rename.",
+    "Rising Pune Supergiant and Gujarat Lions are independent 2016-17 teams, not continuations of CSK or RR."
+  ],
+  "validation": {
+    "status": "passed",
+    "source_url": "https://en.wikipedia.org/wiki/2016_Indian_Premier_League",
+    "teams_checked": 8,
+    "fields_checked": [
+      "played",
+      "won",
+      "lost",
+      "no_result",
+      "points"
+    ],
+    "note": "Published NRR and ordering are authoritative; calculated NRR is retained for audit."
+  },
+  "actual_table": [
+    {
+      "team": {
+        "id": "gujarat_lions",
+        "name": "Gujarat Lions",
+        "abbr": "GL"
+      },
+      "played": 14,
+      "won": 9,
+      "lost": 5,
+      "tied": 0,
+      "no_result": 0,
+      "points": 18,
+      "runs_for": 2130,
+      "balls_for": 1587,
+      "runs_against": 2285,
+      "balls_against": 1627,
+      "net_run_rate": -0.374,
+      "position": 1,
+      "calculated_position": 1,
+      "calculated_net_run_rate": -0.374,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "played": 14,
+      "won": 8,
+      "lost": 6,
+      "tied": 0,
+      "no_result": 0,
+      "points": 16,
+      "runs_for": 2613,
+      "balls_for": 1622,
+      "runs_against": 2345,
+      "balls_against": 1611,
+      "net_run_rate": 0.932,
+      "position": 2,
+      "calculated_position": 2,
+      "calculated_net_run_rate": 0.932,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "sunrisers_hyderabad",
+        "name": "Sunrisers Hyderabad",
+        "abbr": "SRH"
+      },
+      "played": 14,
+      "won": 8,
+      "lost": 6,
+      "tied": 0,
+      "no_result": 0,
+      "points": 16,
+      "runs_for": 2082,
+      "balls_for": 1559,
+      "runs_against": 2078,
+      "balls_against": 1605,
+      "net_run_rate": 0.245,
+      "position": 3,
+      "calculated_position": 3,
+      "calculated_net_run_rate": 0.245,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "played": 14,
+      "won": 8,
+      "lost": 6,
+      "tied": 0,
+      "no_result": 0,
+      "points": 16,
+      "runs_for": 2123,
+      "balls_for": 1520,
+      "runs_against": 2121,
+      "balls_against": 1538,
+      "net_run_rate": 0.106,
+      "position": 4,
+      "calculated_position": 4,
+      "calculated_net_run_rate": 0.106,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "played": 14,
+      "won": 7,
+      "lost": 7,
+      "tied": 0,
+      "no_result": 0,
+      "points": 14,
+      "runs_for": 2194,
+      "balls_for": 1634,
+      "runs_against": 2190,
+      "balls_against": 1602,
+      "net_run_rate": -0.146,
+      "position": 5,
+      "calculated_position": 5,
+      "calculated_net_run_rate": -0.146,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "delhi_capitals",
+        "name": "Delhi Capitals",
+        "abbr": "DC"
+      },
+      "played": 14,
+      "won": 7,
+      "lost": 7,
+      "tied": 0,
+      "no_result": 0,
+      "points": 14,
+      "runs_for": 2040,
+      "balls_for": 1555,
+      "runs_against": 2107,
+      "balls_against": 1575,
+      "net_run_rate": -0.155,
+      "position": 6,
+      "calculated_position": 6,
+      "calculated_net_run_rate": -0.155,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "rising_pune_supergiant",
+        "name": "Rising Pune Supergiant",
+        "abbr": "RPS"
+      },
+      "played": 14,
+      "won": 5,
+      "lost": 9,
+      "tied": 0,
+      "no_result": 0,
+      "points": 10,
+      "runs_for": 2025,
+      "balls_for": 1469,
+      "runs_against": 1991,
+      "balls_against": 1447,
+      "net_run_rate": 0.015,
+      "position": 7,
+      "calculated_position": 7,
+      "calculated_net_run_rate": 0.015,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "punjab_kings",
+        "name": "Punjab Kings",
+        "abbr": "PBKS"
+      },
+      "played": 14,
+      "won": 4,
+      "lost": 10,
+      "tied": 0,
+      "no_result": 0,
+      "points": 8,
+      "runs_for": 2134,
+      "balls_for": 1618,
+      "runs_against": 2224,
+      "balls_against": 1559,
+      "net_run_rate": -0.646,
+      "position": 8,
+      "calculated_position": 8,
+      "calculated_net_run_rate": -0.646,
+      "nrr_delta": 0.0
+    }
+  ],
+  "matches": [
+    {
+      "id": "980901",
+      "date": "2016-04-09",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 1,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 121,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 126,
+          "wickets": 1,
+          "legal_balls": 88,
+          "overs": "14.4",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 122
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980903",
+      "date": "2016-04-10",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 2,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 98,
+          "wickets": 10,
+          "legal_balls": 106,
+          "overs": "17.4",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 99,
+          "wickets": 1,
+          "legal_balls": 85,
+          "overs": "14.1",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 99
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980905",
+      "date": "2016-04-11",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "stage": "league",
+      "match_number": 3,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 161,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 162,
+          "wickets": 5,
+          "legal_balls": 106,
+          "overs": "17.4",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 162
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980907",
+      "date": "2016-04-12",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 4,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 45,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 227,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 182,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 228
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980909",
+      "date": "2016-04-13",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 5,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 187,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 188,
+          "wickets": 4,
+          "legal_balls": 115,
+          "overs": "19.1",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 188
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980911",
+      "date": "2016-04-14",
+      "city": "Rajkot",
+      "venue": "Saurashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 6,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 163,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 164,
+          "wickets": 3,
+          "legal_balls": 108,
+          "overs": "18.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 164
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980913",
+      "date": "2016-04-15",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 7,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 111,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 113,
+          "wickets": 2,
+          "legal_balls": 81,
+          "overs": "13.3",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 112
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980915",
+      "date": "2016-04-16",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 8,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 142,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 146,
+          "wickets": 2,
+          "legal_balls": 110,
+          "overs": "18.2",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 143
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980917",
+      "date": "2016-04-16",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 9,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "margin": {
+          "value": 3,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 143,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 147,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 144
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980919",
+      "date": "2016-04-17",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "stage": "league",
+      "match_number": 10,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 152,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 153,
+          "wickets": 4,
+          "legal_balls": 112,
+          "overs": "18.4",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 153
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980921",
+      "date": "2016-04-17",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 11,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 191,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 192,
+          "wickets": 3,
+          "legal_balls": 115,
+          "overs": "19.1",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 192
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980923",
+      "date": "2016-04-18",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 12,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 142,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 145,
+          "wickets": 3,
+          "legal_balls": 105,
+          "overs": "17.3",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 143
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980925",
+      "date": "2016-04-19",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "stage": "league",
+      "match_number": 13,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 138,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 141,
+          "wickets": 4,
+          "legal_balls": 103,
+          "overs": "17.1",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 139
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980927",
+      "date": "2016-04-20",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 14,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 170,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 171,
+          "wickets": 4,
+          "legal_balls": 108,
+          "overs": "18.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 171
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980929",
+      "date": "2016-04-21",
+      "city": "Rajkot",
+      "venue": "Saurashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 15,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 135,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 137,
+          "wickets": 0,
+          "legal_balls": 89,
+          "overs": "14.5",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 136
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980931",
+      "date": "2016-04-22",
+      "city": "Pune",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 16,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 13,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 185,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 172,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 186
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980933",
+      "date": "2016-04-23",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 17,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 164,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 154,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 165
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980935",
+      "date": "2016-04-23",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 18,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 143,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 146,
+          "wickets": 5,
+          "legal_balls": 107,
+          "overs": "17.5",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 144
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980937",
+      "date": "2016-04-24",
+      "city": "Rajkot",
+      "venue": "Saurashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 19,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 180,
+          "wickets": 2,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 182,
+          "wickets": 4,
+          "legal_balls": 117,
+          "overs": "19.3",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 181
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980939",
+      "date": "2016-04-24",
+      "city": "Pune",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 20,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 2,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 160,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 162,
+          "wickets": 8,
+          "legal_balls": 117,
+          "overs": "19.3",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 161
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980941",
+      "date": "2016-04-25",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "stage": "league",
+      "match_number": 21,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 25,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 189,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 164,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 190
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980943",
+      "date": "2016-04-26",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 22,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 34,
+          "unit": "runs"
+        },
+        "method": "D/L"
+      },
+      "innings": [
+        {
+          "runs": 118,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 94,
+          "wickets": 3,
+          "legal_balls": 66,
+          "overs": "11.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 11,
+            "runs": 61
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980945",
+      "date": "2016-04-27",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 23,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "margin": {
+          "value": 1,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 172,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 171,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 173
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980947",
+      "date": "2016-04-28",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 24,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 174,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 178,
+          "wickets": 4,
+          "legal_balls": 108,
+          "overs": "18.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 175
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980949",
+      "date": "2016-04-29",
+      "city": "Pune",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 25,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "margin": {
+          "value": 3,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 195,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 196,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 196
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980951",
+      "date": "2016-04-30",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 26,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 27,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 186,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 159,
+          "wickets": 10,
+          "legal_balls": 111,
+          "overs": "18.3",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 187
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980953",
+      "date": "2016-04-30",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 27,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 15,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 194,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 179,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 195
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980955",
+      "date": "2016-05-01",
+      "city": "Rajkot",
+      "venue": "Saurashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 28,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 23,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 154,
+          "wickets": 10,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 131,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 155
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980957",
+      "date": "2016-05-01",
+      "city": "Pune",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 29,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 159,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 161,
+          "wickets": 2,
+          "legal_balls": 111,
+          "overs": "18.3",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 160
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980959",
+      "date": "2016-05-02",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 30,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 185,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 189,
+          "wickets": 5,
+          "legal_balls": 115,
+          "overs": "19.1",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 186
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980961",
+      "date": "2016-05-03",
+      "city": "Rajkot",
+      "venue": "Saurashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 31,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 149,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 150,
+          "wickets": 2,
+          "legal_balls": 104,
+          "overs": "17.2",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 150
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980963",
+      "date": "2016-05-04",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 32,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 164,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 157,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 165
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980965",
+      "date": "2016-05-05",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 33,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 162,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 166,
+          "wickets": 3,
+          "legal_balls": 115,
+          "overs": "19.1",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 163
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980967",
+      "date": "2016-05-06",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 34,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 126,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 129,
+          "wickets": 5,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 127
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980969",
+      "date": "2016-05-07",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 35,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 191,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 195,
+          "wickets": 3,
+          "legal_balls": 117,
+          "overs": "19.3",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 192
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980971",
+      "date": "2016-05-07",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "stage": "league",
+      "match_number": 36,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 181,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 172,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 182
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980973",
+      "date": "2016-05-08",
+      "city": "Visakhapatnam",
+      "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+      "stage": "league",
+      "match_number": 37,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 85,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 177,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 92,
+          "wickets": 10,
+          "legal_balls": 99,
+          "overs": "16.3",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 178
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980975",
+      "date": "2016-05-08",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 38,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 158,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 164,
+          "wickets": 5,
+          "legal_balls": 108,
+          "overs": "18.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 159
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980977",
+      "date": "2016-05-09",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "stage": "league",
+      "match_number": 39,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 1,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 175,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 174,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 176
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980979",
+      "date": "2016-05-10",
+      "city": "Visakhapatnam",
+      "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+      "stage": "league",
+      "match_number": 40,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 137,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 133,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 138
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980981",
+      "date": "2016-05-11",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 41,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 151,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 153,
+          "wickets": 4,
+          "legal_balls": 112,
+          "overs": "18.4",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 152
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980983",
+      "date": "2016-05-12",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 42,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 146,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 150,
+          "wickets": 3,
+          "legal_balls": 109,
+          "overs": "18.1",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 147
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980985",
+      "date": "2016-05-13",
+      "city": "Visakhapatnam",
+      "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+      "stage": "league",
+      "match_number": 43,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 124,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 5,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 127,
+          "wickets": 3,
+          "legal_balls": 102,
+          "overs": "17.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 125
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980987",
+      "date": "2016-05-14",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 44,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 144,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 248,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 20
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 104,
+          "wickets": 10,
+          "legal_balls": 112,
+          "overs": "18.4",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 249
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980989",
+      "date": "2016-05-14",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 45,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": "D/L"
+      },
+      "innings": [
+        {
+          "runs": 103,
+          "wickets": 6,
+          "legal_balls": 106,
+          "overs": "17.4",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 66,
+          "wickets": 2,
+          "legal_balls": 30,
+          "overs": "5.0",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 9,
+            "runs": 66
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980991",
+      "date": "2016-05-15",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "stage": "league",
+      "match_number": 46,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 179,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 23,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 180,
+          "wickets": 3,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 180
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980993",
+      "date": "2016-05-15",
+      "city": "Visakhapatnam",
+      "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+      "stage": "league",
+      "match_number": 47,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 80,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 206,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 126,
+          "wickets": 10,
+          "legal_balls": 115,
+          "overs": "19.1",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 207
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980995",
+      "date": "2016-05-16",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 48,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 183,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 186,
+          "wickets": 1,
+          "legal_balls": 112,
+          "overs": "18.4",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 184
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980997",
+      "date": "2016-05-17",
+      "city": "Visakhapatnam",
+      "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+      "stage": "league",
+      "match_number": 49,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 19,
+          "unit": "runs"
+        },
+        "method": "D/L"
+      },
+      "innings": [
+        {
+          "runs": 121,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 76,
+          "wickets": 1,
+          "legal_balls": 66,
+          "overs": "11.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 11,
+            "runs": 58
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "980999",
+      "date": "2016-05-18",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 50,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 82,
+          "unit": "runs"
+        },
+        "method": "D/L"
+      },
+      "innings": [
+        {
+          "runs": 211,
+          "wickets": 3,
+          "legal_balls": 90,
+          "overs": "15.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 16
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 120,
+          "wickets": 9,
+          "legal_balls": 84,
+          "overs": "14.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 14,
+            "runs": 203
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "981001",
+      "date": "2016-05-19",
+      "city": "Kanpur",
+      "venue": "Green Park",
+      "stage": "league",
+      "match_number": 51,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 124,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 125,
+          "wickets": 4,
+          "legal_balls": 81,
+          "overs": "13.3",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 125
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "981003",
+      "date": "2016-05-20",
+      "city": "Raipur",
+      "venue": "Shaheed Veer Narayan Singh International Stadium",
+      "stage": "league",
+      "match_number": 52,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 158,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 161,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 159
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "981005",
+      "date": "2016-05-21",
+      "city": "Visakhapatnam",
+      "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+      "stage": "league",
+      "match_number": 53,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 172,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 173,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 173
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "981007",
+      "date": "2016-05-21",
+      "city": "Kanpur",
+      "venue": "Green Park",
+      "stage": "league",
+      "match_number": 54,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 172,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 173,
+          "wickets": 4,
+          "legal_balls": 107,
+          "overs": "17.5",
+          "boundaries": {
+            "fours": 24,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 173
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "981009",
+      "date": "2016-05-22",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 55,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 22,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 171,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 149,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 172
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "981011",
+      "date": "2016-05-22",
+      "city": "Raipur",
+      "venue": "Shaheed Veer Narayan Singh International Stadium",
+      "stage": "league",
+      "match_number": 56,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 138,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 139,
+          "wickets": 4,
+          "legal_balls": 109,
+          "overs": "18.1",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 139
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "981013",
+      "date": "2016-05-24",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "qualifier_1",
+      "match_number": "Qualifier 1",
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 158,
+          "wickets": 10,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 159,
+          "wickets": 6,
+          "legal_balls": 110,
+          "overs": "18.2",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 159
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "981015",
+      "date": "2016-05-25",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "eliminator",
+      "match_number": "Elimination Final",
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 22,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 162,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 140,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 163
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "981017",
+      "date": "2016-05-27",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "qualifier_2",
+      "match_number": "Qualifier 2",
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 162,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 163,
+          "wickets": 6,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 163
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "981019",
+      "date": "2016-05-29",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "final",
+      "match_number": "Final",
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 208,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 200,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 13
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 209
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    }
+  ]
+}

@@ -1,0 +1,1183 @@
+{
+  "schema_version": 1,
+  "season": 2025,
+  "seed": 24054017,
+  "simulation_count": 10000,
+  "model": {
+    "elo_scale": 400.0,
+    "home_advantage": 0.0,
+    "playoff_format": "page_playoff",
+    "no_result_policy": "Preserve the observed no-result and award one point to each team in every replay.",
+    "nrr_policy": "Match-level simulation uses a sampled performance-margin proxy for the NRR tiebreak; it does not fabricate ball-by-ball innings."
+  },
+  "actual_champion": {
+    "id": "royal_challengers_bengaluru",
+    "name": "Royal Challengers Bengaluru",
+    "abbr": "RCB"
+  },
+  "champion_title_probability": 0.2231,
+  "fluke_score": 0.7769,
+  "robbery": {
+    "team": {
+      "id": "punjab_kings",
+      "name": "Punjab Kings",
+      "abbr": "PBKS"
+    },
+    "title_probability": 0.2215
+  },
+  "dominance": {
+    "team": {
+      "id": "punjab_kings",
+      "name": "Punjab Kings",
+      "abbr": "PBKS"
+    },
+    "elo_gap_to_field": 70.53
+  },
+  "fixtures": [
+    {
+      "id": "1473438",
+      "date": "2025-03-22",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.361903,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "1473439",
+      "date": "2025-03-23",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.615799,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "sunrisers_hyderabad"
+    },
+    {
+      "id": "1473440",
+      "date": "2025-03-23",
+      "team_a": "mumbai_indians",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.670661,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "1473441",
+      "date": "2025-03-24",
+      "team_a": "lucknow_super_giants",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.462573,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "1473442",
+      "date": "2025-03-25",
+      "team_a": "punjab_kings",
+      "team_b": "gujarat_titans",
+      "probability_a": 0.55035,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "gujarat_titans"
+    },
+    {
+      "id": "1473443",
+      "date": "2025-03-26",
+      "team_a": "rajasthan_royals",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.452927,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "1473444",
+      "date": "2025-03-27",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "lucknow_super_giants",
+      "probability_a": 0.563798,
+      "actual_winner": "lucknow_super_giants",
+      "no_result": false,
+      "home_team_id": "sunrisers_hyderabad"
+    },
+    {
+      "id": "1473445",
+      "date": "2025-03-28",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.686282,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "1473446",
+      "date": "2025-03-29",
+      "team_a": "gujarat_titans",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.46926,
+      "actual_winner": "gujarat_titans",
+      "no_result": false,
+      "home_team_id": "gujarat_titans"
+    },
+    {
+      "id": "1473447",
+      "date": "2025-03-30",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.526624,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "1473448",
+      "date": "2025-03-30",
+      "team_a": "rajasthan_royals",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.506706,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "1473449",
+      "date": "2025-03-31",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.378599,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "1473450",
+      "date": "2025-04-01",
+      "team_a": "lucknow_super_giants",
+      "team_b": "punjab_kings",
+      "probability_a": 0.366292,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "lucknow_super_giants"
+    },
+    {
+      "id": "1473451",
+      "date": "2025-04-02",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "gujarat_titans",
+      "probability_a": 0.548529,
+      "actual_winner": "gujarat_titans",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "1473452",
+      "date": "2025-04-03",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.429743,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "1473453",
+      "date": "2025-04-04",
+      "team_a": "lucknow_super_giants",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.384809,
+      "actual_winner": "lucknow_super_giants",
+      "no_result": false,
+      "home_team_id": "lucknow_super_giants"
+    },
+    {
+      "id": "1473454",
+      "date": "2025-04-05",
+      "team_a": "delhi_capitals",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.596759,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "1473455",
+      "date": "2025-04-05",
+      "team_a": "rajasthan_royals",
+      "team_b": "punjab_kings",
+      "probability_a": 0.317925,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "1473457",
+      "date": "2025-04-06",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "gujarat_titans",
+      "probability_a": 0.477644,
+      "actual_winner": "gujarat_titans",
+      "no_result": false,
+      "home_team_id": "sunrisers_hyderabad"
+    },
+    {
+      "id": "1473458",
+      "date": "2025-04-07",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.517896,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "1473456",
+      "date": "2025-04-08",
+      "team_a": "lucknow_super_giants",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.506578,
+      "actual_winner": "lucknow_super_giants",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "1473459",
+      "date": "2025-04-08",
+      "team_a": "punjab_kings",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.687863,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "1473460",
+      "date": "2025-04-09",
+      "team_a": "gujarat_titans",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.636739,
+      "actual_winner": "gujarat_titans",
+      "no_result": false,
+      "home_team_id": "gujarat_titans"
+    },
+    {
+      "id": "1473461",
+      "date": "2025-04-10",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.596478,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "1473462",
+      "date": "2025-04-11",
+      "team_a": "chennai_super_kings",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.446289,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "1473463",
+      "date": "2025-04-12",
+      "team_a": "gujarat_titans",
+      "team_b": "lucknow_super_giants",
+      "probability_a": 0.585665,
+      "actual_winner": "lucknow_super_giants",
+      "no_result": false,
+      "home_team_id": "lucknow_super_giants"
+    },
+    {
+      "id": "1473464",
+      "date": "2025-04-12",
+      "team_a": "punjab_kings",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.572381,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "sunrisers_hyderabad"
+    },
+    {
+      "id": "1473465",
+      "date": "2025-04-13",
+      "team_a": "rajasthan_royals",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.319522,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "1473466",
+      "date": "2025-04-13",
+      "team_a": "mumbai_indians",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.579128,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "1473467",
+      "date": "2025-04-14",
+      "team_a": "lucknow_super_giants",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.560204,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "lucknow_super_giants"
+    },
+    {
+      "id": "1473468",
+      "date": "2025-04-15",
+      "team_a": "punjab_kings",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.639794,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "1473469",
+      "date": "2025-04-16",
+      "team_a": "delhi_capitals",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.590288,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "1473470",
+      "date": "2025-04-17",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.44705,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "1473471",
+      "date": "2025-04-18",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "punjab_kings",
+      "probability_a": 0.498161,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "1473472",
+      "date": "2025-04-19",
+      "team_a": "delhi_capitals",
+      "team_b": "gujarat_titans",
+      "probability_a": 0.451136,
+      "actual_winner": "gujarat_titans",
+      "no_result": false,
+      "home_team_id": "gujarat_titans"
+    },
+    {
+      "id": "1473473",
+      "date": "2025-04-19",
+      "team_a": "lucknow_super_giants",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.553585,
+      "actual_winner": "lucknow_super_giants",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "1473474",
+      "date": "2025-04-20",
+      "team_a": "punjab_kings",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.501839,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "1473475",
+      "date": "2025-04-20",
+      "team_a": "chennai_super_kings",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.329339,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "1473476",
+      "date": "2025-04-21",
+      "team_a": "gujarat_titans",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.592035,
+      "actual_winner": "gujarat_titans",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "1473477",
+      "date": "2025-04-22",
+      "team_a": "lucknow_super_giants",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.462573,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": "lucknow_super_giants"
+    },
+    {
+      "id": "1473478",
+      "date": "2025-04-23",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.44705,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "sunrisers_hyderabad"
+    },
+    {
+      "id": "1473479",
+      "date": "2025-04-24",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.680478,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "1473480",
+      "date": "2025-04-25",
+      "team_a": "chennai_super_kings",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.377875,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "1473481",
+      "date": "2025-04-26",
+      "team_a": "punjab_kings",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.639794,
+      "actual_winner": null,
+      "no_result": true,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "1473482",
+      "date": "2025-04-27",
+      "team_a": "mumbai_indians",
+      "team_b": "lucknow_super_giants",
+      "probability_a": 0.615191,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "1473483",
+      "date": "2025-04-27",
+      "team_a": "delhi_capitals",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.403522,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "1473484",
+      "date": "2025-04-28",
+      "team_a": "gujarat_titans",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.636739,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "1473485",
+      "date": "2025-04-29",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.456038,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "1473486",
+      "date": "2025-04-30",
+      "team_a": "chennai_super_kings",
+      "team_b": "punjab_kings",
+      "probability_a": 0.312137,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "1473487",
+      "date": "2025-05-01",
+      "team_a": "mumbai_indians",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.664709,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "1473488",
+      "date": "2025-05-02",
+      "team_a": "gujarat_titans",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.522356,
+      "actual_winner": "gujarat_titans",
+      "no_result": false,
+      "home_team_id": "gujarat_titans"
+    },
+    {
+      "id": "1473489",
+      "date": "2025-05-03",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.686282,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "1473490",
+      "date": "2025-05-04",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.547073,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "1473491",
+      "date": "2025-05-04",
+      "team_a": "punjab_kings",
+      "team_b": "lucknow_super_giants",
+      "probability_a": 0.633708,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "1473492",
+      "date": "2025-05-05",
+      "team_a": "delhi_capitals",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.473376,
+      "actual_winner": null,
+      "no_result": true,
+      "home_team_id": "sunrisers_hyderabad"
+    },
+    {
+      "id": "1473493",
+      "date": "2025-05-06",
+      "team_a": "mumbai_indians",
+      "team_b": "gujarat_titans",
+      "probability_a": 0.53074,
+      "actual_winner": "gujarat_titans",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "1473494",
+      "date": "2025-05-07",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.553711,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "1473496",
+      "date": "2025-05-17",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.638097,
+      "actual_winner": null,
+      "no_result": true,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "1473497",
+      "date": "2025-05-18",
+      "team_a": "punjab_kings",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.682075,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "1473498",
+      "date": "2025-05-18",
+      "team_a": "delhi_capitals",
+      "team_b": "gujarat_titans",
+      "probability_a": 0.451136,
+      "actual_winner": "gujarat_titans",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "1473499",
+      "date": "2025-05-19",
+      "team_a": "lucknow_super_giants",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.436202,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "lucknow_super_giants"
+    },
+    {
+      "id": "1473500",
+      "date": "2025-05-20",
+      "team_a": "chennai_super_kings",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.493294,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "1473501",
+      "date": "2025-05-21",
+      "team_a": "mumbai_indians",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.579128,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "1473502",
+      "date": "2025-05-22",
+      "team_a": "lucknow_super_giants",
+      "team_b": "gujarat_titans",
+      "probability_a": 0.414335,
+      "actual_winner": "lucknow_super_giants",
+      "no_result": false,
+      "home_team_id": "gujarat_titans"
+    },
+    {
+      "id": "1473503",
+      "date": "2025-05-23",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.429421,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "1485779",
+      "date": "2025-05-24",
+      "team_a": "punjab_kings",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.598248,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "1473504",
+      "date": "2025-05-25",
+      "team_a": "chennai_super_kings",
+      "team_b": "gujarat_titans",
+      "probability_a": 0.357079,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "gujarat_titans"
+    },
+    {
+      "id": "1473505",
+      "date": "2025-05-25",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.570257,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "1473506",
+      "date": "2025-05-26",
+      "team_a": "mumbai_indians",
+      "team_b": "punjab_kings",
+      "probability_a": 0.480267,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "1473507",
+      "date": "2025-05-27",
+      "team_a": "lucknow_super_giants",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.368001,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "lucknow_super_giants"
+    }
+  ],
+  "teams": [
+    {
+      "team": {
+        "id": "punjab_kings",
+        "name": "Punjab Kings",
+        "abbr": "PBKS"
+      },
+      "actual_points": 19,
+      "actual_position": 1,
+      "expected_points": 16.77,
+      "median_points": 17.0,
+      "expected_position": 3.64,
+      "luck_index": 2.0,
+      "playoff_probability": 0.6807,
+      "final_probability": 0.4124,
+      "title_probability": 0.2215,
+      "points_distribution": {
+        "3": 1,
+        "5": 11,
+        "7": 50,
+        "9": 209,
+        "11": 597,
+        "13": 1266,
+        "15": 1936,
+        "17": 2277,
+        "19": 1823,
+        "21": 1176,
+        "23": 520,
+        "25": 118,
+        "27": 16
+      },
+      "position_distribution": {
+        "1": 2242,
+        "2": 1813,
+        "3": 1536,
+        "4": 1216,
+        "5": 1015,
+        "6": 741,
+        "7": 574,
+        "8": 437,
+        "9": 279,
+        "10": 147
+      },
+      "league_end_elo": 1563.481
+    },
+    {
+      "team": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "actual_points": 19,
+      "actual_position": 2,
+      "expected_points": 16.63,
+      "median_points": 17.0,
+      "expected_position": 3.72,
+      "luck_index": 2.0,
+      "playoff_probability": 0.6721,
+      "final_probability": 0.4054,
+      "title_probability": 0.2231,
+      "points_distribution": {
+        "3": 4,
+        "5": 9,
+        "7": 71,
+        "9": 246,
+        "11": 619,
+        "13": 1248,
+        "15": 1972,
+        "17": 2272,
+        "19": 1869,
+        "21": 1170,
+        "23": 398,
+        "25": 104,
+        "27": 18
+      },
+      "position_distribution": {
+        "1": 2079,
+        "2": 1880,
+        "3": 1495,
+        "4": 1267,
+        "5": 1005,
+        "6": 754,
+        "7": 591,
+        "8": 435,
+        "9": 309,
+        "10": 185
+      },
+      "league_end_elo": 1562.203
+    },
+    {
+      "team": {
+        "id": "gujarat_titans",
+        "name": "Gujarat Titans",
+        "abbr": "GT"
+      },
+      "actual_points": 18,
+      "actual_position": 3,
+      "expected_points": 15.36,
+      "median_points": 16.0,
+      "expected_position": 4.52,
+      "luck_index": 2.0,
+      "playoff_probability": 0.5321,
+      "final_probability": 0.2731,
+      "title_probability": 0.1351,
+      "points_distribution": {
+        "2": 2,
+        "4": 18,
+        "6": 101,
+        "8": 301,
+        "10": 740,
+        "12": 1458,
+        "14": 1998,
+        "16": 2042,
+        "18": 1713,
+        "20": 1008,
+        "22": 466,
+        "24": 136,
+        "26": 16,
+        "28": 1
+      },
+      "position_distribution": {
+        "1": 1370,
+        "2": 1371,
+        "3": 1377,
+        "4": 1203,
+        "5": 1146,
+        "6": 1078,
+        "7": 883,
+        "8": 701,
+        "9": 536,
+        "10": 335
+      },
+      "league_end_elo": 1528.375
+    },
+    {
+      "team": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "actual_points": 16,
+      "actual_position": 4,
+      "expected_points": 16.26,
+      "median_points": 16.0,
+      "expected_position": 3.95,
+      "luck_index": 0.0,
+      "playoff_probability": 0.6286,
+      "final_probability": 0.3611,
+      "title_probability": 0.1882,
+      "points_distribution": {
+        "2": 1,
+        "4": 5,
+        "6": 57,
+        "8": 216,
+        "10": 525,
+        "12": 1055,
+        "14": 1770,
+        "16": 2102,
+        "18": 1977,
+        "20": 1325,
+        "22": 645,
+        "24": 260,
+        "26": 57,
+        "28": 5
+      },
+      "position_distribution": {
+        "1": 1982,
+        "2": 1643,
+        "3": 1447,
+        "4": 1214,
+        "5": 1028,
+        "6": 897,
+        "7": 635,
+        "8": 534,
+        "9": 399,
+        "10": 221
+      },
+      "league_end_elo": 1549.762
+    },
+    {
+      "team": {
+        "id": "delhi_capitals",
+        "name": "Delhi Capitals",
+        "abbr": "DC"
+      },
+      "actual_points": 15,
+      "actual_position": 5,
+      "expected_points": 13.47,
+      "median_points": 13.0,
+      "expected_position": 5.87,
+      "luck_index": 2.0,
+      "playoff_probability": 0.3237,
+      "final_probability": 0.1283,
+      "title_probability": 0.0551,
+      "points_distribution": {
+        "3": 21,
+        "5": 137,
+        "7": 427,
+        "9": 1069,
+        "11": 1754,
+        "13": 2190,
+        "15": 2077,
+        "17": 1338,
+        "19": 644,
+        "21": 259,
+        "23": 71,
+        "25": 13
+      },
+      "position_distribution": {
+        "1": 534,
+        "2": 721,
+        "3": 878,
+        "4": 1104,
+        "5": 1164,
+        "6": 1222,
+        "7": 1260,
+        "8": 1212,
+        "9": 1079,
+        "10": 826
+      },
+      "league_end_elo": 1494.312
+    },
+    {
+      "team": {
+        "id": "sunrisers_hyderabad",
+        "name": "Sunrisers Hyderabad",
+        "abbr": "SRH"
+      },
+      "actual_points": 13,
+      "actual_position": 6,
+      "expected_points": 14.46,
+      "median_points": 15.0,
+      "expected_position": 5.18,
+      "luck_index": -2.0,
+      "playoff_probability": 0.4224,
+      "final_probability": 0.1906,
+      "title_probability": 0.0897,
+      "points_distribution": {
+        "3": 15,
+        "5": 75,
+        "7": 272,
+        "9": 676,
+        "11": 1398,
+        "13": 2060,
+        "15": 2176,
+        "17": 1688,
+        "19": 1049,
+        "21": 453,
+        "23": 116,
+        "25": 21,
+        "27": 1
+      },
+      "position_distribution": {
+        "1": 843,
+        "2": 1095,
+        "3": 1107,
+        "4": 1179,
+        "5": 1273,
+        "6": 1146,
+        "7": 1131,
+        "8": 947,
+        "9": 757,
+        "10": 522
+      },
+      "league_end_elo": 1512.83
+    },
+    {
+      "team": {
+        "id": "lucknow_super_giants",
+        "name": "Lucknow Super Giants",
+        "abbr": "LSG"
+      },
+      "actual_points": 12,
+      "actual_position": 7,
+      "expected_points": 12.24,
+      "median_points": 12.0,
+      "expected_position": 6.61,
+      "luck_index": 0.0,
+      "playoff_probability": 0.2243,
+      "final_probability": 0.0783,
+      "title_probability": 0.0321,
+      "points_distribution": {
+        "0": 6,
+        "2": 37,
+        "4": 160,
+        "6": 539,
+        "8": 1167,
+        "10": 1826,
+        "12": 2100,
+        "14": 1921,
+        "16": 1279,
+        "18": 625,
+        "20": 254,
+        "22": 71,
+        "24": 13,
+        "26": 2
+      },
+      "position_distribution": {
+        "1": 352,
+        "2": 470,
+        "3": 650,
+        "4": 771,
+        "5": 990,
+        "6": 1153,
+        "7": 1299,
+        "8": 1403,
+        "9": 1523,
+        "10": 1389
+      },
+      "league_end_elo": 1468.256
+    },
+    {
+      "team": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "actual_points": 12,
+      "actual_position": 8,
+      "expected_points": 13.05,
+      "median_points": 14.0,
+      "expected_position": 6.54,
+      "luck_index": -2.0,
+      "playoff_probability": 0.2415,
+      "final_probability": 0.0775,
+      "title_probability": 0.0303,
+      "points_distribution": {
+        "2": 5,
+        "4": 56,
+        "6": 299,
+        "8": 811,
+        "10": 1573,
+        "12": 2255,
+        "14": 2122,
+        "16": 1642,
+        "18": 849,
+        "20": 298,
+        "22": 76,
+        "24": 12,
+        "26": 2
+      },
+      "position_distribution": {
+        "1": 290,
+        "2": 481,
+        "3": 700,
+        "4": 944,
+        "5": 975,
+        "6": 1213,
+        "7": 1245,
+        "8": 1391,
+        "9": 1380,
+        "10": 1381
+      },
+      "league_end_elo": 1463.685
+    },
+    {
+      "team": {
+        "id": "rajasthan_royals",
+        "name": "Rajasthan Royals",
+        "abbr": "RR"
+      },
+      "actual_points": 8,
+      "actual_position": 9,
+      "expected_points": 11.06,
+      "median_points": 10.0,
+      "expected_position": 7.38,
+      "luck_index": -2.0,
+      "playoff_probability": 0.1494,
+      "final_probability": 0.0423,
+      "title_probability": 0.014,
+      "points_distribution": {
+        "0": 9,
+        "2": 79,
+        "4": 335,
+        "6": 859,
+        "8": 1614,
+        "10": 2180,
+        "12": 2009,
+        "14": 1479,
+        "16": 888,
+        "18": 395,
+        "20": 117,
+        "22": 31,
+        "24": 3,
+        "26": 2
+      },
+      "position_distribution": {
+        "1": 186,
+        "2": 287,
+        "3": 437,
+        "4": 584,
+        "5": 752,
+        "6": 909,
+        "7": 1205,
+        "8": 1435,
+        "9": 1812,
+        "10": 2393
+      },
+      "league_end_elo": 1430.878
+    },
+    {
+      "team": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "actual_points": 8,
+      "actual_position": 10,
+      "expected_points": 10.7,
+      "median_points": 10.0,
+      "expected_position": 7.6,
+      "luck_index": -2.0,
+      "playoff_probability": 0.1252,
+      "final_probability": 0.031,
+      "title_probability": 0.0109,
+      "points_distribution": {
+        "0": 16,
+        "2": 99,
+        "4": 402,
+        "6": 990,
+        "8": 1687,
+        "10": 2214,
+        "12": 2024,
+        "14": 1394,
+        "16": 772,
+        "18": 293,
+        "20": 90,
+        "22": 15,
+        "24": 4
+      },
+      "position_distribution": {
+        "1": 122,
+        "2": 239,
+        "3": 373,
+        "4": 518,
+        "5": 652,
+        "6": 887,
+        "7": 1177,
+        "8": 1505,
+        "9": 1926,
+        "10": 2601
+      },
+      "league_end_elo": 1426.218
+    }
+  ]
+}

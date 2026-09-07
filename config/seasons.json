@@ -4,7 +4,7 @@
     "win_points": 2,
     "no_result_points": 1,
     "loss_points": 0,
-    "tie_breakers": ["points", "net_run_rate"],
+    "tie_breakers": ["points", "wins", "net_run_rate"],
     "scheduled_overs": 20
   },
   "seasons": {
@@ -26,23 +26,196 @@
         }
       ]
     },
-    "2009": { "source_label": "2009", "playoff_format": "two_semifinals_final", "neutral_host": true },
+    "2009": {
+      "source_label": "2009",
+      "playoff_format": "two_semifinals_final",
+      "neutral_host": true,
+      "supplemental_fixtures": [
+        {
+          "id": "392187",
+          "date": "2009-04-21",
+          "city": "Durban",
+          "venue": "Kingsmead",
+          "stage": "league",
+          "match_number": 7,
+          "teams": ["Mumbai Indians", "Rajasthan Royals"],
+          "outcome": "no_result",
+          "reason": "Abandoned before the toss without a ball bowled; absent from the ball-by-ball archive."
+        },
+        {
+          "id": "392193",
+          "date": "2009-04-25",
+          "city": "Cape Town",
+          "venue": "Newlands",
+          "stage": "league",
+          "match_number": 13,
+          "teams": ["Chennai Super Kings", "Kolkata Knight Riders"],
+          "outcome": "no_result",
+          "reason": "Abandoned before the toss without a ball bowled; absent from the ball-by-ball archive."
+        }
+      ]
+    },
     "2010": { "source_label": "2009/10", "playoff_format": "two_semifinals_final", "neutral_host": false },
-    "2011": { "source_label": "2011", "playoff_format": "page_playoff", "neutral_host": false },
-    "2012": { "source_label": "2012", "playoff_format": "page_playoff", "neutral_host": false },
+    "2011": {
+      "source_label": "2011",
+      "playoff_format": "page_playoff",
+      "neutral_host": false,
+      "supplemental_fixtures": [
+        {
+          "id": "501217",
+          "date": "2011-04-19",
+          "city": "Bengaluru",
+          "venue": "M Chinnaswamy Stadium",
+          "stage": "league",
+          "match_number": 20,
+          "teams": ["Royal Challengers Bangalore", "Rajasthan Royals"],
+          "outcome": "no_result",
+          "reason": "Abandoned before the toss without a ball bowled; absent from the ball-by-ball archive."
+        }
+      ]
+    },
+    "2012": {
+      "source_label": "2012",
+      "playoff_format": "page_playoff",
+      "neutral_host": false,
+      "supplemental_fixtures": [
+        {
+          "id": "548338",
+          "date": "2012-04-24",
+          "city": "Kolkata",
+          "venue": "Eden Gardens",
+          "stage": "league",
+          "match_number": 32,
+          "teams": ["Kolkata Knight Riders", "Deccan Chargers"],
+          "outcome": "no_result",
+          "reason": "Abandoned before the toss without a ball bowled; absent from the ball-by-ball archive."
+        },
+        {
+          "id": "548340",
+          "date": "2012-04-25",
+          "city": "Bengaluru",
+          "venue": "M Chinnaswamy Stadium",
+          "stage": "league",
+          "match_number": 34,
+          "teams": ["Royal Challengers Bangalore", "Chennai Super Kings"],
+          "outcome": "no_result",
+          "toss_winner": "Royal Challengers Bangalore",
+          "toss_decision": "field",
+          "reason": "Toss completed, then abandoned without a ball bowled; absent from the ball-by-ball archive."
+        }
+      ]
+    },
     "2013": { "source_label": "2013", "playoff_format": "page_playoff", "neutral_host": false },
     "2014": { "source_label": "2014", "playoff_format": "page_playoff", "neutral_host": false },
-    "2015": { "source_label": "2015", "playoff_format": "page_playoff", "neutral_host": false },
+    "2015": {
+      "source_label": "2015",
+      "playoff_format": "page_playoff",
+      "neutral_host": false,
+      "supplemental_fixtures": [
+        {
+          "id": "829755",
+          "date": "2015-04-26",
+          "city": "Kolkata",
+          "venue": "Eden Gardens",
+          "stage": "league",
+          "match_number": 25,
+          "teams": ["Kolkata Knight Riders", "Rajasthan Royals"],
+          "outcome": "no_result",
+          "reason": "Abandoned before the toss without a ball bowled; absent from the ball-by-ball archive."
+        }
+      ]
+    },
     "2016": { "source_label": "2016", "playoff_format": "page_playoff", "neutral_host": false },
-    "2017": { "source_label": "2017", "playoff_format": "page_playoff", "neutral_host": false },
+    "2017": {
+      "source_label": "2017",
+      "playoff_format": "page_playoff",
+      "neutral_host": false,
+      "supplemental_fixtures": [
+        {
+          "id": "1082619",
+          "date": "2017-04-25",
+          "city": "Bengaluru",
+          "venue": "M Chinnaswamy Stadium",
+          "stage": "league",
+          "match_number": 29,
+          "teams": ["Royal Challengers Bangalore", "Sunrisers Hyderabad"],
+          "outcome": "no_result",
+          "reason": "Abandoned before the toss without a ball bowled; absent from the ball-by-ball archive."
+        }
+      ]
+    },
     "2018": { "source_label": "2018", "playoff_format": "page_playoff", "neutral_host": false },
     "2019": { "source_label": "2019", "playoff_format": "page_playoff", "neutral_host": false },
     "2020": { "source_label": "2020/21", "playoff_format": "page_playoff", "neutral_host": true },
     "2021": { "source_label": "2021", "playoff_format": "page_playoff", "neutral_host": true },
     "2022": { "source_label": "2022", "playoff_format": "page_playoff", "neutral_host": false },
     "2023": { "source_label": "2023", "playoff_format": "page_playoff", "neutral_host": false },
-    "2024": { "source_label": "2024", "playoff_format": "page_playoff", "neutral_host": false },
-    "2025": { "source_label": "2025", "playoff_format": "page_playoff", "neutral_host": false },
+    "2024": {
+      "source_label": "2024",
+      "playoff_format": "page_playoff",
+      "neutral_host": false,
+      "supplemental_fixtures": [
+        {
+          "id": "ipl2024-63",
+          "date": "2024-05-13",
+          "city": "Ahmedabad",
+          "venue": "Narendra Modi Stadium",
+          "stage": "league",
+          "match_number": 63,
+          "teams": ["Gujarat Titans", "Kolkata Knight Riders"],
+          "outcome": "no_result",
+          "reason": "Abandoned before the toss without a ball bowled; absent from the ball-by-ball archive."
+        },
+        {
+          "id": "ipl2024-66",
+          "date": "2024-05-16",
+          "city": "Hyderabad",
+          "venue": "Rajiv Gandhi International Stadium, Uppal",
+          "stage": "league",
+          "match_number": 66,
+          "teams": ["Sunrisers Hyderabad", "Gujarat Titans"],
+          "outcome": "no_result",
+          "reason": "Abandoned before the toss without a ball bowled; absent from the ball-by-ball archive."
+        },
+        {
+          "id": "ipl2024-70",
+          "date": "2024-05-19",
+          "city": "Guwahati",
+          "venue": "Barsapara Cricket Stadium",
+          "stage": "league",
+          "match_number": 70,
+          "teams": ["Rajasthan Royals", "Kolkata Knight Riders"],
+          "outcome": "no_result",
+          "toss_winner": "Kolkata Knight Riders",
+          "toss_decision": "field",
+          "reason": "Toss completed and match reduced to seven overs, then abandoned without a ball bowled; absent from the ball-by-ball archive."
+        }
+      ]
+    },
+    "2025": {
+      "source_label": "2025",
+      "playoff_format": "page_playoff",
+      "neutral_host": false,
+      "match_overrides": {
+        "1473495": {
+          "counts_for_table": false,
+          "reason": "The abandoned Dharamsala fixture was voided and replayed later in the resumed competition."
+        }
+      },
+      "supplemental_fixtures": [
+        {
+          "id": "1473496",
+          "date": "2025-05-17",
+          "city": "Bengaluru",
+          "venue": "M Chinnaswamy Stadium",
+          "stage": "league",
+          "match_number": 58,
+          "teams": ["Royal Challengers Bengaluru", "Kolkata Knight Riders"],
+          "outcome": "no_result",
+          "reason": "Abandoned before the toss without a ball bowled; absent from the ball-by-ball archive."
+        }
+      ]
+    },
     "2026": { "source_label": "2026", "playoff_format": "page_playoff", "neutral_host": false }
   }
 }

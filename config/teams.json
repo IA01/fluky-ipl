@@ -13,6 +13,7 @@
     "Lucknow Super Giants": { "id": "lucknow_super_giants", "name": "Lucknow Super Giants", "abbr": "LSG" },
     "Mumbai Indians": { "id": "mumbai_indians", "name": "Mumbai Indians", "abbr": "MI" },
     "Pune Warriors": { "id": "pune_warriors", "name": "Pune Warriors", "abbr": "PWI" },
+    "Pune Warriors India": { "id": "pune_warriors", "name": "Pune Warriors", "abbr": "PWI" },
     "Punjab Kings": { "id": "punjab_kings", "name": "Punjab Kings", "abbr": "PBKS" },
     "Rajasthan Royals": { "id": "rajasthan_royals", "name": "Rajasthan Royals", "abbr": "RR" },
     "Rising Pune Supergiant": { "id": "rising_pune_supergiant", "name": "Rising Pune Supergiant", "abbr": "RPS" },
@@ -29,4 +30,3 @@
     "Rising Pune Supergiant and Gujarat Lions are independent 2016-17 teams, not continuations of CSK or RR."
   ]
 }
-

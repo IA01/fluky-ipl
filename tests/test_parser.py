@@ -2,20 +2,24 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import subprocess
 import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.parse_cricsheet import TeamRegistry, season_year, stage_for
+from scripts.parse_cricsheet import TeamRegistry, overs_to_balls, season_year, stage_for
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE_2008 = Path("/Users/ishaanahluwalia/Desktop/AI Projects/HowFlukyIPL/ipl_json (1)/2008")
+SOURCE_ROOT = Path(os.environ.get("IPL_CRICSHEET_ROOT", ROOT / "ipl_json (1)"))
+SOURCE_2008 = SOURCE_ROOT / "2008"
 
 
 class ParserUnitTests(unittest.TestCase):
     def test_inaugural_season_label(self) -> None:
         self.assertEqual(season_year("2007/08"), 2008)
+        self.assertEqual(season_year("2009/10"), 2010)
+        self.assertEqual(season_year("2020/21"), 2020)
 
     def test_franchise_aliases(self) -> None:
         registry = TeamRegistry()
@@ -26,6 +30,12 @@ class ParserUnitTests(unittest.TestCase):
     def test_playoff_stage_detection(self) -> None:
         self.assertEqual(stage_for({"event": {"match_number": "1st Semi-Final"}}), "semi_final")
         self.assertEqual(stage_for({"event": {"match_number": "Final"}}), "final")
+        self.assertEqual(stage_for({"event": {"match_number": "Elimination Final"}}), "eliminator")
+        self.assertEqual(stage_for({"event": {"match_number": "3rd Place Play-Off"}}), "third_place")
+
+    def test_cricket_overs_conversion(self) -> None:
+        self.assertEqual(overs_to_balls(20), 120)
+        self.assertEqual(overs_to_balls(7.3), 45)
 
 
 @unittest.skipUnless(SOURCE_2008.exists(), "supplied 2008 Cricsheet archive not available")

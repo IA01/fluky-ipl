@@ -1,0 +1,977 @@
+{
+  "schema_version": 1,
+  "selection_metric": "retrospective league-end Elo holdout log loss",
+  "holdout_seasons": [
+    2019,
+    2026
+  ],
+  "selected": {
+    "elo_scale": 400.0,
+    "home_advantage": 0.0,
+    "k_factor": 24.0
+  },
+  "coin_flip_log_loss": 0.693147,
+  "interpretation": "Retrospective season-strength model for counterfactual replay, not a pre-match forecasting claim.",
+  "grid": [
+    {
+      "k_factor": 24,
+      "scale": 400,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.646508,
+      "brier_score": 0.227153
+    },
+    {
+      "k_factor": 24,
+      "scale": 400,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.647299,
+      "brier_score": 0.227493
+    },
+    {
+      "k_factor": 20,
+      "scale": 400,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.649517,
+      "brier_score": 0.228557
+    },
+    {
+      "k_factor": 24,
+      "scale": 400,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.649914,
+      "brier_score": 0.228743
+    },
+    {
+      "k_factor": 24,
+      "scale": 500,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.65012,
+      "brier_score": 0.228839
+    },
+    {
+      "k_factor": 20,
+      "scale": 400,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.650335,
+      "brier_score": 0.228929
+    },
+    {
+      "k_factor": 24,
+      "scale": 500,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.65063,
+      "brier_score": 0.229065
+    },
+    {
+      "k_factor": 24,
+      "scale": 500,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.652331,
+      "brier_score": 0.229897
+    },
+    {
+      "k_factor": 20,
+      "scale": 400,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.653005,
+      "brier_score": 0.230237
+    },
+    {
+      "k_factor": 24,
+      "scale": 600,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.653592,
+      "brier_score": 0.230487
+    },
+    {
+      "k_factor": 20,
+      "scale": 500,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.653715,
+      "brier_score": 0.230547
+    },
+    {
+      "k_factor": 16,
+      "scale": 400,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.653905,
+      "brier_score": 0.23064
+    },
+    {
+      "k_factor": 24,
+      "scale": 600,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.653949,
+      "brier_score": 0.23065
+    },
+    {
+      "k_factor": 20,
+      "scale": 500,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.654245,
+      "brier_score": 0.230794
+    },
+    {
+      "k_factor": 24,
+      "scale": 400,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.654337,
+      "brier_score": 0.230872
+    },
+    {
+      "k_factor": 16,
+      "scale": 400,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.654756,
+      "brier_score": 0.231046
+    },
+    {
+      "k_factor": 24,
+      "scale": 600,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.655144,
+      "brier_score": 0.231241
+    },
+    {
+      "k_factor": 24,
+      "scale": 500,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.655214,
+      "brier_score": 0.23132
+    },
+    {
+      "k_factor": 20,
+      "scale": 500,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.655978,
+      "brier_score": 0.231658
+    },
+    {
+      "k_factor": 24,
+      "scale": 700,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.656703,
+      "brier_score": 0.231981
+    },
+    {
+      "k_factor": 24,
+      "scale": 700,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.656969,
+      "brier_score": 0.232103
+    },
+    {
+      "k_factor": 24,
+      "scale": 600,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.657171,
+      "brier_score": 0.232256
+    },
+    {
+      "k_factor": 20,
+      "scale": 600,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.6574,
+      "brier_score": 0.232317
+    },
+    {
+      "k_factor": 16,
+      "scale": 400,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.657485,
+      "brier_score": 0.232411
+    },
+    {
+      "k_factor": 20,
+      "scale": 400,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.657508,
+      "brier_score": 0.232448
+    },
+    {
+      "k_factor": 20,
+      "scale": 600,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.657772,
+      "brier_score": 0.232494
+    },
+    {
+      "k_factor": 24,
+      "scale": 700,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.657854,
+      "brier_score": 0.232546
+    },
+    {
+      "k_factor": 16,
+      "scale": 500,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.658418,
+      "brier_score": 0.232811
+    },
+    {
+      "k_factor": 20,
+      "scale": 500,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.658909,
+      "brier_score": 0.233124
+    },
+    {
+      "k_factor": 16,
+      "scale": 500,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.658971,
+      "brier_score": 0.233079
+    },
+    {
+      "k_factor": 20,
+      "scale": 600,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.65899,
+      "brier_score": 0.233106
+    },
+    {
+      "k_factor": 24,
+      "scale": 700,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.659358,
+      "brier_score": 0.233304
+    },
+    {
+      "k_factor": 24,
+      "scale": 800,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.659438,
+      "brier_score": 0.233303
+    },
+    {
+      "k_factor": 24,
+      "scale": 800,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.659643,
+      "brier_score": 0.233399
+    },
+    {
+      "k_factor": 12,
+      "scale": 400,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.660047,
+      "brier_score": 0.233603
+    },
+    {
+      "k_factor": 24,
+      "scale": 800,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.660327,
+      "brier_score": 0.233743
+    },
+    {
+      "k_factor": 20,
+      "scale": 700,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.66055,
+      "brier_score": 0.233843
+    },
+    {
+      "k_factor": 16,
+      "scale": 500,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.660742,
+      "brier_score": 0.233975
+    },
+    {
+      "k_factor": 20,
+      "scale": 700,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.660827,
+      "brier_score": 0.233976
+    },
+    {
+      "k_factor": 12,
+      "scale": 400,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.660937,
+      "brier_score": 0.234044
+    },
+    {
+      "k_factor": 20,
+      "scale": 600,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.661049,
+      "brier_score": 0.234146
+    },
+    {
+      "k_factor": 24,
+      "scale": 800,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.661488,
+      "brier_score": 0.234331
+    },
+    {
+      "k_factor": 20,
+      "scale": 700,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.66173,
+      "brier_score": 0.234433
+    },
+    {
+      "k_factor": 16,
+      "scale": 400,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.662076,
+      "brier_score": 0.234701
+    },
+    {
+      "k_factor": 16,
+      "scale": 600,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.662119,
+      "brier_score": 0.234609
+    },
+    {
+      "k_factor": 16,
+      "scale": 600,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.662509,
+      "brier_score": 0.2348
+    },
+    {
+      "k_factor": 20,
+      "scale": 800,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.663236,
+      "brier_score": 0.235152
+    },
+    {
+      "k_factor": 20,
+      "scale": 700,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.663257,
+      "brier_score": 0.235209
+    },
+    {
+      "k_factor": 20,
+      "scale": 800,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.663452,
+      "brier_score": 0.235257
+    },
+    {
+      "k_factor": 16,
+      "scale": 500,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.663725,
+      "brier_score": 0.235483
+    },
+    {
+      "k_factor": 12,
+      "scale": 400,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.663735,
+      "brier_score": 0.235464
+    },
+    {
+      "k_factor": 16,
+      "scale": 600,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.663753,
+      "brier_score": 0.235432
+    },
+    {
+      "k_factor": 24,
+      "scale": 1000,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.663933,
+      "brier_score": 0.235493
+    },
+    {
+      "k_factor": 24,
+      "scale": 1000,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.664068,
+      "brier_score": 0.235558
+    },
+    {
+      "k_factor": 20,
+      "scale": 800,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.664149,
+      "brier_score": 0.235611
+    },
+    {
+      "k_factor": 12,
+      "scale": 500,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.664496,
+      "brier_score": 0.235771
+    },
+    {
+      "k_factor": 24,
+      "scale": 1000,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.664513,
+      "brier_score": 0.235782
+    },
+    {
+      "k_factor": 12,
+      "scale": 500,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.665077,
+      "brier_score": 0.236062
+    },
+    {
+      "k_factor": 16,
+      "scale": 700,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.665158,
+      "brier_score": 0.236094
+    },
+    {
+      "k_factor": 24,
+      "scale": 1000,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.665266,
+      "brier_score": 0.236166
+    },
+    {
+      "k_factor": 20,
+      "scale": 800,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.665327,
+      "brier_score": 0.236211
+    },
+    {
+      "k_factor": 16,
+      "scale": 700,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.66545,
+      "brier_score": 0.236238
+    },
+    {
+      "k_factor": 16,
+      "scale": 600,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.665847,
+      "brier_score": 0.236497
+    },
+    {
+      "k_factor": 16,
+      "scale": 700,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.666373,
+      "brier_score": 0.236708
+    },
+    {
+      "k_factor": 12,
+      "scale": 500,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.666892,
+      "brier_score": 0.236988
+    },
+    {
+      "k_factor": 20,
+      "scale": 1000,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.667526,
+      "brier_score": 0.237256
+    },
+    {
+      "k_factor": 20,
+      "scale": 1000,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.667669,
+      "brier_score": 0.237326
+    },
+    {
+      "k_factor": 16,
+      "scale": 800,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.66768,
+      "brier_score": 0.237332
+    },
+    {
+      "k_factor": 16,
+      "scale": 800,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.667908,
+      "brier_score": 0.237445
+    },
+    {
+      "k_factor": 16,
+      "scale": 700,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.667925,
+      "brier_score": 0.2375
+    },
+    {
+      "k_factor": 12,
+      "scale": 600,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.667943,
+      "brier_score": 0.237463
+    },
+    {
+      "k_factor": 20,
+      "scale": 1000,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.668123,
+      "brier_score": 0.237557
+    },
+    {
+      "k_factor": 12,
+      "scale": 600,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.668355,
+      "brier_score": 0.23767
+    },
+    {
+      "k_factor": 12,
+      "scale": 400,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.668423,
+      "brier_score": 0.237828
+    },
+    {
+      "k_factor": 8,
+      "scale": 400,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.668495,
+      "brier_score": 0.237737
+    },
+    {
+      "k_factor": 16,
+      "scale": 800,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.668621,
+      "brier_score": 0.237809
+    },
+    {
+      "k_factor": 20,
+      "scale": 1000,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.668888,
+      "brier_score": 0.237948
+    },
+    {
+      "k_factor": 8,
+      "scale": 400,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.669437,
+      "brier_score": 0.238216
+    },
+    {
+      "k_factor": 12,
+      "scale": 600,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.66963,
+      "brier_score": 0.238321
+    },
+    {
+      "k_factor": 16,
+      "scale": 800,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.669819,
+      "brier_score": 0.238421
+    },
+    {
+      "k_factor": 12,
+      "scale": 500,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.669932,
+      "brier_score": 0.238534
+    },
+    {
+      "k_factor": 12,
+      "scale": 700,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.670672,
+      "brier_score": 0.238808
+    },
+    {
+      "k_factor": 12,
+      "scale": 700,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.670982,
+      "brier_score": 0.238964
+    },
+    {
+      "k_factor": 16,
+      "scale": 1000,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.671599,
+      "brier_score": 0.239265
+    },
+    {
+      "k_factor": 16,
+      "scale": 1000,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.671752,
+      "brier_score": 0.239341
+    },
+    {
+      "k_factor": 12,
+      "scale": 600,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.671762,
+      "brier_score": 0.239409
+    },
+    {
+      "k_factor": 12,
+      "scale": 700,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.671928,
+      "brier_score": 0.239447
+    },
+    {
+      "k_factor": 16,
+      "scale": 1000,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.672217,
+      "brier_score": 0.239578
+    },
+    {
+      "k_factor": 8,
+      "scale": 500,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.672315,
+      "brier_score": 0.239621
+    },
+    {
+      "k_factor": 8,
+      "scale": 400,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.672315,
+      "brier_score": 0.239686
+    },
+    {
+      "k_factor": 12,
+      "scale": 800,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.67288,
+      "brier_score": 0.239899
+    },
+    {
+      "k_factor": 8,
+      "scale": 500,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.672933,
+      "brier_score": 0.239935
+    },
+    {
+      "k_factor": 16,
+      "scale": 1000,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.672993,
+      "brier_score": 0.239975
+    },
+    {
+      "k_factor": 12,
+      "scale": 800,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.673122,
+      "brier_score": 0.240021
+    },
+    {
+      "k_factor": 12,
+      "scale": 700,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.673508,
+      "brier_score": 0.240255
+    },
+    {
+      "k_factor": 12,
+      "scale": 800,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.673853,
+      "brier_score": 0.240395
+    },
+    {
+      "k_factor": 8,
+      "scale": 500,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.674798,
+      "brier_score": 0.240889
+    },
+    {
+      "k_factor": 12,
+      "scale": 800,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.675072,
+      "brier_score": 0.241018
+    },
+    {
+      "k_factor": 8,
+      "scale": 600,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.675126,
+      "brier_score": 0.241013
+    },
+    {
+      "k_factor": 8,
+      "scale": 600,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.675566,
+      "brier_score": 0.241237
+    },
+    {
+      "k_factor": 12,
+      "scale": 1000,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.676221,
+      "brier_score": 0.241556
+    },
+    {
+      "k_factor": 12,
+      "scale": 1000,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.676383,
+      "brier_score": 0.241638
+    },
+    {
+      "k_factor": 12,
+      "scale": 1000,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.67686,
+      "brier_score": 0.241881
+    },
+    {
+      "k_factor": 8,
+      "scale": 600,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.676875,
+      "brier_score": 0.241906
+    },
+    {
+      "k_factor": 8,
+      "scale": 400,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.677112,
+      "brier_score": 0.242111
+    },
+    {
+      "k_factor": 8,
+      "scale": 700,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.677275,
+      "brier_score": 0.242081
+    },
+    {
+      "k_factor": 8,
+      "scale": 700,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.677607,
+      "brier_score": 0.242249
+    },
+    {
+      "k_factor": 12,
+      "scale": 1000,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.67765,
+      "brier_score": 0.242284
+    },
+    {
+      "k_factor": 8,
+      "scale": 500,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.677903,
+      "brier_score": 0.242467
+    },
+    {
+      "k_factor": 8,
+      "scale": 700,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.678579,
+      "brier_score": 0.242745
+    },
+    {
+      "k_factor": 8,
+      "scale": 800,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.67897,
+      "brier_score": 0.242923
+    },
+    {
+      "k_factor": 8,
+      "scale": 600,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.679051,
+      "brier_score": 0.243013
+    },
+    {
+      "k_factor": 8,
+      "scale": 800,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.67923,
+      "brier_score": 0.243055
+    },
+    {
+      "k_factor": 8,
+      "scale": 800,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.679982,
+      "brier_score": 0.243438
+    },
+    {
+      "k_factor": 8,
+      "scale": 700,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.680189,
+      "brier_score": 0.243564
+    },
+    {
+      "k_factor": 8,
+      "scale": 800,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.681224,
+      "brier_score": 0.24407
+    },
+    {
+      "k_factor": 8,
+      "scale": 1000,
+      "home_advantage": 0,
+      "matches": 509,
+      "log_loss": 0.681469,
+      "brier_score": 0.244168
+    },
+    {
+      "k_factor": 8,
+      "scale": 1000,
+      "home_advantage": 20,
+      "matches": 509,
+      "log_loss": 0.681644,
+      "brier_score": 0.244256
+    },
+    {
+      "k_factor": 8,
+      "scale": 1000,
+      "home_advantage": 40,
+      "matches": 509,
+      "log_loss": 0.682134,
+      "brier_score": 0.244505
+    },
+    {
+      "k_factor": 8,
+      "scale": 1000,
+      "home_advantage": 60,
+      "matches": 509,
+      "log_loss": 0.682939,
+      "brier_score": 0.244914
+    }
+  ]
+}

@@ -1,0 +1,4863 @@
+{
+  "schema_version": 1,
+  "seasons": [
+    {
+      "season": 2008,
+      "champion": {
+        "id": "rajasthan_royals",
+        "name": "Rajasthan Royals",
+        "abbr": "RR"
+      },
+      "champion_title_probability": 0.307,
+      "fluke_score": 0.693,
+      "robbery": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "title_probability": 0.282
+      },
+      "dominance": {
+        "team": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "elo_gap_to_field": 112.4
+      }
+    },
+    {
+      "season": 2009,
+      "champion": {
+        "id": "deccan_chargers",
+        "name": "Deccan Chargers",
+        "abbr": "DEC"
+      },
+      "champion_title_probability": 0.0616,
+      "fluke_score": 0.9384,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.276
+      },
+      "dominance": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "elo_gap_to_field": 85.25
+      }
+    },
+    {
+      "season": 2010,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.1558,
+      "fluke_score": 0.8442,
+      "robbery": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "title_probability": 0.2948
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 86.74
+      }
+    },
+    {
+      "season": 2011,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.2579,
+      "fluke_score": 0.7421,
+      "robbery": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "title_probability": 0.2444
+      },
+      "dominance": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "elo_gap_to_field": 86.92
+      }
+    },
+    {
+      "season": 2012,
+      "champion": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "champion_title_probability": 0.2709,
+      "fluke_score": 0.7291,
+      "robbery": {
+        "team": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "title_probability": 0.1849
+      },
+      "dominance": {
+        "team": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "elo_gap_to_field": 91.65
+      }
+    },
+    {
+      "season": 2013,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2966,
+      "fluke_score": 0.7034,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.226
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 103.29
+      }
+    },
+    {
+      "season": 2014,
+      "champion": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "champion_title_probability": 0.265,
+      "fluke_score": 0.735,
+      "robbery": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "title_probability": 0.3429
+      },
+      "dominance": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "elo_gap_to_field": 113.93
+      }
+    },
+    {
+      "season": 2015,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2522,
+      "fluke_score": 0.7478,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.2472
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 62.1
+      }
+    },
+    {
+      "season": 2016,
+      "champion": {
+        "id": "sunrisers_hyderabad",
+        "name": "Sunrisers Hyderabad",
+        "abbr": "SRH"
+      },
+      "champion_title_probability": 0.1403,
+      "fluke_score": 0.8597,
+      "robbery": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "title_probability": 0.3051
+      },
+      "dominance": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "elo_gap_to_field": 77.84
+      }
+    },
+    {
+      "season": 2017,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2794,
+      "fluke_score": 0.7206,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.2524
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 83.89
+      }
+    },
+    {
+      "season": 2018,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.2014,
+      "fluke_score": 0.7986,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.2141
+      },
+      "dominance": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "elo_gap_to_field": 43.57
+      }
+    },
+    {
+      "season": 2019,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2813,
+      "fluke_score": 0.7187,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.2441
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 69.76
+      }
+    },
+    {
+      "season": 2020,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.3826,
+      "fluke_score": 0.6174,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.165
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 96.48
+      }
+    },
+    {
+      "season": 2021,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.1982,
+      "fluke_score": 0.8018,
+      "robbery": {
+        "team": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "title_probability": 0.3067
+      },
+      "dominance": {
+        "team": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "elo_gap_to_field": 87.25
+      }
+    },
+    {
+      "season": 2022,
+      "champion": {
+        "id": "gujarat_titans",
+        "name": "Gujarat Titans",
+        "abbr": "GT"
+      },
+      "champion_title_probability": 0.21,
+      "fluke_score": 0.79,
+      "robbery": {
+        "team": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "title_probability": 0.2067
+      },
+      "dominance": {
+        "team": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "elo_gap_to_field": 61.94
+      }
+    },
+    {
+      "season": 2023,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.1391,
+      "fluke_score": 0.8609,
+      "robbery": {
+        "team": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "title_probability": 0.3701
+      },
+      "dominance": {
+        "team": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "elo_gap_to_field": 119.7
+      }
+    },
+    {
+      "season": 2024,
+      "champion": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "champion_title_probability": 0.2845,
+      "fluke_score": 0.7155,
+      "robbery": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "title_probability": 0.1844
+      },
+      "dominance": {
+        "team": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "elo_gap_to_field": 101.47
+      }
+    },
+    {
+      "season": 2025,
+      "champion": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "champion_title_probability": 0.2231,
+      "fluke_score": 0.7769,
+      "robbery": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "title_probability": 0.2215
+      },
+      "dominance": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "elo_gap_to_field": 70.53
+      }
+    },
+    {
+      "season": 2026,
+      "champion": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "champion_title_probability": 0.1967,
+      "fluke_score": 0.8033,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.2926
+      },
+      "dominance": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "elo_gap_to_field": 97.38
+      }
+    }
+  ],
+  "flukiest_champions": [
+    {
+      "season": 2009,
+      "champion": {
+        "id": "deccan_chargers",
+        "name": "Deccan Chargers",
+        "abbr": "DEC"
+      },
+      "champion_title_probability": 0.0616,
+      "fluke_score": 0.9384,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.276
+      },
+      "dominance": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "elo_gap_to_field": 85.25
+      }
+    },
+    {
+      "season": 2023,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.1391,
+      "fluke_score": 0.8609,
+      "robbery": {
+        "team": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "title_probability": 0.3701
+      },
+      "dominance": {
+        "team": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "elo_gap_to_field": 119.7
+      }
+    },
+    {
+      "season": 2016,
+      "champion": {
+        "id": "sunrisers_hyderabad",
+        "name": "Sunrisers Hyderabad",
+        "abbr": "SRH"
+      },
+      "champion_title_probability": 0.1403,
+      "fluke_score": 0.8597,
+      "robbery": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "title_probability": 0.3051
+      },
+      "dominance": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "elo_gap_to_field": 77.84
+      }
+    },
+    {
+      "season": 2010,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.1558,
+      "fluke_score": 0.8442,
+      "robbery": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "title_probability": 0.2948
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 86.74
+      }
+    },
+    {
+      "season": 2026,
+      "champion": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "champion_title_probability": 0.1967,
+      "fluke_score": 0.8033,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.2926
+      },
+      "dominance": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "elo_gap_to_field": 97.38
+      }
+    },
+    {
+      "season": 2021,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.1982,
+      "fluke_score": 0.8018,
+      "robbery": {
+        "team": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "title_probability": 0.3067
+      },
+      "dominance": {
+        "team": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "elo_gap_to_field": 87.25
+      }
+    },
+    {
+      "season": 2018,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.2014,
+      "fluke_score": 0.7986,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.2141
+      },
+      "dominance": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "elo_gap_to_field": 43.57
+      }
+    },
+    {
+      "season": 2022,
+      "champion": {
+        "id": "gujarat_titans",
+        "name": "Gujarat Titans",
+        "abbr": "GT"
+      },
+      "champion_title_probability": 0.21,
+      "fluke_score": 0.79,
+      "robbery": {
+        "team": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "title_probability": 0.2067
+      },
+      "dominance": {
+        "team": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "elo_gap_to_field": 61.94
+      }
+    },
+    {
+      "season": 2025,
+      "champion": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "champion_title_probability": 0.2231,
+      "fluke_score": 0.7769,
+      "robbery": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "title_probability": 0.2215
+      },
+      "dominance": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "elo_gap_to_field": 70.53
+      }
+    },
+    {
+      "season": 2015,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2522,
+      "fluke_score": 0.7478,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.2472
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 62.1
+      }
+    },
+    {
+      "season": 2011,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.2579,
+      "fluke_score": 0.7421,
+      "robbery": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "title_probability": 0.2444
+      },
+      "dominance": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "elo_gap_to_field": 86.92
+      }
+    },
+    {
+      "season": 2014,
+      "champion": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "champion_title_probability": 0.265,
+      "fluke_score": 0.735,
+      "robbery": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "title_probability": 0.3429
+      },
+      "dominance": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "elo_gap_to_field": 113.93
+      }
+    },
+    {
+      "season": 2012,
+      "champion": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "champion_title_probability": 0.2709,
+      "fluke_score": 0.7291,
+      "robbery": {
+        "team": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "title_probability": 0.1849
+      },
+      "dominance": {
+        "team": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "elo_gap_to_field": 91.65
+      }
+    },
+    {
+      "season": 2017,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2794,
+      "fluke_score": 0.7206,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.2524
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 83.89
+      }
+    },
+    {
+      "season": 2019,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2813,
+      "fluke_score": 0.7187,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.2441
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 69.76
+      }
+    },
+    {
+      "season": 2024,
+      "champion": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "champion_title_probability": 0.2845,
+      "fluke_score": 0.7155,
+      "robbery": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "title_probability": 0.1844
+      },
+      "dominance": {
+        "team": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "elo_gap_to_field": 101.47
+      }
+    },
+    {
+      "season": 2013,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2966,
+      "fluke_score": 0.7034,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.226
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 103.29
+      }
+    },
+    {
+      "season": 2008,
+      "champion": {
+        "id": "rajasthan_royals",
+        "name": "Rajasthan Royals",
+        "abbr": "RR"
+      },
+      "champion_title_probability": 0.307,
+      "fluke_score": 0.693,
+      "robbery": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "title_probability": 0.282
+      },
+      "dominance": {
+        "team": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "elo_gap_to_field": 112.4
+      }
+    },
+    {
+      "season": 2020,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.3826,
+      "fluke_score": 0.6174,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.165
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 96.48
+      }
+    }
+  ],
+  "biggest_robberies": [
+    {
+      "season": 2023,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.1391,
+      "fluke_score": 0.8609,
+      "robbery": {
+        "team": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "title_probability": 0.3701
+      },
+      "dominance": {
+        "team": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "elo_gap_to_field": 119.7
+      }
+    },
+    {
+      "season": 2014,
+      "champion": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "champion_title_probability": 0.265,
+      "fluke_score": 0.735,
+      "robbery": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "title_probability": 0.3429
+      },
+      "dominance": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "elo_gap_to_field": 113.93
+      }
+    },
+    {
+      "season": 2021,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.1982,
+      "fluke_score": 0.8018,
+      "robbery": {
+        "team": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "title_probability": 0.3067
+      },
+      "dominance": {
+        "team": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "elo_gap_to_field": 87.25
+      }
+    },
+    {
+      "season": 2016,
+      "champion": {
+        "id": "sunrisers_hyderabad",
+        "name": "Sunrisers Hyderabad",
+        "abbr": "SRH"
+      },
+      "champion_title_probability": 0.1403,
+      "fluke_score": 0.8597,
+      "robbery": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "title_probability": 0.3051
+      },
+      "dominance": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "elo_gap_to_field": 77.84
+      }
+    },
+    {
+      "season": 2010,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.1558,
+      "fluke_score": 0.8442,
+      "robbery": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "title_probability": 0.2948
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 86.74
+      }
+    },
+    {
+      "season": 2026,
+      "champion": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "champion_title_probability": 0.1967,
+      "fluke_score": 0.8033,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.2926
+      },
+      "dominance": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "elo_gap_to_field": 97.38
+      }
+    },
+    {
+      "season": 2008,
+      "champion": {
+        "id": "rajasthan_royals",
+        "name": "Rajasthan Royals",
+        "abbr": "RR"
+      },
+      "champion_title_probability": 0.307,
+      "fluke_score": 0.693,
+      "robbery": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "title_probability": 0.282
+      },
+      "dominance": {
+        "team": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "elo_gap_to_field": 112.4
+      }
+    },
+    {
+      "season": 2009,
+      "champion": {
+        "id": "deccan_chargers",
+        "name": "Deccan Chargers",
+        "abbr": "DEC"
+      },
+      "champion_title_probability": 0.0616,
+      "fluke_score": 0.9384,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.276
+      },
+      "dominance": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "elo_gap_to_field": 85.25
+      }
+    },
+    {
+      "season": 2017,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2794,
+      "fluke_score": 0.7206,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.2524
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 83.89
+      }
+    },
+    {
+      "season": 2015,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2522,
+      "fluke_score": 0.7478,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.2472
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 62.1
+      }
+    },
+    {
+      "season": 2011,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.2579,
+      "fluke_score": 0.7421,
+      "robbery": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "title_probability": 0.2444
+      },
+      "dominance": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "elo_gap_to_field": 86.92
+      }
+    },
+    {
+      "season": 2019,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2813,
+      "fluke_score": 0.7187,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.2441
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 69.76
+      }
+    },
+    {
+      "season": 2013,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2966,
+      "fluke_score": 0.7034,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.226
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 103.29
+      }
+    },
+    {
+      "season": 2025,
+      "champion": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "champion_title_probability": 0.2231,
+      "fluke_score": 0.7769,
+      "robbery": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "title_probability": 0.2215
+      },
+      "dominance": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "elo_gap_to_field": 70.53
+      }
+    },
+    {
+      "season": 2018,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.2014,
+      "fluke_score": 0.7986,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.2141
+      },
+      "dominance": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "elo_gap_to_field": 43.57
+      }
+    },
+    {
+      "season": 2022,
+      "champion": {
+        "id": "gujarat_titans",
+        "name": "Gujarat Titans",
+        "abbr": "GT"
+      },
+      "champion_title_probability": 0.21,
+      "fluke_score": 0.79,
+      "robbery": {
+        "team": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "title_probability": 0.2067
+      },
+      "dominance": {
+        "team": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "elo_gap_to_field": 61.94
+      }
+    },
+    {
+      "season": 2012,
+      "champion": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "champion_title_probability": 0.2709,
+      "fluke_score": 0.7291,
+      "robbery": {
+        "team": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "title_probability": 0.1849
+      },
+      "dominance": {
+        "team": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "elo_gap_to_field": 91.65
+      }
+    },
+    {
+      "season": 2024,
+      "champion": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "champion_title_probability": 0.2845,
+      "fluke_score": 0.7155,
+      "robbery": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "title_probability": 0.1844
+      },
+      "dominance": {
+        "team": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "elo_gap_to_field": 101.47
+      }
+    },
+    {
+      "season": 2020,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.3826,
+      "fluke_score": 0.6174,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.165
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 96.48
+      }
+    }
+  ],
+  "most_dominant": [
+    {
+      "season": 2023,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.1391,
+      "fluke_score": 0.8609,
+      "robbery": {
+        "team": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "title_probability": 0.3701
+      },
+      "dominance": {
+        "team": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "elo_gap_to_field": 119.7
+      }
+    },
+    {
+      "season": 2014,
+      "champion": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "champion_title_probability": 0.265,
+      "fluke_score": 0.735,
+      "robbery": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "title_probability": 0.3429
+      },
+      "dominance": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "elo_gap_to_field": 113.93
+      }
+    },
+    {
+      "season": 2008,
+      "champion": {
+        "id": "rajasthan_royals",
+        "name": "Rajasthan Royals",
+        "abbr": "RR"
+      },
+      "champion_title_probability": 0.307,
+      "fluke_score": 0.693,
+      "robbery": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "title_probability": 0.282
+      },
+      "dominance": {
+        "team": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "elo_gap_to_field": 112.4
+      }
+    },
+    {
+      "season": 2013,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2966,
+      "fluke_score": 0.7034,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.226
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 103.29
+      }
+    },
+    {
+      "season": 2024,
+      "champion": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "champion_title_probability": 0.2845,
+      "fluke_score": 0.7155,
+      "robbery": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "title_probability": 0.1844
+      },
+      "dominance": {
+        "team": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "elo_gap_to_field": 101.47
+      }
+    },
+    {
+      "season": 2026,
+      "champion": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "champion_title_probability": 0.1967,
+      "fluke_score": 0.8033,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.2926
+      },
+      "dominance": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "elo_gap_to_field": 97.38
+      }
+    },
+    {
+      "season": 2020,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.3826,
+      "fluke_score": 0.6174,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.165
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 96.48
+      }
+    },
+    {
+      "season": 2012,
+      "champion": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "champion_title_probability": 0.2709,
+      "fluke_score": 0.7291,
+      "robbery": {
+        "team": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "title_probability": 0.1849
+      },
+      "dominance": {
+        "team": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "elo_gap_to_field": 91.65
+      }
+    },
+    {
+      "season": 2021,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.1982,
+      "fluke_score": 0.8018,
+      "robbery": {
+        "team": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "title_probability": 0.3067
+      },
+      "dominance": {
+        "team": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "elo_gap_to_field": 87.25
+      }
+    },
+    {
+      "season": 2011,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.2579,
+      "fluke_score": 0.7421,
+      "robbery": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "title_probability": 0.2444
+      },
+      "dominance": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "elo_gap_to_field": 86.92
+      }
+    },
+    {
+      "season": 2010,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.1558,
+      "fluke_score": 0.8442,
+      "robbery": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "title_probability": 0.2948
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 86.74
+      }
+    },
+    {
+      "season": 2009,
+      "champion": {
+        "id": "deccan_chargers",
+        "name": "Deccan Chargers",
+        "abbr": "DEC"
+      },
+      "champion_title_probability": 0.0616,
+      "fluke_score": 0.9384,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.276
+      },
+      "dominance": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "elo_gap_to_field": 85.25
+      }
+    },
+    {
+      "season": 2017,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2794,
+      "fluke_score": 0.7206,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.2524
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 83.89
+      }
+    },
+    {
+      "season": 2016,
+      "champion": {
+        "id": "sunrisers_hyderabad",
+        "name": "Sunrisers Hyderabad",
+        "abbr": "SRH"
+      },
+      "champion_title_probability": 0.1403,
+      "fluke_score": 0.8597,
+      "robbery": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "title_probability": 0.3051
+      },
+      "dominance": {
+        "team": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "elo_gap_to_field": 77.84
+      }
+    },
+    {
+      "season": 2025,
+      "champion": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "champion_title_probability": 0.2231,
+      "fluke_score": 0.7769,
+      "robbery": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "title_probability": 0.2215
+      },
+      "dominance": {
+        "team": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "elo_gap_to_field": 70.53
+      }
+    },
+    {
+      "season": 2019,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2813,
+      "fluke_score": 0.7187,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.2441
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 69.76
+      }
+    },
+    {
+      "season": 2015,
+      "champion": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "champion_title_probability": 0.2522,
+      "fluke_score": 0.7478,
+      "robbery": {
+        "team": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "title_probability": 0.2472
+      },
+      "dominance": {
+        "team": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "elo_gap_to_field": 62.1
+      }
+    },
+    {
+      "season": 2022,
+      "champion": {
+        "id": "gujarat_titans",
+        "name": "Gujarat Titans",
+        "abbr": "GT"
+      },
+      "champion_title_probability": 0.21,
+      "fluke_score": 0.79,
+      "robbery": {
+        "team": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "title_probability": 0.2067
+      },
+      "dominance": {
+        "team": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "elo_gap_to_field": 61.94
+      }
+    },
+    {
+      "season": 2018,
+      "champion": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "champion_title_probability": 0.2014,
+      "fluke_score": 0.7986,
+      "robbery": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "title_probability": 0.2141
+      },
+      "dominance": {
+        "team": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "elo_gap_to_field": 43.57
+      }
+    }
+  ],
+  "close_games": [
+    {
+      "season": 2008,
+      "teams": [
+        {
+          "team_id": "punjab_kings",
+          "played": 3,
+          "won": 3,
+          "expected_wins": 1.63,
+          "overperformance": 1.37
+        },
+        {
+          "team_id": "chennai_super_kings",
+          "played": 2,
+          "won": 2,
+          "expected_wins": 1.1,
+          "overperformance": 0.9
+        },
+        {
+          "team_id": "royal_challengers_bengaluru",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 0.96,
+          "overperformance": 0.04
+        },
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.42,
+          "overperformance": -0.42
+        },
+        {
+          "team_id": "delhi_capitals",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.43,
+          "overperformance": -0.43
+        },
+        {
+          "team_id": "deccan_chargers",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.52,
+          "overperformance": -0.52
+        },
+        {
+          "team_id": "mumbai_indians",
+          "played": 2,
+          "won": 0,
+          "expected_wins": 0.94,
+          "overperformance": -0.94
+        }
+      ]
+    },
+    {
+      "season": 2009,
+      "teams": [
+        {
+          "team_id": "royal_challengers_bengaluru",
+          "played": 2,
+          "won": 2,
+          "expected_wins": 0.69,
+          "overperformance": 1.31
+        },
+        {
+          "team_id": "rajasthan_royals",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.5,
+          "overperformance": 0.5
+        },
+        {
+          "team_id": "delhi_capitals",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.51,
+          "overperformance": 0.49
+        },
+        {
+          "team_id": "punjab_kings",
+          "played": 3,
+          "won": 2,
+          "expected_wins": 1.6,
+          "overperformance": 0.4
+        },
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.39,
+          "overperformance": -0.39
+        },
+        {
+          "team_id": "deccan_chargers",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.51,
+          "overperformance": -0.51
+        },
+        {
+          "team_id": "mumbai_indians",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.63,
+          "overperformance": -0.63
+        },
+        {
+          "team_id": "chennai_super_kings",
+          "played": 2,
+          "won": 0,
+          "expected_wins": 1.16,
+          "overperformance": -1.16
+        }
+      ]
+    },
+    {
+      "season": 2010,
+      "teams": [
+        {
+          "team_id": "mumbai_indians",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.49,
+          "overperformance": 0.51
+        },
+        {
+          "team_id": "deccan_chargers",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 1.02,
+          "overperformance": -0.02
+        },
+        {
+          "team_id": "rajasthan_royals",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 1.05,
+          "overperformance": -0.05
+        },
+        {
+          "team_id": "punjab_kings",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.44,
+          "overperformance": -0.44
+        }
+      ]
+    },
+    {
+      "season": 2011,
+      "teams": [
+        {
+          "team_id": "kochi_tuskers_kerala",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.41,
+          "overperformance": 0.59
+        },
+        {
+          "team_id": "mumbai_indians",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.55,
+          "overperformance": 0.45
+        },
+        {
+          "team_id": "chennai_super_kings",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 0.96,
+          "overperformance": 0.04
+        },
+        {
+          "team_id": "deccan_chargers",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.49,
+          "overperformance": -0.49
+        },
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.58,
+          "overperformance": -0.58
+        }
+      ]
+    },
+    {
+      "season": 2012,
+      "teams": [
+        {
+          "team_id": "punjab_kings",
+          "played": 2,
+          "won": 2,
+          "expected_wins": 0.84,
+          "overperformance": 1.16
+        },
+        {
+          "team_id": "mumbai_indians",
+          "played": 2,
+          "won": 2,
+          "expected_wins": 1.08,
+          "overperformance": 0.92
+        },
+        {
+          "team_id": "deccan_chargers",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.3,
+          "overperformance": 0.7
+        },
+        {
+          "team_id": "delhi_capitals",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.59,
+          "overperformance": 0.41
+        },
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 1.24,
+          "overperformance": -0.24
+        },
+        {
+          "team_id": "rajasthan_royals",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.41,
+          "overperformance": -0.41
+        },
+        {
+          "team_id": "pune_warriors",
+          "played": 2,
+          "won": 0,
+          "expected_wins": 0.7,
+          "overperformance": -0.7
+        },
+        {
+          "team_id": "royal_challengers_bengaluru",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.7,
+          "overperformance": -0.7
+        },
+        {
+          "team_id": "chennai_super_kings",
+          "played": 2,
+          "won": 0,
+          "expected_wins": 1.14,
+          "overperformance": -1.14
+        }
+      ]
+    },
+    {
+      "season": 2013,
+      "teams": [
+        {
+          "team_id": "royal_challengers_bengaluru",
+          "played": 2,
+          "won": 2,
+          "expected_wins": 1.13,
+          "overperformance": 0.87
+        },
+        {
+          "team_id": "pune_warriors",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.26,
+          "overperformance": 0.74
+        },
+        {
+          "team_id": "punjab_kings",
+          "played": 3,
+          "won": 2,
+          "expected_wins": 1.43,
+          "overperformance": 0.57
+        },
+        {
+          "team_id": "rajasthan_royals",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.5,
+          "overperformance": 0.5
+        },
+        {
+          "team_id": "mumbai_indians",
+          "played": 3,
+          "won": 2,
+          "expected_wins": 1.52,
+          "overperformance": 0.48
+        },
+        {
+          "team_id": "chennai_super_kings",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.55,
+          "overperformance": -0.55
+        },
+        {
+          "team_id": "delhi_capitals",
+          "played": 3,
+          "won": 0,
+          "expected_wins": 1.28,
+          "overperformance": -1.28
+        },
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 2,
+          "won": 0,
+          "expected_wins": 1.33,
+          "overperformance": -1.33
+        }
+      ]
+    },
+    {
+      "season": 2014,
+      "teams": [
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.45,
+          "overperformance": 0.55
+        },
+        {
+          "team_id": "sunrisers_hyderabad",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.51,
+          "overperformance": 0.49
+        },
+        {
+          "team_id": "chennai_super_kings",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.52,
+          "overperformance": 0.48
+        },
+        {
+          "team_id": "rajasthan_royals",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.48,
+          "overperformance": -0.48
+        },
+        {
+          "team_id": "delhi_capitals",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.49,
+          "overperformance": -0.49
+        },
+        {
+          "team_id": "royal_challengers_bengaluru",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.55,
+          "overperformance": -0.55
+        }
+      ]
+    },
+    {
+      "season": 2015,
+      "teams": [
+        {
+          "team_id": "mumbai_indians",
+          "played": 2,
+          "won": 2,
+          "expected_wins": 0.83,
+          "overperformance": 1.17
+        },
+        {
+          "team_id": "chennai_super_kings",
+          "played": 2,
+          "won": 2,
+          "expected_wins": 1.17,
+          "overperformance": 0.83
+        },
+        {
+          "team_id": "sunrisers_hyderabad",
+          "played": 4,
+          "won": 3,
+          "expected_wins": 2.32,
+          "overperformance": 0.68
+        },
+        {
+          "team_id": "delhi_capitals",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.19,
+          "overperformance": -0.19
+        },
+        {
+          "team_id": "rajasthan_royals",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.56,
+          "overperformance": -0.56
+        },
+        {
+          "team_id": "punjab_kings",
+          "played": 2,
+          "won": 0,
+          "expected_wins": 0.6,
+          "overperformance": -0.6
+        },
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 4,
+          "won": 1,
+          "expected_wins": 2.33,
+          "overperformance": -1.33
+        }
+      ]
+    },
+    {
+      "season": 2016,
+      "teams": [
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 2,
+          "won": 2,
+          "expected_wins": 1.28,
+          "overperformance": 0.72
+        },
+        {
+          "team_id": "gujarat_lions",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.49,
+          "overperformance": 0.51
+        },
+        {
+          "team_id": "royal_challengers_bengaluru",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.56,
+          "overperformance": 0.44
+        },
+        {
+          "team_id": "sunrisers_hyderabad",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.66,
+          "overperformance": 0.34
+        },
+        {
+          "team_id": "punjab_kings",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.17,
+          "overperformance": -0.17
+        },
+        {
+          "team_id": "rising_pune_supergiant",
+          "played": 2,
+          "won": 0,
+          "expected_wins": 0.69,
+          "overperformance": -0.69
+        },
+        {
+          "team_id": "delhi_capitals",
+          "played": 2,
+          "won": 0,
+          "expected_wins": 1.15,
+          "overperformance": -1.15
+        }
+      ]
+    },
+    {
+      "season": 2017,
+      "teams": [
+        {
+          "team_id": "delhi_capitals",
+          "played": 2,
+          "won": 2,
+          "expected_wins": 0.9,
+          "overperformance": 1.1
+        },
+        {
+          "team_id": "sunrisers_hyderabad",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.59,
+          "overperformance": 0.41
+        },
+        {
+          "team_id": "punjab_kings",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 0.79,
+          "overperformance": 0.21
+        },
+        {
+          "team_id": "rising_pune_supergiant",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 0.99,
+          "overperformance": 0.01
+        },
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.47,
+          "overperformance": -0.47
+        },
+        {
+          "team_id": "gujarat_lions",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.48,
+          "overperformance": -0.48
+        },
+        {
+          "team_id": "mumbai_indians",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.8,
+          "overperformance": -0.8
+        }
+      ]
+    },
+    {
+      "season": 2018,
+      "teams": [
+        {
+          "team_id": "chennai_super_kings",
+          "played": 3,
+          "won": 2,
+          "expected_wins": 1.55,
+          "overperformance": 0.45
+        },
+        {
+          "team_id": "punjab_kings",
+          "played": 3,
+          "won": 2,
+          "expected_wins": 1.57,
+          "overperformance": 0.43
+        },
+        {
+          "team_id": "sunrisers_hyderabad",
+          "played": 3,
+          "won": 2,
+          "expected_wins": 1.72,
+          "overperformance": 0.28
+        },
+        {
+          "team_id": "delhi_capitals",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 0.78,
+          "overperformance": 0.22
+        },
+        {
+          "team_id": "royal_challengers_bengaluru",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.31,
+          "overperformance": -0.31
+        },
+        {
+          "team_id": "mumbai_indians",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.53,
+          "overperformance": -0.53
+        },
+        {
+          "team_id": "rajasthan_royals",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.55,
+          "overperformance": -0.55
+        }
+      ]
+    },
+    {
+      "season": 2019,
+      "teams": [
+        {
+          "team_id": "mumbai_indians",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.5,
+          "overperformance": 0.5
+        },
+        {
+          "team_id": "royal_challengers_bengaluru",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 0.8,
+          "overperformance": 0.2
+        },
+        {
+          "team_id": "chennai_super_kings",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 1.34,
+          "overperformance": -0.34
+        },
+        {
+          "team_id": "rajasthan_royals",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.36,
+          "overperformance": -0.36
+        }
+      ]
+    },
+    {
+      "season": 2020,
+      "teams": [
+        {
+          "team_id": "sunrisers_hyderabad",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.49,
+          "overperformance": 0.51
+        },
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.63,
+          "overperformance": 0.37
+        },
+        {
+          "team_id": "punjab_kings",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.37,
+          "overperformance": -0.37
+        },
+        {
+          "team_id": "chennai_super_kings",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.51,
+          "overperformance": -0.51
+        }
+      ]
+    },
+    {
+      "season": 2021,
+      "teams": [
+        {
+          "team_id": "royal_challengers_bengaluru",
+          "played": 5,
+          "won": 4,
+          "expected_wins": 2.65,
+          "overperformance": 1.35
+        },
+        {
+          "team_id": "chennai_super_kings",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.64,
+          "overperformance": 0.36
+        },
+        {
+          "team_id": "punjab_kings",
+          "played": 4,
+          "won": 2,
+          "expected_wins": 1.99,
+          "overperformance": 0.01
+        },
+        {
+          "team_id": "rajasthan_royals",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 1.0,
+          "overperformance": 0.0
+        },
+        {
+          "team_id": "sunrisers_hyderabad",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.24,
+          "overperformance": -0.24
+        },
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.36,
+          "overperformance": -0.36
+        },
+        {
+          "team_id": "delhi_capitals",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.53,
+          "overperformance": -0.53
+        },
+        {
+          "team_id": "mumbai_indians",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.59,
+          "overperformance": -0.59
+        }
+      ]
+    },
+    {
+      "season": 2022,
+      "teams": [
+        {
+          "team_id": "rajasthan_royals",
+          "played": 2,
+          "won": 2,
+          "expected_wins": 1.05,
+          "overperformance": 0.95
+        },
+        {
+          "team_id": "sunrisers_hyderabad",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.52,
+          "overperformance": 0.48
+        },
+        {
+          "team_id": "lucknow_super_giants",
+          "played": 3,
+          "won": 2,
+          "expected_wins": 1.53,
+          "overperformance": 0.47
+        },
+        {
+          "team_id": "mumbai_indians",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 0.77,
+          "overperformance": 0.23
+        },
+        {
+          "team_id": "gujarat_titans",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 1.3,
+          "overperformance": -0.3
+        },
+        {
+          "team_id": "delhi_capitals",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.47,
+          "overperformance": -0.47
+        },
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 3,
+          "won": 0,
+          "expected_wins": 1.36,
+          "overperformance": -1.36
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "teams": [
+        {
+          "team_id": "punjab_kings",
+          "played": 3,
+          "won": 3,
+          "expected_wins": 1.45,
+          "overperformance": 1.55
+        },
+        {
+          "team_id": "delhi_capitals",
+          "played": 3,
+          "won": 2,
+          "expected_wins": 1.26,
+          "overperformance": 0.74
+        },
+        {
+          "team_id": "lucknow_super_giants",
+          "played": 5,
+          "won": 3,
+          "expected_wins": 2.61,
+          "overperformance": 0.39
+        },
+        {
+          "team_id": "chennai_super_kings",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 0.92,
+          "overperformance": 0.08
+        },
+        {
+          "team_id": "gujarat_titans",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 1.23,
+          "overperformance": -0.23
+        },
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.42,
+          "overperformance": -0.42
+        },
+        {
+          "team_id": "royal_challengers_bengaluru",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.45,
+          "overperformance": -0.45
+        },
+        {
+          "team_id": "sunrisers_hyderabad",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.51,
+          "overperformance": -0.51
+        },
+        {
+          "team_id": "mumbai_indians",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.52,
+          "overperformance": -0.52
+        },
+        {
+          "team_id": "rajasthan_royals",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.63,
+          "overperformance": -0.63
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "teams": [
+        {
+          "team_id": "sunrisers_hyderabad",
+          "played": 3,
+          "won": 2,
+          "expected_wins": 1.28,
+          "overperformance": 0.72
+        },
+        {
+          "team_id": "delhi_capitals",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.43,
+          "overperformance": 0.57
+        },
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 3,
+          "won": 2,
+          "expected_wins": 1.69,
+          "overperformance": 0.31
+        },
+        {
+          "team_id": "mumbai_indians",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 1.0,
+          "overperformance": -0.0
+        },
+        {
+          "team_id": "gujarat_titans",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 1.11,
+          "overperformance": -0.11
+        },
+        {
+          "team_id": "rajasthan_royals",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 1.19,
+          "overperformance": -0.19
+        },
+        {
+          "team_id": "royal_challengers_bengaluru",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.34,
+          "overperformance": -0.34
+        },
+        {
+          "team_id": "punjab_kings",
+          "played": 2,
+          "won": 0,
+          "expected_wins": 0.97,
+          "overperformance": -0.97
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "teams": [
+        {
+          "team_id": "delhi_capitals",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.5,
+          "overperformance": 0.5
+        },
+        {
+          "team_id": "lucknow_super_giants",
+          "played": 3,
+          "won": 2,
+          "expected_wins": 1.58,
+          "overperformance": 0.42
+        },
+        {
+          "team_id": "royal_challengers_bengaluru",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.73,
+          "overperformance": 0.27
+        },
+        {
+          "team_id": "chennai_super_kings",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.15,
+          "overperformance": -0.15
+        },
+        {
+          "team_id": "rajasthan_royals",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.28,
+          "overperformance": -0.28
+        },
+        {
+          "team_id": "kolkata_knight_riders",
+          "played": 3,
+          "won": 1,
+          "expected_wins": 1.76,
+          "overperformance": -0.76
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "teams": [
+        {
+          "team_id": "lucknow_super_giants",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.27,
+          "overperformance": 0.73
+        },
+        {
+          "team_id": "rajasthan_royals",
+          "played": 1,
+          "won": 1,
+          "expected_wins": 0.51,
+          "overperformance": 0.49
+        },
+        {
+          "team_id": "gujarat_titans",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 0.91,
+          "overperformance": 0.09
+        },
+        {
+          "team_id": "royal_challengers_bengaluru",
+          "played": 2,
+          "won": 1,
+          "expected_wins": 1.36,
+          "overperformance": -0.36
+        },
+        {
+          "team_id": "mumbai_indians",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.37,
+          "overperformance": -0.37
+        },
+        {
+          "team_id": "delhi_capitals",
+          "played": 1,
+          "won": 0,
+          "expected_wins": 0.59,
+          "overperformance": -0.59
+        }
+      ]
+    }
+  ],
+  "momentum": {
+    "test": "Wald-Wolfowitz runs test",
+    "team_seasons_tested": 166,
+    "significant_at_5pct": 8,
+    "significant_share": 0.0482,
+    "rows": [
+      {
+        "season": 2008,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 6.714,
+        "z_score": 0.198
+      },
+      {
+        "season": 2008,
+        "team_id": "kolkata_knight_riders",
+        "games": 13,
+        "runs": 5,
+        "expected_runs": 7.462,
+        "z_score": -1.435
+      },
+      {
+        "season": 2008,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 6.714,
+        "z_score": -0.496
+      },
+      {
+        "season": 2008,
+        "team_id": "chennai_super_kings",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.857,
+        "z_score": -0.488
+      },
+      {
+        "season": 2008,
+        "team_id": "delhi_capitals",
+        "games": 13,
+        "runs": 7,
+        "expected_runs": 7.462,
+        "z_score": -0.269
+      },
+      {
+        "season": 2008,
+        "team_id": "rajasthan_royals",
+        "games": 14,
+        "runs": 5,
+        "expected_runs": 5.714,
+        "z_score": -0.615
+      },
+      {
+        "season": 2008,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 4,
+        "expected_runs": 8.0,
+        "z_score": -2.225
+      },
+      {
+        "season": 2008,
+        "team_id": "deccan_chargers",
+        "games": 14,
+        "runs": 5,
+        "expected_runs": 4.429,
+        "z_score": 0.714
+      },
+      {
+        "season": 2009,
+        "team_id": "chennai_super_kings",
+        "games": 13,
+        "runs": 8,
+        "expected_runs": 7.154,
+        "z_score": 0.52
+      },
+      {
+        "season": 2009,
+        "team_id": "mumbai_indians",
+        "games": 13,
+        "runs": 8,
+        "expected_runs": 7.154,
+        "z_score": 0.52
+      },
+      {
+        "season": 2009,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 14,
+        "runs": 5,
+        "expected_runs": 7.857,
+        "z_score": -1.626
+      },
+      {
+        "season": 2009,
+        "team_id": "rajasthan_royals",
+        "games": 13,
+        "runs": 9,
+        "expected_runs": 7.462,
+        "z_score": 0.897
+      },
+      {
+        "season": 2009,
+        "team_id": "delhi_capitals",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 6.714,
+        "z_score": 1.588
+      },
+      {
+        "season": 2009,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 8.0,
+        "z_score": 0.556
+      },
+      {
+        "season": 2009,
+        "team_id": "deccan_chargers",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 8.0,
+        "z_score": 0.0
+      },
+      {
+        "season": 2009,
+        "team_id": "kolkata_knight_riders",
+        "games": 13,
+        "runs": 4,
+        "expected_runs": 5.615,
+        "z_score": -1.37
+      },
+      {
+        "season": 2010,
+        "team_id": "deccan_chargers",
+        "games": 14,
+        "runs": 4,
+        "expected_runs": 7.857,
+        "z_score": -2.194
+      },
+      {
+        "season": 2010,
+        "team_id": "kolkata_knight_riders",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 8.0,
+        "z_score": 0.556
+      },
+      {
+        "season": 2010,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 6.714,
+        "z_score": -0.496
+      },
+      {
+        "season": 2010,
+        "team_id": "rajasthan_royals",
+        "games": 14,
+        "runs": 5,
+        "expected_runs": 7.857,
+        "z_score": -1.626
+      },
+      {
+        "season": 2010,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 6.714,
+        "z_score": 0.198
+      },
+      {
+        "season": 2010,
+        "team_id": "delhi_capitals",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 8.0,
+        "z_score": -1.113
+      },
+      {
+        "season": 2010,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 8.0,
+        "z_score": 0.556
+      },
+      {
+        "season": 2010,
+        "team_id": "chennai_super_kings",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 8.0,
+        "z_score": 0.0
+      },
+      {
+        "season": 2011,
+        "team_id": "chennai_super_kings",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 7.429,
+        "z_score": 0.349
+      },
+      {
+        "season": 2011,
+        "team_id": "kolkata_knight_riders",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 7.857,
+        "z_score": 0.65
+      },
+      {
+        "season": 2011,
+        "team_id": "deccan_chargers",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 7.857,
+        "z_score": 0.081
+      },
+      {
+        "season": 2011,
+        "team_id": "rajasthan_royals",
+        "games": 13,
+        "runs": 5,
+        "expected_runs": 7.462,
+        "z_score": -1.435
+      },
+      {
+        "season": 2011,
+        "team_id": "kochi_tuskers_kerala",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.857,
+        "z_score": -0.488
+      },
+      {
+        "season": 2011,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 13,
+        "runs": 5,
+        "expected_runs": 6.538,
+        "z_score": -1.063
+      },
+      {
+        "season": 2011,
+        "team_id": "delhi_capitals",
+        "games": 13,
+        "runs": 9,
+        "expected_runs": 6.538,
+        "z_score": 1.701
+      },
+      {
+        "season": 2011,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.429,
+        "z_score": -0.262
+      },
+      {
+        "season": 2011,
+        "team_id": "pune_warriors",
+        "games": 13,
+        "runs": 4,
+        "expected_runs": 6.538,
+        "z_score": -1.754
+      },
+      {
+        "season": 2011,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 5,
+        "expected_runs": 8.0,
+        "z_score": -1.669
+      },
+      {
+        "season": 2012,
+        "team_id": "chennai_super_kings",
+        "games": 15,
+        "runs": 11,
+        "expected_runs": 8.467,
+        "z_score": 1.364
+      },
+      {
+        "season": 2012,
+        "team_id": "mumbai_indians",
+        "games": 16,
+        "runs": 11,
+        "expected_runs": 8.5,
+        "z_score": 1.387
+      },
+      {
+        "season": 2012,
+        "team_id": "kolkata_knight_riders",
+        "games": 15,
+        "runs": 6,
+        "expected_runs": 7.667,
+        "z_score": -1.015
+      },
+      {
+        "season": 2012,
+        "team_id": "delhi_capitals",
+        "games": 16,
+        "runs": 11,
+        "expected_runs": 7.875,
+        "z_score": 1.904
+      },
+      {
+        "season": 2012,
+        "team_id": "pune_warriors",
+        "games": 16,
+        "runs": 6,
+        "expected_runs": 7.0,
+        "z_score": -0.707
+      },
+      {
+        "season": 2012,
+        "team_id": "rajasthan_royals",
+        "games": 16,
+        "runs": 8,
+        "expected_runs": 8.875,
+        "z_score": -0.461
+      },
+      {
+        "season": 2012,
+        "team_id": "punjab_kings",
+        "games": 16,
+        "runs": 11,
+        "expected_runs": 9.0,
+        "z_score": 1.035
+      },
+      {
+        "season": 2012,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 15,
+        "runs": 8,
+        "expected_runs": 8.467,
+        "z_score": -0.251
+      },
+      {
+        "season": 2012,
+        "team_id": "deccan_chargers",
+        "games": 15,
+        "runs": 6,
+        "expected_runs": 6.867,
+        "z_score": -0.607
+      },
+      {
+        "season": 2013,
+        "team_id": "kolkata_knight_riders",
+        "games": 16,
+        "runs": 10,
+        "expected_runs": 8.5,
+        "z_score": 0.832
+      },
+      {
+        "season": 2013,
+        "team_id": "delhi_capitals",
+        "games": 16,
+        "runs": 5,
+        "expected_runs": 5.875,
+        "z_score": -0.78
+      },
+      {
+        "season": 2013,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 16,
+        "runs": 11,
+        "expected_runs": 8.875,
+        "z_score": 1.119
+      },
+      {
+        "season": 2013,
+        "team_id": "mumbai_indians",
+        "games": 16,
+        "runs": 7,
+        "expected_runs": 7.875,
+        "z_score": -0.533
+      },
+      {
+        "season": 2013,
+        "team_id": "sunrisers_hyderabad",
+        "games": 16,
+        "runs": 11,
+        "expected_runs": 8.5,
+        "z_score": 1.387
+      },
+      {
+        "season": 2013,
+        "team_id": "pune_warriors",
+        "games": 16,
+        "runs": 6,
+        "expected_runs": 7.0,
+        "z_score": -0.707
+      },
+      {
+        "season": 2013,
+        "team_id": "rajasthan_royals",
+        "games": 16,
+        "runs": 8,
+        "expected_runs": 8.5,
+        "z_score": -0.277
+      },
+      {
+        "season": 2013,
+        "team_id": "chennai_super_kings",
+        "games": 16,
+        "runs": 9,
+        "expected_runs": 7.875,
+        "z_score": 0.686
+      },
+      {
+        "season": 2013,
+        "team_id": "punjab_kings",
+        "games": 16,
+        "runs": 9,
+        "expected_runs": 9.0,
+        "z_score": 0.0
+      },
+      {
+        "season": 2014,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 8.0,
+        "z_score": -1.113
+      },
+      {
+        "season": 2014,
+        "team_id": "kolkata_knight_riders",
+        "games": 14,
+        "runs": 5,
+        "expected_runs": 7.429,
+        "z_score": -1.482
+      },
+      {
+        "season": 2014,
+        "team_id": "delhi_capitals",
+        "games": 14,
+        "runs": 5,
+        "expected_runs": 4.429,
+        "z_score": 0.714
+      },
+      {
+        "season": 2014,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 7.429,
+        "z_score": -0.872
+      },
+      {
+        "season": 2014,
+        "team_id": "chennai_super_kings",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 7.429,
+        "z_score": -0.872
+      },
+      {
+        "season": 2014,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 5.714,
+        "z_score": 1.108
+      },
+      {
+        "season": 2014,
+        "team_id": "sunrisers_hyderabad",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 7.857,
+        "z_score": 0.65
+      },
+      {
+        "season": 2014,
+        "team_id": "rajasthan_royals",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 8.0,
+        "z_score": 0.0
+      },
+      {
+        "season": 2015,
+        "team_id": "kolkata_knight_riders",
+        "games": 13,
+        "runs": 8,
+        "expected_runs": 7.462,
+        "z_score": 0.314
+      },
+      {
+        "season": 2015,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 7.857,
+        "z_score": -1.057
+      },
+      {
+        "season": 2015,
+        "team_id": "chennai_super_kings",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 7.429,
+        "z_score": 0.959
+      },
+      {
+        "season": 2015,
+        "team_id": "delhi_capitals",
+        "games": 13,
+        "runs": 8,
+        "expected_runs": 7.154,
+        "z_score": 0.52
+      },
+      {
+        "season": 2015,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 5.714,
+        "z_score": 1.108
+      },
+      {
+        "season": 2015,
+        "team_id": "rajasthan_royals",
+        "games": 12,
+        "runs": 5,
+        "expected_runs": 6.833,
+        "z_score": -1.145
+      },
+      {
+        "season": 2015,
+        "team_id": "sunrisers_hyderabad",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 8.0,
+        "z_score": 0.556
+      },
+      {
+        "season": 2015,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 12,
+        "runs": 7,
+        "expected_runs": 6.833,
+        "z_score": 0.104
+      },
+      {
+        "season": 2016,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 11,
+        "expected_runs": 8.0,
+        "z_score": 1.669
+      },
+      {
+        "season": 2016,
+        "team_id": "rising_pune_supergiant",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.429,
+        "z_score": -0.262
+      },
+      {
+        "season": 2016,
+        "team_id": "kolkata_knight_riders",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 7.857,
+        "z_score": 0.65
+      },
+      {
+        "season": 2016,
+        "team_id": "delhi_capitals",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 8.0,
+        "z_score": 0.556
+      },
+      {
+        "season": 2016,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 6.714,
+        "z_score": 1.588
+      },
+      {
+        "season": 2016,
+        "team_id": "gujarat_lions",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.429,
+        "z_score": -0.262
+      },
+      {
+        "season": 2016,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.857,
+        "z_score": -0.488
+      },
+      {
+        "season": 2016,
+        "team_id": "sunrisers_hyderabad",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.857,
+        "z_score": -0.488
+      },
+      {
+        "season": 2017,
+        "team_id": "sunrisers_hyderabad",
+        "games": 13,
+        "runs": 7,
+        "expected_runs": 7.154,
+        "z_score": -0.095
+      },
+      {
+        "season": 2017,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 13,
+        "runs": 6,
+        "expected_runs": 5.615,
+        "z_score": 0.326
+      },
+      {
+        "season": 2017,
+        "team_id": "rising_pune_supergiant",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.429,
+        "z_score": -0.262
+      },
+      {
+        "season": 2017,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 6.714,
+        "z_score": -0.496
+      },
+      {
+        "season": 2017,
+        "team_id": "gujarat_lions",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 6.714,
+        "z_score": 1.588
+      },
+      {
+        "season": 2017,
+        "team_id": "kolkata_knight_riders",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 7.857,
+        "z_score": 0.081
+      },
+      {
+        "season": 2017,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 8.0,
+        "z_score": 0.0
+      },
+      {
+        "season": 2017,
+        "team_id": "delhi_capitals",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.857,
+        "z_score": -0.488
+      },
+      {
+        "season": 2018,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 7.857,
+        "z_score": 0.65
+      },
+      {
+        "season": 2018,
+        "team_id": "chennai_super_kings",
+        "games": 14,
+        "runs": 11,
+        "expected_runs": 7.429,
+        "z_score": 2.18
+      },
+      {
+        "season": 2018,
+        "team_id": "delhi_capitals",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 7.429,
+        "z_score": 0.349
+      },
+      {
+        "season": 2018,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 7.857,
+        "z_score": -1.057
+      },
+      {
+        "season": 2018,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 7.857,
+        "z_score": 0.65
+      },
+      {
+        "season": 2018,
+        "team_id": "kolkata_knight_riders",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.857,
+        "z_score": -0.488
+      },
+      {
+        "season": 2018,
+        "team_id": "rajasthan_royals",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 8.0,
+        "z_score": 0.0
+      },
+      {
+        "season": 2018,
+        "team_id": "sunrisers_hyderabad",
+        "games": 14,
+        "runs": 4,
+        "expected_runs": 7.429,
+        "z_score": -2.093
+      },
+      {
+        "season": 2019,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 13,
+        "runs": 6,
+        "expected_runs": 7.154,
+        "z_score": -0.71
+      },
+      {
+        "season": 2019,
+        "team_id": "chennai_super_kings",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 7.429,
+        "z_score": 0.349
+      },
+      {
+        "season": 2019,
+        "team_id": "sunrisers_hyderabad",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.857,
+        "z_score": -0.488
+      },
+      {
+        "season": 2019,
+        "team_id": "kolkata_knight_riders",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 7.857,
+        "z_score": -1.057
+      },
+      {
+        "season": 2019,
+        "team_id": "delhi_capitals",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 7.429,
+        "z_score": 0.959
+      },
+      {
+        "season": 2019,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 10,
+        "expected_runs": 7.429,
+        "z_score": 1.569
+      },
+      {
+        "season": 2019,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 7.857,
+        "z_score": 0.65
+      },
+      {
+        "season": 2019,
+        "team_id": "rajasthan_royals",
+        "games": 13,
+        "runs": 9,
+        "expected_runs": 7.154,
+        "z_score": 1.136
+      },
+      {
+        "season": 2020,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 7.429,
+        "z_score": 0.959
+      },
+      {
+        "season": 2020,
+        "team_id": "chennai_super_kings",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.857,
+        "z_score": -0.488
+      },
+      {
+        "season": 2020,
+        "team_id": "delhi_capitals",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.857,
+        "z_score": -0.488
+      },
+      {
+        "season": 2020,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 5,
+        "expected_runs": 7.857,
+        "z_score": -1.626
+      },
+      {
+        "season": 2020,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 8.0,
+        "z_score": 0.0
+      },
+      {
+        "season": 2020,
+        "team_id": "sunrisers_hyderabad",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 8.0,
+        "z_score": 0.0
+      },
+      {
+        "season": 2020,
+        "team_id": "rajasthan_royals",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 7.857,
+        "z_score": 0.081
+      },
+      {
+        "season": 2020,
+        "team_id": "kolkata_knight_riders",
+        "games": 14,
+        "runs": 10,
+        "expected_runs": 8.0,
+        "z_score": 1.113
+      },
+      {
+        "season": 2021,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 8.0,
+        "z_score": 0.0
+      },
+      {
+        "season": 2021,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.429,
+        "z_score": -0.262
+      },
+      {
+        "season": 2021,
+        "team_id": "chennai_super_kings",
+        "games": 14,
+        "runs": 5,
+        "expected_runs": 7.429,
+        "z_score": -1.482
+      },
+      {
+        "season": 2021,
+        "team_id": "delhi_capitals",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 6.714,
+        "z_score": 0.893
+      },
+      {
+        "season": 2021,
+        "team_id": "kolkata_knight_riders",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 8.0,
+        "z_score": 0.556
+      },
+      {
+        "season": 2021,
+        "team_id": "sunrisers_hyderabad",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 5.714,
+        "z_score": 1.108
+      },
+      {
+        "season": 2021,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 11,
+        "expected_runs": 7.857,
+        "z_score": 1.788
+      },
+      {
+        "season": 2021,
+        "team_id": "rajasthan_royals",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 7.429,
+        "z_score": 0.959
+      },
+      {
+        "season": 2022,
+        "team_id": "chennai_super_kings",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 6.714,
+        "z_score": 1.588
+      },
+      {
+        "season": 2022,
+        "team_id": "kolkata_knight_riders",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 7.857,
+        "z_score": 0.081
+      },
+      {
+        "season": 2022,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 6.714,
+        "z_score": -0.496
+      },
+      {
+        "season": 2022,
+        "team_id": "delhi_capitals",
+        "games": 14,
+        "runs": 12,
+        "expected_runs": 8.0,
+        "z_score": 2.225
+      },
+      {
+        "season": 2022,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 7.857,
+        "z_score": 0.081
+      },
+      {
+        "season": 2022,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 13,
+        "expected_runs": 8.0,
+        "z_score": 2.782
+      },
+      {
+        "season": 2022,
+        "team_id": "lucknow_super_giants",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 7.429,
+        "z_score": 0.349
+      },
+      {
+        "season": 2022,
+        "team_id": "gujarat_titans",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 6.714,
+        "z_score": -0.496
+      },
+      {
+        "season": 2022,
+        "team_id": "rajasthan_royals",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 7.429,
+        "z_score": 0.959
+      },
+      {
+        "season": 2022,
+        "team_id": "sunrisers_hyderabad",
+        "games": 14,
+        "runs": 5,
+        "expected_runs": 7.857,
+        "z_score": -1.626
+      },
+      {
+        "season": 2023,
+        "team_id": "chennai_super_kings",
+        "games": 13,
+        "runs": 8,
+        "expected_runs": 7.154,
+        "z_score": 0.52
+      },
+      {
+        "season": 2023,
+        "team_id": "gujarat_titans",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 6.714,
+        "z_score": 1.588
+      },
+      {
+        "season": 2023,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 10,
+        "expected_runs": 7.857,
+        "z_score": 1.219
+      },
+      {
+        "season": 2023,
+        "team_id": "kolkata_knight_riders",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 7.857,
+        "z_score": 0.65
+      },
+      {
+        "season": 2023,
+        "team_id": "lucknow_super_giants",
+        "games": 13,
+        "runs": 9,
+        "expected_runs": 7.154,
+        "z_score": 1.136
+      },
+      {
+        "season": 2023,
+        "team_id": "delhi_capitals",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.429,
+        "z_score": -0.262
+      },
+      {
+        "season": 2023,
+        "team_id": "rajasthan_royals",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 8.0,
+        "z_score": 0.556
+      },
+      {
+        "season": 2023,
+        "team_id": "sunrisers_hyderabad",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 6.714,
+        "z_score": 0.198
+      },
+      {
+        "season": 2023,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 7.857,
+        "z_score": 0.081
+      },
+      {
+        "season": 2023,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 14,
+        "runs": 10,
+        "expected_runs": 8.0,
+        "z_score": 1.113
+      },
+      {
+        "season": 2024,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 14,
+        "runs": 4,
+        "expected_runs": 8.0,
+        "z_score": -2.225
+      },
+      {
+        "season": 2024,
+        "team_id": "chennai_super_kings",
+        "games": 14,
+        "runs": 10,
+        "expected_runs": 8.0,
+        "z_score": 1.113
+      },
+      {
+        "season": 2024,
+        "team_id": "delhi_capitals",
+        "games": 14,
+        "runs": 10,
+        "expected_runs": 8.0,
+        "z_score": 1.113
+      },
+      {
+        "season": 2024,
+        "team_id": "punjab_kings",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 7.429,
+        "z_score": 0.349
+      },
+      {
+        "season": 2024,
+        "team_id": "kolkata_knight_riders",
+        "games": 12,
+        "runs": 7,
+        "expected_runs": 5.5,
+        "z_score": 1.254
+      },
+      {
+        "season": 2024,
+        "team_id": "sunrisers_hyderabad",
+        "games": 13,
+        "runs": 8,
+        "expected_runs": 7.154,
+        "z_score": 0.52
+      },
+      {
+        "season": 2024,
+        "team_id": "rajasthan_royals",
+        "games": 13,
+        "runs": 4,
+        "expected_runs": 7.154,
+        "z_score": -1.94
+      },
+      {
+        "season": 2024,
+        "team_id": "lucknow_super_giants",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 8.0,
+        "z_score": 0.0
+      },
+      {
+        "season": 2024,
+        "team_id": "gujarat_titans",
+        "games": 12,
+        "runs": 9,
+        "expected_runs": 6.833,
+        "z_score": 1.353
+      },
+      {
+        "season": 2024,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 6.714,
+        "z_score": 0.198
+      },
+      {
+        "season": 2025,
+        "team_id": "kolkata_knight_riders",
+        "games": 12,
+        "runs": 9,
+        "expected_runs": 6.833,
+        "z_score": 1.353
+      },
+      {
+        "season": 2025,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 13,
+        "runs": 9,
+        "expected_runs": 6.538,
+        "z_score": 1.701
+      },
+      {
+        "season": 2025,
+        "team_id": "sunrisers_hyderabad",
+        "games": 13,
+        "runs": 7,
+        "expected_runs": 7.462,
+        "z_score": -0.269
+      },
+      {
+        "season": 2025,
+        "team_id": "rajasthan_royals",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 6.714,
+        "z_score": -0.496
+      },
+      {
+        "season": 2025,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.857,
+        "z_score": -0.488
+      },
+      {
+        "season": 2025,
+        "team_id": "chennai_super_kings",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 6.714,
+        "z_score": 0.198
+      },
+      {
+        "season": 2025,
+        "team_id": "lucknow_super_giants",
+        "games": 14,
+        "runs": 9,
+        "expected_runs": 7.857,
+        "z_score": 0.65
+      },
+      {
+        "season": 2025,
+        "team_id": "delhi_capitals",
+        "games": 13,
+        "runs": 7,
+        "expected_runs": 7.462,
+        "z_score": -0.269
+      },
+      {
+        "season": 2025,
+        "team_id": "punjab_kings",
+        "games": 13,
+        "runs": 9,
+        "expected_runs": 6.538,
+        "z_score": 1.701
+      },
+      {
+        "season": 2025,
+        "team_id": "gujarat_titans",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.429,
+        "z_score": -0.262
+      },
+      {
+        "season": 2026,
+        "team_id": "sunrisers_hyderabad",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 7.429,
+        "z_score": 0.349
+      },
+      {
+        "season": 2026,
+        "team_id": "royal_challengers_bengaluru",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 7.429,
+        "z_score": 0.349
+      },
+      {
+        "season": 2026,
+        "team_id": "kolkata_knight_riders",
+        "games": 13,
+        "runs": 5,
+        "expected_runs": 7.462,
+        "z_score": -1.435
+      },
+      {
+        "season": 2026,
+        "team_id": "mumbai_indians",
+        "games": 14,
+        "runs": 8,
+        "expected_runs": 6.714,
+        "z_score": 0.893
+      },
+      {
+        "season": 2026,
+        "team_id": "chennai_super_kings",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.857,
+        "z_score": -0.488
+      },
+      {
+        "season": 2026,
+        "team_id": "rajasthan_royals",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 7.857,
+        "z_score": -0.488
+      },
+      {
+        "season": 2026,
+        "team_id": "gujarat_titans",
+        "games": 14,
+        "runs": 6,
+        "expected_runs": 7.429,
+        "z_score": -0.872
+      },
+      {
+        "season": 2026,
+        "team_id": "punjab_kings",
+        "games": 13,
+        "runs": 3,
+        "expected_runs": 7.462,
+        "z_score": -2.602
+      },
+      {
+        "season": 2026,
+        "team_id": "lucknow_super_giants",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 6.714,
+        "z_score": 0.198
+      },
+      {
+        "season": 2026,
+        "team_id": "delhi_capitals",
+        "games": 14,
+        "runs": 7,
+        "expected_runs": 8.0,
+        "z_score": -0.556
+      }
+    ]
+  },
+  "toss_dew_proxy": [
+    {
+      "venue": "Eden Gardens",
+      "matches": 71,
+      "chase_wins": 46,
+      "field_tosses": 45,
+      "field_toss_wins": 31,
+      "chase_win_rate": 0.6479,
+      "field_toss_win_rate": 0.6889
+    },
+    {
+      "venue": "Wankhede Stadium",
+      "matches": 64,
+      "chase_wins": 32,
+      "field_tosses": 44,
+      "field_toss_wins": 22,
+      "chase_win_rate": 0.5,
+      "field_toss_win_rate": 0.5
+    },
+    {
+      "venue": "Wankhede Stadium, Mumbai",
+      "matches": 59,
+      "chase_wins": 35,
+      "field_tosses": 50,
+      "field_toss_wins": 29,
+      "chase_win_rate": 0.5932,
+      "field_toss_win_rate": 0.58
+    },
+    {
+      "venue": "M Chinnaswamy Stadium",
+      "matches": 57,
+      "chase_wins": 33,
+      "field_tosses": 50,
+      "field_toss_wins": 28,
+      "chase_win_rate": 0.5789,
+      "field_toss_win_rate": 0.56
+    },
+    {
+      "venue": "Feroz Shah Kotla",
+      "matches": 55,
+      "chase_wins": 30,
+      "field_tosses": 32,
+      "field_toss_wins": 18,
+      "chase_win_rate": 0.5455,
+      "field_toss_win_rate": 0.5625
+    },
+    {
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "matches": 48,
+      "chase_wins": 30,
+      "field_tosses": 26,
+      "field_toss_wins": 12,
+      "chase_win_rate": 0.625,
+      "field_toss_win_rate": 0.4615
+    },
+    {
+      "venue": "Sawai Mansingh Stadium",
+      "matches": 47,
+      "chase_wins": 32,
+      "field_tosses": 28,
+      "field_toss_wins": 19,
+      "chase_win_rate": 0.6809,
+      "field_toss_win_rate": 0.6786
+    },
+    {
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "matches": 44,
+      "chase_wins": 16,
+      "field_tosses": 12,
+      "field_toss_wins": 4,
+      "chase_win_rate": 0.3636,
+      "field_toss_win_rate": 0.3333
+    },
+    {
+      "venue": "Dubai International Cricket Stadium",
+      "matches": 42,
+      "chase_wins": 21,
+      "field_tosses": 24,
+      "field_toss_wins": 10,
+      "chase_win_rate": 0.5,
+      "field_toss_win_rate": 0.4167
+    },
+    {
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "matches": 37,
+      "chase_wins": 22,
+      "field_tosses": 24,
+      "field_toss_wins": 14,
+      "chase_win_rate": 0.5946,
+      "field_toss_win_rate": 0.5833
+    },
+    {
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "matches": 35,
+      "chase_wins": 20,
+      "field_tosses": 21,
+      "field_toss_wins": 11,
+      "chase_win_rate": 0.5714,
+      "field_toss_win_rate": 0.5238
+    },
+    {
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "matches": 32,
+      "chase_wins": 14,
+      "field_tosses": 26,
+      "field_toss_wins": 11,
+      "chase_win_rate": 0.4375,
+      "field_toss_win_rate": 0.4231
+    },
+    {
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "matches": 30,
+      "chase_wins": 16,
+      "field_tosses": 23,
+      "field_toss_wins": 12,
+      "chase_win_rate": 0.5333,
+      "field_toss_win_rate": 0.5217
+    },
+    {
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "matches": 28,
+      "chase_wins": 16,
+      "field_tosses": 22,
+      "field_toss_wins": 14,
+      "chase_win_rate": 0.5714,
+      "field_toss_win_rate": 0.6364
+    },
+    {
+      "venue": "Sheikh Zayed Stadium",
+      "matches": 27,
+      "chase_wins": 15,
+      "field_tosses": 13,
+      "field_toss_wins": 7,
+      "chase_win_rate": 0.5556,
+      "field_toss_win_rate": 0.5385
+    },
+    {
+      "venue": "Eden Gardens, Kolkata",
+      "matches": 26,
+      "chase_wins": 12,
+      "field_tosses": 21,
+      "field_toss_wins": 8,
+      "chase_win_rate": 0.4615,
+      "field_toss_win_rate": 0.381
+    },
+    {
+      "venue": "Sharjah Cricket Stadium",
+      "matches": 26,
+      "chase_wins": 16,
+      "field_tosses": 19,
+      "field_toss_wins": 12,
+      "chase_win_rate": 0.6154,
+      "field_toss_win_rate": 0.6316
+    },
+    {
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+      "matches": 25,
+      "chase_wins": 12,
+      "field_tosses": 15,
+      "field_toss_wins": 7,
+      "chase_win_rate": 0.48,
+      "field_toss_win_rate": 0.4667
+    },
+    {
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "matches": 24,
+      "chase_wins": 13,
+      "field_tosses": 24,
+      "field_toss_wins": 13,
+      "chase_win_rate": 0.5417,
+      "field_toss_win_rate": 0.5417
+    },
+    {
+      "venue": "Maharashtra Cricket Association Stadium",
+      "matches": 21,
+      "chase_wins": 14,
+      "field_tosses": 20,
+      "field_toss_wins": 13,
+      "chase_win_rate": 0.6667,
+      "field_toss_win_rate": 0.65
+    },
+    {
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "matches": 21,
+      "chase_wins": 12,
+      "field_tosses": 12,
+      "field_toss_wins": 8,
+      "chase_win_rate": 0.5714,
+      "field_toss_win_rate": 0.6667
+    },
+    {
+      "venue": "Dr DY Patil Sports Academy, Mumbai",
+      "matches": 20,
+      "chase_wins": 10,
+      "field_tosses": 17,
+      "field_toss_wins": 9,
+      "chase_win_rate": 0.5,
+      "field_toss_win_rate": 0.5294
+    },
+    {
+      "venue": "Brabourne Stadium, Mumbai",
+      "matches": 17,
+      "chase_wins": 9,
+      "field_tosses": 14,
+      "field_toss_wins": 7,
+      "chase_win_rate": 0.5294,
+      "field_toss_win_rate": 0.5
+    },
+    {
+      "venue": "Kingsmead",
+      "matches": 15,
+      "chase_wins": 7,
+      "field_tosses": 5,
+      "field_toss_wins": 3,
+      "chase_win_rate": 0.4667,
+      "field_toss_win_rate": 0.6
+    },
+    {
+      "venue": "Subrata Roy Sahara Stadium",
+      "matches": 15,
+      "chase_wins": 6,
+      "field_tosses": 1,
+      "field_toss_wins": 0,
+      "chase_win_rate": 0.4,
+      "field_toss_win_rate": 0.0
+    },
+    {
+      "venue": "Arun Jaitley Stadium",
+      "matches": 14,
+      "chase_wins": 7,
+      "field_tosses": 8,
+      "field_toss_wins": 4,
+      "chase_win_rate": 0.5,
+      "field_toss_win_rate": 0.5
+    },
+    {
+      "venue": "M.Chinnaswamy Stadium",
+      "matches": 14,
+      "chase_wins": 7,
+      "field_tosses": 13,
+      "field_toss_wins": 7,
+      "chase_win_rate": 0.5,
+      "field_toss_win_rate": 0.5385
+    },
+    {
+      "venue": "Rajiv Gandhi International Stadium",
+      "matches": 14,
+      "chase_wins": 7,
+      "field_tosses": 10,
+      "field_toss_wins": 3,
+      "chase_win_rate": 0.5,
+      "field_toss_win_rate": 0.3
+    },
+    {
+      "venue": "Maharashtra Cricket Association Stadium, Pune",
+      "matches": 13,
+      "chase_wins": 3,
+      "field_tosses": 11,
+      "field_toss_wins": 3,
+      "chase_win_rate": 0.2308,
+      "field_toss_win_rate": 0.2727
+    },
+    {
+      "venue": "Dr DY Patil Sports Academy",
+      "matches": 12,
+      "chase_wins": 8,
+      "field_tosses": 9,
+      "field_toss_wins": 5,
+      "chase_win_rate": 0.6667,
+      "field_toss_win_rate": 0.5556
+    },
+    {
+      "venue": "Sardar Patel Stadium, Motera",
+      "matches": 12,
+      "chase_wins": 6,
+      "field_tosses": 6,
+      "field_toss_wins": 3,
+      "chase_win_rate": 0.5,
+      "field_toss_win_rate": 0.5
+    },
+    {
+      "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+      "matches": 11,
+      "chase_wins": 5,
+      "field_tosses": 6,
+      "field_toss_wins": 2,
+      "chase_win_rate": 0.4545,
+      "field_toss_win_rate": 0.3333
+    },
+    {
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "matches": 11,
+      "chase_wins": 6,
+      "field_tosses": 9,
+      "field_toss_wins": 4,
+      "chase_win_rate": 0.5455,
+      "field_toss_win_rate": 0.4444
+    },
+    {
+      "venue": "SuperSport Park",
+      "matches": 11,
+      "chase_wins": 7,
+      "field_tosses": 5,
+      "field_toss_wins": 4,
+      "chase_win_rate": 0.6364,
+      "field_toss_win_rate": 0.8
+    },
+    {
+      "venue": "Punjab Cricket Association IS Bindra Stadium",
+      "matches": 10,
+      "chase_wins": 6,
+      "field_tosses": 9,
+      "field_toss_wins": 6,
+      "chase_win_rate": 0.6,
+      "field_toss_win_rate": 0.6667
+    },
+    {
+      "venue": "Saurashtra Cricket Association Stadium",
+      "matches": 10,
+      "chase_wins": 7,
+      "field_tosses": 7,
+      "field_toss_wins": 4,
+      "chase_win_rate": 0.7,
+      "field_toss_win_rate": 0.5714
+    },
+    {
+      "venue": "Brabourne Stadium",
+      "matches": 9,
+      "chase_wins": 3,
+      "field_tosses": 3,
+      "field_toss_wins": 1,
+      "chase_win_rate": 0.3333,
+      "field_toss_win_rate": 0.3333
+    },
+    {
+      "venue": "Himachal Pradesh Cricket Association Stadium",
+      "matches": 9,
+      "chase_wins": 4,
+      "field_tosses": 8,
+      "field_toss_wins": 4,
+      "chase_win_rate": 0.4444,
+      "field_toss_win_rate": 0.5
+    },
+    {
+      "venue": "Holkar Cricket Stadium",
+      "matches": 9,
+      "chase_wins": 8,
+      "field_tosses": 8,
+      "field_toss_wins": 7,
+      "chase_win_rate": 0.8889,
+      "field_toss_win_rate": 0.875
+    },
+    {
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+      "matches": 9,
+      "chase_wins": 4,
+      "field_tosses": 6,
+      "field_toss_wins": 3,
+      "chase_win_rate": 0.4444,
+      "field_toss_win_rate": 0.5
+    },
+    {
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "matches": 8,
+      "chase_wins": 4,
+      "field_tosses": 7,
+      "field_toss_wins": 3,
+      "chase_win_rate": 0.5,
+      "field_toss_win_rate": 0.4286
+    },
+    {
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+      "matches": 8,
+      "chase_wins": 3,
+      "field_tosses": 8,
+      "field_toss_wins": 3,
+      "chase_win_rate": 0.375,
+      "field_toss_win_rate": 0.375
+    },
+    {
+      "venue": "MA Chidambaram Stadium",
+      "matches": 8,
+      "chase_wins": 4,
+      "field_tosses": 7,
+      "field_toss_wins": 4,
+      "chase_win_rate": 0.5,
+      "field_toss_win_rate": 0.5714
+    },
+    {
+      "venue": "Zayed Cricket Stadium, Abu Dhabi",
+      "matches": 8,
+      "chase_wins": 5,
+      "field_tosses": 5,
+      "field_toss_wins": 3,
+      "chase_win_rate": 0.625,
+      "field_toss_win_rate": 0.6
+    },
+    {
+      "venue": "Barabati Stadium",
+      "matches": 7,
+      "chase_wins": 3,
+      "field_tosses": 5,
+      "field_toss_wins": 3,
+      "chase_win_rate": 0.4286,
+      "field_toss_win_rate": 0.6
+    },
+    {
+      "venue": "Newlands",
+      "matches": 7,
+      "chase_wins": 2,
+      "field_tosses": 3,
+      "field_toss_wins": 1,
+      "chase_win_rate": 0.2857,
+      "field_toss_win_rate": 0.3333
+    },
+    {
+      "venue": "St George's Park",
+      "matches": 7,
+      "chase_wins": 4,
+      "field_tosses": 0,
+      "field_toss_wins": 0,
+      "chase_win_rate": 0.5714,
+      "field_toss_win_rate": null
+    },
+    {
+      "venue": "JSCA International Stadium Complex",
+      "matches": 6,
+      "chase_wins": 4,
+      "field_tosses": 3,
+      "field_toss_wins": 2,
+      "chase_win_rate": 0.6667,
+      "field_toss_win_rate": 0.6667
+    },
+    {
+      "venue": "New Wanderers Stadium",
+      "matches": 6,
+      "chase_wins": 4,
+      "field_tosses": 4,
+      "field_toss_wins": 2,
+      "chase_win_rate": 0.6667,
+      "field_toss_win_rate": 0.5
+    },
+    {
+      "venue": "Shaheed Veer Narayan Singh International Stadium",
+      "matches": 6,
+      "chase_wins": 4,
+      "field_tosses": 3,
+      "field_toss_wins": 2,
+      "chase_win_rate": 0.6667,
+      "field_toss_win_rate": 0.6667
+    },
+    {
+      "venue": "Nehru Stadium",
+      "matches": 5,
+      "chase_wins": 2,
+      "field_tosses": 3,
+      "field_toss_wins": 1,
+      "chase_win_rate": 0.4,
+      "field_toss_win_rate": 0.3333
+    },
+    {
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+      "matches": 5,
+      "chase_wins": 2,
+      "field_tosses": 5,
+      "field_toss_wins": 2,
+      "chase_win_rate": 0.4,
+      "field_toss_win_rate": 0.4
+    },
+    {
+      "venue": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
+      "matches": 4,
+      "chase_wins": 2,
+      "field_tosses": 1,
+      "field_toss_wins": 1,
+      "chase_win_rate": 0.5,
+      "field_toss_win_rate": 1.0
+    },
+    {
+      "venue": "Green Park",
+      "matches": 4,
+      "chase_wins": 4,
+      "field_tosses": 4,
+      "field_toss_wins": 4,
+      "chase_win_rate": 1.0,
+      "field_toss_win_rate": 1.0
+    },
+    {
+      "venue": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+      "matches": 4,
+      "chase_wins": 3,
+      "field_tosses": 4,
+      "field_toss_wins": 3,
+      "chase_win_rate": 0.75,
+      "field_toss_win_rate": 0.75
+    },
+    {
+      "venue": "Buffalo Park",
+      "matches": 3,
+      "chase_wins": 1,
+      "field_tosses": 0,
+      "field_toss_wins": 0,
+      "chase_win_rate": 0.3333,
+      "field_toss_win_rate": null
+    },
+    {
+      "venue": "De Beers Diamond Oval",
+      "matches": 3,
+      "chase_wins": 2,
+      "field_tosses": 1,
+      "field_toss_wins": 1,
+      "chase_win_rate": 0.6667,
+      "field_toss_win_rate": 1.0
+    },
+    {
+      "venue": "Vidarbha Cricket Association Stadium, Jamtha",
+      "matches": 3,
+      "chase_wins": 1,
+      "field_tosses": 1,
+      "field_toss_wins": 0,
+      "chase_win_rate": 0.3333,
+      "field_toss_win_rate": 0.0
+    },
+    {
+      "venue": "OUTsurance Oval",
+      "matches": 2,
+      "chase_wins": 1,
+      "field_tosses": 1,
+      "field_toss_wins": 1,
+      "chase_win_rate": 0.5,
+      "field_toss_win_rate": 1.0
+    },
+    {
+      "venue": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+      "matches": 2,
+      "chase_wins": 2,
+      "field_tosses": 2,
+      "field_toss_wins": 2,
+      "chase_win_rate": 1.0,
+      "field_toss_win_rate": 1.0
+    }
+  ],
+  "regression_to_mean": {
+    "pairs": 149,
+    "correlation": 0.216,
+    "persistence_slope": 0.214
+  }
+}

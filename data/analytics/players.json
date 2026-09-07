@@ -1,0 +1,3844 @@
+{
+  "schema_version": 1,
+  "method": "Batting runs above venue/phase par + bowling runs saved + 15 runs per bowler-credited wicket.",
+  "seasons": {
+    "2008": [
+      {
+        "player": "Sohail Tanvir",
+        "matches": 11,
+        "batting_runs_above_par": -1.87,
+        "bowling_runs_saved": 74.65,
+        "bowler_wickets": 22,
+        "impact_runs": 402.78
+      },
+      {
+        "player": "SR Watson",
+        "matches": 15,
+        "batting_runs_above_par": 57.29,
+        "bowling_runs_saved": 59.4,
+        "bowler_wickets": 17,
+        "impact_runs": 371.69
+      },
+      {
+        "player": "MS Gony",
+        "matches": 16,
+        "batting_runs_above_par": -0.21,
+        "bowling_runs_saved": 43.24,
+        "bowler_wickets": 17,
+        "impact_runs": 298.03
+      },
+      {
+        "player": "SK Warne",
+        "matches": 15,
+        "batting_runs_above_par": -22.56,
+        "bowling_runs_saved": 28.9,
+        "bowler_wickets": 19,
+        "impact_runs": 291.34
+      },
+      {
+        "player": "MF Maharoof",
+        "matches": 10,
+        "batting_runs_above_par": 2.39,
+        "bowling_runs_saved": 63.53,
+        "bowler_wickets": 15,
+        "impact_runs": 290.92
+      },
+      {
+        "player": "IK Pathan",
+        "matches": 14,
+        "batting_runs_above_par": -44.34,
+        "bowling_runs_saved": 104.74,
+        "bowler_wickets": 15,
+        "impact_runs": 285.39
+      },
+      {
+        "player": "GD McGrath",
+        "matches": 14,
+        "batting_runs_above_par": -4.34,
+        "bowling_runs_saved": 108.95,
+        "bowler_wickets": 12,
+        "impact_runs": 284.61
+      },
+      {
+        "player": "JA Morkel",
+        "matches": 13,
+        "batting_runs_above_par": -2.27,
+        "bowling_runs_saved": 18.67,
+        "bowler_wickets": 17,
+        "impact_runs": 271.39
+      },
+      {
+        "player": "S Sreesanth",
+        "matches": 15,
+        "batting_runs_above_par": -5.21,
+        "bowling_runs_saved": -9.89,
+        "bowler_wickets": 19,
+        "impact_runs": 269.9
+      },
+      {
+        "player": "PP Chawla",
+        "matches": 15,
+        "batting_runs_above_par": -0.27,
+        "bowling_runs_saved": 5.38,
+        "bowler_wickets": 17,
+        "impact_runs": 260.12
+      },
+      {
+        "player": "M Muralitharan",
+        "matches": 15,
+        "batting_runs_above_par": -4.75,
+        "bowling_runs_saved": 86.53,
+        "bowler_wickets": 11,
+        "impact_runs": 246.78
+      },
+      {
+        "player": "MM Patel",
+        "matches": 15,
+        "batting_runs_above_par": -1.54,
+        "bowling_runs_saved": 28.63,
+        "bowler_wickets": 14,
+        "impact_runs": 237.09
+      },
+      {
+        "player": "YK Pathan",
+        "matches": 16,
+        "batting_runs_above_par": 106.32,
+        "bowling_runs_saved": -1.76,
+        "bowler_wickets": 8,
+        "impact_runs": 224.56
+      },
+      {
+        "player": "SM Pollock",
+        "matches": 13,
+        "batting_runs_above_par": -17.21,
+        "bowling_runs_saved": 63.41,
+        "bowler_wickets": 11,
+        "impact_runs": 211.2
+      },
+      {
+        "player": "RP Singh",
+        "matches": 14,
+        "batting_runs_above_par": -16.4,
+        "bowling_runs_saved": 0.42,
+        "bowler_wickets": 15,
+        "impact_runs": 209.02
+      },
+      {
+        "player": "VY Mahesh",
+        "matches": 11,
+        "batting_runs_above_par": -26.41,
+        "bowling_runs_saved": -10.27,
+        "bowler_wickets": 16,
+        "impact_runs": 203.32
+      },
+      {
+        "player": "DW Steyn",
+        "matches": 10,
+        "batting_runs_above_par": -5.95,
+        "bowling_runs_saved": 57.39,
+        "bowler_wickets": 10,
+        "impact_runs": 201.44
+      },
+      {
+        "player": "Umar Gul",
+        "matches": 6,
+        "batting_runs_above_par": 8.63,
+        "bowling_runs_saved": 4.08,
+        "bowler_wickets": 12,
+        "impact_runs": 192.71
+      },
+      {
+        "player": "PP Ojha",
+        "matches": 12,
+        "batting_runs_above_par": -4.69,
+        "bowling_runs_saved": 32.11,
+        "bowler_wickets": 11,
+        "impact_runs": 192.42
+      },
+      {
+        "player": "A Nehra",
+        "matches": 14,
+        "batting_runs_above_par": -17.3,
+        "bowling_runs_saved": 26.91,
+        "bowler_wickets": 12,
+        "impact_runs": 189.61
+      },
+      {
+        "player": "ST Jayasuriya",
+        "matches": 14,
+        "batting_runs_above_par": 107.55,
+        "bowling_runs_saved": 14.44,
+        "bowler_wickets": 4,
+        "impact_runs": 181.99
+      },
+      {
+        "player": "SK Trivedi",
+        "matches": 15,
+        "batting_runs_above_par": -14.54,
+        "bowling_runs_saved": -3.8,
+        "bowler_wickets": 13,
+        "impact_runs": 176.66
+      },
+      {
+        "player": "Shahid Afridi",
+        "matches": 10,
+        "batting_runs_above_par": 13.35,
+        "bowling_runs_saved": 28.26,
+        "bowler_wickets": 9,
+        "impact_runs": 176.61
+      },
+      {
+        "player": "A Mishra",
+        "matches": 6,
+        "batting_runs_above_par": -18.87,
+        "bowling_runs_saved": 28.99,
+        "bowler_wickets": 11,
+        "impact_runs": 175.11
+      },
+      {
+        "player": "DJ Bravo",
+        "matches": 9,
+        "batting_runs_above_par": -5.63,
+        "bowling_runs_saved": 13.75,
+        "bowler_wickets": 11,
+        "impact_runs": 173.12
+      }
+    ],
+    "2009": [
+      {
+        "player": "A Kumble",
+        "matches": 16,
+        "batting_runs_above_par": -10.78,
+        "bowling_runs_saved": 85.09,
+        "bowler_wickets": 21,
+        "impact_runs": 389.31
+      },
+      {
+        "player": "RP Singh",
+        "matches": 16,
+        "batting_runs_above_par": -15.1,
+        "bowling_runs_saved": 55.57,
+        "bowler_wickets": 23,
+        "impact_runs": 385.48
+      },
+      {
+        "player": "SL Malinga",
+        "matches": 13,
+        "batting_runs_above_par": -1.45,
+        "bowling_runs_saved": 84.43,
+        "bowler_wickets": 18,
+        "impact_runs": 352.99
+      },
+      {
+        "player": "A Nehra",
+        "matches": 13,
+        "batting_runs_above_par": -0.46,
+        "bowling_runs_saved": 52.54,
+        "bowler_wickets": 19,
+        "impact_runs": 337.09
+      },
+      {
+        "player": "M Muralitharan",
+        "matches": 13,
+        "batting_runs_above_par": -4.07,
+        "bowling_runs_saved": 101.3,
+        "bowler_wickets": 14,
+        "impact_runs": 307.22
+      },
+      {
+        "player": "PP Ojha",
+        "matches": 15,
+        "batting_runs_above_par": -8.49,
+        "bowling_runs_saved": 43.79,
+        "bowler_wickets": 18,
+        "impact_runs": 305.3
+      },
+      {
+        "player": "IK Pathan",
+        "matches": 14,
+        "batting_runs_above_par": -11.02,
+        "bowling_runs_saved": 16.32,
+        "bowler_wickets": 17,
+        "impact_runs": 260.3
+      },
+      {
+        "player": "MM Patel",
+        "matches": 11,
+        "batting_runs_above_par": -5.44,
+        "bowling_runs_saved": 22.29,
+        "bowler_wickets": 16,
+        "impact_runs": 256.85
+      },
+      {
+        "player": "Harbhajan Singh",
+        "matches": 13,
+        "batting_runs_above_par": 9.74,
+        "bowling_runs_saved": 60.04,
+        "bowler_wickets": 12,
+        "impact_runs": 249.78
+      },
+      {
+        "player": "DP Nannes",
+        "matches": 13,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 15.08,
+        "bowler_wickets": 15,
+        "impact_runs": 240.08
+      },
+      {
+        "player": "A Mishra",
+        "matches": 11,
+        "batting_runs_above_par": -5.36,
+        "bowling_runs_saved": 8.08,
+        "bowler_wickets": 14,
+        "impact_runs": 212.73
+      },
+      {
+        "player": "PJ Sangwan",
+        "matches": 13,
+        "batting_runs_above_par": -9.21,
+        "bowling_runs_saved": -12.09,
+        "bowler_wickets": 15,
+        "impact_runs": 203.71
+      },
+      {
+        "player": "SK Raina",
+        "matches": 14,
+        "batting_runs_above_par": 54.84,
+        "bowling_runs_saved": 39.81,
+        "bowler_wickets": 7,
+        "impact_runs": 199.65
+      },
+      {
+        "player": "SB Jakati",
+        "matches": 8,
+        "batting_runs_above_par": -2.7,
+        "bowling_runs_saved": -2.01,
+        "bowler_wickets": 13,
+        "impact_runs": 190.29
+      },
+      {
+        "player": "I Sharma",
+        "matches": 11,
+        "batting_runs_above_par": -2.34,
+        "bowling_runs_saved": 27.56,
+        "bowler_wickets": 11,
+        "impact_runs": 190.21
+      },
+      {
+        "player": "YA Abdulla",
+        "matches": 9,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": -26.23,
+        "bowler_wickets": 14,
+        "impact_runs": 183.77
+      },
+      {
+        "player": "SK Warne",
+        "matches": 13,
+        "batting_runs_above_par": -46.13,
+        "bowling_runs_saved": 19.23,
+        "bowler_wickets": 14,
+        "impact_runs": 183.1
+      },
+      {
+        "player": "P Kumar",
+        "matches": 13,
+        "batting_runs_above_par": -2.71,
+        "bowling_runs_saved": -11.08,
+        "bowler_wickets": 13,
+        "impact_runs": 181.2
+      },
+      {
+        "player": "A Singh",
+        "matches": 5,
+        "batting_runs_above_par": -3.35,
+        "bowling_runs_saved": 41.2,
+        "bowler_wickets": 9,
+        "impact_runs": 172.85
+      },
+      {
+        "player": "L Balaji",
+        "matches": 13,
+        "batting_runs_above_par": -10.84,
+        "bowling_runs_saved": -17.17,
+        "bowler_wickets": 13,
+        "impact_runs": 166.99
+      },
+      {
+        "player": "PP Chawla",
+        "matches": 14,
+        "batting_runs_above_par": -20.54,
+        "bowling_runs_saved": 7.25,
+        "bowler_wickets": 12,
+        "impact_runs": 166.71
+      },
+      {
+        "player": "A Symonds",
+        "matches": 8,
+        "batting_runs_above_par": 47.43,
+        "bowling_runs_saved": 13.76,
+        "bowler_wickets": 7,
+        "impact_runs": 166.19
+      },
+      {
+        "player": "JA Morkel",
+        "matches": 12,
+        "batting_runs_above_par": -6.83,
+        "bowling_runs_saved": -27.49,
+        "bowler_wickets": 13,
+        "impact_runs": 160.68
+      },
+      {
+        "player": "R Bhatia",
+        "matches": 8,
+        "batting_runs_above_par": -19.66,
+        "bowling_runs_saved": 20.8,
+        "bowler_wickets": 10,
+        "impact_runs": 151.15
+      },
+      {
+        "player": "RE van der Merwe",
+        "matches": 10,
+        "batting_runs_above_par": -2.05,
+        "bowling_runs_saved": 13.73,
+        "bowler_wickets": 9,
+        "impact_runs": 146.67
+      }
+    ],
+    "2010": [
+      {
+        "player": "A Kumble",
+        "matches": 16,
+        "batting_runs_above_par": -11.32,
+        "bowling_runs_saved": 108.72,
+        "bowler_wickets": 17,
+        "impact_runs": 352.4
+      },
+      {
+        "player": "PP Ojha",
+        "matches": 16,
+        "batting_runs_above_par": -10.24,
+        "bowling_runs_saved": 25.13,
+        "bowler_wickets": 21,
+        "impact_runs": 329.89
+      },
+      {
+        "player": "Harbhajan Singh",
+        "matches": 15,
+        "batting_runs_above_par": 9.54,
+        "bowling_runs_saved": 49.28,
+        "bowler_wickets": 17,
+        "impact_runs": 313.81
+      },
+      {
+        "player": "SL Malinga",
+        "matches": 13,
+        "batting_runs_above_par": -0.64,
+        "bowling_runs_saved": 80.79,
+        "bowler_wickets": 15,
+        "impact_runs": 305.15
+      },
+      {
+        "player": "KA Pollard",
+        "matches": 14,
+        "batting_runs_above_par": 55.09,
+        "bowling_runs_saved": 15.81,
+        "bowler_wickets": 15,
+        "impact_runs": 295.9
+      },
+      {
+        "player": "M Muralitharan",
+        "matches": 12,
+        "batting_runs_above_par": -2.16,
+        "bowling_runs_saved": 57.91,
+        "bowler_wickets": 16,
+        "impact_runs": 295.75
+      },
+      {
+        "player": "DW Steyn",
+        "matches": 15,
+        "batting_runs_above_par": -15.89,
+        "bowling_runs_saved": 86.53,
+        "bowler_wickets": 15,
+        "impact_runs": 295.63
+      },
+      {
+        "player": "A Mishra",
+        "matches": 14,
+        "batting_runs_above_par": -31.79,
+        "bowling_runs_saved": 60.24,
+        "bowler_wickets": 17,
+        "impact_runs": 283.45
+      },
+      {
+        "player": "R Ashwin",
+        "matches": 12,
+        "batting_runs_above_par": -30.53,
+        "bowling_runs_saved": 105.49,
+        "bowler_wickets": 13,
+        "impact_runs": 269.96
+      },
+      {
+        "player": "Z Khan",
+        "matches": 14,
+        "batting_runs_above_par": 2.22,
+        "bowling_runs_saved": 41.59,
+        "bowler_wickets": 15,
+        "impact_runs": 268.81
+      },
+      {
+        "player": "DE Bollinger",
+        "matches": 8,
+        "batting_runs_above_par": -6.71,
+        "bowling_runs_saved": 61.89,
+        "bowler_wickets": 12,
+        "impact_runs": 235.18
+      },
+      {
+        "player": "RJ Harris",
+        "matches": 8,
+        "batting_runs_above_par": -13.16,
+        "bowling_runs_saved": 25.9,
+        "bowler_wickets": 14,
+        "impact_runs": 222.74
+      },
+      {
+        "player": "R Vinay Kumar",
+        "matches": 14,
+        "batting_runs_above_par": -24.8,
+        "bowling_runs_saved": -1.02,
+        "bowler_wickets": 16,
+        "impact_runs": 214.18
+      },
+      {
+        "player": "A Symonds",
+        "matches": 16,
+        "batting_runs_above_par": -23.18,
+        "bowling_runs_saved": 56.58,
+        "bowler_wickets": 12,
+        "impact_runs": 213.39
+      },
+      {
+        "player": "SB Jakati",
+        "matches": 11,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 7.29,
+        "bowler_wickets": 13,
+        "impact_runs": 202.29
+      },
+      {
+        "player": "IK Pathan",
+        "matches": 14,
+        "batting_runs_above_par": 4.07,
+        "bowling_runs_saved": -34.82,
+        "bowler_wickets": 15,
+        "impact_runs": 194.25
+      },
+      {
+        "player": "SK Trivedi",
+        "matches": 11,
+        "batting_runs_above_par": -0.51,
+        "bowling_runs_saved": 22.98,
+        "bowler_wickets": 11,
+        "impact_runs": 187.47
+      },
+      {
+        "player": "M Kartik",
+        "matches": 10,
+        "batting_runs_above_par": -9.91,
+        "bowling_runs_saved": 56.84,
+        "bowler_wickets": 9,
+        "impact_runs": 181.93
+      },
+      {
+        "player": "PP Chawla",
+        "matches": 14,
+        "batting_runs_above_par": -29.96,
+        "bowling_runs_saved": 30.49,
+        "bowler_wickets": 12,
+        "impact_runs": 180.53
+      },
+      {
+        "player": "YK Pathan",
+        "matches": 14,
+        "batting_runs_above_par": 77.81,
+        "bowling_runs_saved": 25.26,
+        "bowler_wickets": 5,
+        "impact_runs": 178.07
+      },
+      {
+        "player": "AB Dinda",
+        "matches": 7,
+        "batting_runs_above_par": -1.75,
+        "bowling_runs_saved": 34.91,
+        "bowler_wickets": 9,
+        "impact_runs": 168.16
+      },
+      {
+        "player": "SE Bond",
+        "matches": 8,
+        "batting_runs_above_par": -1.53,
+        "bowling_runs_saved": 33.57,
+        "bowler_wickets": 9,
+        "impact_runs": 167.05
+      },
+      {
+        "player": "JA Morkel",
+        "matches": 14,
+        "batting_runs_above_par": 4.18,
+        "bowling_runs_saved": -7.14,
+        "bowler_wickets": 11,
+        "impact_runs": 162.04
+      },
+      {
+        "player": "RP Singh",
+        "matches": 12,
+        "batting_runs_above_par": -20.42,
+        "bowling_runs_saved": -15.99,
+        "bowler_wickets": 13,
+        "impact_runs": 158.59
+      },
+      {
+        "player": "DP Nannes",
+        "matches": 9,
+        "batting_runs_above_par": -14.76,
+        "bowling_runs_saved": 67.15,
+        "bowler_wickets": 7,
+        "impact_runs": 157.39
+      }
+    ],
+    "2011": [
+      {
+        "player": "SL Malinga",
+        "matches": 16,
+        "batting_runs_above_par": -5.2,
+        "bowling_runs_saved": 121.79,
+        "bowler_wickets": 28,
+        "impact_runs": 536.59
+      },
+      {
+        "player": "R Ashwin",
+        "matches": 16,
+        "batting_runs_above_par": -7.07,
+        "bowling_runs_saved": 92.7,
+        "bowler_wickets": 20,
+        "impact_runs": 385.63
+      },
+      {
+        "player": "MM Patel",
+        "matches": 15,
+        "batting_runs_above_par": -1.39,
+        "bowling_runs_saved": 49.66,
+        "bowler_wickets": 22,
+        "impact_runs": 378.26
+      },
+      {
+        "player": "CH Gayle",
+        "matches": 12,
+        "batting_runs_above_par": 204.85,
+        "bowling_runs_saved": 35.76,
+        "bowler_wickets": 8,
+        "impact_runs": 360.61
+      },
+      {
+        "player": "A Mishra",
+        "matches": 14,
+        "batting_runs_above_par": -9.52,
+        "bowling_runs_saved": 67.34,
+        "bowler_wickets": 19,
+        "impact_runs": 342.82
+      },
+      {
+        "player": "R Sharma",
+        "matches": 14,
+        "batting_runs_above_par": -8.13,
+        "bowling_runs_saved": 105.01,
+        "bowler_wickets": 16,
+        "impact_runs": 336.87
+      },
+      {
+        "player": "DE Bollinger",
+        "matches": 13,
+        "batting_runs_above_par": -1.55,
+        "bowling_runs_saved": 51.53,
+        "bowler_wickets": 17,
+        "impact_runs": 304.99
+      },
+      {
+        "player": "S Aravind",
+        "matches": 13,
+        "batting_runs_above_par": 0.52,
+        "bowling_runs_saved": -11.53,
+        "bowler_wickets": 21,
+        "impact_runs": 303.99
+      },
+      {
+        "player": "Iqbal Abdulla",
+        "matches": 15,
+        "batting_runs_above_par": -3.29,
+        "bowling_runs_saved": 61.04,
+        "bowler_wickets": 16,
+        "impact_runs": 297.74
+      },
+      {
+        "player": "YK Pathan",
+        "matches": 15,
+        "batting_runs_above_par": 21.26,
+        "bowling_runs_saved": 40.63,
+        "bowler_wickets": 13,
+        "impact_runs": 256.89
+      },
+      {
+        "player": "Harbhajan Singh",
+        "matches": 15,
+        "batting_runs_above_par": 8.98,
+        "bowling_runs_saved": 33.58,
+        "bowler_wickets": 14,
+        "impact_runs": 252.55
+      },
+      {
+        "player": "DW Steyn",
+        "matches": 12,
+        "batting_runs_above_par": -19.35,
+        "bowling_runs_saved": 61.76,
+        "bowler_wickets": 14,
+        "impact_runs": 252.41
+      },
+      {
+        "player": "DL Vettori",
+        "matches": 13,
+        "batting_runs_above_par": -17.51,
+        "bowling_runs_saved": 80.95,
+        "bowler_wickets": 12,
+        "impact_runs": 243.45
+      },
+      {
+        "player": "SK Warne",
+        "matches": 13,
+        "batting_runs_above_par": -16.15,
+        "bowling_runs_saved": 51.5,
+        "bowler_wickets": 13,
+        "impact_runs": 230.35
+      },
+      {
+        "player": "RP Singh",
+        "matches": 14,
+        "batting_runs_above_par": -4.07,
+        "bowling_runs_saved": 32.11,
+        "bowler_wickets": 13,
+        "impact_runs": 223.04
+      },
+      {
+        "player": "RJ Harris",
+        "matches": 13,
+        "batting_runs_above_par": -21.48,
+        "bowling_runs_saved": -1.07,
+        "bowler_wickets": 16,
+        "impact_runs": 217.45
+      },
+      {
+        "player": "PP Chawla",
+        "matches": 12,
+        "batting_runs_above_par": -26.38,
+        "bowling_runs_saved": 0.92,
+        "bowler_wickets": 16,
+        "impact_runs": 214.54
+      },
+      {
+        "player": "M Morkel",
+        "matches": 11,
+        "batting_runs_above_par": 3.49,
+        "bowling_runs_saved": 9.44,
+        "bowler_wickets": 13,
+        "impact_runs": 207.93
+      },
+      {
+        "player": "Z Khan",
+        "matches": 15,
+        "batting_runs_above_par": -13.35,
+        "bowling_runs_saved": 9.85,
+        "bowler_wickets": 14,
+        "impact_runs": 206.5
+      },
+      {
+        "player": "I Sharma",
+        "matches": 12,
+        "batting_runs_above_par": -3.92,
+        "bowling_runs_saved": 22.54,
+        "bowler_wickets": 11,
+        "impact_runs": 183.62
+      },
+      {
+        "player": "Shakib Al Hasan",
+        "matches": 7,
+        "batting_runs_above_par": -1.27,
+        "bowling_runs_saved": 10.79,
+        "bowler_wickets": 11,
+        "impact_runs": 174.52
+      },
+      {
+        "player": "PP Ojha",
+        "matches": 10,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 19.9,
+        "bowler_wickets": 10,
+        "impact_runs": 169.9
+      },
+      {
+        "player": "JA Morkel",
+        "matches": 15,
+        "batting_runs_above_par": -10.66,
+        "bowling_runs_saved": -45.58,
+        "bowler_wickets": 15,
+        "impact_runs": 168.76
+      },
+      {
+        "player": "Yuvraj Singh",
+        "matches": 14,
+        "batting_runs_above_par": 8.7,
+        "bowling_runs_saved": 24.89,
+        "bowler_wickets": 9,
+        "impact_runs": 168.59
+      },
+      {
+        "player": "R Vinay Kumar",
+        "matches": 13,
+        "batting_runs_above_par": -15.69,
+        "bowling_runs_saved": 3.57,
+        "bowler_wickets": 12,
+        "impact_runs": 167.89
+      }
+    ],
+    "2012": [
+      {
+        "player": "SP Narine",
+        "matches": 15,
+        "batting_runs_above_par": -1.02,
+        "bowling_runs_saved": 156.48,
+        "bowler_wickets": 24,
+        "impact_runs": 515.46
+      },
+      {
+        "player": "M Morkel",
+        "matches": 16,
+        "batting_runs_above_par": -5.28,
+        "bowling_runs_saved": 57.27,
+        "bowler_wickets": 25,
+        "impact_runs": 426.99
+      },
+      {
+        "player": "SL Malinga",
+        "matches": 14,
+        "batting_runs_above_par": -26.61,
+        "bowling_runs_saved": 92.36,
+        "bowler_wickets": 22,
+        "impact_runs": 395.76
+      },
+      {
+        "player": "DW Steyn",
+        "matches": 12,
+        "batting_runs_above_par": -12.78,
+        "bowling_runs_saved": 90.34,
+        "bowler_wickets": 18,
+        "impact_runs": 347.56
+      },
+      {
+        "player": "UT Yadav",
+        "matches": 17,
+        "batting_runs_above_par": -8.5,
+        "bowling_runs_saved": 42.98,
+        "bowler_wickets": 19,
+        "impact_runs": 319.49
+      },
+      {
+        "player": "Z Khan",
+        "matches": 15,
+        "batting_runs_above_par": -17.0,
+        "bowling_runs_saved": 40.38,
+        "bowler_wickets": 17,
+        "impact_runs": 278.38
+      },
+      {
+        "player": "M Muralitharan",
+        "matches": 10,
+        "batting_runs_above_par": -9.58,
+        "bowling_runs_saved": 55.31,
+        "bowler_wickets": 15,
+        "impact_runs": 270.73
+      },
+      {
+        "player": "R Ashwin",
+        "matches": 18,
+        "batting_runs_above_par": -4.55,
+        "bowling_runs_saved": 64.75,
+        "bowler_wickets": 14,
+        "impact_runs": 270.19
+      },
+      {
+        "player": "P Awana",
+        "matches": 12,
+        "batting_runs_above_par": -3.75,
+        "bowling_runs_saved": -2.23,
+        "bowler_wickets": 17,
+        "impact_runs": 249.02
+      },
+      {
+        "player": "BW Hilfenhaus",
+        "matches": 9,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 25.11,
+        "bowler_wickets": 14,
+        "impact_runs": 235.11
+      },
+      {
+        "player": "R Vinay Kumar",
+        "matches": 14,
+        "batting_runs_above_par": -33.34,
+        "bowling_runs_saved": -17.51,
+        "bowler_wickets": 19,
+        "impact_runs": 234.15
+      },
+      {
+        "player": "PP Chawla",
+        "matches": 16,
+        "batting_runs_above_par": -28.03,
+        "bowling_runs_saved": 19.18,
+        "bowler_wickets": 16,
+        "impact_runs": 231.16
+      },
+      {
+        "player": "L Balaji",
+        "matches": 8,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 65.36,
+        "bowler_wickets": 11,
+        "impact_runs": 230.36
+      },
+      {
+        "player": "KA Pollard",
+        "matches": 14,
+        "batting_runs_above_par": 3.76,
+        "bowling_runs_saved": -14.49,
+        "bowler_wickets": 16,
+        "impact_runs": 229.27
+      },
+      {
+        "player": "Azhar Mahmood",
+        "matches": 11,
+        "batting_runs_above_par": -4.24,
+        "bowling_runs_saved": 21.97,
+        "bowler_wickets": 14,
+        "impact_runs": 227.72
+      },
+      {
+        "player": "SK Trivedi",
+        "matches": 14,
+        "batting_runs_above_par": -3.3,
+        "bowling_runs_saved": 29.5,
+        "bowler_wickets": 13,
+        "impact_runs": 221.2
+      },
+      {
+        "player": "DJ Bravo",
+        "matches": 18,
+        "batting_runs_above_par": 4.13,
+        "bowling_runs_saved": -8.14,
+        "bowler_wickets": 15,
+        "impact_runs": 220.99
+      },
+      {
+        "player": "R Bhatia",
+        "matches": 17,
+        "batting_runs_above_par": -1.78,
+        "bowling_runs_saved": 19.74,
+        "bowler_wickets": 13,
+        "impact_runs": 212.96
+      },
+      {
+        "player": "Shakib Al Hasan",
+        "matches": 8,
+        "batting_runs_above_par": -5.32,
+        "bowling_runs_saved": 37.41,
+        "bowler_wickets": 12,
+        "impact_runs": 212.09
+      },
+      {
+        "player": "MM Patel",
+        "matches": 12,
+        "batting_runs_above_par": -7.69,
+        "bowling_runs_saved": -16.8,
+        "bowler_wickets": 15,
+        "impact_runs": 200.51
+      },
+      {
+        "player": "JA Morkel",
+        "matches": 15,
+        "batting_runs_above_par": 8.81,
+        "bowling_runs_saved": -11.75,
+        "bowler_wickets": 13,
+        "impact_runs": 192.06
+      },
+      {
+        "player": "KK Cooper",
+        "matches": 6,
+        "batting_runs_above_par": 7.37,
+        "bowling_runs_saved": 26.56,
+        "bowler_wickets": 10,
+        "impact_runs": 183.94
+      },
+      {
+        "player": "RA Jadeja",
+        "matches": 16,
+        "batting_runs_above_par": -12.49,
+        "bowling_runs_saved": 5.97,
+        "bowler_wickets": 12,
+        "impact_runs": 173.48
+      },
+      {
+        "player": "GB Hogg",
+        "matches": 9,
+        "batting_runs_above_par": -10.81,
+        "bowling_runs_saved": 28.16,
+        "bowler_wickets": 10,
+        "impact_runs": 167.35
+      },
+      {
+        "player": "P Kumar",
+        "matches": 16,
+        "batting_runs_above_par": -11.57,
+        "bowling_runs_saved": 43.81,
+        "bowler_wickets": 9,
+        "impact_runs": 167.23
+      }
+    ],
+    "2013": [
+      {
+        "player": "DJ Bravo",
+        "matches": 18,
+        "batting_runs_above_par": -30.88,
+        "bowling_runs_saved": 52.67,
+        "bowler_wickets": 32,
+        "impact_runs": 501.79
+      },
+      {
+        "player": "JP Faulkner",
+        "matches": 16,
+        "batting_runs_above_par": -24.44,
+        "bowling_runs_saved": 83.76,
+        "bowler_wickets": 28,
+        "impact_runs": 479.32
+      },
+      {
+        "player": "SP Narine",
+        "matches": 16,
+        "batting_runs_above_par": -8.96,
+        "bowling_runs_saved": 154.68,
+        "bowler_wickets": 22,
+        "impact_runs": 475.72
+      },
+      {
+        "player": "Harbhajan Singh",
+        "matches": 19,
+        "batting_runs_above_par": -8.96,
+        "bowling_runs_saved": 70.01,
+        "bowler_wickets": 24,
+        "impact_runs": 421.05
+      },
+      {
+        "player": "DW Steyn",
+        "matches": 17,
+        "batting_runs_above_par": -1.37,
+        "bowling_runs_saved": 120.99,
+        "bowler_wickets": 19,
+        "impact_runs": 404.62
+      },
+      {
+        "player": "MG Johnson",
+        "matches": 17,
+        "batting_runs_above_par": -17.89,
+        "bowling_runs_saved": 29.89,
+        "bowler_wickets": 24,
+        "impact_runs": 372.01
+      },
+      {
+        "player": "SL Malinga",
+        "matches": 17,
+        "batting_runs_above_par": -19.79,
+        "bowling_runs_saved": 65.07,
+        "bowler_wickets": 20,
+        "impact_runs": 345.28
+      },
+      {
+        "player": "R Vinay Kumar",
+        "matches": 16,
+        "batting_runs_above_par": 1.47,
+        "bowling_runs_saved": -5.91,
+        "bowler_wickets": 23,
+        "impact_runs": 340.56
+      },
+      {
+        "player": "A Mishra",
+        "matches": 17,
+        "batting_runs_above_par": -33.5,
+        "bowling_runs_saved": 58.63,
+        "bowler_wickets": 21,
+        "impact_runs": 340.13
+      },
+      {
+        "player": "MM Sharma",
+        "matches": 15,
+        "batting_runs_above_par": -6.84,
+        "bowling_runs_saved": 44.25,
+        "bowler_wickets": 20,
+        "impact_runs": 337.41
+      },
+      {
+        "player": "SR Watson",
+        "matches": 16,
+        "batting_runs_above_par": 72.83,
+        "bowling_runs_saved": 29.07,
+        "bowler_wickets": 13,
+        "impact_runs": 296.89
+      },
+      {
+        "player": "KK Cooper",
+        "matches": 14,
+        "batting_runs_above_par": 5.96,
+        "bowling_runs_saved": -0.67,
+        "bowler_wickets": 19,
+        "impact_runs": 290.29
+      },
+      {
+        "player": "NLTC Perera",
+        "matches": 16,
+        "batting_runs_above_par": 11.68,
+        "bowling_runs_saved": -28.19,
+        "bowler_wickets": 19,
+        "impact_runs": 268.49
+      },
+      {
+        "player": "PP Ojha",
+        "matches": 15,
+        "batting_runs_above_par": -4.23,
+        "bowling_runs_saved": 12.26,
+        "bowler_wickets": 16,
+        "impact_runs": 248.03
+      },
+      {
+        "player": "R Rampaul",
+        "matches": 10,
+        "batting_runs_above_par": -20.58,
+        "bowling_runs_saved": 34.17,
+        "bowler_wickets": 15,
+        "impact_runs": 238.59
+      },
+      {
+        "player": "Azhar Mahmood",
+        "matches": 11,
+        "batting_runs_above_par": -12.49,
+        "bowling_runs_saved": 26.0,
+        "bowler_wickets": 15,
+        "impact_runs": 238.51
+      },
+      {
+        "player": "R Ashwin",
+        "matches": 18,
+        "batting_runs_above_par": -30.79,
+        "bowling_runs_saved": 44.18,
+        "bowler_wickets": 15,
+        "impact_runs": 238.4
+      },
+      {
+        "player": "P Kumar",
+        "matches": 15,
+        "batting_runs_above_par": -14.57,
+        "bowling_runs_saved": 65.62,
+        "bowler_wickets": 12,
+        "impact_runs": 231.05
+      },
+      {
+        "player": "P Awana",
+        "matches": 14,
+        "batting_runs_above_par": -13.9,
+        "bowling_runs_saved": 14.9,
+        "bowler_wickets": 15,
+        "impact_runs": 226.0
+      },
+      {
+        "player": "CH Morris",
+        "matches": 16,
+        "batting_runs_above_par": -11.16,
+        "bowling_runs_saved": 1.01,
+        "bowler_wickets": 15,
+        "impact_runs": 214.86
+      },
+      {
+        "player": "JD Unadkat",
+        "matches": 13,
+        "batting_runs_above_par": -0.91,
+        "bowling_runs_saved": 19.33,
+        "bowler_wickets": 13,
+        "impact_runs": 213.42
+      },
+      {
+        "player": "RA Jadeja",
+        "matches": 18,
+        "batting_runs_above_par": 12.71,
+        "bowling_runs_saved": 4.55,
+        "bowler_wickets": 13,
+        "impact_runs": 212.26
+      },
+      {
+        "player": "SK Trivedi",
+        "matches": 17,
+        "batting_runs_above_par": -8.41,
+        "bowling_runs_saved": 33.13,
+        "bowler_wickets": 12,
+        "impact_runs": 204.71
+      },
+      {
+        "player": "B Kumar",
+        "matches": 16,
+        "batting_runs_above_par": -57.35,
+        "bowling_runs_saved": 62.73,
+        "bowler_wickets": 13,
+        "impact_runs": 200.38
+      },
+      {
+        "player": "RP Singh",
+        "matches": 11,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 0.59,
+        "bowler_wickets": 13,
+        "impact_runs": 195.59
+      }
+    ],
+    "2014": [
+      {
+        "player": "SP Narine",
+        "matches": 16,
+        "batting_runs_above_par": -12.48,
+        "bowling_runs_saved": 145.41,
+        "bowler_wickets": 21,
+        "impact_runs": 447.94
+      },
+      {
+        "player": "B Kumar",
+        "matches": 14,
+        "batting_runs_above_par": -5.23,
+        "bowling_runs_saved": 82.37,
+        "bowler_wickets": 20,
+        "impact_runs": 377.14
+      },
+      {
+        "player": "AR Patel",
+        "matches": 17,
+        "batting_runs_above_par": -27.26,
+        "bowling_runs_saved": 147.89,
+        "bowler_wickets": 17,
+        "impact_runs": 375.63
+      },
+      {
+        "player": "MM Sharma",
+        "matches": 16,
+        "batting_runs_above_par": -4.09,
+        "bowling_runs_saved": 2.34,
+        "bowler_wickets": 23,
+        "impact_runs": 343.25
+      },
+      {
+        "player": "SL Malinga",
+        "matches": 10,
+        "batting_runs_above_par": -4.16,
+        "bowling_runs_saved": 81.43,
+        "bowler_wickets": 16,
+        "impact_runs": 317.26
+      },
+      {
+        "player": "Harbhajan Singh",
+        "matches": 14,
+        "batting_runs_above_par": -11.38,
+        "bowling_runs_saved": 83.63,
+        "bowler_wickets": 14,
+        "impact_runs": 282.26
+      },
+      {
+        "player": "RA Jadeja",
+        "matches": 16,
+        "batting_runs_above_par": -16.41,
+        "bowling_runs_saved": 4.9,
+        "bowler_wickets": 19,
+        "impact_runs": 273.49
+      },
+      {
+        "player": "R Ashwin",
+        "matches": 16,
+        "batting_runs_above_par": -19.98,
+        "bowling_runs_saved": 41.34,
+        "bowler_wickets": 16,
+        "impact_runs": 261.36
+      },
+      {
+        "player": "KV Sharma",
+        "matches": 14,
+        "batting_runs_above_par": -4.04,
+        "bowling_runs_saved": 21.28,
+        "bowler_wickets": 15,
+        "impact_runs": 242.24
+      },
+      {
+        "player": "PV Tambe",
+        "matches": 13,
+        "batting_runs_above_par": -9.07,
+        "bowling_runs_saved": 20.89,
+        "bowler_wickets": 15,
+        "impact_runs": 236.81
+      },
+      {
+        "player": "PP Chawla",
+        "matches": 11,
+        "batting_runs_above_par": -1.63,
+        "bowling_runs_saved": 27.42,
+        "bowler_wickets": 14,
+        "impact_runs": 235.79
+      },
+      {
+        "player": "Sandeep Sharma",
+        "matches": 11,
+        "batting_runs_above_par": -5.9,
+        "bowling_runs_saved": -31.66,
+        "bowler_wickets": 18,
+        "impact_runs": 232.44
+      },
+      {
+        "player": "Shakib Al Hasan",
+        "matches": 13,
+        "batting_runs_above_par": -1.18,
+        "bowling_runs_saved": 66.98,
+        "bowler_wickets": 11,
+        "impact_runs": 230.8
+      },
+      {
+        "player": "YS Chahal",
+        "matches": 14,
+        "batting_runs_above_par": -1.03,
+        "bowling_runs_saved": 50.03,
+        "bowler_wickets": 12,
+        "impact_runs": 229.0
+      },
+      {
+        "player": "VR Aaron",
+        "matches": 10,
+        "batting_runs_above_par": -22.15,
+        "bowling_runs_saved": 7.65,
+        "bowler_wickets": 16,
+        "impact_runs": 225.5
+      },
+      {
+        "player": "MG Johnson",
+        "matches": 14,
+        "batting_runs_above_par": -32.78,
+        "bowling_runs_saved": 1.08,
+        "bowler_wickets": 17,
+        "impact_runs": 223.3
+      },
+      {
+        "player": "MA Starc",
+        "matches": 14,
+        "batting_runs_above_par": -45.83,
+        "bowling_runs_saved": 55.96,
+        "bowler_wickets": 14,
+        "impact_runs": 220.13
+      },
+      {
+        "player": "M Morkel",
+        "matches": 12,
+        "batting_runs_above_par": -0.74,
+        "bowling_runs_saved": 1.19,
+        "bowler_wickets": 12,
+        "impact_runs": 180.45
+      },
+      {
+        "player": "R Dhawan",
+        "matches": 13,
+        "batting_runs_above_par": -32.73,
+        "bowling_runs_saved": 15.91,
+        "bowler_wickets": 13,
+        "impact_runs": 178.18
+      },
+      {
+        "player": "DW Steyn",
+        "matches": 14,
+        "batting_runs_above_par": -18.1,
+        "bowling_runs_saved": 30.27,
+        "bowler_wickets": 11,
+        "impact_runs": 177.16
+      },
+      {
+        "player": "UT Yadav",
+        "matches": 12,
+        "batting_runs_above_par": -4.32,
+        "bowling_runs_saved": 15.03,
+        "bowler_wickets": 11,
+        "impact_runs": 175.71
+      },
+      {
+        "player": "R Bhatia",
+        "matches": 12,
+        "batting_runs_above_par": -8.4,
+        "bowling_runs_saved": 1.12,
+        "bowler_wickets": 12,
+        "impact_runs": 172.72
+      },
+      {
+        "player": "Karanveer Singh",
+        "matches": 5,
+        "batting_runs_above_par": -0.69,
+        "bowling_runs_saved": 2.48,
+        "bowler_wickets": 11,
+        "impact_runs": 166.79
+      },
+      {
+        "player": "L Balaji",
+        "matches": 9,
+        "batting_runs_above_par": -4.19,
+        "bowling_runs_saved": -12.72,
+        "bowler_wickets": 12,
+        "impact_runs": 163.09
+      },
+      {
+        "player": "KW Richardson",
+        "matches": 7,
+        "batting_runs_above_par": -2.14,
+        "bowling_runs_saved": 16.54,
+        "bowler_wickets": 9,
+        "impact_runs": 149.4
+      }
+    ],
+    "2015": [
+      {
+        "player": "SL Malinga",
+        "matches": 15,
+        "batting_runs_above_par": -9.89,
+        "bowling_runs_saved": 105.52,
+        "bowler_wickets": 24,
+        "impact_runs": 455.63
+      },
+      {
+        "player": "DJ Bravo",
+        "matches": 17,
+        "batting_runs_above_par": -24.89,
+        "bowling_runs_saved": 55.84,
+        "bowler_wickets": 26,
+        "impact_runs": 420.95
+      },
+      {
+        "player": "A Nehra",
+        "matches": 16,
+        "batting_runs_above_par": -11.54,
+        "bowling_runs_saved": 66.43,
+        "bowler_wickets": 22,
+        "impact_runs": 384.89
+      },
+      {
+        "player": "MA Starc",
+        "matches": 12,
+        "batting_runs_above_par": -12.81,
+        "bowling_runs_saved": 85.6,
+        "bowler_wickets": 20,
+        "impact_runs": 372.8
+      },
+      {
+        "player": "YS Chahal",
+        "matches": 14,
+        "batting_runs_above_par": -0.86,
+        "bowling_runs_saved": -1.73,
+        "bowler_wickets": 23,
+        "impact_runs": 342.41
+      },
+      {
+        "player": "B Kumar",
+        "matches": 14,
+        "batting_runs_above_par": -1.15,
+        "bowling_runs_saved": 52.06,
+        "bowler_wickets": 18,
+        "impact_runs": 320.91
+      },
+      {
+        "player": "AD Russell",
+        "matches": 13,
+        "batting_runs_above_par": 74.07,
+        "bowling_runs_saved": 21.17,
+        "bowler_wickets": 14,
+        "impact_runs": 305.23
+      },
+      {
+        "player": "HV Patel",
+        "matches": 15,
+        "batting_runs_above_par": -2.51,
+        "bowling_runs_saved": 46.82,
+        "bowler_wickets": 17,
+        "impact_runs": 299.3
+      },
+      {
+        "player": "MJ McClenaghan",
+        "matches": 12,
+        "batting_runs_above_par": 1.92,
+        "bowling_runs_saved": 25.92,
+        "bowler_wickets": 18,
+        "impact_runs": 297.84
+      },
+      {
+        "player": "Harbhajan Singh",
+        "matches": 15,
+        "batting_runs_above_par": 0.47,
+        "bowling_runs_saved": 1.1,
+        "bowler_wickets": 18,
+        "impact_runs": 271.56
+      },
+      {
+        "player": "CH Morris",
+        "matches": 11,
+        "batting_runs_above_par": -1.04,
+        "bowling_runs_saved": 51.26,
+        "bowler_wickets": 14,
+        "impact_runs": 260.21
+      },
+      {
+        "player": "Sandeep Sharma",
+        "matches": 14,
+        "batting_runs_above_par": -12.54,
+        "bowling_runs_saved": 60.83,
+        "bowler_wickets": 13,
+        "impact_runs": 243.29
+      },
+      {
+        "player": "NM Coulter-Nile",
+        "matches": 11,
+        "batting_runs_above_par": -7.75,
+        "bowling_runs_saved": 22.26,
+        "bowler_wickets": 15,
+        "impact_runs": 239.52
+      },
+      {
+        "player": "D Wiese",
+        "matches": 14,
+        "batting_runs_above_par": -21.26,
+        "bowling_runs_saved": 15.65,
+        "bowler_wickets": 16,
+        "impact_runs": 234.39
+      },
+      {
+        "player": "Imran Tahir",
+        "matches": 10,
+        "batting_runs_above_par": -4.48,
+        "bowling_runs_saved": -7.73,
+        "bowler_wickets": 15,
+        "impact_runs": 212.79
+      },
+      {
+        "player": "MC Henriques",
+        "matches": 9,
+        "batting_runs_above_par": -3.44,
+        "bowling_runs_saved": 46.59,
+        "bowler_wickets": 11,
+        "impact_runs": 208.16
+      },
+      {
+        "player": "R Ashwin",
+        "matches": 13,
+        "batting_runs_above_par": -4.06,
+        "bowling_runs_saved": 61.92,
+        "bowler_wickets": 10,
+        "impact_runs": 207.86
+      },
+      {
+        "player": "MM Sharma",
+        "matches": 16,
+        "batting_runs_above_par": -4.84,
+        "bowling_runs_saved": -3.95,
+        "bowler_wickets": 14,
+        "impact_runs": 201.21
+      },
+      {
+        "player": "DS Kulkarni",
+        "matches": 11,
+        "batting_runs_above_par": -14.26,
+        "bowling_runs_saved": 13.4,
+        "bowler_wickets": 13,
+        "impact_runs": 194.14
+      },
+      {
+        "player": "IC Pandey",
+        "matches": 10,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 18.04,
+        "bowler_wickets": 11,
+        "impact_runs": 183.04
+      },
+      {
+        "player": "Anureet Singh",
+        "matches": 14,
+        "batting_runs_above_par": -27.72,
+        "bowling_runs_saved": -16.74,
+        "bowler_wickets": 15,
+        "impact_runs": 180.54
+      },
+      {
+        "player": "M Morkel",
+        "matches": 7,
+        "batting_runs_above_par": -1.72,
+        "bowling_runs_saved": 25.12,
+        "bowler_wickets": 10,
+        "impact_runs": 173.4
+      },
+      {
+        "player": "GB Hogg",
+        "matches": 6,
+        "batting_runs_above_par": -3.59,
+        "bowling_runs_saved": 33.71,
+        "bowler_wickets": 9,
+        "impact_runs": 165.12
+      },
+      {
+        "player": "PP Chawla",
+        "matches": 13,
+        "batting_runs_above_par": -21.35,
+        "bowling_runs_saved": 9.13,
+        "bowler_wickets": 11,
+        "impact_runs": 152.78
+      },
+      {
+        "player": "A Mishra",
+        "matches": 12,
+        "batting_runs_above_par": -10.91,
+        "bowling_runs_saved": 27.72,
+        "bowler_wickets": 9,
+        "impact_runs": 151.8
+      }
+    ],
+    "2016": [
+      {
+        "player": "B Kumar",
+        "matches": 17,
+        "batting_runs_above_par": -0.33,
+        "bowling_runs_saved": 66.28,
+        "bowler_wickets": 23,
+        "impact_runs": 410.96
+      },
+      {
+        "player": "Mustafizur Rahman",
+        "matches": 16,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 104.26,
+        "bowler_wickets": 17,
+        "impact_runs": 359.26
+      },
+      {
+        "player": "YS Chahal",
+        "matches": 13,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 43.43,
+        "bowler_wickets": 21,
+        "impact_runs": 358.43
+      },
+      {
+        "player": "DS Kulkarni",
+        "matches": 14,
+        "batting_runs_above_par": -0.95,
+        "bowling_runs_saved": 45.98,
+        "bowler_wickets": 18,
+        "impact_runs": 315.02
+      },
+      {
+        "player": "SR Watson",
+        "matches": 16,
+        "batting_runs_above_par": -30.71,
+        "bowling_runs_saved": 33.81,
+        "bowler_wickets": 20,
+        "impact_runs": 303.1
+      },
+      {
+        "player": "CH Morris",
+        "matches": 12,
+        "batting_runs_above_par": 26.89,
+        "bowling_runs_saved": 68.84,
+        "bowler_wickets": 13,
+        "impact_runs": 290.73
+      },
+      {
+        "player": "MJ McClenaghan",
+        "matches": 14,
+        "batting_runs_above_par": 1.79,
+        "bowling_runs_saved": 18.79,
+        "bowler_wickets": 17,
+        "impact_runs": 275.59
+      },
+      {
+        "player": "JJ Bumrah",
+        "matches": 14,
+        "batting_runs_above_par": -7.92,
+        "bowling_runs_saved": 55.11,
+        "bowler_wickets": 15,
+        "impact_runs": 272.19
+      },
+      {
+        "player": "Sandeep Sharma",
+        "matches": 14,
+        "batting_runs_above_par": -6.19,
+        "bowling_runs_saved": 50.63,
+        "bowler_wickets": 15,
+        "impact_runs": 269.44
+      },
+      {
+        "player": "AD Russell",
+        "matches": 12,
+        "batting_runs_above_par": 10.4,
+        "bowling_runs_saved": 5.81,
+        "bowler_wickets": 15,
+        "impact_runs": 241.21
+      },
+      {
+        "player": "DJ Bravo",
+        "matches": 15,
+        "batting_runs_above_par": -20.99,
+        "bowling_runs_saved": 6.26,
+        "bowler_wickets": 17,
+        "impact_runs": 240.28
+      },
+      {
+        "player": "A Zampa",
+        "matches": 5,
+        "batting_runs_above_par": -1.65,
+        "bowling_runs_saved": 29.6,
+        "bowler_wickets": 12,
+        "impact_runs": 207.95
+      },
+      {
+        "player": "A Mishra",
+        "matches": 14,
+        "batting_runs_above_par": -16.04,
+        "bowling_runs_saved": 26.35,
+        "bowler_wickets": 13,
+        "impact_runs": 205.31
+      },
+      {
+        "player": "SP Narine",
+        "matches": 11,
+        "batting_runs_above_par": -13.95,
+        "bowling_runs_saved": 51.2,
+        "bowler_wickets": 11,
+        "impact_runs": 202.25
+      },
+      {
+        "player": "S Aravind",
+        "matches": 9,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 34.61,
+        "bowler_wickets": 11,
+        "impact_runs": 199.61
+      },
+      {
+        "player": "MM Sharma",
+        "matches": 14,
+        "batting_runs_above_par": -9.58,
+        "bowling_runs_saved": 11.06,
+        "bowler_wickets": 13,
+        "impact_runs": 196.48
+      },
+      {
+        "player": "AR Patel",
+        "matches": 14,
+        "batting_runs_above_par": -3.78,
+        "bowling_runs_saved": -2.16,
+        "bowler_wickets": 13,
+        "impact_runs": 189.06
+      },
+      {
+        "player": "AB Dinda",
+        "matches": 9,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 18.52,
+        "bowler_wickets": 11,
+        "impact_runs": 183.52
+      },
+      {
+        "player": "BB Sran",
+        "matches": 14,
+        "batting_runs_above_par": -0.75,
+        "bowling_runs_saved": -26.07,
+        "bowler_wickets": 14,
+        "impact_runs": 183.18
+      },
+      {
+        "player": "PP Chawla",
+        "matches": 12,
+        "batting_runs_above_par": -9.72,
+        "bowling_runs_saved": 27.04,
+        "bowler_wickets": 11,
+        "impact_runs": 182.32
+      },
+      {
+        "player": "R Ashwin",
+        "matches": 14,
+        "batting_runs_above_par": -11.42,
+        "bowling_runs_saved": 43.71,
+        "bowler_wickets": 10,
+        "impact_runs": 182.28
+      },
+      {
+        "player": "CJ Jordan",
+        "matches": 9,
+        "batting_runs_above_par": -4.93,
+        "bowling_runs_saved": 8.67,
+        "bowler_wickets": 11,
+        "impact_runs": 168.75
+      },
+      {
+        "player": "P Kumar",
+        "matches": 16,
+        "batting_runs_above_par": -18.97,
+        "bowling_runs_saved": 45.78,
+        "bowler_wickets": 9,
+        "impact_runs": 161.81
+      },
+      {
+        "player": "KH Pandya",
+        "matches": 12,
+        "batting_runs_above_par": 65.15,
+        "bowling_runs_saved": 4.79,
+        "bowler_wickets": 6,
+        "impact_runs": 159.94
+      },
+      {
+        "player": "TG Southee",
+        "matches": 11,
+        "batting_runs_above_par": 0.07,
+        "bowling_runs_saved": 19.25,
+        "bowler_wickets": 9,
+        "impact_runs": 154.33
+      }
+    ],
+    "2017": [
+      {
+        "player": "B Kumar",
+        "matches": 14,
+        "batting_runs_above_par": -2.62,
+        "bowling_runs_saved": 93.96,
+        "bowler_wickets": 26,
+        "impact_runs": 481.34
+      },
+      {
+        "player": "JD Unadkat",
+        "matches": 12,
+        "batting_runs_above_par": -5.52,
+        "bowling_runs_saved": 82.57,
+        "bowler_wickets": 24,
+        "impact_runs": 437.05
+      },
+      {
+        "player": "JJ Bumrah",
+        "matches": 16,
+        "batting_runs_above_par": -4.27,
+        "bowling_runs_saved": 99.29,
+        "bowler_wickets": 20,
+        "impact_runs": 395.03
+      },
+      {
+        "player": "Rashid Khan",
+        "matches": 14,
+        "batting_runs_above_par": -3.52,
+        "bowling_runs_saved": 82.03,
+        "bowler_wickets": 17,
+        "impact_runs": 333.51
+      },
+      {
+        "player": "P Negi",
+        "matches": 12,
+        "batting_runs_above_par": -13.05,
+        "bowling_runs_saved": 58.32,
+        "bowler_wickets": 16,
+        "impact_runs": 285.27
+      },
+      {
+        "player": "Imran Tahir",
+        "matches": 12,
+        "batting_runs_above_par": -3.39,
+        "bowling_runs_saved": 16.34,
+        "bowler_wickets": 18,
+        "impact_runs": 282.95
+      },
+      {
+        "player": "Sandeep Sharma",
+        "matches": 13,
+        "batting_runs_above_par": -1.08,
+        "bowling_runs_saved": 26.7,
+        "bowler_wickets": 17,
+        "impact_runs": 280.62
+      },
+      {
+        "player": "SP Narine",
+        "matches": 16,
+        "batting_runs_above_par": 34.68,
+        "bowling_runs_saved": 80.67,
+        "bowler_wickets": 10,
+        "impact_runs": 265.35
+      },
+      {
+        "player": "PJ Cummins",
+        "matches": 12,
+        "batting_runs_above_par": -6.68,
+        "bowling_runs_saved": 33.94,
+        "bowler_wickets": 15,
+        "impact_runs": 252.26
+      },
+      {
+        "player": "MJ McClenaghan",
+        "matches": 14,
+        "batting_runs_above_par": -8.46,
+        "bowling_runs_saved": -24.68,
+        "bowler_wickets": 19,
+        "impact_runs": 251.86
+      },
+      {
+        "player": "UT Yadav",
+        "matches": 14,
+        "batting_runs_above_par": -9.04,
+        "bowling_runs_saved": 1.1,
+        "bowler_wickets": 17,
+        "impact_runs": 247.06
+      },
+      {
+        "player": "AR Patel",
+        "matches": 14,
+        "batting_runs_above_par": -15.51,
+        "bowling_runs_saved": 37.16,
+        "bowler_wickets": 15,
+        "impact_runs": 246.65
+      },
+      {
+        "player": "BA Stokes",
+        "matches": 12,
+        "batting_runs_above_par": 4.75,
+        "bowling_runs_saved": 60.24,
+        "bowler_wickets": 12,
+        "impact_runs": 245.0
+      },
+      {
+        "player": "S Kaul",
+        "matches": 10,
+        "batting_runs_above_par": -3.1,
+        "bowling_runs_saved": 6.41,
+        "bowler_wickets": 16,
+        "impact_runs": 243.31
+      },
+      {
+        "player": "AJ Tye",
+        "matches": 6,
+        "batting_runs_above_par": 6.16,
+        "bowling_runs_saved": 51.31,
+        "bowler_wickets": 12,
+        "impact_runs": 237.46
+      },
+      {
+        "player": "NM Coulter-Nile",
+        "matches": 8,
+        "batting_runs_above_par": -3.64,
+        "bowling_runs_saved": 13.94,
+        "bowler_wickets": 15,
+        "impact_runs": 235.3
+      },
+      {
+        "player": "CH Morris",
+        "matches": 9,
+        "batting_runs_above_par": 10.36,
+        "bowling_runs_saved": 35.86,
+        "bowler_wickets": 12,
+        "impact_runs": 226.22
+      },
+      {
+        "player": "CR Woakes",
+        "matches": 13,
+        "batting_runs_above_par": -24.47,
+        "bowling_runs_saved": -8.82,
+        "bowler_wickets": 17,
+        "impact_runs": 221.71
+      },
+      {
+        "player": "KV Sharma",
+        "matches": 9,
+        "batting_runs_above_par": -12.85,
+        "bowling_runs_saved": 32.84,
+        "bowler_wickets": 13,
+        "impact_runs": 214.99
+      },
+      {
+        "player": "YS Chahal",
+        "matches": 13,
+        "batting_runs_above_par": -27.8,
+        "bowling_runs_saved": 20.18,
+        "bowler_wickets": 14,
+        "impact_runs": 202.38
+      },
+      {
+        "player": "DT Christian",
+        "matches": 13,
+        "batting_runs_above_par": -1.44,
+        "bowling_runs_saved": 36.56,
+        "bowler_wickets": 11,
+        "impact_runs": 200.13
+      },
+      {
+        "player": "KH Pandya",
+        "matches": 13,
+        "batting_runs_above_par": -4.11,
+        "bowling_runs_saved": 49.78,
+        "bowler_wickets": 10,
+        "impact_runs": 195.67
+      },
+      {
+        "player": "GJ Maxwell",
+        "matches": 14,
+        "batting_runs_above_par": 57.94,
+        "bowling_runs_saved": 29.65,
+        "bowler_wickets": 7,
+        "impact_runs": 192.58
+      },
+      {
+        "player": "SL Malinga",
+        "matches": 12,
+        "batting_runs_above_par": 1.94,
+        "bowling_runs_saved": 9.2,
+        "bowler_wickets": 11,
+        "impact_runs": 176.14
+      },
+      {
+        "player": "Kuldeep Yadav",
+        "matches": 12,
+        "batting_runs_above_par": -11.56,
+        "bowling_runs_saved": 4.83,
+        "bowler_wickets": 12,
+        "impact_runs": 173.27
+      }
+    ],
+    "2018": [
+      {
+        "player": "Rashid Khan",
+        "matches": 17,
+        "batting_runs_above_par": 13.56,
+        "bowling_runs_saved": 102.92,
+        "bowler_wickets": 21,
+        "impact_runs": 431.47
+      },
+      {
+        "player": "SP Narine",
+        "matches": 16,
+        "batting_runs_above_par": 87.76,
+        "bowling_runs_saved": 65.58,
+        "bowler_wickets": 17,
+        "impact_runs": 408.34
+      },
+      {
+        "player": "AJ Tye",
+        "matches": 14,
+        "batting_runs_above_par": -35.39,
+        "bowling_runs_saved": 66.96,
+        "bowler_wickets": 24,
+        "impact_runs": 391.57
+      },
+      {
+        "player": "JJ Bumrah",
+        "matches": 14,
+        "batting_runs_above_par": -5.43,
+        "bowling_runs_saved": 112.98,
+        "bowler_wickets": 17,
+        "impact_runs": 362.55
+      },
+      {
+        "player": "S Kaul",
+        "matches": 17,
+        "batting_runs_above_par": -18.53,
+        "bowling_runs_saved": 24.67,
+        "bowler_wickets": 21,
+        "impact_runs": 321.15
+      },
+      {
+        "player": "UT Yadav",
+        "matches": 14,
+        "batting_runs_above_par": -14.85,
+        "bowling_runs_saved": 33.18,
+        "bowler_wickets": 20,
+        "impact_runs": 318.33
+      },
+      {
+        "player": "TA Boult",
+        "matches": 14,
+        "batting_runs_above_par": -2.74,
+        "bowling_runs_saved": 13.47,
+        "bowler_wickets": 18,
+        "impact_runs": 280.73
+      },
+      {
+        "player": "Mujeeb Ur Rahman",
+        "matches": 11,
+        "batting_runs_above_par": -1.08,
+        "bowling_runs_saved": 70.42,
+        "bowler_wickets": 14,
+        "impact_runs": 279.34
+      },
+      {
+        "player": "L Ngidi",
+        "matches": 7,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 76.97,
+        "bowler_wickets": 11,
+        "impact_runs": 241.97
+      },
+      {
+        "player": "YS Chahal",
+        "matches": 14,
+        "batting_runs_above_par": -6.21,
+        "bowling_runs_saved": 66.72,
+        "bowler_wickets": 12,
+        "impact_runs": 240.51
+      },
+      {
+        "player": "SN Thakur",
+        "matches": 13,
+        "batting_runs_above_par": 7.01,
+        "bowling_runs_saved": -9.07,
+        "bowler_wickets": 16,
+        "impact_runs": 237.94
+      },
+      {
+        "player": "Kuldeep Yadav",
+        "matches": 16,
+        "batting_runs_above_par": -25.67,
+        "bowling_runs_saved": 5.5,
+        "bowler_wickets": 17,
+        "impact_runs": 234.82
+      },
+      {
+        "player": "JC Archer",
+        "matches": 10,
+        "batting_runs_above_par": -13.75,
+        "bowling_runs_saved": 20.91,
+        "bowler_wickets": 15,
+        "impact_runs": 232.16
+      },
+      {
+        "player": "AD Russell",
+        "matches": 15,
+        "batting_runs_above_par": 54.79,
+        "bowling_runs_saved": -18.16,
+        "bowler_wickets": 13,
+        "impact_runs": 231.63
+      },
+      {
+        "player": "A Mishra",
+        "matches": 10,
+        "batting_runs_above_par": -2.44,
+        "bowling_runs_saved": 49.76,
+        "bowler_wickets": 12,
+        "impact_runs": 227.32
+      },
+      {
+        "player": "KH Pandya",
+        "matches": 14,
+        "batting_runs_above_par": -10.1,
+        "bowling_runs_saved": 55.3,
+        "bowler_wickets": 12,
+        "impact_runs": 225.19
+      },
+      {
+        "player": "MJ McClenaghan",
+        "matches": 11,
+        "batting_runs_above_par": -3.09,
+        "bowling_runs_saved": 17.43,
+        "bowler_wickets": 14,
+        "impact_runs": 224.34
+      },
+      {
+        "player": "HH Pandya",
+        "matches": 13,
+        "batting_runs_above_par": -40.12,
+        "bowling_runs_saved": -6.91,
+        "bowler_wickets": 18,
+        "impact_runs": 222.96
+      },
+      {
+        "player": "K Gowtham",
+        "matches": 15,
+        "batting_runs_above_par": 30.1,
+        "bowling_runs_saved": 17.86,
+        "bowler_wickets": 11,
+        "impact_runs": 212.96
+      },
+      {
+        "player": "M Markande",
+        "matches": 14,
+        "batting_runs_above_par": -17.71,
+        "bowling_runs_saved": -0.88,
+        "bowler_wickets": 15,
+        "impact_runs": 206.41
+      },
+      {
+        "player": "Sandeep Sharma",
+        "matches": 12,
+        "batting_runs_above_par": -5.89,
+        "bowling_runs_saved": 26.78,
+        "bowler_wickets": 12,
+        "impact_runs": 200.9
+      },
+      {
+        "player": "PP Chawla",
+        "matches": 15,
+        "batting_runs_above_par": -24.1,
+        "bowling_runs_saved": 14.34,
+        "bowler_wickets": 14,
+        "impact_runs": 200.24
+      },
+      {
+        "player": "DL Chahar",
+        "matches": 12,
+        "batting_runs_above_par": 8.25,
+        "bowling_runs_saved": 38.89,
+        "bowler_wickets": 10,
+        "impact_runs": 197.14
+      },
+      {
+        "player": "Shakib Al Hasan",
+        "matches": 17,
+        "batting_runs_above_par": -26.21,
+        "bowling_runs_saved": 2.31,
+        "bowler_wickets": 14,
+        "impact_runs": 186.1
+      },
+      {
+        "player": "RA Jadeja",
+        "matches": 15,
+        "batting_runs_above_par": -28.56,
+        "bowling_runs_saved": 41.29,
+        "bowler_wickets": 11,
+        "impact_runs": 177.72
+      }
+    ],
+    "2019": [
+      {
+        "player": "Imran Tahir",
+        "matches": 17,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 73.42,
+        "bowler_wickets": 26,
+        "impact_runs": 463.42
+      },
+      {
+        "player": "JJ Bumrah",
+        "matches": 16,
+        "batting_runs_above_par": -1.82,
+        "bowling_runs_saved": 152.93,
+        "bowler_wickets": 20,
+        "impact_runs": 451.11
+      },
+      {
+        "player": "K Rabada",
+        "matches": 12,
+        "batting_runs_above_par": -9.93,
+        "bowling_runs_saved": 56.77,
+        "bowler_wickets": 26,
+        "impact_runs": 436.83
+      },
+      {
+        "player": "Rashid Khan",
+        "matches": 15,
+        "batting_runs_above_par": -2.59,
+        "bowling_runs_saved": 114.32,
+        "bowler_wickets": 17,
+        "impact_runs": 366.73
+      },
+      {
+        "player": "DL Chahar",
+        "matches": 17,
+        "batting_runs_above_par": -8.87,
+        "bowling_runs_saved": 36.15,
+        "bowler_wickets": 22,
+        "impact_runs": 357.28
+      },
+      {
+        "player": "S Gopal",
+        "matches": 14,
+        "batting_runs_above_par": -4.07,
+        "bowling_runs_saved": 47.29,
+        "bowler_wickets": 20,
+        "impact_runs": 343.22
+      },
+      {
+        "player": "KK Ahmed",
+        "matches": 9,
+        "batting_runs_above_par": -1.56,
+        "bowling_runs_saved": 13.93,
+        "bowler_wickets": 19,
+        "impact_runs": 297.37
+      },
+      {
+        "player": "Mohammed Shami",
+        "matches": 14,
+        "batting_runs_above_par": -2.16,
+        "bowling_runs_saved": 12.83,
+        "bowler_wickets": 19,
+        "impact_runs": 295.67
+      },
+      {
+        "player": "YS Chahal",
+        "matches": 14,
+        "batting_runs_above_par": -13.64,
+        "bowling_runs_saved": 32.96,
+        "bowler_wickets": 18,
+        "impact_runs": 289.31
+      },
+      {
+        "player": "R Ashwin",
+        "matches": 14,
+        "batting_runs_above_par": -0.67,
+        "bowling_runs_saved": 57.36,
+        "bowler_wickets": 15,
+        "impact_runs": 281.69
+      },
+      {
+        "player": "RA Jadeja",
+        "matches": 16,
+        "batting_runs_above_par": -36.04,
+        "bowling_runs_saved": 72.82,
+        "bowler_wickets": 15,
+        "impact_runs": 261.77
+      },
+      {
+        "player": "AD Russell",
+        "matches": 13,
+        "batting_runs_above_par": 106.51,
+        "bowling_runs_saved": -13.29,
+        "bowler_wickets": 11,
+        "impact_runs": 258.22
+      },
+      {
+        "player": "HH Pandya",
+        "matches": 16,
+        "batting_runs_above_par": 70.7,
+        "bowling_runs_saved": -22.56,
+        "bowler_wickets": 14,
+        "impact_runs": 258.14
+      },
+      {
+        "player": "JC Archer",
+        "matches": 11,
+        "batting_runs_above_par": -1.27,
+        "bowling_runs_saved": 89.93,
+        "bowler_wickets": 11,
+        "impact_runs": 253.65
+      },
+      {
+        "player": "Harbhajan Singh",
+        "matches": 11,
+        "batting_runs_above_par": -3.79,
+        "bowling_runs_saved": 16.04,
+        "bowler_wickets": 16,
+        "impact_runs": 252.24
+      },
+      {
+        "player": "RD Chahar",
+        "matches": 13,
+        "batting_runs_above_par": -5.88,
+        "bowling_runs_saved": 59.77,
+        "bowler_wickets": 13,
+        "impact_runs": 248.89
+      },
+      {
+        "player": "I Sharma",
+        "matches": 13,
+        "batting_runs_above_par": 4.91,
+        "bowling_runs_saved": 40.91,
+        "bowler_wickets": 13,
+        "impact_runs": 240.81
+      },
+      {
+        "player": "B Kumar",
+        "matches": 15,
+        "batting_runs_above_par": -18.98,
+        "bowling_runs_saved": 62.7,
+        "bowler_wickets": 13,
+        "impact_runs": 238.72
+      },
+      {
+        "player": "SP Narine",
+        "matches": 12,
+        "batting_runs_above_par": 27.27,
+        "bowling_runs_saved": 41.94,
+        "bowler_wickets": 10,
+        "impact_runs": 219.21
+      },
+      {
+        "player": "SL Malinga",
+        "matches": 12,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": -33.23,
+        "bowler_wickets": 16,
+        "impact_runs": 206.77
+      },
+      {
+        "player": "Navdeep Saini",
+        "matches": 13,
+        "batting_runs_above_par": -2.78,
+        "bowling_runs_saved": 33.4,
+        "bowler_wickets": 11,
+        "impact_runs": 195.62
+      },
+      {
+        "player": "Sandeep Sharma",
+        "matches": 11,
+        "batting_runs_above_par": 1.31,
+        "bowling_runs_saved": 7.27,
+        "bowler_wickets": 12,
+        "impact_runs": 188.58
+      },
+      {
+        "player": "KH Pandya",
+        "matches": 16,
+        "batting_runs_above_par": -35.72,
+        "bowling_runs_saved": 38.88,
+        "bowler_wickets": 12,
+        "impact_runs": 183.16
+      },
+      {
+        "player": "A Mishra",
+        "matches": 11,
+        "batting_runs_above_par": -14.85,
+        "bowling_runs_saved": 26.73,
+        "bowler_wickets": 11,
+        "impact_runs": 176.88
+      },
+      {
+        "player": "AR Patel",
+        "matches": 14,
+        "batting_runs_above_par": -15.08,
+        "bowling_runs_saved": 39.54,
+        "bowler_wickets": 10,
+        "impact_runs": 174.46
+      }
+    ],
+    "2020": [
+      {
+        "player": "JJ Bumrah",
+        "matches": 15,
+        "batting_runs_above_par": -0.01,
+        "bowling_runs_saved": 122.82,
+        "bowler_wickets": 29,
+        "impact_runs": 557.8
+      },
+      {
+        "player": "K Rabada",
+        "matches": 17,
+        "batting_runs_above_par": -24.88,
+        "bowling_runs_saved": 19.11,
+        "bowler_wickets": 32,
+        "impact_runs": 474.23
+      },
+      {
+        "player": "Rashid Khan",
+        "matches": 16,
+        "batting_runs_above_par": -14.77,
+        "bowling_runs_saved": 171.33,
+        "bowler_wickets": 20,
+        "impact_runs": 456.56
+      },
+      {
+        "player": "JC Archer",
+        "matches": 14,
+        "batting_runs_above_par": 14.29,
+        "bowling_runs_saved": 116.52,
+        "bowler_wickets": 20,
+        "impact_runs": 430.82
+      },
+      {
+        "player": "TA Boult",
+        "matches": 15,
+        "batting_runs_above_par": -1.67,
+        "bowling_runs_saved": 17.16,
+        "bowler_wickets": 25,
+        "impact_runs": 390.49
+      },
+      {
+        "player": "YS Chahal",
+        "matches": 15,
+        "batting_runs_above_par": -4.09,
+        "bowling_runs_saved": 63.41,
+        "bowler_wickets": 21,
+        "impact_runs": 374.32
+      },
+      {
+        "player": "A Nortje",
+        "matches": 16,
+        "batting_runs_above_par": -3.13,
+        "bowling_runs_saved": 17.75,
+        "bowler_wickets": 22,
+        "impact_runs": 344.61
+      },
+      {
+        "player": "CV Varun",
+        "matches": 13,
+        "batting_runs_above_par": -16.93,
+        "bowling_runs_saved": 66.32,
+        "bowler_wickets": 17,
+        "impact_runs": 304.38
+      },
+      {
+        "player": "Mohammed Shami",
+        "matches": 14,
+        "batting_runs_above_par": -2.6,
+        "bowling_runs_saved": -4.06,
+        "bowler_wickets": 20,
+        "impact_runs": 293.34
+      },
+      {
+        "player": "T Natarajan",
+        "matches": 16,
+        "batting_runs_above_par": -5.49,
+        "bowling_runs_saved": 45.93,
+        "bowler_wickets": 16,
+        "impact_runs": 280.44
+      },
+      {
+        "player": "Sandeep Sharma",
+        "matches": 13,
+        "batting_runs_above_par": -13.47,
+        "bowling_runs_saved": 60.31,
+        "bowler_wickets": 14,
+        "impact_runs": 256.84
+      },
+      {
+        "player": "CH Morris",
+        "matches": 9,
+        "batting_runs_above_par": -2.83,
+        "bowling_runs_saved": 63.14,
+        "bowler_wickets": 11,
+        "impact_runs": 225.32
+      },
+      {
+        "player": "Ravi Bishnoi",
+        "matches": 14,
+        "batting_runs_above_par": -12.8,
+        "bowling_runs_saved": 41.3,
+        "bowler_wickets": 12,
+        "impact_runs": 208.5
+      },
+      {
+        "player": "JO Holder",
+        "matches": 7,
+        "batting_runs_above_par": -10.87,
+        "bowling_runs_saved": 6.98,
+        "bowler_wickets": 14,
+        "impact_runs": 206.11
+      },
+      {
+        "player": "RD Chahar",
+        "matches": 15,
+        "batting_runs_above_par": -4.68,
+        "bowling_runs_saved": -14.59,
+        "bowler_wickets": 15,
+        "impact_runs": 205.73
+      },
+      {
+        "player": "AR Patel",
+        "matches": 15,
+        "batting_runs_above_par": -10.65,
+        "bowling_runs_saved": 68.9,
+        "bowler_wickets": 9,
+        "impact_runs": 193.25
+      },
+      {
+        "player": "DL Chahar",
+        "matches": 14,
+        "batting_runs_above_par": -11.74,
+        "bowling_runs_saved": 23.14,
+        "bowler_wickets": 12,
+        "impact_runs": 191.4
+      },
+      {
+        "player": "Washington Sundar",
+        "matches": 15,
+        "batting_runs_above_par": -25.15,
+        "bowling_runs_saved": 95.49,
+        "bowler_wickets": 8,
+        "impact_runs": 190.34
+      },
+      {
+        "player": "SM Curran",
+        "matches": 14,
+        "batting_runs_above_par": -20.29,
+        "bowling_runs_saved": 12.69,
+        "bowler_wickets": 13,
+        "impact_runs": 187.4
+      },
+      {
+        "player": "R Ashwin",
+        "matches": 15,
+        "batting_runs_above_par": -20.04,
+        "bowling_runs_saved": 11.57,
+        "bowler_wickets": 13,
+        "impact_runs": 186.52
+      },
+      {
+        "player": "MP Stoinis",
+        "matches": 17,
+        "batting_runs_above_par": 16.89,
+        "bowling_runs_saved": -26.51,
+        "bowler_wickets": 13,
+        "impact_runs": 185.37
+      },
+      {
+        "player": "PJ Cummins",
+        "matches": 14,
+        "batting_runs_above_par": -27.36,
+        "bowling_runs_saved": 16.49,
+        "bowler_wickets": 12,
+        "impact_runs": 169.13
+      },
+      {
+        "player": "M Ashwin",
+        "matches": 9,
+        "batting_runs_above_par": -2.79,
+        "bowling_runs_saved": 21.85,
+        "bowler_wickets": 10,
+        "impact_runs": 169.06
+      },
+      {
+        "player": "R Tewatia",
+        "matches": 14,
+        "batting_runs_above_par": -23.19,
+        "bowling_runs_saved": 31.79,
+        "bowler_wickets": 10,
+        "impact_runs": 158.61
+      },
+      {
+        "player": "Mohammed Siraj",
+        "matches": 9,
+        "batting_runs_above_par": -6.9,
+        "bowling_runs_saved": -5.67,
+        "bowler_wickets": 11,
+        "impact_runs": 152.43
+      }
+    ],
+    "2021": [
+      {
+        "player": "HV Patel",
+        "matches": 15,
+        "batting_runs_above_par": -10.53,
+        "bowling_runs_saved": 9.32,
+        "bowler_wickets": 32,
+        "impact_runs": 478.78
+      },
+      {
+        "player": "Avesh Khan",
+        "matches": 16,
+        "batting_runs_above_par": 0.86,
+        "bowling_runs_saved": 64.99,
+        "bowler_wickets": 24,
+        "impact_runs": 425.85
+      },
+      {
+        "player": "JJ Bumrah",
+        "matches": 14,
+        "batting_runs_above_par": -9.3,
+        "bowling_runs_saved": 46.61,
+        "bowler_wickets": 21,
+        "impact_runs": 352.31
+      },
+      {
+        "player": "CV Varun",
+        "matches": 17,
+        "batting_runs_above_par": -4.09,
+        "bowling_runs_saved": 73.28,
+        "bowler_wickets": 18,
+        "impact_runs": 339.19
+      },
+      {
+        "player": "Rashid Khan",
+        "matches": 14,
+        "batting_runs_above_par": -15.01,
+        "bowling_runs_saved": 61.97,
+        "bowler_wickets": 18,
+        "impact_runs": 316.97
+      },
+      {
+        "player": "SP Narine",
+        "matches": 14,
+        "batting_runs_above_par": -0.05,
+        "bowling_runs_saved": 70.6,
+        "bowler_wickets": 16,
+        "impact_runs": 310.54
+      },
+      {
+        "player": "Mohammed Shami",
+        "matches": 14,
+        "batting_runs_above_par": -15.92,
+        "bowling_runs_saved": 33.86,
+        "bowler_wickets": 19,
+        "impact_runs": 302.94
+      },
+      {
+        "player": "SN Thakur",
+        "matches": 16,
+        "batting_runs_above_par": -0.8,
+        "bowling_runs_saved": -15.64,
+        "bowler_wickets": 21,
+        "impact_runs": 298.56
+      },
+      {
+        "player": "Arshdeep Singh",
+        "matches": 12,
+        "batting_runs_above_par": -2.65,
+        "bowling_runs_saved": -4.4,
+        "bowler_wickets": 18,
+        "impact_runs": 262.95
+      },
+      {
+        "player": "YS Chahal",
+        "matches": 15,
+        "batting_runs_above_par": -33.09,
+        "bowling_runs_saved": 25.14,
+        "bowler_wickets": 18,
+        "impact_runs": 262.05
+      },
+      {
+        "player": "DJ Bravo",
+        "matches": 11,
+        "batting_runs_above_par": 17.71,
+        "bowling_runs_saved": 28.47,
+        "bowler_wickets": 14,
+        "impact_runs": 256.18
+      },
+      {
+        "player": "AR Patel",
+        "matches": 12,
+        "batting_runs_above_par": -21.32,
+        "bowling_runs_saved": 40.89,
+        "bowler_wickets": 15,
+        "impact_runs": 244.57
+      },
+      {
+        "player": "A Nortje",
+        "matches": 8,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 54.25,
+        "bowler_wickets": 12,
+        "impact_runs": 234.25
+      },
+      {
+        "player": "JO Holder",
+        "matches": 8,
+        "batting_runs_above_par": -11.6,
+        "bowling_runs_saved": 4.09,
+        "bowler_wickets": 16,
+        "impact_runs": 232.48
+      },
+      {
+        "player": "RA Jadeja",
+        "matches": 16,
+        "batting_runs_above_par": -10.84,
+        "bowling_runs_saved": 45.55,
+        "bowler_wickets": 13,
+        "impact_runs": 229.71
+      },
+      {
+        "player": "K Rabada",
+        "matches": 15,
+        "batting_runs_above_par": 3.07,
+        "bowling_runs_saved": -4.96,
+        "bowler_wickets": 15,
+        "impact_runs": 223.11
+      },
+      {
+        "player": "Ravi Bishnoi",
+        "matches": 9,
+        "batting_runs_above_par": -6.05,
+        "bowling_runs_saved": 39.4,
+        "bowler_wickets": 12,
+        "impact_runs": 213.34
+      },
+      {
+        "player": "Mustafizur Rahman",
+        "matches": 14,
+        "batting_runs_above_par": -12.83,
+        "bowling_runs_saved": 12.92,
+        "bowler_wickets": 14,
+        "impact_runs": 210.09
+      },
+      {
+        "player": "LH Ferguson",
+        "matches": 8,
+        "batting_runs_above_par": 2.76,
+        "bowling_runs_saved": 11.97,
+        "bowler_wickets": 13,
+        "impact_runs": 209.73
+      },
+      {
+        "player": "Mohammed Siraj",
+        "matches": 15,
+        "batting_runs_above_par": -23.11,
+        "bowling_runs_saved": 65.85,
+        "bowler_wickets": 11,
+        "impact_runs": 207.74
+      },
+      {
+        "player": "C Sakariya",
+        "matches": 14,
+        "batting_runs_above_par": -17.67,
+        "bowling_runs_saved": 11.94,
+        "bowler_wickets": 14,
+        "impact_runs": 204.28
+      },
+      {
+        "player": "RD Chahar",
+        "matches": 11,
+        "batting_runs_above_par": -7.81,
+        "bowling_runs_saved": 16.22,
+        "bowler_wickets": 13,
+        "impact_runs": 203.41
+      },
+      {
+        "player": "TA Boult",
+        "matches": 14,
+        "batting_runs_above_par": -5.02,
+        "bowling_runs_saved": 9.44,
+        "bowler_wickets": 13,
+        "impact_runs": 199.42
+      },
+      {
+        "player": "CH Morris",
+        "matches": 11,
+        "batting_runs_above_par": -13.1,
+        "bowling_runs_saved": -20.41,
+        "bowler_wickets": 15,
+        "impact_runs": 191.49
+      },
+      {
+        "player": "DL Chahar",
+        "matches": 15,
+        "batting_runs_above_par": -0.53,
+        "bowling_runs_saved": -30.8,
+        "bowler_wickets": 14,
+        "impact_runs": 178.67
+      }
+    ],
+    "2022": [
+      {
+        "player": "YS Chahal",
+        "matches": 17,
+        "batting_runs_above_par": -8.44,
+        "bowling_runs_saved": 66.05,
+        "bowler_wickets": 27,
+        "impact_runs": 462.61
+      },
+      {
+        "player": "Rashid Khan",
+        "matches": 16,
+        "batting_runs_above_par": 15.94,
+        "bowling_runs_saved": 123.47,
+        "bowler_wickets": 19,
+        "impact_runs": 424.41
+      },
+      {
+        "player": "PWH de Silva",
+        "matches": 16,
+        "batting_runs_above_par": -28.13,
+        "bowling_runs_saved": 58.13,
+        "bowler_wickets": 26,
+        "impact_runs": 420.01
+      },
+      {
+        "player": "HV Patel",
+        "matches": 15,
+        "batting_runs_above_par": -21.43,
+        "bowling_runs_saved": 77.16,
+        "bowler_wickets": 19,
+        "impact_runs": 340.74
+      },
+      {
+        "player": "K Rabada",
+        "matches": 13,
+        "batting_runs_above_par": -22.84,
+        "bowling_runs_saved": 7.05,
+        "bowler_wickets": 23,
+        "impact_runs": 329.21
+      },
+      {
+        "player": "Mohammed Shami",
+        "matches": 16,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 22.56,
+        "bowler_wickets": 20,
+        "impact_runs": 322.56
+      },
+      {
+        "player": "JR Hazlewood",
+        "matches": 12,
+        "batting_runs_above_par": -23.36,
+        "bowling_runs_saved": 34.58,
+        "bowler_wickets": 20,
+        "impact_runs": 311.22
+      },
+      {
+        "player": "SP Narine",
+        "matches": 14,
+        "batting_runs_above_par": 13.6,
+        "bowling_runs_saved": 161.35,
+        "bowler_wickets": 9,
+        "impact_runs": 309.95
+      },
+      {
+        "player": "M Prasidh Krishna",
+        "matches": 17,
+        "batting_runs_above_par": -14.32,
+        "bowling_runs_saved": 30.11,
+        "bowler_wickets": 19,
+        "impact_runs": 300.79
+      },
+      {
+        "player": "JJ Bumrah",
+        "matches": 14,
+        "batting_runs_above_par": -14.46,
+        "bowling_runs_saved": 84.55,
+        "bowler_wickets": 15,
+        "impact_runs": 295.09
+      },
+      {
+        "player": "AD Russell",
+        "matches": 13,
+        "batting_runs_above_par": 56.92,
+        "bowling_runs_saved": -23.45,
+        "bowler_wickets": 17,
+        "impact_runs": 288.48
+      },
+      {
+        "player": "Umran Malik",
+        "matches": 14,
+        "batting_runs_above_par": -9.93,
+        "bowling_runs_saved": -31.7,
+        "bowler_wickets": 22,
+        "impact_runs": 288.36
+      },
+      {
+        "player": "Mohsin Khan",
+        "matches": 9,
+        "batting_runs_above_par": -3.11,
+        "bowling_runs_saved": 79.69,
+        "bowler_wickets": 14,
+        "impact_runs": 286.57
+      },
+      {
+        "player": "Avesh Khan",
+        "matches": 13,
+        "batting_runs_above_par": 1.09,
+        "bowling_runs_saved": 6.43,
+        "bowler_wickets": 18,
+        "impact_runs": 277.51
+      },
+      {
+        "player": "Kuldeep Yadav",
+        "matches": 14,
+        "batting_runs_above_par": -37.99,
+        "bowling_runs_saved": -0.93,
+        "bowler_wickets": 21,
+        "impact_runs": 276.08
+      },
+      {
+        "player": "UT Yadav",
+        "matches": 12,
+        "batting_runs_above_par": -11.9,
+        "bowling_runs_saved": 46.42,
+        "bowler_wickets": 16,
+        "impact_runs": 274.51
+      },
+      {
+        "player": "KK Ahmed",
+        "matches": 10,
+        "batting_runs_above_par": -3.39,
+        "bowling_runs_saved": 30.7,
+        "bowler_wickets": 16,
+        "impact_runs": 267.31
+      },
+      {
+        "player": "T Natarajan",
+        "matches": 11,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": -18.82,
+        "bowler_wickets": 18,
+        "impact_runs": 251.18
+      },
+      {
+        "player": "TA Boult",
+        "matches": 16,
+        "batting_runs_above_par": -9.69,
+        "bowling_runs_saved": 20.77,
+        "bowler_wickets": 16,
+        "impact_runs": 251.09
+      },
+      {
+        "player": "DJ Bravo",
+        "matches": 10,
+        "batting_runs_above_par": -11.72,
+        "bowling_runs_saved": 17.95,
+        "bowler_wickets": 16,
+        "impact_runs": 246.23
+      },
+      {
+        "player": "B Kumar",
+        "matches": 14,
+        "batting_runs_above_par": -20.02,
+        "bowling_runs_saved": 77.45,
+        "bowler_wickets": 12,
+        "impact_runs": 237.43
+      },
+      {
+        "player": "R Ashwin",
+        "matches": 17,
+        "batting_runs_above_par": -6.01,
+        "bowling_runs_saved": 51.83,
+        "bowler_wickets": 12,
+        "impact_runs": 225.81
+      },
+      {
+        "player": "TG Southee",
+        "matches": 9,
+        "batting_runs_above_par": -16.31,
+        "bowling_runs_saved": 27.55,
+        "bowler_wickets": 14,
+        "impact_runs": 221.24
+      },
+      {
+        "player": "RD Chahar",
+        "matches": 13,
+        "batting_runs_above_par": -35.67,
+        "bowling_runs_saved": 36.69,
+        "bowler_wickets": 14,
+        "impact_runs": 211.02
+      },
+      {
+        "player": "M Theekshana",
+        "matches": 9,
+        "batting_runs_above_par": -3.82,
+        "bowling_runs_saved": 26.51,
+        "bowler_wickets": 12,
+        "impact_runs": 202.69
+      }
+    ],
+    "2023": [
+      {
+        "player": "Mohammed Shami",
+        "matches": 17,
+        "batting_runs_above_par": -5.07,
+        "bowling_runs_saved": 59.91,
+        "bowler_wickets": 28,
+        "impact_runs": 474.84
+      },
+      {
+        "player": "Rashid Khan",
+        "matches": 17,
+        "batting_runs_above_par": 25.79,
+        "bowling_runs_saved": 41.68,
+        "bowler_wickets": 27,
+        "impact_runs": 472.47
+      },
+      {
+        "player": "MM Sharma",
+        "matches": 14,
+        "batting_runs_above_par": -1.76,
+        "bowling_runs_saved": 56.63,
+        "bowler_wickets": 27,
+        "impact_runs": 459.88
+      },
+      {
+        "player": "Mohammed Siraj",
+        "matches": 14,
+        "batting_runs_above_par": -2.37,
+        "bowling_runs_saved": 89.3,
+        "bowler_wickets": 19,
+        "impact_runs": 371.93
+      },
+      {
+        "player": "PP Chawla",
+        "matches": 16,
+        "batting_runs_above_par": -12.75,
+        "bowling_runs_saved": 46.23,
+        "bowler_wickets": 22,
+        "impact_runs": 363.48
+      },
+      {
+        "player": "YS Chahal",
+        "matches": 14,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 44.93,
+        "bowler_wickets": 21,
+        "impact_runs": 359.93
+      },
+      {
+        "player": "M Pathirana",
+        "matches": 12,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 62.81,
+        "bowler_wickets": 19,
+        "impact_runs": 347.81
+      },
+      {
+        "player": "CV Varun",
+        "matches": 14,
+        "batting_runs_above_par": -14.43,
+        "bowling_runs_saved": 57.79,
+        "bowler_wickets": 20,
+        "impact_runs": 343.36
+      },
+      {
+        "player": "RA Jadeja",
+        "matches": 16,
+        "batting_runs_above_par": -25.33,
+        "bowling_runs_saved": 30.19,
+        "bowler_wickets": 20,
+        "impact_runs": 304.86
+      },
+      {
+        "player": "TU Deshpande",
+        "matches": 16,
+        "batting_runs_above_par": -1.66,
+        "bowling_runs_saved": -29.0,
+        "bowler_wickets": 21,
+        "impact_runs": 284.34
+      },
+      {
+        "player": "Noor Ahmad",
+        "matches": 13,
+        "batting_runs_above_par": -6.75,
+        "bowling_runs_saved": 46.64,
+        "bowler_wickets": 16,
+        "impact_runs": 279.9
+      },
+      {
+        "player": "R Ashwin",
+        "matches": 13,
+        "batting_runs_above_par": -8.87,
+        "bowling_runs_saved": 60.23,
+        "bowler_wickets": 14,
+        "impact_runs": 261.36
+      },
+      {
+        "player": "B Kumar",
+        "matches": 14,
+        "batting_runs_above_par": -33.19,
+        "bowling_runs_saved": 38.78,
+        "bowler_wickets": 16,
+        "impact_runs": 245.59
+      },
+      {
+        "player": "Ravi Bishnoi",
+        "matches": 14,
+        "batting_runs_above_par": -18.36,
+        "bowling_runs_saved": 19.79,
+        "bowler_wickets": 16,
+        "impact_runs": 241.43
+      },
+      {
+        "player": "Arshdeep Singh",
+        "matches": 14,
+        "batting_runs_above_par": -1.56,
+        "bowling_runs_saved": -15.15,
+        "bowler_wickets": 17,
+        "impact_runs": 238.29
+      },
+      {
+        "player": "Akash Madhwal",
+        "matches": 8,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 23.95,
+        "bowler_wickets": 14,
+        "impact_runs": 233.95
+      },
+      {
+        "player": "TA Boult",
+        "matches": 10,
+        "batting_runs_above_par": -7.04,
+        "bowling_runs_saved": 27.13,
+        "bowler_wickets": 13,
+        "impact_runs": 215.1
+      },
+      {
+        "player": "HV Patel",
+        "matches": 13,
+        "batting_runs_above_par": -3.28,
+        "bowling_runs_saved": 6.57,
+        "bowler_wickets": 14,
+        "impact_runs": 213.29
+      },
+      {
+        "player": "NT Ellis",
+        "matches": 10,
+        "batting_runs_above_par": -9.39,
+        "bowling_runs_saved": 20.9,
+        "bowler_wickets": 13,
+        "impact_runs": 206.51
+      },
+      {
+        "player": "M Markande",
+        "matches": 10,
+        "batting_runs_above_par": -1.54,
+        "bowling_runs_saved": 22.4,
+        "bowler_wickets": 12,
+        "impact_runs": 200.86
+      },
+      {
+        "player": "JP Behrendorff",
+        "matches": 12,
+        "batting_runs_above_par": -9.84,
+        "bowling_runs_saved": -0.75,
+        "bowler_wickets": 14,
+        "impact_runs": 199.41
+      },
+      {
+        "player": "AR Patel",
+        "matches": 14,
+        "batting_runs_above_par": -17.24,
+        "bowling_runs_saved": 48.94,
+        "bowler_wickets": 11,
+        "impact_runs": 196.7
+      },
+      {
+        "player": "SP Narine",
+        "matches": 14,
+        "batting_runs_above_par": -20.32,
+        "bowling_runs_saved": 50.97,
+        "bowler_wickets": 11,
+        "impact_runs": 195.65
+      },
+      {
+        "player": "DL Chahar",
+        "matches": 10,
+        "batting_runs_above_par": -2.32,
+        "bowling_runs_saved": 2.78,
+        "bowler_wickets": 13,
+        "impact_runs": 195.45
+      },
+      {
+        "player": "M Theekshana",
+        "matches": 13,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 27.99,
+        "bowler_wickets": 11,
+        "impact_runs": 192.99
+      }
+    ],
+    "2024": [
+      {
+        "player": "JJ Bumrah",
+        "matches": 13,
+        "batting_runs_above_par": -10.94,
+        "bowling_runs_saved": 181.23,
+        "bowler_wickets": 20,
+        "impact_runs": 470.3
+      },
+      {
+        "player": "SP Narine",
+        "matches": 14,
+        "batting_runs_above_par": 55.2,
+        "bowling_runs_saved": 141.45,
+        "bowler_wickets": 17,
+        "impact_runs": 451.65
+      },
+      {
+        "player": "CV Varun",
+        "matches": 14,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 72.39,
+        "bowler_wickets": 21,
+        "impact_runs": 387.39
+      },
+      {
+        "player": "T Natarajan",
+        "matches": 14,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 58.74,
+        "bowler_wickets": 19,
+        "impact_runs": 343.74
+      },
+      {
+        "player": "HV Patel",
+        "matches": 14,
+        "batting_runs_above_par": -16.61,
+        "bowling_runs_saved": 0.03,
+        "bowler_wickets": 24,
+        "impact_runs": 343.43
+      },
+      {
+        "player": "Harshit Rana",
+        "matches": 11,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 55.54,
+        "bowler_wickets": 19,
+        "impact_runs": 340.54
+      },
+      {
+        "player": "Avesh Khan",
+        "matches": 15,
+        "batting_runs_above_par": 0.17,
+        "bowling_runs_saved": 16.91,
+        "bowler_wickets": 19,
+        "impact_runs": 302.08
+      },
+      {
+        "player": "TU Deshpande",
+        "matches": 13,
+        "batting_runs_above_par": -1.89,
+        "bowling_runs_saved": 42.74,
+        "bowler_wickets": 17,
+        "impact_runs": 295.85
+      },
+      {
+        "player": "AD Russell",
+        "matches": 14,
+        "batting_runs_above_par": 16.93,
+        "bowling_runs_saved": -7.46,
+        "bowler_wickets": 19,
+        "impact_runs": 294.47
+      },
+      {
+        "player": "KK Ahmed",
+        "matches": 14,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 31.75,
+        "bowler_wickets": 17,
+        "impact_runs": 286.75
+      },
+      {
+        "player": "TA Boult",
+        "matches": 15,
+        "batting_runs_above_par": -15.96,
+        "bowling_runs_saved": 60.93,
+        "bowler_wickets": 16,
+        "impact_runs": 284.97
+      },
+      {
+        "player": "PJ Cummins",
+        "matches": 16,
+        "batting_runs_above_par": -31.23,
+        "bowling_runs_saved": 43.24,
+        "bowler_wickets": 18,
+        "impact_runs": 282.0
+      },
+      {
+        "player": "Yash Dayal",
+        "matches": 14,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 45.39,
+        "bowler_wickets": 15,
+        "impact_runs": 270.39
+      },
+      {
+        "player": "YS Chahal",
+        "matches": 15,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": -2.09,
+        "bowler_wickets": 18,
+        "impact_runs": 267.91
+      },
+      {
+        "player": "Mohammed Siraj",
+        "matches": 14,
+        "batting_runs_above_par": -3.21,
+        "bowling_runs_saved": 43.12,
+        "bowler_wickets": 15,
+        "impact_runs": 264.92
+      },
+      {
+        "player": "Arshdeep Singh",
+        "matches": 14,
+        "batting_runs_above_par": -1.66,
+        "bowling_runs_saved": -20.11,
+        "bowler_wickets": 19,
+        "impact_runs": 263.23
+      },
+      {
+        "player": "Sandeep Sharma",
+        "matches": 10,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 64.72,
+        "bowler_wickets": 13,
+        "impact_runs": 259.72
+      },
+      {
+        "player": "Mukesh Kumar",
+        "matches": 10,
+        "batting_runs_above_par": -14.47,
+        "bowling_runs_saved": 12.26,
+        "bowler_wickets": 17,
+        "impact_runs": 252.79
+      },
+      {
+        "player": "Kuldeep Yadav",
+        "matches": 11,
+        "batting_runs_above_par": -32.49,
+        "bowling_runs_saved": 38.55,
+        "bowler_wickets": 16,
+        "impact_runs": 246.06
+      },
+      {
+        "player": "M Pathirana",
+        "matches": 6,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 46.57,
+        "bowler_wickets": 13,
+        "impact_runs": 241.57
+      },
+      {
+        "player": "MA Starc",
+        "matches": 13,
+        "batting_runs_above_par": -12.64,
+        "bowling_runs_saved": -14.35,
+        "bowler_wickets": 17,
+        "impact_runs": 228.01
+      },
+      {
+        "player": "Mustafizur Rahman",
+        "matches": 9,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 14.46,
+        "bowler_wickets": 14,
+        "impact_runs": 224.46
+      },
+      {
+        "player": "PP Chawla",
+        "matches": 11,
+        "batting_runs_above_par": -12.0,
+        "bowling_runs_saved": 12.65,
+        "bowler_wickets": 13,
+        "impact_runs": 195.64
+      },
+      {
+        "player": "Naveen-ul-Haq",
+        "matches": 10,
+        "batting_runs_above_par": -6.33,
+        "bowling_runs_saved": -11.7,
+        "bowler_wickets": 14,
+        "impact_runs": 191.96
+      },
+      {
+        "player": "VG Arora",
+        "matches": 10,
+        "batting_runs_above_par": -0.84,
+        "bowling_runs_saved": 21.23,
+        "bowler_wickets": 11,
+        "impact_runs": 185.38
+      }
+    ],
+    "2025": [
+      {
+        "player": "M Prasidh Krishna",
+        "matches": 15,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 101.24,
+        "bowler_wickets": 25,
+        "impact_runs": 476.24
+      },
+      {
+        "player": "JJ Bumrah",
+        "matches": 12,
+        "batting_runs_above_par": -1.73,
+        "bowling_runs_saved": 145.85,
+        "bowler_wickets": 18,
+        "impact_runs": 414.12
+      },
+      {
+        "player": "Noor Ahmad",
+        "matches": 14,
+        "batting_runs_above_par": -21.8,
+        "bowling_runs_saved": 45.37,
+        "bowler_wickets": 24,
+        "impact_runs": 383.57
+      },
+      {
+        "player": "Arshdeep Singh",
+        "matches": 16,
+        "batting_runs_above_par": -7.96,
+        "bowling_runs_saved": 64.07,
+        "bowler_wickets": 21,
+        "impact_runs": 371.11
+      },
+      {
+        "player": "JR Hazlewood",
+        "matches": 12,
+        "batting_runs_above_par": -1.47,
+        "bowling_runs_saved": 40.66,
+        "bowler_wickets": 22,
+        "impact_runs": 369.19
+      },
+      {
+        "player": "TA Boult",
+        "matches": 16,
+        "batting_runs_above_par": -3.05,
+        "bowling_runs_saved": 41.05,
+        "bowler_wickets": 22,
+        "impact_runs": 368.0
+      },
+      {
+        "player": "CV Varun",
+        "matches": 13,
+        "batting_runs_above_par": -0.91,
+        "bowling_runs_saved": 82.0,
+        "bowler_wickets": 17,
+        "impact_runs": 336.08
+      },
+      {
+        "player": "Kuldeep Yadav",
+        "matches": 14,
+        "batting_runs_above_par": -10.26,
+        "bowling_runs_saved": 116.83,
+        "bowler_wickets": 15,
+        "impact_runs": 331.57
+      },
+      {
+        "player": "R Sai Kishore",
+        "matches": 15,
+        "batting_runs_above_par": -13.39,
+        "bowling_runs_saved": 17.95,
+        "bowler_wickets": 19,
+        "impact_runs": 289.56
+      },
+      {
+        "player": "DS Rathi",
+        "matches": 13,
+        "batting_runs_above_par": -4.19,
+        "bowling_runs_saved": 80.96,
+        "bowler_wickets": 14,
+        "impact_runs": 286.77
+      },
+      {
+        "player": "Mohammed Siraj",
+        "matches": 15,
+        "batting_runs_above_par": -4.36,
+        "bowling_runs_saved": 50.36,
+        "bowler_wickets": 16,
+        "impact_runs": 286.0
+      },
+      {
+        "player": "PJ Cummins",
+        "matches": 14,
+        "batting_runs_above_par": -4.77,
+        "bowling_runs_saved": 45.22,
+        "bowler_wickets": 16,
+        "impact_runs": 280.45
+      },
+      {
+        "player": "KH Pandya",
+        "matches": 15,
+        "batting_runs_above_par": -30.4,
+        "bowling_runs_saved": 42.72,
+        "bowler_wickets": 17,
+        "impact_runs": 267.32
+      },
+      {
+        "player": "SP Narine",
+        "matches": 12,
+        "batting_runs_above_par": 17.79,
+        "bowling_runs_saved": 61.59,
+        "bowler_wickets": 12,
+        "impact_runs": 259.38
+      },
+      {
+        "player": "B Kumar",
+        "matches": 14,
+        "batting_runs_above_par": -26.93,
+        "bowling_runs_saved": 27.66,
+        "bowler_wickets": 17,
+        "impact_runs": 255.73
+      },
+      {
+        "player": "VG Arora",
+        "matches": 12,
+        "batting_runs_above_par": -11.46,
+        "bowling_runs_saved": -13.77,
+        "bowler_wickets": 17,
+        "impact_runs": 229.78
+      },
+      {
+        "player": "YS Chahal",
+        "matches": 13,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": -13.56,
+        "bowler_wickets": 16,
+        "impact_runs": 226.44
+      },
+      {
+        "player": "M Jansen",
+        "matches": 14,
+        "batting_runs_above_par": -29.78,
+        "bowling_runs_saved": 15.85,
+        "bowler_wickets": 16,
+        "impact_runs": 226.07
+      },
+      {
+        "player": "JD Unadkat",
+        "matches": 7,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 59.78,
+        "bowler_wickets": 11,
+        "impact_runs": 224.78
+      },
+      {
+        "player": "E Malinga",
+        "matches": 7,
+        "batting_runs_above_par": 0.0,
+        "bowling_runs_saved": 28.98,
+        "bowler_wickets": 13,
+        "impact_runs": 223.98
+      },
+      {
+        "player": "HV Patel",
+        "matches": 13,
+        "batting_runs_above_par": -26.92,
+        "bowling_runs_saved": 8.49,
+        "bowler_wickets": 16,
+        "impact_runs": 221.57
+      },
+      {
+        "player": "KK Ahmed",
+        "matches": 14,
+        "batting_runs_above_par": -2.32,
+        "bowling_runs_saved": -13.64,
+        "bowler_wickets": 15,
+        "impact_runs": 209.05
+      },
+      {
+        "player": "V Nigam",
+        "matches": 14,
+        "batting_runs_above_par": 7.7,
+        "bowling_runs_saved": 14.66,
+        "bowler_wickets": 11,
+        "impact_runs": 187.36
+      },
+      {
+        "player": "Avesh Khan",
+        "matches": 13,
+        "batting_runs_above_par": -1.89,
+        "bowling_runs_saved": -6.05,
+        "bowler_wickets": 13,
+        "impact_runs": 187.06
+      },
+      {
+        "player": "MJ Santner",
+        "matches": 13,
+        "batting_runs_above_par": -15.88,
+        "bowling_runs_saved": 52.72,
+        "bowler_wickets": 10,
+        "impact_runs": 186.84
+      }
+    ],
+    "2026": [
+      {
+        "player": "B Kumar",
+        "matches": 16,
+        "batting_runs_above_par": -9.49,
+        "bowling_runs_saved": 137.0,
+        "bowler_wickets": 28,
+        "impact_runs": 547.5
+      },
+      {
+        "player": "JC Archer",
+        "matches": 16,
+        "batting_runs_above_par": -16.85,
+        "bowling_runs_saved": 77.18,
+        "bowler_wickets": 25,
+        "impact_runs": 435.33
+      },
+      {
+        "player": "K Rabada",
+        "matches": 17,
+        "batting_runs_above_par": -13.75,
+        "bowling_runs_saved": 5.54,
+        "bowler_wickets": 29,
+        "impact_runs": 426.78
+      },
+      {
+        "player": "SP Narine",
+        "matches": 13,
+        "batting_runs_above_par": -13.89,
+        "bowling_runs_saved": 140.02,
+        "bowler_wickets": 17,
+        "impact_runs": 381.13
+      },
+      {
+        "player": "E Malinga",
+        "matches": 15,
+        "batting_runs_above_par": -22.35,
+        "bowling_runs_saved": 48.38,
+        "bowler_wickets": 20,
+        "impact_runs": 326.03
+      },
+      {
+        "player": "Rashid Khan",
+        "matches": 17,
+        "batting_runs_above_par": -15.75,
+        "bowling_runs_saved": 22.63,
+        "bowler_wickets": 21,
+        "impact_runs": 321.87
+      },
+      {
+        "player": "Mohammed Siraj",
+        "matches": 17,
+        "batting_runs_above_par": -22.03,
+        "bowling_runs_saved": 45.89,
+        "bowler_wickets": 19,
+        "impact_runs": 308.86
+      },
+      {
+        "player": "Rasikh Salam",
+        "matches": 12,
+        "batting_runs_above_par": -0.4,
+        "bowling_runs_saved": 20.34,
+        "bowler_wickets": 19,
+        "impact_runs": 304.94
+      },
+      {
+        "player": "JO Holder",
+        "matches": 11,
+        "batting_runs_above_par": -22.43,
+        "bowling_runs_saved": 69.95,
+        "bowler_wickets": 17,
+        "impact_runs": 302.52
+      },
+      {
+        "player": "A Kamboj",
+        "matches": 14,
+        "batting_runs_above_par": -2.99,
+        "bowling_runs_saved": -21.74,
+        "bowler_wickets": 21,
+        "impact_runs": 290.28
+      },
+      {
+        "player": "Prince Yadav",
+        "matches": 14,
+        "batting_runs_above_par": -1.86,
+        "bowling_runs_saved": 48.86,
+        "bowler_wickets": 16,
+        "impact_runs": 287.0
+      },
+      {
+        "player": "Kartik Tyagi",
+        "matches": 13,
+        "batting_runs_above_par": -5.77,
+        "bowling_runs_saved": 3.14,
+        "bowler_wickets": 18,
+        "impact_runs": 267.37
+      },
+      {
+        "player": "L Ngidi",
+        "matches": 11,
+        "batting_runs_above_par": -6.52,
+        "bowling_runs_saved": 77.79,
+        "bowler_wickets": 13,
+        "impact_runs": 266.27
+      },
+      {
+        "player": "KH Pandya",
+        "matches": 16,
+        "batting_runs_above_par": -23.77,
+        "bowling_runs_saved": 60.64,
+        "bowler_wickets": 14,
+        "impact_runs": 246.87
+      },
+      {
+        "player": "Sakib Hussain",
+        "matches": 11,
+        "batting_runs_above_par": -7.92,
+        "bowling_runs_saved": 25.08,
+        "bowler_wickets": 15,
+        "impact_runs": 242.16
+      },
+      {
+        "player": "JR Hazlewood",
+        "matches": 13,
+        "batting_runs_above_par": -1.66,
+        "bowling_runs_saved": 14.85,
+        "bowler_wickets": 15,
+        "impact_runs": 238.19
+      },
+      {
+        "player": "Brijesh Sharma",
+        "matches": 13,
+        "batting_runs_above_par": -5.32,
+        "bowling_runs_saved": 26.46,
+        "bowler_wickets": 14,
+        "impact_runs": 231.15
+      },
+      {
+        "player": "J Overton",
+        "matches": 10,
+        "batting_runs_above_par": -7.35,
+        "bowling_runs_saved": 24.05,
+        "bowler_wickets": 14,
+        "impact_runs": 226.7
+      },
+      {
+        "player": "AM Ghazanfar",
+        "matches": 11,
+        "batting_runs_above_par": -3.46,
+        "bowling_runs_saved": 3.91,
+        "bowler_wickets": 15,
+        "impact_runs": 225.45
+      },
+      {
+        "player": "N Burger",
+        "matches": 13,
+        "batting_runs_above_par": -1.94,
+        "bowling_runs_saved": 16.4,
+        "bowler_wickets": 14,
+        "impact_runs": 224.46
+      },
+      {
+        "player": "Arshdeep Singh",
+        "matches": 14,
+        "batting_runs_above_par": -0.66,
+        "bowling_runs_saved": 3.75,
+        "bowler_wickets": 14,
+        "impact_runs": 213.08
+      },
+      {
+        "player": "Noor Ahmad",
+        "matches": 14,
+        "batting_runs_above_par": -26.14,
+        "bowling_runs_saved": 41.52,
+        "bowler_wickets": 13,
+        "impact_runs": 210.38
+      },
+      {
+        "player": "Mohsin Khan",
+        "matches": 7,
+        "batting_runs_above_par": -7.45,
+        "bowling_runs_saved": 50.58,
+        "bowler_wickets": 11,
+        "impact_runs": 208.13
+      },
+      {
+        "player": "V Suryavanshi",
+        "matches": 16,
+        "batting_runs_above_par": 205.69,
+        "bowling_runs_saved": 0.0,
+        "bowler_wickets": 0,
+        "impact_runs": 205.69
+      },
+      {
+        "player": "M Prasidh Krishna",
+        "matches": 12,
+        "batting_runs_above_par": -8.55,
+        "bowling_runs_saved": -29.2,
+        "bowler_wickets": 16,
+        "impact_runs": 202.25
+      }
+    ]
+  }
+}

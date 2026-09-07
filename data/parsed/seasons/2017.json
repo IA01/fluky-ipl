@@ -1,0 +1,5460 @@
+{
+  "schema_version": 1,
+  "season": 2017,
+  "source": {
+    "provider": "Cricsheet",
+    "format": "JSON",
+    "data_version": "1.2.x",
+    "files": 59,
+    "configured_supplements": 1
+  },
+  "config": {
+    "defaults": {
+      "win_points": 2,
+      "no_result_points": 1,
+      "loss_points": 0,
+      "tie_breakers": [
+        "points",
+        "wins",
+        "net_run_rate"
+      ],
+      "scheduled_overs": 20
+    },
+    "source_label": "2017",
+    "playoff_format": "page_playoff",
+    "neutral_host": false,
+    "supplemental_fixtures": [
+      {
+        "id": "1082619",
+        "date": "2017-04-25",
+        "city": "Bengaluru",
+        "venue": "M Chinnaswamy Stadium",
+        "stage": "league",
+        "match_number": 29,
+        "teams": [
+          "Royal Challengers Bangalore",
+          "Sunrisers Hyderabad"
+        ],
+        "outcome": "no_result",
+        "reason": "Abandoned before the toss without a ball bowled; absent from the ball-by-ball archive."
+      }
+    ]
+  },
+  "summary": {
+    "matches": 60,
+    "records": 60,
+    "league_matches": 56,
+    "playoff_matches": 4,
+    "voided_matches": 0,
+    "stages": {
+      "eliminator": 1,
+      "final": 1,
+      "league": 56,
+      "qualifier_1": 1,
+      "qualifier_2": 1
+    }
+  },
+  "team_identity_notes": [
+    "Delhi Daredevils and Delhi Capitals are treated as one continuing franchise.",
+    "Kings XI Punjab and Punjab Kings are treated as one continuing franchise.",
+    "The Royal Challengers Bangalore/Bengaluru naming change is treated as one continuing franchise.",
+    "Deccan Chargers and Sunrisers Hyderabad remain separate entities: SRH was a replacement franchise, not a rename.",
+    "Rising Pune Supergiant and Gujarat Lions are independent 2016-17 teams, not continuations of CSK or RR."
+  ],
+  "validation": {
+    "status": "passed",
+    "source_url": "https://en.wikipedia.org/wiki/2017_Indian_Premier_League",
+    "teams_checked": 8,
+    "fields_checked": [
+      "played",
+      "won",
+      "lost",
+      "no_result",
+      "points"
+    ],
+    "note": "Published NRR and ordering are authoritative; calculated NRR is retained for audit."
+  },
+  "actual_table": [
+    {
+      "team": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "played": 14,
+      "won": 10,
+      "lost": 4,
+      "tied": 0,
+      "no_result": 0,
+      "points": 20,
+      "runs_for": 2407,
+      "balls_for": 1633,
+      "runs_against": 2242,
+      "balls_against": 1669,
+      "net_run_rate": 0.784,
+      "position": 1,
+      "calculated_position": 1,
+      "calculated_net_run_rate": 0.784,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "rising_pune_supergiant",
+        "name": "Rising Pune Supergiant",
+        "abbr": "RPS"
+      },
+      "played": 14,
+      "won": 9,
+      "lost": 5,
+      "tied": 0,
+      "no_result": 0,
+      "points": 18,
+      "runs_for": 2180,
+      "balls_for": 1626,
+      "runs_against": 2165,
+      "balls_against": 1651,
+      "net_run_rate": 0.176,
+      "position": 2,
+      "calculated_position": 2,
+      "calculated_net_run_rate": 0.176,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "sunrisers_hyderabad",
+        "name": "Sunrisers Hyderabad",
+        "abbr": "SRH"
+      },
+      "played": 14,
+      "won": 8,
+      "lost": 5,
+      "tied": 0,
+      "no_result": 1,
+      "points": 17,
+      "runs_for": 2221,
+      "balls_for": 1512,
+      "runs_against": 2118,
+      "balls_against": 1547,
+      "net_run_rate": 0.599,
+      "position": 3,
+      "calculated_position": 3,
+      "calculated_net_run_rate": 0.599,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "played": 14,
+      "won": 8,
+      "lost": 6,
+      "tied": 0,
+      "no_result": 0,
+      "points": 16,
+      "runs_for": 2329,
+      "balls_for": 1565,
+      "runs_against": 2300,
+      "balls_against": 1665,
+      "net_run_rate": 0.641,
+      "position": 4,
+      "calculated_position": 4,
+      "calculated_net_run_rate": 0.641,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "punjab_kings",
+        "name": "Punjab Kings",
+        "abbr": "PBKS"
+      },
+      "played": 14,
+      "won": 7,
+      "lost": 7,
+      "tied": 0,
+      "no_result": 0,
+      "points": 14,
+      "runs_for": 2207,
+      "balls_for": 1568,
+      "runs_against": 2229,
+      "balls_against": 1582,
+      "net_run_rate": -0.009,
+      "position": 5,
+      "calculated_position": 5,
+      "calculated_net_run_rate": -0.009,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "delhi_capitals",
+        "name": "Delhi Capitals",
+        "abbr": "DC"
+      },
+      "played": 14,
+      "won": 6,
+      "lost": 8,
+      "tied": 0,
+      "no_result": 0,
+      "points": 12,
+      "runs_for": 2219,
+      "balls_for": 1658,
+      "runs_against": 2255,
+      "balls_against": 1584,
+      "net_run_rate": -0.512,
+      "position": 6,
+      "calculated_position": 6,
+      "calculated_net_run_rate": -0.512,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "gujarat_lions",
+        "name": "Gujarat Lions",
+        "abbr": "GL"
+      },
+      "played": 14,
+      "won": 4,
+      "lost": 10,
+      "tied": 0,
+      "no_result": 0,
+      "points": 8,
+      "runs_for": 2406,
+      "balls_for": 1619,
+      "runs_against": 2472,
+      "balls_against": 1590,
+      "net_run_rate": -0.412,
+      "position": 7,
+      "calculated_position": 7,
+      "calculated_net_run_rate": -0.412,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "played": 14,
+      "won": 3,
+      "lost": 10,
+      "tied": 0,
+      "no_result": 1,
+      "points": 7,
+      "runs_for": 1845,
+      "balls_for": 1560,
+      "runs_against": 2033,
+      "balls_against": 1453,
+      "net_run_rate": -1.299,
+      "position": 8,
+      "calculated_position": 8,
+      "calculated_net_run_rate": -1.299,
+      "nrr_delta": 0.0
+    }
+  ],
+  "matches": [
+    {
+      "id": "1082591",
+      "date": "2017-04-05",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 1,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 35,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 207,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 172,
+          "wickets": 10,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 208
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082592",
+      "date": "2017-04-06",
+      "city": "Pune",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 2,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 184,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 187,
+          "wickets": 3,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 185
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082593",
+      "date": "2017-04-07",
+      "city": "Rajkot",
+      "venue": "Saurashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 3,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 183,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 184,
+          "wickets": 0,
+          "legal_balls": 89,
+          "overs": "14.5",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 184
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082594",
+      "date": "2017-04-08",
+      "city": "Indore",
+      "venue": "Holkar Cricket Stadium",
+      "stage": "league",
+      "match_number": 4,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 163,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 164,
+          "wickets": 4,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 164
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082595",
+      "date": "2017-04-08",
+      "city": "Bengaluru",
+      "venue": "M.Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 5,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 15,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 157,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 142,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 158
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082596",
+      "date": "2017-04-09",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 6,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 135,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 140,
+          "wickets": 1,
+          "legal_balls": 93,
+          "overs": "15.3",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 136
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082597",
+      "date": "2017-04-09",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 7,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 178,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 180,
+          "wickets": 6,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 179
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082598",
+      "date": "2017-04-10",
+      "city": "Indore",
+      "venue": "Holkar Cricket Stadium",
+      "stage": "league",
+      "match_number": 8,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 148,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 150,
+          "wickets": 2,
+          "legal_balls": 87,
+          "overs": "14.3",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 149
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082599",
+      "date": "2017-04-11",
+      "city": "Pune",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 9,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 97,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 205,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 108,
+          "wickets": 10,
+          "legal_balls": 97,
+          "overs": "16.1",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 206
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082600",
+      "date": "2017-04-12",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 10,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 158,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 159,
+          "wickets": 6,
+          "legal_balls": 112,
+          "overs": "18.4",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 159
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082601",
+      "date": "2017-04-13",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 11,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 170,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 171,
+          "wickets": 2,
+          "legal_balls": 99,
+          "overs": "16.3",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 171
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082602",
+      "date": "2017-04-14",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 12,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 142,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 145,
+          "wickets": 6,
+          "legal_balls": 113,
+          "overs": "18.5",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 143
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082603",
+      "date": "2017-04-14",
+      "city": "Rajkot",
+      "venue": "Saurashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 13,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 171,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 172,
+          "wickets": 3,
+          "legal_balls": 108,
+          "overs": "18.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 172
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082604",
+      "date": "2017-04-15",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 14,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 17,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 172,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 155,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 173
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082605",
+      "date": "2017-04-15",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 15,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 51,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 188,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 23,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 137,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 189
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082606",
+      "date": "2017-04-16",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 16,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 176,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 177,
+          "wickets": 4,
+          "legal_balls": 117,
+          "overs": "19.3",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 177
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082607",
+      "date": "2017-04-16",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 17,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 27,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 161,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 134,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 162
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082608",
+      "date": "2017-04-17",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 18,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 168,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 169,
+          "wickets": 6,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 169
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082609",
+      "date": "2017-04-17",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 19,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 159,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 154,
+          "wickets": 10,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 160
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082610",
+      "date": "2017-04-18",
+      "city": "Rajkot",
+      "venue": "Saurashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 20,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 21,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 213,
+          "wickets": 2,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 192,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 214
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082611",
+      "date": "2017-04-19",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 21,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 15,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 191,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 176,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 192
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082612",
+      "date": "2017-04-20",
+      "city": "Indore",
+      "venue": "Holkar Cricket Stadium",
+      "stage": "league",
+      "match_number": 22,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 198,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 199,
+          "wickets": 2,
+          "legal_balls": 93,
+          "overs": "15.3",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 15
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 199
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082613",
+      "date": "2017-04-21",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 23,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 187,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 23,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 188,
+          "wickets": 6,
+          "legal_balls": 110,
+          "overs": "18.2",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 188
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082614",
+      "date": "2017-04-22",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 25,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 14,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 142,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 128,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 143
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082615",
+      "date": "2017-04-22",
+      "city": "Pune",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 24,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 176,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 179,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 177
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082616",
+      "date": "2017-04-23",
+      "city": "Rajkot",
+      "venue": "Saurashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 26,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 26,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 188,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 162,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 189
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082617",
+      "date": "2017-04-23",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 27,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 82,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 131,
+          "wickets": 10,
+          "legal_balls": 117,
+          "overs": "19.3",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 49,
+          "wickets": 10,
+          "legal_balls": 58,
+          "overs": "9.4",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 132
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082618",
+      "date": "2017-04-24",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 28,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 3,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 160,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 157,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 161
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082619",
+      "date": "2017-04-25",
+      "city": "Bengaluru",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 29,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": null,
+        "decision": null
+      },
+      "outcome": {
+        "type": "no_result",
+        "winner": null,
+        "margin": null,
+        "method": null
+      },
+      "innings": [],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": false,
+      "source_kind": "season_config_supplement",
+      "source_note": "Abandoned before the toss without a ball bowled; absent from the ball-by-ball archive.",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082620",
+      "date": "2017-04-26",
+      "city": "Pune",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 30,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 182,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 184,
+          "wickets": 3,
+          "legal_balls": 109,
+          "overs": "18.1",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 183
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082621",
+      "date": "2017-04-27",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 31,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 134,
+          "wickets": 10,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 135,
+          "wickets": 3,
+          "legal_balls": 83,
+          "overs": "13.5",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 135
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082622",
+      "date": "2017-04-28",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 32,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 160,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 161,
+          "wickets": 3,
+          "legal_balls": 98,
+          "overs": "16.2",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 161
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082623",
+      "date": "2017-04-28",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "stage": "league",
+      "match_number": 33,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 26,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 207,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 181,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 25,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 208
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082624",
+      "date": "2017-04-29",
+      "city": "Pune",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 34,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 61,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 157,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 96,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 158
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082625",
+      "date": "2017-04-29",
+      "city": "Rajkot",
+      "venue": "Saurashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 35,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "super_over_win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": null,
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 153,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 153,
+          "wickets": 10,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 154
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 11,
+          "wickets": 2,
+          "legal_balls": 5,
+          "overs": "0.5",
+          "boundaries": {
+            "fours": 1,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 6,
+          "wickets": 0,
+          "legal_balls": 6,
+          "overs": "1.0",
+          "boundaries": {
+            "fours": 0,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082626",
+      "date": "2017-04-30",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "stage": "league",
+      "match_number": 36,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 67,
+          "wickets": 10,
+          "legal_balls": 103,
+          "overs": "17.1",
+          "boundaries": {
+            "fours": 3,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 68,
+          "wickets": 0,
+          "legal_balls": 47,
+          "overs": "7.5",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 68
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082627",
+      "date": "2017-04-30",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 37,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 48,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 209,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 161,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 210
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082628",
+      "date": "2017-05-01",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 38,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 162,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 165,
+          "wickets": 5,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 163
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082629",
+      "date": "2017-05-01",
+      "city": "Pune",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 39,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 161,
+          "wickets": 10,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 167,
+          "wickets": 5,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 162
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082630",
+      "date": "2017-05-02",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 40,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 185,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 189,
+          "wickets": 4,
+          "legal_balls": 115,
+          "overs": "19.1",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 186
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082631",
+      "date": "2017-05-03",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 41,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 155,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 158,
+          "wickets": 6,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 156
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082632",
+      "date": "2017-05-04",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 42,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 208,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 214,
+          "wickets": 3,
+          "legal_balls": 105,
+          "overs": "17.3",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 20
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 209
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082633",
+      "date": "2017-05-05",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 43,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 19,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 138,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 119,
+          "wickets": 10,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 139
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082634",
+      "date": "2017-05-06",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 44,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 12,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 148,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 5,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 136,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 149
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082635",
+      "date": "2017-05-06",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 45,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 146,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 212,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 66,
+          "wickets": 10,
+          "legal_balls": 82,
+          "overs": "13.4",
+          "boundaries": {
+            "fours": 5,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 213
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082636",
+      "date": "2017-05-07",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 46,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 158,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 159,
+          "wickets": 4,
+          "legal_balls": 91,
+          "overs": "15.1",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 159
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082637",
+      "date": "2017-05-07",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "stage": "league",
+      "match_number": 47,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 189,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 192,
+          "wickets": 4,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 190
+          },
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082638",
+      "date": "2017-05-08",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 48,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 138,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 140,
+          "wickets": 3,
+          "legal_balls": 110,
+          "overs": "18.2",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 139
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082639",
+      "date": "2017-05-09",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+      "stage": "league",
+      "match_number": 49,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 14,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 167,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 153,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 168
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082640",
+      "date": "2017-05-10",
+      "city": "Kanpur",
+      "venue": "Green Park",
+      "stage": "league",
+      "match_number": 50,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 2,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 195,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 197,
+          "wickets": 8,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 31,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 196
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082641",
+      "date": "2017-05-11",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 51,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 230,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 223,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 231
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082642",
+      "date": "2017-05-12",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 52,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 168,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 161,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 169
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082643",
+      "date": "2017-05-13",
+      "city": "Kanpur",
+      "venue": "Green Park",
+      "stage": "league",
+      "match_number": 53,
+      "teams": [
+        {
+          "id": "gujarat_lions",
+          "name": "Gujarat Lions",
+          "abbr": "GL"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 154,
+          "wickets": 10,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_lions",
+            "name": "Gujarat Lions",
+            "abbr": "GL"
+          }
+        },
+        {
+          "runs": 158,
+          "wickets": 2,
+          "legal_balls": 109,
+          "overs": "18.1",
+          "boundaries": {
+            "fours": 23,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 155
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082644",
+      "date": "2017-05-13",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 54,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 173,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 164,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 174
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082645",
+      "date": "2017-05-14",
+      "city": "Pune",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 55,
+      "teams": [
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 73,
+          "wickets": 10,
+          "legal_balls": 95,
+          "overs": "15.5",
+          "boundaries": {
+            "fours": 5,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 78,
+          "wickets": 1,
+          "legal_balls": 72,
+          "overs": "12.0",
+          "boundaries": {
+            "fours": 5,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 74
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082646",
+      "date": "2017-05-14",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 56,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 161,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 151,
+          "wickets": 10,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 162
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082647",
+      "date": "2017-05-16",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "qualifier_1",
+      "match_number": "Qualifier 1",
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        },
+        "margin": {
+          "value": 20,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 162,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        },
+        {
+          "runs": 142,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 163
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082648",
+      "date": "2017-05-17",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "eliminator",
+      "match_number": "Eliminator",
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": "D/L"
+      },
+      "innings": [
+        {
+          "runs": 128,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 48,
+          "wickets": 3,
+          "legal_balls": 32,
+          "overs": "5.2",
+          "boundaries": {
+            "fours": 2,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 6,
+            "runs": 48
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082649",
+      "date": "2017-05-19",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "qualifier_2",
+      "match_number": "Qualifier 2",
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 107,
+          "wickets": 10,
+          "legal_balls": 113,
+          "overs": "18.5",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 111,
+          "wickets": 4,
+          "legal_balls": 87,
+          "overs": "14.3",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 108
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1082650",
+      "date": "2017-05-21",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "final",
+      "match_number": "Final",
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "rising_pune_supergiant",
+          "name": "Rising Pune Supergiant",
+          "abbr": "RPS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 1,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 129,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 128,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 130
+          },
+          "team": {
+            "id": "rising_pune_supergiant",
+            "name": "Rising Pune Supergiant",
+            "abbr": "RPS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    }
+  ]
+}

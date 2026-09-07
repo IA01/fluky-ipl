@@ -1,0 +1,6695 @@
+{
+  "schema_version": 1,
+  "season": 2023,
+  "source": {
+    "provider": "Cricsheet",
+    "format": "JSON",
+    "data_version": "1.2.x",
+    "files": 74,
+    "configured_supplements": 0
+  },
+  "config": {
+    "defaults": {
+      "win_points": 2,
+      "no_result_points": 1,
+      "loss_points": 0,
+      "tie_breakers": [
+        "points",
+        "wins",
+        "net_run_rate"
+      ],
+      "scheduled_overs": 20
+    },
+    "source_label": "2023",
+    "playoff_format": "page_playoff",
+    "neutral_host": false
+  },
+  "summary": {
+    "matches": 74,
+    "records": 74,
+    "league_matches": 70,
+    "playoff_matches": 4,
+    "voided_matches": 0,
+    "stages": {
+      "eliminator": 1,
+      "final": 1,
+      "league": 70,
+      "qualifier_1": 1,
+      "qualifier_2": 1
+    }
+  },
+  "team_identity_notes": [
+    "Delhi Daredevils and Delhi Capitals are treated as one continuing franchise.",
+    "Kings XI Punjab and Punjab Kings are treated as one continuing franchise.",
+    "The Royal Challengers Bangalore/Bengaluru naming change is treated as one continuing franchise.",
+    "Deccan Chargers and Sunrisers Hyderabad remain separate entities: SRH was a replacement franchise, not a rename.",
+    "Rising Pune Supergiant and Gujarat Lions are independent 2016-17 teams, not continuations of CSK or RR."
+  ],
+  "validation": {
+    "status": "passed",
+    "source_url": "https://en.wikipedia.org/wiki/2023_Indian_Premier_League",
+    "teams_checked": 10,
+    "fields_checked": [
+      "played",
+      "won",
+      "lost",
+      "no_result",
+      "points"
+    ],
+    "note": "Published NRR and ordering are authoritative; calculated NRR is retained for audit."
+  },
+  "actual_table": [
+    {
+      "team": {
+        "id": "gujarat_titans",
+        "name": "Gujarat Titans",
+        "abbr": "GT"
+      },
+      "played": 14,
+      "won": 10,
+      "lost": 4,
+      "tied": 0,
+      "no_result": 0,
+      "points": 20,
+      "runs_for": 2450,
+      "balls_for": 1609,
+      "runs_against": 2326,
+      "balls_against": 1676,
+      "net_run_rate": 0.809,
+      "position": 1,
+      "calculated_position": 1,
+      "calculated_net_run_rate": 0.809,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "played": 14,
+      "won": 8,
+      "lost": 5,
+      "tied": 0,
+      "no_result": 1,
+      "points": 17,
+      "runs_for": 2369,
+      "balls_for": 1527,
+      "runs_against": 2232,
+      "balls_against": 1547,
+      "net_run_rate": 0.652,
+      "position": 2,
+      "calculated_position": 2,
+      "calculated_net_run_rate": 0.652,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "lucknow_super_giants",
+        "name": "Lucknow Super Giants",
+        "abbr": "LSG"
+      },
+      "played": 14,
+      "won": 8,
+      "lost": 5,
+      "tied": 0,
+      "no_result": 1,
+      "points": 17,
+      "runs_for": 2253,
+      "balls_for": 1532,
+      "runs_against": 2216,
+      "balls_against": 1557,
+      "net_run_rate": 0.284,
+      "position": 3,
+      "calculated_position": 3,
+      "calculated_net_run_rate": 0.284,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "played": 14,
+      "won": 8,
+      "lost": 6,
+      "tied": 0,
+      "no_result": 0,
+      "points": 16,
+      "runs_for": 2592,
+      "balls_for": 1623,
+      "runs_against": 2620,
+      "balls_against": 1633,
+      "net_run_rate": -0.044,
+      "position": 4,
+      "calculated_position": 4,
+      "calculated_net_run_rate": -0.044,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "rajasthan_royals",
+        "name": "Rajasthan Royals",
+        "abbr": "RR"
+      },
+      "played": 14,
+      "won": 7,
+      "lost": 7,
+      "tied": 0,
+      "no_result": 0,
+      "points": 14,
+      "runs_for": 2419,
+      "balls_for": 1633,
+      "runs_against": 2389,
+      "balls_against": 1640,
+      "net_run_rate": 0.148,
+      "position": 5,
+      "calculated_position": 5,
+      "calculated_net_run_rate": 0.148,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "played": 14,
+      "won": 7,
+      "lost": 7,
+      "tied": 0,
+      "no_result": 0,
+      "points": 14,
+      "runs_for": 2502,
+      "balls_for": 1654,
+      "runs_against": 2435,
+      "balls_against": 1634,
+      "net_run_rate": 0.135,
+      "position": 6,
+      "calculated_position": 6,
+      "calculated_net_run_rate": 0.135,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "played": 14,
+      "won": 6,
+      "lost": 8,
+      "tied": 0,
+      "no_result": 0,
+      "points": 12,
+      "runs_for": 2463,
+      "balls_for": 1647,
+      "runs_against": 2432,
+      "balls_against": 1584,
+      "net_run_rate": -0.239,
+      "position": 7,
+      "calculated_position": 7,
+      "calculated_net_run_rate": -0.239,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "punjab_kings",
+        "name": "Punjab Kings",
+        "abbr": "PBKS"
+      },
+      "played": 14,
+      "won": 6,
+      "lost": 8,
+      "tied": 0,
+      "no_result": 0,
+      "points": 12,
+      "runs_for": 2518,
+      "balls_for": 1653,
+      "runs_against": 2564,
+      "balls_against": 1629,
+      "net_run_rate": -0.304,
+      "position": 8,
+      "calculated_position": 8,
+      "calculated_net_run_rate": -0.304,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "delhi_capitals",
+        "name": "Delhi Capitals",
+        "abbr": "DC"
+      },
+      "played": 14,
+      "won": 5,
+      "lost": 9,
+      "tied": 0,
+      "no_result": 0,
+      "points": 10,
+      "runs_for": 2182,
+      "balls_for": 1656,
+      "runs_against": 2424,
+      "balls_against": 1669,
+      "net_run_rate": -0.808,
+      "position": 9,
+      "calculated_position": 9,
+      "calculated_net_run_rate": -0.808,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "sunrisers_hyderabad",
+        "name": "Sunrisers Hyderabad",
+        "abbr": "SRH"
+      },
+      "played": 14,
+      "won": 4,
+      "lost": 10,
+      "tied": 0,
+      "no_result": 0,
+      "points": 8,
+      "runs_for": 2376,
+      "balls_for": 1663,
+      "runs_against": 2486,
+      "balls_against": 1628,
+      "net_run_rate": -0.59,
+      "position": 10,
+      "calculated_position": 10,
+      "calculated_net_run_rate": -0.59,
+      "nrr_delta": 0.0
+    }
+  ],
+  "matches": [
+    {
+      "id": "1359475",
+      "date": "2023-03-31",
+      "city": "Ahmedabad",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "stage": "league",
+      "match_number": 1,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 178,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 13
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 182,
+          "wickets": 5,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 179
+          },
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359476",
+      "date": "2023-04-01",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+      "stage": "league",
+      "match_number": 2,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "runs"
+        },
+        "method": "D/L"
+      },
+      "innings": [
+        {
+          "runs": 191,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 146,
+          "wickets": 7,
+          "legal_balls": 96,
+          "overs": "16.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 16,
+            "runs": 154
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359477",
+      "date": "2023-04-01",
+      "city": "Lucknow",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "stage": "league",
+      "match_number": 3,
+      "teams": [
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        "margin": {
+          "value": 50,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 193,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 5,
+            "sixes": 16
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        },
+        {
+          "runs": 143,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 194
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359478",
+      "date": "2023-04-02",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+      "stage": "league",
+      "match_number": 4,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 72,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 203,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 131,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 204
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359479",
+      "date": "2023-04-02",
+      "city": "Bengaluru",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "stage": "league",
+      "match_number": 5,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 171,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 172,
+          "wickets": 2,
+          "legal_balls": 98,
+          "overs": "16.2",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 13
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 172
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359480",
+      "date": "2023-04-03",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "stage": "league",
+      "match_number": 6,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 12,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 217,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 13
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 205,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 218
+          },
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359481",
+      "date": "2023-04-04",
+      "city": "Delhi",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "stage": "league",
+      "match_number": 7,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 162,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 163,
+          "wickets": 4,
+          "legal_balls": 109,
+          "overs": "18.1",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 163
+          },
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359482",
+      "date": "2023-04-05",
+      "city": "Guwahati",
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "stage": "league",
+      "match_number": 8,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 197,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 192,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 198
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359483",
+      "date": "2023-04-06",
+      "city": "Kolkata",
+      "venue": "Eden Gardens, Kolkata",
+      "stage": "league",
+      "match_number": 9,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 81,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 204,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 123,
+          "wickets": 10,
+          "legal_balls": 106,
+          "overs": "17.4",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 205
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359484",
+      "date": "2023-04-07",
+      "city": "Lucknow",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "stage": "league",
+      "match_number": 10,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 121,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 127,
+          "wickets": 5,
+          "legal_balls": 96,
+          "overs": "16.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 122
+          },
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359485",
+      "date": "2023-04-08",
+      "city": "Guwahati",
+      "venue": "Barsapara Cricket Stadium, Guwahati",
+      "stage": "league",
+      "match_number": 11,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 57,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 199,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 23,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 142,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 200
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359486",
+      "date": "2023-04-08",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium, Mumbai",
+      "stage": "league",
+      "match_number": 12,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 157,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 159,
+          "wickets": 3,
+          "legal_balls": 109,
+          "overs": "18.1",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 158
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359487",
+      "date": "2023-04-09",
+      "city": "Ahmedabad",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "stage": "league",
+      "match_number": 13,
+      "teams": [
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 3,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 204,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        },
+        {
+          "runs": 207,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 15
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 205
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359488",
+      "date": "2023-04-09",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+      "stage": "league",
+      "match_number": 14,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 143,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 145,
+          "wickets": 2,
+          "legal_balls": 103,
+          "overs": "17.1",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 144
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359489",
+      "date": "2023-04-10",
+      "city": "Bengaluru",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "stage": "league",
+      "match_number": 15,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        "margin": {
+          "value": 1,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 212,
+          "wickets": 2,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 15
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 213,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 213
+          },
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359490",
+      "date": "2023-04-11",
+      "city": "Delhi",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "stage": "league",
+      "match_number": 16,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 172,
+          "wickets": 10,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 173,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 173
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359491",
+      "date": "2023-04-12",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "stage": "league",
+      "match_number": 17,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 3,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 175,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 172,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 176
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359492",
+      "date": "2023-04-13",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+      "stage": "league",
+      "match_number": 18,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 153,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 154,
+          "wickets": 4,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 154
+          },
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359493",
+      "date": "2023-04-14",
+      "city": "Kolkata",
+      "venue": "Eden Gardens, Kolkata",
+      "stage": "league",
+      "match_number": 19,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 23,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 228,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 205,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 229
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359494",
+      "date": "2023-04-15",
+      "city": "Bengaluru",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "stage": "league",
+      "match_number": 20,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 23,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 174,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 151,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 175
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359495",
+      "date": "2023-04-15",
+      "city": "Lucknow",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "stage": "league",
+      "match_number": 21,
+      "teams": [
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 2,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 159,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        },
+        {
+          "runs": 161,
+          "wickets": 8,
+          "legal_balls": 117,
+          "overs": "19.3",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 160
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359496",
+      "date": "2023-04-16",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium, Mumbai",
+      "stage": "league",
+      "match_number": 22,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 185,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 186,
+          "wickets": 5,
+          "legal_balls": 106,
+          "overs": "17.4",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 13
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 186
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359497",
+      "date": "2023-04-16",
+      "city": "Ahmedabad",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "stage": "league",
+      "match_number": 23,
+      "teams": [
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 3,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 177,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        },
+        {
+          "runs": 179,
+          "wickets": 7,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 15
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 178
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359498",
+      "date": "2023-04-17",
+      "city": "Bengaluru",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "stage": "league",
+      "match_number": 24,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 226,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 17
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 218,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 16
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 227
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359499",
+      "date": "2023-04-18",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+      "stage": "league",
+      "match_number": 25,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 14,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 192,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 178,
+          "wickets": 10,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 193
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359500",
+      "date": "2023-04-19",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "stage": "league",
+      "match_number": 26,
+      "teams": [
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 154,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        },
+        {
+          "runs": 144,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 155
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359501",
+      "date": "2023-04-20",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+      "stage": "league",
+      "match_number": 27,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 24,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 174,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 150,
+          "wickets": 10,
+          "legal_balls": 110,
+          "overs": "18.2",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 175
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359502",
+      "date": "2023-04-20",
+      "city": "Delhi",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "stage": "league",
+      "match_number": 28,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 127,
+          "wickets": 10,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 128,
+          "wickets": 6,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 128
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359503",
+      "date": "2023-04-21",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "stage": "league",
+      "match_number": 29,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 134,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 138,
+          "wickets": 3,
+          "legal_balls": 112,
+          "overs": "18.4",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 135
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359504",
+      "date": "2023-04-22",
+      "city": "Lucknow",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "stage": "league",
+      "match_number": 30,
+      "teams": [
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 135,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        },
+        {
+          "runs": 128,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 136
+          },
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359505",
+      "date": "2023-04-22",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium, Mumbai",
+      "stage": "league",
+      "match_number": 31,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 13,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 214,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 201,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 215
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359506",
+      "date": "2023-04-23",
+      "city": "Bengaluru",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "stage": "league",
+      "match_number": 32,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 189,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 182,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 190
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359507",
+      "date": "2023-04-23",
+      "city": "Kolkata",
+      "venue": "Eden Gardens, Kolkata",
+      "stage": "league",
+      "match_number": 33,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 49,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 235,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 18
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 186,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 236
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359508",
+      "date": "2023-04-24",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+      "stage": "league",
+      "match_number": 34,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 144,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 137,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 145
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359509",
+      "date": "2023-04-25",
+      "city": "Ahmedabad",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "stage": "league",
+      "match_number": 35,
+      "teams": [
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "margin": {
+          "value": 55,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 207,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        },
+        {
+          "runs": 152,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 208
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359510",
+      "date": "2023-04-26",
+      "city": "Bengaluru",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "stage": "league",
+      "match_number": 36,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 21,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 200,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 179,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 201
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359511",
+      "date": "2023-04-27",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "stage": "league",
+      "match_number": 37,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 32,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 202,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 170,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 203
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359512",
+      "date": "2023-04-28",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+      "stage": "league",
+      "match_number": 38,
+      "teams": [
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        "margin": {
+          "value": 56,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 257,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 27,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        },
+        {
+          "runs": 201,
+          "wickets": 10,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 258
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359513",
+      "date": "2023-04-29",
+      "city": "Kolkata",
+      "venue": "Eden Gardens, Kolkata",
+      "stage": "league",
+      "match_number": 39,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 179,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 180,
+          "wickets": 3,
+          "legal_balls": 107,
+          "overs": "17.5",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 180
+          },
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359514",
+      "date": "2023-04-29",
+      "city": "Delhi",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "stage": "league",
+      "match_number": 40,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 197,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 188,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 198
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359515",
+      "date": "2023-04-30",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "stage": "league",
+      "match_number": 41,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 200,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 23,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 201,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 201
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359516",
+      "date": "2023-04-30",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium, Mumbai",
+      "stage": "league",
+      "match_number": 42,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 212,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 214,
+          "wickets": 4,
+          "legal_balls": 117,
+          "overs": "19.3",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 213
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359517",
+      "date": "2023-05-01",
+      "city": "Lucknow",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "stage": "league",
+      "match_number": 43,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 18,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 126,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 108,
+          "wickets": 10,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 127
+          },
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359518",
+      "date": "2023-05-02",
+      "city": "Ahmedabad",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "stage": "league",
+      "match_number": 44,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 130,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 125,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 131
+          },
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359519",
+      "date": "2023-05-03",
+      "city": "Lucknow",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "stage": "league",
+      "match_number": 45,
+      "teams": [
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "no_result",
+        "winner": null,
+        "margin": null,
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 125,
+          "wickets": 7,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": false,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359520",
+      "date": "2023-05-03",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+      "stage": "league",
+      "match_number": 46,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 214,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 216,
+          "wickets": 4,
+          "legal_balls": 113,
+          "overs": "18.5",
+          "boundaries": {
+            "fours": 23,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 215
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359521",
+      "date": "2023-05-04",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+      "stage": "league",
+      "match_number": 47,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 171,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 166,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 172
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359522",
+      "date": "2023-05-05",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "stage": "league",
+      "match_number": 48,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 118,
+          "wickets": 10,
+          "legal_balls": 107,
+          "overs": "17.5",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 119,
+          "wickets": 1,
+          "legal_balls": 83,
+          "overs": "13.5",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 119
+          },
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359523",
+      "date": "2023-05-06",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "stage": "league",
+      "match_number": 49,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 139,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 140,
+          "wickets": 4,
+          "legal_balls": 106,
+          "overs": "17.4",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 140
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359524",
+      "date": "2023-05-06",
+      "city": "Delhi",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "stage": "league",
+      "match_number": 50,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 181,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 187,
+          "wickets": 3,
+          "legal_balls": 100,
+          "overs": "16.4",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 182
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359525",
+      "date": "2023-05-07",
+      "city": "Ahmedabad",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "stage": "league",
+      "match_number": 51,
+      "teams": [
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "margin": {
+          "value": 56,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 227,
+          "wickets": 2,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        },
+        {
+          "runs": 171,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 228
+          },
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359526",
+      "date": "2023-05-07",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "stage": "league",
+      "match_number": 52,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 214,
+          "wickets": 2,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 217,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 13
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 215
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359527",
+      "date": "2023-05-08",
+      "city": "Kolkata",
+      "venue": "Eden Gardens, Kolkata",
+      "stage": "league",
+      "match_number": 53,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 179,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 182,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 180
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359528",
+      "date": "2023-05-09",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium, Mumbai",
+      "stage": "league",
+      "match_number": 54,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 199,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 200,
+          "wickets": 4,
+          "legal_balls": 99,
+          "overs": "16.3",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 13
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 200
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359529",
+      "date": "2023-05-10",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "stage": "league",
+      "match_number": 55,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 27,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 167,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 140,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 168
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359530",
+      "date": "2023-05-11",
+      "city": "Kolkata",
+      "venue": "Eden Gardens, Kolkata",
+      "stage": "league",
+      "match_number": 56,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 149,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 151,
+          "wickets": 1,
+          "legal_balls": 79,
+          "overs": "13.1",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 150
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359531",
+      "date": "2023-05-12",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium, Mumbai",
+      "stage": "league",
+      "match_number": 57,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 27,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 218,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 191,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 219
+          },
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359532",
+      "date": "2023-05-13",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+      "stage": "league",
+      "match_number": 58,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 182,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 185,
+          "wickets": 3,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 183
+          },
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359533",
+      "date": "2023-05-13",
+      "city": "Delhi",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "stage": "league",
+      "match_number": 59,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 31,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 167,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 136,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 168
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359534",
+      "date": "2023-05-14",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium, Jaipur",
+      "stage": "league",
+      "match_number": 60,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 112,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 171,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 59,
+          "wickets": 10,
+          "legal_balls": 63,
+          "overs": "10.3",
+          "boundaries": {
+            "fours": 4,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 172
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359535",
+      "date": "2023-05-14",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "stage": "league",
+      "match_number": 61,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 144,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 147,
+          "wickets": 4,
+          "legal_balls": 111,
+          "overs": "18.3",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 145
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359536",
+      "date": "2023-05-15",
+      "city": "Ahmedabad",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "stage": "league",
+      "match_number": 62,
+      "teams": [
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "margin": {
+          "value": 34,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 188,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        },
+        {
+          "runs": 154,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 189
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359537",
+      "date": "2023-05-16",
+      "city": "Lucknow",
+      "venue": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+      "stage": "league",
+      "match_number": 63,
+      "teams": [
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 177,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        },
+        {
+          "runs": 172,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 178
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359538",
+      "date": "2023-05-17",
+      "city": "Dharamsala",
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+      "stage": "league",
+      "match_number": 64,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 15,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 213,
+          "wickets": 2,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 198,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 13
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 214
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359539",
+      "date": "2023-05-18",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+      "stage": "league",
+      "match_number": 65,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 186,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 187,
+          "wickets": 2,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 187
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359540",
+      "date": "2023-05-19",
+      "city": "Dharamsala",
+      "venue": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+      "stage": "league",
+      "match_number": 66,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 187,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 189,
+          "wickets": 6,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 188
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359541",
+      "date": "2023-05-20",
+      "city": "Delhi",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "stage": "league",
+      "match_number": 67,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 77,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 223,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 14
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 146,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 224
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359542",
+      "date": "2023-05-20",
+      "city": "Kolkata",
+      "venue": "Eden Gardens, Kolkata",
+      "stage": "league",
+      "match_number": 68,
+      "teams": [
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        },
+        "margin": {
+          "value": 1,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 176,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        },
+        {
+          "runs": 175,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 177
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359543",
+      "date": "2023-05-21",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium, Mumbai",
+      "stage": "league",
+      "match_number": 69,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 200,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 201,
+          "wickets": 2,
+          "legal_balls": 108,
+          "overs": "18.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 201
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1359544",
+      "date": "2023-05-21",
+      "city": "Bengaluru",
+      "venue": "M Chinnaswamy Stadium, Bengaluru",
+      "stage": "league",
+      "match_number": 70,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 197,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 25,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 198,
+          "wickets": 4,
+          "legal_balls": 115,
+          "overs": "19.1",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 198
+          },
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1370350",
+      "date": "2023-05-23",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "stage": "qualifier_1",
+      "match_number": "Qualifier 1",
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 15,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 172,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 157,
+          "wickets": 10,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 173
+          },
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1370351",
+      "date": "2023-05-24",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk, Chennai",
+      "stage": "eliminator",
+      "match_number": "Eliminator",
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "lucknow_super_giants",
+          "name": "Lucknow Super Giants",
+          "abbr": "LSG"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 81,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 182,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 101,
+          "wickets": 10,
+          "legal_balls": 99,
+          "overs": "16.3",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 183
+          },
+          "team": {
+            "id": "lucknow_super_giants",
+            "name": "Lucknow Super Giants",
+            "abbr": "LSG"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1370352",
+      "date": "2023-05-26",
+      "city": "Ahmedabad",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "stage": "qualifier_2",
+      "match_number": "Qualifier 2",
+      "teams": [
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        "margin": {
+          "value": 62,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 233,
+          "wickets": 2,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 13
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        },
+        {
+          "runs": 171,
+          "wickets": 10,
+          "legal_balls": 110,
+          "overs": "18.2",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 234
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "1370353",
+      "date": "2023-05-29",
+      "city": "Ahmedabad",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "stage": "final",
+      "match_number": "Final",
+      "teams": [
+        {
+          "id": "gujarat_titans",
+          "name": "Gujarat Titans",
+          "abbr": "GT"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": "D/L"
+      },
+      "innings": [
+        {
+          "runs": 214,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "gujarat_titans",
+            "name": "Gujarat Titans",
+            "abbr": "GT"
+          }
+        },
+        {
+          "runs": 171,
+          "wickets": 5,
+          "legal_balls": 90,
+          "overs": "15.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 15,
+            "runs": 171
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    }
+  ]
+}

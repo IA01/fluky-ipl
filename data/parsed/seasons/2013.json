@@ -1,0 +1,6941 @@
+{
+  "schema_version": 1,
+  "season": 2013,
+  "source": {
+    "provider": "Cricsheet",
+    "format": "JSON",
+    "data_version": "1.2.x",
+    "files": 76,
+    "configured_supplements": 0
+  },
+  "config": {
+    "defaults": {
+      "win_points": 2,
+      "no_result_points": 1,
+      "loss_points": 0,
+      "tie_breakers": [
+        "points",
+        "wins",
+        "net_run_rate"
+      ],
+      "scheduled_overs": 20
+    },
+    "source_label": "2013",
+    "playoff_format": "page_playoff",
+    "neutral_host": false
+  },
+  "summary": {
+    "matches": 76,
+    "records": 76,
+    "league_matches": 72,
+    "playoff_matches": 4,
+    "voided_matches": 0,
+    "stages": {
+      "eliminator": 1,
+      "final": 1,
+      "league": 72,
+      "qualifier_1": 1,
+      "qualifier_2": 1
+    }
+  },
+  "team_identity_notes": [
+    "Delhi Daredevils and Delhi Capitals are treated as one continuing franchise.",
+    "Kings XI Punjab and Punjab Kings are treated as one continuing franchise.",
+    "The Royal Challengers Bangalore/Bengaluru naming change is treated as one continuing franchise.",
+    "Deccan Chargers and Sunrisers Hyderabad remain separate entities: SRH was a replacement franchise, not a rename.",
+    "Rising Pune Supergiant and Gujarat Lions are independent 2016-17 teams, not continuations of CSK or RR."
+  ],
+  "validation": {
+    "status": "passed",
+    "source_url": "https://en.wikipedia.org/wiki/2013_Indian_Premier_League",
+    "teams_checked": 9,
+    "fields_checked": [
+      "played",
+      "won",
+      "lost",
+      "no_result",
+      "points"
+    ],
+    "note": "Published NRR and ordering are authoritative; calculated NRR is retained for audit."
+  },
+  "actual_table": [
+    {
+      "team": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "played": 16,
+      "won": 11,
+      "lost": 5,
+      "tied": 0,
+      "no_result": 0,
+      "points": 22,
+      "runs_for": 2461,
+      "balls_for": 1823,
+      "runs_against": 2310,
+      "balls_against": 1831,
+      "net_run_rate": 0.53,
+      "position": 1,
+      "calculated_position": 1,
+      "calculated_net_run_rate": 0.53,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "played": 16,
+      "won": 11,
+      "lost": 5,
+      "tied": 0,
+      "no_result": 0,
+      "points": 22,
+      "runs_for": 2514,
+      "balls_for": 1904,
+      "runs_against": 2350,
+      "balls_against": 1890,
+      "net_run_rate": 0.441,
+      "position": 2,
+      "calculated_position": 2,
+      "calculated_net_run_rate": 0.462,
+      "nrr_delta": 0.021
+    },
+    {
+      "team": {
+        "id": "rajasthan_royals",
+        "name": "Rajasthan Royals",
+        "abbr": "RR"
+      },
+      "played": 16,
+      "won": 10,
+      "lost": 6,
+      "tied": 0,
+      "no_result": 0,
+      "points": 20,
+      "runs_for": 2405,
+      "balls_for": 1865,
+      "runs_against": 2326,
+      "balls_against": 1882,
+      "net_run_rate": 0.322,
+      "position": 3,
+      "calculated_position": 3,
+      "calculated_net_run_rate": 0.322,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "sunrisers_hyderabad",
+        "name": "Sunrisers Hyderabad",
+        "abbr": "SRH"
+      },
+      "played": 16,
+      "won": 10,
+      "lost": 6,
+      "tied": 0,
+      "no_result": 0,
+      "points": 20,
+      "runs_for": 2166,
+      "balls_for": 1853,
+      "runs_against": 2206,
+      "balls_against": 1888,
+      "net_run_rate": 0.003,
+      "position": 4,
+      "calculated_position": 4,
+      "calculated_net_run_rate": 0.003,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "played": 16,
+      "won": 9,
+      "lost": 7,
+      "tied": 0,
+      "no_result": 0,
+      "points": 18,
+      "runs_for": 2571,
+      "balls_for": 1806,
+      "runs_against": 2451,
+      "balls_against": 1819,
+      "net_run_rate": 0.457,
+      "position": 5,
+      "calculated_position": 5,
+      "calculated_net_run_rate": 0.457,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "punjab_kings",
+        "name": "Punjab Kings",
+        "abbr": "PBKS"
+      },
+      "played": 16,
+      "won": 8,
+      "lost": 8,
+      "tied": 0,
+      "no_result": 0,
+      "points": 16,
+      "runs_for": 2428,
+      "balls_for": 1832,
+      "runs_against": 2417,
+      "balls_against": 1872,
+      "net_run_rate": 0.226,
+      "position": 6,
+      "calculated_position": 6,
+      "calculated_net_run_rate": 0.205,
+      "nrr_delta": -0.021
+    },
+    {
+      "team": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "played": 16,
+      "won": 6,
+      "lost": 10,
+      "tied": 0,
+      "no_result": 0,
+      "points": 12,
+      "runs_for": 2290,
+      "balls_for": 1882,
+      "runs_against": 2316,
+      "balls_against": 1879,
+      "net_run_rate": -0.095,
+      "position": 7,
+      "calculated_position": 7,
+      "calculated_net_run_rate": -0.095,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "pune_warriors",
+        "name": "Pune Warriors",
+        "abbr": "PWI"
+      },
+      "played": 16,
+      "won": 4,
+      "lost": 12,
+      "tied": 0,
+      "no_result": 0,
+      "points": 8,
+      "runs_for": 2262,
+      "balls_for": 1912,
+      "runs_against": 2519,
+      "balls_against": 1865,
+      "net_run_rate": -1.006,
+      "position": 8,
+      "calculated_position": 8,
+      "calculated_net_run_rate": -1.006,
+      "nrr_delta": 0.0
+    },
+    {
+      "team": {
+        "id": "delhi_capitals",
+        "name": "Delhi Capitals",
+        "abbr": "DC"
+      },
+      "played": 16,
+      "won": 3,
+      "lost": 13,
+      "tied": 0,
+      "no_result": 0,
+      "points": 6,
+      "runs_for": 2234,
+      "balls_for": 1889,
+      "runs_against": 2436,
+      "balls_against": 1840,
+      "net_run_rate": -0.848,
+      "position": 9,
+      "calculated_position": 9,
+      "calculated_net_run_rate": -0.848,
+      "nrr_delta": 0.0
+    }
+  ],
+  "matches": [
+    {
+      "id": "597998",
+      "date": "2013-04-03",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 1,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 128,
+          "wickets": 10,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 129,
+          "wickets": 4,
+          "legal_balls": 112,
+          "overs": "18.4",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 129
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "597999",
+      "date": "2013-04-04",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 2,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 2,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 156,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 154,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 157
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598000",
+      "date": "2013-04-05",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 3,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 22,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 126,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 104,
+          "wickets": 10,
+          "legal_balls": 113,
+          "overs": "18.5",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 127
+          },
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598001",
+      "date": "2013-04-06",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 4,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 165,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 160,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 166
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598002",
+      "date": "2013-04-06",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 5,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 148,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 139,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 149
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598003",
+      "date": "2013-04-07",
+      "city": "Pune",
+      "venue": "Subrata Roy Sahara Stadium",
+      "stage": "league",
+      "match_number": 6,
+      "teams": [
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 99,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        },
+        {
+          "runs": 100,
+          "wickets": 2,
+          "legal_balls": 74,
+          "overs": "12.2",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 100
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598004",
+      "date": "2013-04-07",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 7,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "super_over_win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": null,
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 130,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 130,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 131
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 20,
+          "wickets": 0,
+          "legal_balls": 6,
+          "overs": "1.0",
+          "boundaries": {
+            "fours": 0,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 15,
+          "wickets": 0,
+          "legal_balls": 6,
+          "overs": "1.0",
+          "boundaries": {
+            "fours": 1,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598005",
+      "date": "2013-04-08",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 8,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 19,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 144,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 125,
+          "wickets": 10,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 145
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598006",
+      "date": "2013-04-09",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 10,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 44,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 209,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 165,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 210
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598048",
+      "date": "2013-04-09",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 9,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 161,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 162,
+          "wickets": 3,
+          "legal_balls": 106,
+          "overs": "17.4",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 162
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598007",
+      "date": "2013-04-10",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "stage": "league",
+      "match_number": 11,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 10,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 138,
+          "wickets": 10,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 139,
+          "wickets": 0,
+          "legal_balls": 104,
+          "overs": "17.2",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 139
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598008",
+      "date": "2013-04-11",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 12,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 154,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 158,
+          "wickets": 2,
+          "legal_balls": 105,
+          "overs": "17.3",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 12
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 155
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598009",
+      "date": "2013-04-11",
+      "city": "Pune",
+      "venue": "Subrata Roy Sahara Stadium",
+      "stage": "league",
+      "match_number": 13,
+      "teams": [
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 145,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 148,
+          "wickets": 3,
+          "legal_balls": 112,
+          "overs": "18.4",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 146
+          },
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598010",
+      "date": "2013-04-12",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 14,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 3,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 114,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 115,
+          "wickets": 7,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 115
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598011",
+      "date": "2013-04-13",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 15,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 41,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 183,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 142,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 184
+          },
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598012",
+      "date": "2013-04-13",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 16,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 165,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 166,
+          "wickets": 6,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 166
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598013",
+      "date": "2013-04-14",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 17,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 48,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 180,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 132,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 181
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598014",
+      "date": "2013-04-14",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 18,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 124,
+          "wickets": 10,
+          "legal_balls": 113,
+          "overs": "18.5",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 126,
+          "wickets": 4,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 125
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598015",
+      "date": "2013-04-15",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 19,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        "margin": {
+          "value": 24,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 159,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        },
+        {
+          "runs": 135,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 160
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598016",
+      "date": "2013-04-16",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "stage": "league",
+      "match_number": 20,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 157,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 153,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 158
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598017",
+      "date": "2013-04-16",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 21,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "super_over_win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": null,
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 152,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 152,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 153
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 15,
+          "wickets": 0,
+          "legal_balls": 6,
+          "overs": "1.0",
+          "boundaries": {
+            "fours": 0,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 11,
+          "wickets": 2,
+          "legal_balls": 6,
+          "overs": "1.0",
+          "boundaries": {
+            "fours": 1,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598018",
+      "date": "2013-04-17",
+      "city": "Pune",
+      "venue": "Maharashtra Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 22,
+      "teams": [
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 11,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 119,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 108,
+          "wickets": 10,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 120
+          },
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598019",
+      "date": "2013-04-17",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 23,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 87,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 179,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 92,
+          "wickets": 10,
+          "legal_balls": 110,
+          "overs": "18.2",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 180
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598020",
+      "date": "2013-04-18",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 24,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 86,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 169,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 83,
+          "wickets": 10,
+          "legal_balls": 105,
+          "overs": "17.3",
+          "boundaries": {
+            "fours": 5,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 170
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598021",
+      "date": "2013-04-19",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 25,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 123,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 127,
+          "wickets": 5,
+          "legal_balls": 113,
+          "overs": "18.5",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 124
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598022",
+      "date": "2013-04-20",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 26,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 119,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 124,
+          "wickets": 6,
+          "legal_balls": 115,
+          "overs": "19.1",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 120
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598023",
+      "date": "2013-04-20",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 27,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 117,
+          "wickets": 10,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 123,
+          "wickets": 3,
+          "legal_balls": 107,
+          "overs": "17.5",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 118
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598024",
+      "date": "2013-04-21",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 28,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 161,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 165,
+          "wickets": 1,
+          "legal_balls": 102,
+          "overs": "17.0",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 162
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598025",
+      "date": "2013-04-21",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "stage": "league",
+      "match_number": 29,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 185,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        },
+        {
+          "runs": 186,
+          "wickets": 3,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 186
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598026",
+      "date": "2013-04-22",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 30,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 185,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 186,
+          "wickets": 5,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 186
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598027",
+      "date": "2013-04-23",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 31,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 130,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 263,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 21
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 133,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 264
+          },
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598059",
+      "date": "2013-04-23",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 32,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 120,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 121,
+          "wickets": 5,
+          "legal_balls": 102,
+          "overs": "17.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 121
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598029",
+      "date": "2013-04-24",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 33,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 159,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 162,
+          "wickets": 5,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 160
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598030",
+      "date": "2013-04-25",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 34,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 159,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 160,
+          "wickets": 5,
+          "legal_balls": 118,
+          "overs": "19.4",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 160
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598031",
+      "date": "2013-04-26",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 35,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 149,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 150,
+          "wickets": 4,
+          "legal_balls": 110,
+          "overs": "18.2",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 150
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598032",
+      "date": "2013-04-27",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 36,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 144,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 146,
+          "wickets": 2,
+          "legal_balls": 107,
+          "overs": "17.5",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 145
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598033",
+      "date": "2013-04-27",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 37,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 58,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 194,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 136,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 195
+          },
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598034",
+      "date": "2013-04-28",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 38,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 14,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 200,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 186,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 201
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598035",
+      "date": "2013-04-28",
+      "city": "Raipur",
+      "venue": "Shaheed Veer Narayan Singh International Stadium",
+      "stage": "league",
+      "match_number": 39,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 15,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 164,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 149,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 165
+          },
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598036",
+      "date": "2013-04-29",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 40,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 171,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 173,
+          "wickets": 6,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 172
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598037",
+      "date": "2013-04-29",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 41,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 174,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 170,
+          "wickets": 10,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 175
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598038",
+      "date": "2013-04-30",
+      "city": "Pune",
+      "venue": "Subrata Roy Sahara Stadium",
+      "stage": "league",
+      "match_number": 42,
+      "teams": [
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 37,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 164,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 127,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 165
+          },
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598039",
+      "date": "2013-05-01",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 43,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 129,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 130,
+          "wickets": 3,
+          "legal_balls": 108,
+          "overs": "18.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 130
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598040",
+      "date": "2013-05-01",
+      "city": "Raipur",
+      "venue": "Shaheed Veer Narayan Singh International Stadium",
+      "stage": "league",
+      "match_number": 44,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 136,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 137,
+          "wickets": 3,
+          "legal_balls": 107,
+          "overs": "17.5",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 137
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598041",
+      "date": "2013-05-02",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 45,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 15,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 186,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 171,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 187
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598042",
+      "date": "2013-05-02",
+      "city": "Pune",
+      "venue": "Subrata Roy Sahara Stadium",
+      "stage": "league",
+      "match_number": 46,
+      "teams": [
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 17,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 187,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 170,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 188
+          },
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598043",
+      "date": "2013-05-03",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "league",
+      "match_number": 47,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 132,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 133,
+          "wickets": 2,
+          "legal_balls": 104,
+          "overs": "17.2",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 133
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598044",
+      "date": "2013-05-04",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 48,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 80,
+          "wickets": 10,
+          "legal_balls": 115,
+          "overs": "19.1",
+          "boundaries": {
+            "fours": 4,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 81,
+          "wickets": 4,
+          "legal_balls": 83,
+          "overs": "13.5",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 81
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598046",
+      "date": "2013-05-05",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 49,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 60,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 139,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 79,
+          "wickets": 10,
+          "legal_balls": 92,
+          "overs": "15.2",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 140
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598047",
+      "date": "2013-05-05",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 50,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 178,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        },
+        {
+          "runs": 182,
+          "wickets": 5,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 179
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598064",
+      "date": "2013-05-06",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "stage": "league",
+      "match_number": 51,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 6,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 190,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 194,
+          "wickets": 4,
+          "legal_balls": 108,
+          "overs": "18.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 191
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598049",
+      "date": "2013-05-07",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 52,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 9,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 154,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        },
+        {
+          "runs": 155,
+          "wickets": 1,
+          "legal_balls": 107,
+          "overs": "17.5",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 155
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598050",
+      "date": "2013-05-07",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 53,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 65,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 170,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 20,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 105,
+          "wickets": 10,
+          "legal_balls": 110,
+          "overs": "18.2",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 171
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598051",
+      "date": "2013-05-08",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 54,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 77,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 223,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 10
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 146,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 224
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598052",
+      "date": "2013-05-09",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "stage": "league",
+      "match_number": 55,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 8,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 145,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 147,
+          "wickets": 2,
+          "legal_balls": 114,
+          "overs": "19.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 146
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598053",
+      "date": "2013-05-09",
+      "city": "Pune",
+      "venue": "Subrata Roy Sahara Stadium",
+      "stage": "league",
+      "match_number": 56,
+      "teams": [
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 46,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 152,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 106,
+          "wickets": 10,
+          "legal_balls": 117,
+          "overs": "19.3",
+          "boundaries": {
+            "fours": 4,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 153
+          },
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598054",
+      "date": "2013-05-10",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "league",
+      "match_number": 57,
+      "teams": [
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 183,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 19,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 179,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 23,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 184
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598055",
+      "date": "2013-05-11",
+      "city": "Pune",
+      "venue": "Subrata Roy Sahara Stadium",
+      "stage": "league",
+      "match_number": 58,
+      "teams": [
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 112,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 5,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        },
+        {
+          "runs": 116,
+          "wickets": 5,
+          "legal_balls": 113,
+          "overs": "18.5",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 113
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598056",
+      "date": "2013-05-11",
+      "city": "Chandigarh",
+      "venue": "Punjab Cricket Association Stadium, Mohali",
+      "stage": "league",
+      "match_number": 59,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 30,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 150,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 120,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 151
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598057",
+      "date": "2013-05-12",
+      "city": "Ranchi",
+      "venue": "JSCA International Stadium Complex",
+      "stage": "league",
+      "match_number": 60,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 115,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 5,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 116,
+          "wickets": 5,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 116
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598058",
+      "date": "2013-05-12",
+      "city": "Jaipur",
+      "venue": "Sawai Mansingh Stadium",
+      "stage": "league",
+      "match_number": 61,
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 141,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 16,
+            "sixes": 0
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 144,
+          "wickets": 5,
+          "legal_balls": 103,
+          "overs": "17.1",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 142
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598060",
+      "date": "2013-05-13",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 62,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 178,
+          "wickets": 3,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 184,
+          "wickets": 3,
+          "legal_balls": 117,
+          "overs": "19.3",
+          "boundaries": {
+            "fours": 13,
+            "sixes": 11
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 179
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598045",
+      "date": "2013-05-14",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 63,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 174,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 176,
+          "wickets": 3,
+          "legal_balls": 109,
+          "overs": "18.1",
+          "boundaries": {
+            "fours": 21,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 175
+          },
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598062",
+      "date": "2013-05-14",
+      "city": "Chennai",
+      "venue": "MA Chidambaram Stadium, Chepauk",
+      "stage": "league",
+      "match_number": 64,
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 33,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 168,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 135,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 169
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598061",
+      "date": "2013-05-15",
+      "city": "Ranchi",
+      "venue": "JSCA International Stadium Complex",
+      "stage": "league",
+      "match_number": 65,
+      "teams": [
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 170,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 9
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        },
+        {
+          "runs": 163,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 171
+          },
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598063",
+      "date": "2013-05-15",
+      "city": "Mumbai",
+      "venue": "Wankhede Stadium",
+      "stage": "league",
+      "match_number": 66,
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 14,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 166,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 152,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 167
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598028",
+      "date": "2013-05-16",
+      "city": "Dharamsala",
+      "venue": "Himachal Pradesh Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 67,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 7,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 171,
+          "wickets": 4,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 164,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 172
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598065",
+      "date": "2013-05-17",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 68,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 23,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 136,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 113,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 7,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 137
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598066",
+      "date": "2013-05-18",
+      "city": "Dharamsala",
+      "venue": "Himachal Pradesh Cricket Association Stadium",
+      "stage": "league",
+      "match_number": 69,
+      "teams": [
+        {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "punjab_kings",
+          "name": "Punjab Kings",
+          "abbr": "PBKS"
+        },
+        "margin": {
+          "value": 50,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 183,
+          "wickets": 8,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 24,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "punjab_kings",
+            "name": "Punjab Kings",
+            "abbr": "PBKS"
+          }
+        },
+        {
+          "runs": 133,
+          "wickets": 9,
+          "legal_balls": 115,
+          "overs": "19.1",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 184
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598068",
+      "date": "2013-05-18",
+      "city": "Bangalore",
+      "venue": "M Chinnaswamy Stadium",
+      "stage": "league",
+      "match_number": 70,
+      "teams": [
+        {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "field"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "royal_challengers_bengaluru",
+          "name": "Royal Challengers Bengaluru",
+          "abbr": "RCB"
+        },
+        "margin": {
+          "value": 24,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 106,
+          "wickets": 2,
+          "legal_balls": 48,
+          "overs": "8.0",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "royal_challengers_bengaluru",
+            "name": "Royal Challengers Bengaluru",
+            "abbr": "RCB"
+          }
+        },
+        {
+          "runs": 82,
+          "wickets": 6,
+          "legal_balls": 48,
+          "overs": "8.0",
+          "boundaries": {
+            "fours": 6,
+            "sixes": 5
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 8,
+            "runs": 107
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598067",
+      "date": "2013-05-19",
+      "city": "Pune",
+      "venue": "Subrata Roy Sahara Stadium",
+      "stage": "league",
+      "match_number": 71,
+      "teams": [
+        {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        {
+          "id": "delhi_capitals",
+          "name": "Delhi Capitals",
+          "abbr": "DC"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "pune_warriors",
+          "name": "Pune Warriors",
+          "abbr": "PWI"
+        },
+        "margin": {
+          "value": 38,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 172,
+          "wickets": 5,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 14,
+            "sixes": 8
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "pune_warriors",
+            "name": "Pune Warriors",
+            "abbr": "PWI"
+          }
+        },
+        {
+          "runs": 134,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 2
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 173
+          },
+          "team": {
+            "id": "delhi_capitals",
+            "name": "Delhi Capitals",
+            "abbr": "DC"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598069",
+      "date": "2013-05-19",
+      "city": "Hyderabad",
+      "venue": "Rajiv Gandhi International Stadium, Uppal",
+      "stage": "league",
+      "match_number": 72,
+      "teams": [
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "kolkata_knight_riders",
+          "name": "Kolkata Knight Riders",
+          "abbr": "KKR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "margin": {
+          "value": 5,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 130,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 9,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "kolkata_knight_riders",
+            "name": "Kolkata Knight Riders",
+            "abbr": "KKR"
+          }
+        },
+        {
+          "runs": 132,
+          "wickets": 5,
+          "legal_balls": 113,
+          "overs": "18.5",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 131
+          },
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598070",
+      "date": "2013-05-21",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "qualifier_1",
+      "match_number": "Qualifier 1",
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        "margin": {
+          "value": 48,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 192,
+          "wickets": 1,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 17,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        },
+        {
+          "runs": 144,
+          "wickets": 10,
+          "legal_balls": 112,
+          "overs": "18.4",
+          "boundaries": {
+            "fours": 10,
+            "sixes": 7
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 193
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598071",
+      "date": "2013-05-22",
+      "city": "Delhi",
+      "venue": "Feroz Shah Kotla",
+      "stage": "eliminator",
+      "match_number": "Eliminator",
+      "teams": [
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "sunrisers_hyderabad",
+          "name": "Sunrisers Hyderabad",
+          "abbr": "SRH"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 132,
+          "wickets": 7,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 11,
+            "sixes": 4
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "sunrisers_hyderabad",
+            "name": "Sunrisers Hyderabad",
+            "abbr": "SRH"
+          }
+        },
+        {
+          "runs": 135,
+          "wickets": 6,
+          "legal_balls": 116,
+          "overs": "19.2",
+          "boundaries": {
+            "fours": 12,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 133
+          },
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598072",
+      "date": "2013-05-24",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "qualifier_2",
+      "match_number": "Qualifier 2",
+      "teams": [
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "rajasthan_royals",
+          "name": "Rajasthan Royals",
+          "abbr": "RR"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 4,
+          "unit": "wickets"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 165,
+          "wickets": 6,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 22,
+            "sixes": 1
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "rajasthan_royals",
+            "name": "Rajasthan Royals",
+            "abbr": "RR"
+          }
+        },
+        {
+          "runs": 169,
+          "wickets": 6,
+          "legal_balls": 119,
+          "overs": "19.5",
+          "boundaries": {
+            "fours": 15,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 166
+          },
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    },
+    {
+      "id": "598073",
+      "date": "2013-05-26",
+      "city": "Kolkata",
+      "venue": "Eden Gardens",
+      "stage": "final",
+      "match_number": "Final",
+      "teams": [
+        {
+          "id": "chennai_super_kings",
+          "name": "Chennai Super Kings",
+          "abbr": "CSK"
+        },
+        {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        }
+      ],
+      "toss": {
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "decision": "bat"
+      },
+      "outcome": {
+        "type": "win",
+        "winner": {
+          "id": "mumbai_indians",
+          "name": "Mumbai Indians",
+          "abbr": "MI"
+        },
+        "margin": {
+          "value": 23,
+          "unit": "runs"
+        },
+        "method": null
+      },
+      "innings": [
+        {
+          "runs": 148,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 18,
+            "sixes": 3
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": null,
+          "team": {
+            "id": "mumbai_indians",
+            "name": "Mumbai Indians",
+            "abbr": "MI"
+          }
+        },
+        {
+          "runs": 125,
+          "wickets": 9,
+          "legal_balls": 120,
+          "overs": "20.0",
+          "boundaries": {
+            "fours": 8,
+            "sixes": 6
+          },
+          "declared": false,
+          "forfeited": false,
+          "target": {
+            "overs": 20,
+            "runs": 149
+          },
+          "team": {
+            "id": "chennai_super_kings",
+            "name": "Chennai Super Kings",
+            "abbr": "CSK"
+          }
+        }
+      ],
+      "balls_per_over": 6,
+      "scheduled_overs": 20,
+      "elo_eligible": true,
+      "source_kind": "cricsheet_ball_by_ball",
+      "counts_for_table": true
+    }
+  ]
+}

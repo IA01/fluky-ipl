@@ -1,0 +1,1184 @@
+{
+  "schema_version": 1,
+  "season": 2011,
+  "seed": 24054003,
+  "simulation_count": 10000,
+  "model": {
+    "elo_scale": 400.0,
+    "home_advantage": 0.0,
+    "playoff_format": "page_playoff",
+    "no_result_policy": "Preserve the observed no-result and award one point to each team in every replay.",
+    "nrr_policy": "Match-level simulation uses a sampled performance-margin proxy for the NRR tiebreak; it does not fabricate ball-by-ball innings."
+  },
+  "actual_champion": {
+    "id": "chennai_super_kings",
+    "name": "Chennai Super Kings",
+    "abbr": "CSK"
+  },
+  "champion_title_probability": 0.2579,
+  "fluke_score": 0.7421,
+  "robbery": {
+    "team": {
+      "id": "royal_challengers_bengaluru",
+      "name": "Royal Challengers Bengaluru",
+      "abbr": "RCB"
+    },
+    "title_probability": 0.2444
+  },
+  "dominance": {
+    "team": {
+      "id": "royal_challengers_bengaluru",
+      "name": "Royal Challengers Bengaluru",
+      "abbr": "RCB"
+    },
+    "elo_gap_to_field": 86.92
+  },
+  "fixtures": [
+    {
+      "id": "501198",
+      "date": "2011-04-08",
+      "team_a": "chennai_super_kings",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.557881,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "501199",
+      "date": "2011-04-09",
+      "team_a": "deccan_chargers",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.536448,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "deccan_chargers"
+    },
+    {
+      "id": "501200",
+      "date": "2011-04-09",
+      "team_a": "kochi_tuskers_kerala",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.339771,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "kochi_tuskers_kerala"
+    },
+    {
+      "id": "501201",
+      "date": "2011-04-10",
+      "team_a": "delhi_capitals",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.357387,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "501202",
+      "date": "2011-04-10",
+      "team_a": "pune_warriors",
+      "team_b": "punjab_kings",
+      "probability_a": 0.356916,
+      "actual_winner": "pune_warriors",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "501203",
+      "date": "2011-04-11",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "deccan_chargers",
+      "probability_a": 0.543178,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "501204",
+      "date": "2011-04-12",
+      "team_a": "rajasthan_royals",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.572588,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "501205",
+      "date": "2011-04-12",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.570671,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "501206",
+      "date": "2011-04-13",
+      "team_a": "punjab_kings",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.408358,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "501207",
+      "date": "2011-04-13",
+      "team_a": "pune_warriors",
+      "team_b": "kochi_tuskers_kerala",
+      "probability_a": 0.420103,
+      "actual_winner": "pune_warriors",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "501208",
+      "date": "2011-04-14",
+      "team_a": "deccan_chargers",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.393448,
+      "actual_winner": "deccan_chargers",
+      "no_result": false,
+      "home_team_id": "deccan_chargers"
+    },
+    {
+      "id": "501209",
+      "date": "2011-04-15",
+      "team_a": "rajasthan_royals",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.420872,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "501210",
+      "date": "2011-04-15",
+      "team_a": "mumbai_indians",
+      "team_b": "kochi_tuskers_kerala",
+      "probability_a": 0.593807,
+      "actual_winner": "kochi_tuskers_kerala",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "501211",
+      "date": "2011-04-16",
+      "team_a": "chennai_super_kings",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.493218,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "501212",
+      "date": "2011-04-16",
+      "team_a": "deccan_chargers",
+      "team_b": "punjab_kings",
+      "probability_a": 0.491263,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "deccan_chargers"
+    },
+    {
+      "id": "501213",
+      "date": "2011-04-17",
+      "team_a": "pune_warriors",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.471193,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "501214",
+      "date": "2011-04-17",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.579128,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "501215",
+      "date": "2011-04-18",
+      "team_a": "kochi_tuskers_kerala",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.345884,
+      "actual_winner": "kochi_tuskers_kerala",
+      "no_result": false,
+      "home_team_id": "kochi_tuskers_kerala"
+    },
+    {
+      "id": "501216",
+      "date": "2011-04-19",
+      "team_a": "delhi_capitals",
+      "team_b": "deccan_chargers",
+      "probability_a": 0.392106,
+      "actual_winner": "deccan_chargers",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "501217",
+      "date": "2011-04-19",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.640813,
+      "actual_winner": null,
+      "no_result": true,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "501218",
+      "date": "2011-04-20",
+      "team_a": "mumbai_indians",
+      "team_b": "pune_warriors",
+      "probability_a": 0.668648,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "501219",
+      "date": "2011-04-20",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "kochi_tuskers_kerala",
+      "probability_a": 0.599796,
+      "actual_winner": "kochi_tuskers_kerala",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "501220",
+      "date": "2011-04-21",
+      "team_a": "punjab_kings",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.545128,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "501221",
+      "date": "2011-04-22",
+      "team_a": "mumbai_indians",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.435989,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "501222",
+      "date": "2011-04-22",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.435438,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "501223",
+      "date": "2011-04-23",
+      "team_a": "delhi_capitals",
+      "team_b": "punjab_kings",
+      "probability_a": 0.383806,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "501224",
+      "date": "2011-04-24",
+      "team_a": "deccan_chargers",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.463005,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "deccan_chargers"
+    },
+    {
+      "id": "501225",
+      "date": "2011-04-24",
+      "team_a": "rajasthan_royals",
+      "team_b": "kochi_tuskers_kerala",
+      "probability_a": 0.521342,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "501226",
+      "date": "2011-04-25",
+      "team_a": "chennai_super_kings",
+      "team_b": "pune_warriors",
+      "probability_a": 0.723028,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "501227",
+      "date": "2011-04-26",
+      "team_a": "delhi_capitals",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.294982,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "501228",
+      "date": "2011-04-27",
+      "team_a": "pune_warriors",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.276972,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "501229",
+      "date": "2011-04-27",
+      "team_a": "kochi_tuskers_kerala",
+      "team_b": "deccan_chargers",
+      "probability_a": 0.442389,
+      "actual_winner": "deccan_chargers",
+      "no_result": false,
+      "home_team_id": "kochi_tuskers_kerala"
+    },
+    {
+      "id": "501230",
+      "date": "2011-04-28",
+      "team_a": "delhi_capitals",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.351691,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "501231",
+      "date": "2011-04-29",
+      "team_a": "rajasthan_royals",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.42695,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "501232",
+      "date": "2011-04-29",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "pune_warriors",
+      "probability_a": 0.728428,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "501233",
+      "date": "2011-04-30",
+      "team_a": "kochi_tuskers_kerala",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.551565,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": "kochi_tuskers_kerala"
+    },
+    {
+      "id": "501234",
+      "date": "2011-04-30",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "punjab_kings",
+      "probability_a": 0.534493,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "501235",
+      "date": "2011-05-01",
+      "team_a": "rajasthan_royals",
+      "team_b": "pune_warriors",
+      "probability_a": 0.600553,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "501236",
+      "date": "2011-05-01",
+      "team_a": "chennai_super_kings",
+      "team_b": "deccan_chargers",
+      "probability_a": 0.600059,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "501237",
+      "date": "2011-05-02",
+      "team_a": "mumbai_indians",
+      "team_b": "punjab_kings",
+      "probability_a": 0.528294,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "501238",
+      "date": "2011-05-02",
+      "team_a": "delhi_capitals",
+      "team_b": "kochi_tuskers_kerala",
+      "probability_a": 0.448435,
+      "actual_winner": "kochi_tuskers_kerala",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "501239",
+      "date": "2011-05-03",
+      "team_a": "deccan_chargers",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.456822,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "deccan_chargers"
+    },
+    {
+      "id": "501240",
+      "date": "2011-05-04",
+      "team_a": "chennai_super_kings",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.634544,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "501241",
+      "date": "2011-05-04",
+      "team_a": "pune_warriors",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.331352,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "501242",
+      "date": "2011-05-05",
+      "team_a": "kochi_tuskers_kerala",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.400204,
+      "actual_winner": "kochi_tuskers_kerala",
+      "no_result": false,
+      "home_team_id": "kochi_tuskers_kerala"
+    },
+    {
+      "id": "501243",
+      "date": "2011-05-05",
+      "team_a": "deccan_chargers",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.607894,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": "deccan_chargers"
+    },
+    {
+      "id": "501244",
+      "date": "2011-05-06",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "punjab_kings",
+      "probability_a": 0.59818,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "501245",
+      "date": "2011-05-07",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.442119,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "501246",
+      "date": "2011-05-07",
+      "team_a": "mumbai_indians",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.642613,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "501247",
+      "date": "2011-05-08",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "kochi_tuskers_kerala",
+      "probability_a": 0.660229,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "501248",
+      "date": "2011-05-08",
+      "team_a": "punjab_kings",
+      "team_b": "pune_warriors",
+      "probability_a": 0.643084,
+      "actual_winner": "pune_warriors",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "501249",
+      "date": "2011-05-09",
+      "team_a": "rajasthan_royals",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.365456,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "501250",
+      "date": "2011-05-10",
+      "team_a": "deccan_chargers",
+      "team_b": "pune_warriors",
+      "probability_a": 0.635022,
+      "actual_winner": "pune_warriors",
+      "no_result": false,
+      "home_team_id": "deccan_chargers"
+    },
+    {
+      "id": "501251",
+      "date": "2011-05-10",
+      "team_a": "punjab_kings",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.471706,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "501252",
+      "date": "2011-05-11",
+      "team_a": "rajasthan_royals",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.359187,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "501253",
+      "date": "2011-05-12",
+      "team_a": "chennai_super_kings",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.699345,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "501254",
+      "date": "2011-05-13",
+      "team_a": "kochi_tuskers_kerala",
+      "team_b": "punjab_kings",
+      "probability_a": 0.433785,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "kochi_tuskers_kerala"
+    },
+    {
+      "id": "501255",
+      "date": "2011-05-14",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.564562,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "501256",
+      "date": "2011-05-14",
+      "team_a": "mumbai_indians",
+      "team_b": "deccan_chargers",
+      "probability_a": 0.536995,
+      "actual_winner": "deccan_chargers",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "501257",
+      "date": "2011-05-15",
+      "team_a": "punjab_kings",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.616194,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "501258",
+      "date": "2011-05-15",
+      "team_a": "kochi_tuskers_kerala",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.478658,
+      "actual_winner": "kochi_tuskers_kerala",
+      "no_result": false,
+      "home_team_id": "kochi_tuskers_kerala"
+    },
+    {
+      "id": "501259",
+      "date": "2011-05-16",
+      "team_a": "pune_warriors",
+      "team_b": "deccan_chargers",
+      "probability_a": 0.364978,
+      "actual_winner": "deccan_chargers",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "501260",
+      "date": "2011-05-17",
+      "team_a": "punjab_kings",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.40182,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "501261",
+      "date": "2011-05-18",
+      "team_a": "chennai_super_kings",
+      "team_b": "kochi_tuskers_kerala",
+      "probability_a": 0.654116,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "501262",
+      "date": "2011-05-19",
+      "team_a": "pune_warriors",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.325861,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "501263",
+      "date": "2011-05-20",
+      "team_a": "mumbai_indians",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.57305,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "501264",
+      "date": "2011-05-21",
+      "team_a": "punjab_kings",
+      "team_b": "deccan_chargers",
+      "probability_a": 0.508737,
+      "actual_winner": "deccan_chargers",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "501265",
+      "date": "2011-05-21",
+      "team_a": "delhi_capitals",
+      "team_b": "pune_warriors",
+      "probability_a": 0.528807,
+      "actual_winner": null,
+      "no_result": true,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "501266",
+      "date": "2011-05-22",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.506782,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "501267",
+      "date": "2011-05-22",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.506222,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    }
+  ],
+  "teams": [
+    {
+      "team": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "actual_points": 19,
+      "actual_position": 1,
+      "expected_points": 16.84,
+      "median_points": 17.0,
+      "expected_position": 3.6,
+      "luck_index": 2.0,
+      "playoff_probability": 0.6844,
+      "final_probability": 0.4328,
+      "title_probability": 0.2444,
+      "points_distribution": {
+        "3": 2,
+        "5": 7,
+        "7": 66,
+        "9": 200,
+        "11": 566,
+        "13": 1202,
+        "15": 1922,
+        "17": 2256,
+        "19": 1980,
+        "21": 1150,
+        "23": 507,
+        "25": 124,
+        "27": 18
+      },
+      "position_distribution": {
+        "1": 2267,
+        "2": 1820,
+        "3": 1531,
+        "4": 1226,
+        "5": 1012,
+        "6": 754,
+        "7": 591,
+        "8": 426,
+        "9": 250,
+        "10": 123
+      },
+      "league_end_elo": 1571.231
+    },
+    {
+      "team": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "actual_points": 18,
+      "actual_position": 2,
+      "expected_points": 17.19,
+      "median_points": 18.0,
+      "expected_position": 3.42,
+      "luck_index": 0.0,
+      "playoff_probability": 0.7087,
+      "final_probability": 0.4569,
+      "title_probability": 0.2579,
+      "points_distribution": {
+        "4": 2,
+        "6": 23,
+        "8": 108,
+        "10": 304,
+        "12": 832,
+        "14": 1486,
+        "16": 1928,
+        "18": 2165,
+        "20": 1682,
+        "22": 966,
+        "24": 401,
+        "26": 87,
+        "28": 16
+      },
+      "position_distribution": {
+        "1": 2681,
+        "2": 1836,
+        "3": 1434,
+        "4": 1136,
+        "5": 901,
+        "6": 736,
+        "7": 556,
+        "8": 366,
+        "9": 235,
+        "10": 119
+      },
+      "league_end_elo": 1566.518
+    },
+    {
+      "team": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "actual_points": 18,
+      "actual_position": 3,
+      "expected_points": 15.78,
+      "median_points": 16.0,
+      "expected_position": 4.33,
+      "luck_index": 2.0,
+      "playoff_probability": 0.5716,
+      "final_probability": 0.2866,
+      "title_probability": 0.1399,
+      "points_distribution": {
+        "2": 1,
+        "4": 16,
+        "6": 64,
+        "8": 236,
+        "10": 626,
+        "12": 1239,
+        "14": 1974,
+        "16": 2126,
+        "18": 1814,
+        "20": 1178,
+        "22": 509,
+        "24": 185,
+        "26": 30,
+        "28": 2
+      },
+      "position_distribution": {
+        "1": 1417,
+        "2": 1509,
+        "3": 1452,
+        "4": 1338,
+        "5": 1135,
+        "6": 1021,
+        "7": 752,
+        "8": 618,
+        "9": 475,
+        "10": 283
+      },
+      "league_end_elo": 1521.793
+    },
+    {
+      "team": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "actual_points": 16,
+      "actual_position": 4,
+      "expected_points": 15.11,
+      "median_points": 16.0,
+      "expected_position": 4.76,
+      "luck_index": 0.0,
+      "playoff_probability": 0.4914,
+      "final_probability": 0.2472,
+      "title_probability": 0.1181,
+      "points_distribution": {
+        "2": 3,
+        "4": 25,
+        "6": 114,
+        "8": 349,
+        "10": 821,
+        "12": 1521,
+        "14": 2038,
+        "16": 2035,
+        "18": 1643,
+        "20": 929,
+        "22": 387,
+        "24": 118,
+        "26": 14,
+        "28": 3
+      },
+      "position_distribution": {
+        "1": 1166,
+        "2": 1266,
+        "3": 1271,
+        "4": 1211,
+        "5": 1197,
+        "6": 1148,
+        "7": 953,
+        "8": 796,
+        "9": 580,
+        "10": 412
+      },
+      "league_end_elo": 1526.117
+    },
+    {
+      "team": {
+        "id": "punjab_kings",
+        "name": "Punjab Kings",
+        "abbr": "PBKS"
+      },
+      "actual_points": 14,
+      "actual_position": 5,
+      "expected_points": 14.47,
+      "median_points": 14.0,
+      "expected_position": 5.18,
+      "luck_index": 0.0,
+      "playoff_probability": 0.4311,
+      "final_probability": 0.1881,
+      "title_probability": 0.0825,
+      "points_distribution": {
+        "0": 1,
+        "2": 5,
+        "4": 47,
+        "6": 139,
+        "8": 513,
+        "10": 1065,
+        "12": 1656,
+        "14": 2092,
+        "16": 1992,
+        "18": 1417,
+        "20": 720,
+        "22": 267,
+        "24": 72,
+        "26": 14
+      },
+      "position_distribution": {
+        "1": 864,
+        "2": 1063,
+        "3": 1156,
+        "4": 1228,
+        "5": 1206,
+        "6": 1151,
+        "7": 1080,
+        "8": 921,
+        "9": 747,
+        "10": 584
+      },
+      "league_end_elo": 1502.111
+    },
+    {
+      "team": {
+        "id": "rajasthan_royals",
+        "name": "Rajasthan Royals",
+        "abbr": "RR"
+      },
+      "actual_points": 13,
+      "actual_position": 6,
+      "expected_points": 12.84,
+      "median_points": 13.0,
+      "expected_position": 6.28,
+      "luck_index": 0.0,
+      "playoff_probability": 0.2622,
+      "final_probability": 0.0933,
+      "title_probability": 0.0387,
+      "points_distribution": {
+        "1": 9,
+        "3": 43,
+        "5": 168,
+        "7": 637,
+        "9": 1270,
+        "11": 1987,
+        "13": 2186,
+        "15": 1803,
+        "17": 1167,
+        "19": 515,
+        "21": 159,
+        "23": 52,
+        "25": 4
+      },
+      "position_distribution": {
+        "1": 356,
+        "2": 590,
+        "3": 763,
+        "4": 913,
+        "5": 1069,
+        "6": 1241,
+        "7": 1383,
+        "8": 1343,
+        "9": 1332,
+        "10": 1010
+      },
+      "league_end_elo": 1470.667
+    },
+    {
+      "team": {
+        "id": "deccan_chargers",
+        "name": "Deccan Chargers",
+        "abbr": "DEC"
+      },
+      "actual_points": 12,
+      "actual_position": 7,
+      "expected_points": 14.36,
+      "median_points": 14.0,
+      "expected_position": 5.28,
+      "luck_index": -2.0,
+      "playoff_probability": 0.4127,
+      "final_probability": 0.1712,
+      "title_probability": 0.0763,
+      "points_distribution": {
+        "2": 2,
+        "4": 46,
+        "6": 155,
+        "8": 481,
+        "10": 1109,
+        "12": 1716,
+        "14": 2197,
+        "16": 1963,
+        "18": 1338,
+        "20": 648,
+        "22": 285,
+        "24": 49,
+        "26": 10,
+        "28": 1
+      },
+      "position_distribution": {
+        "1": 755,
+        "2": 1001,
+        "3": 1133,
+        "4": 1238,
+        "5": 1262,
+        "6": 1163,
+        "7": 1124,
+        "8": 992,
+        "9": 764,
+        "10": 568
+      },
+      "league_end_elo": 1496.039
+    },
+    {
+      "team": {
+        "id": "kochi_tuskers_kerala",
+        "name": "Kochi Tuskers Kerala",
+        "abbr": "KTK"
+      },
+      "actual_points": 12,
+      "actual_position": 8,
+      "expected_points": 12.16,
+      "median_points": 12.0,
+      "expected_position": 6.75,
+      "luck_index": 0.0,
+      "playoff_probability": 0.2089,
+      "final_probability": 0.0655,
+      "title_probability": 0.0241,
+      "points_distribution": {
+        "0": 1,
+        "2": 29,
+        "4": 175,
+        "6": 562,
+        "8": 1201,
+        "10": 1851,
+        "12": 2141,
+        "14": 1889,
+        "16": 1186,
+        "18": 648,
+        "20": 235,
+        "22": 68,
+        "24": 11,
+        "26": 3
+      },
+      "position_distribution": {
+        "1": 286,
+        "2": 445,
+        "3": 615,
+        "4": 743,
+        "5": 961,
+        "6": 1101,
+        "7": 1320,
+        "8": 1478,
+        "9": 1474,
+        "10": 1577
+      },
+      "league_end_elo": 1455.828
+    },
+    {
+      "team": {
+        "id": "pune_warriors",
+        "name": "Pune Warriors",
+        "abbr": "PWI"
+      },
+      "actual_points": 9,
+      "actual_position": 9,
+      "expected_points": 10.12,
+      "median_points": 11.0,
+      "expected_position": 8.01,
+      "luck_index": -2.0,
+      "playoff_probability": 0.0871,
+      "final_probability": 0.0213,
+      "title_probability": 0.0069,
+      "points_distribution": {
+        "1": 33,
+        "3": 255,
+        "5": 829,
+        "7": 1601,
+        "9": 2265,
+        "11": 2200,
+        "13": 1516,
+        "15": 820,
+        "17": 356,
+        "19": 106,
+        "21": 16,
+        "23": 3
+      },
+      "position_distribution": {
+        "1": 71,
+        "2": 167,
+        "3": 247,
+        "4": 386,
+        "5": 521,
+        "6": 739,
+        "7": 1059,
+        "8": 1451,
+        "9": 2229,
+        "10": 3130
+      },
+      "league_end_elo": 1399.83
+    },
+    {
+      "team": {
+        "id": "delhi_capitals",
+        "name": "Delhi Capitals",
+        "abbr": "DC"
+      },
+      "actual_points": 9,
+      "actual_position": 10,
+      "expected_points": 11.14,
+      "median_points": 11.0,
+      "expected_position": 7.39,
+      "luck_index": -2.0,
+      "playoff_probability": 0.1419,
+      "final_probability": 0.0371,
+      "title_probability": 0.0112,
+      "points_distribution": {
+        "1": 14,
+        "3": 132,
+        "5": 533,
+        "7": 1206,
+        "9": 1962,
+        "11": 2209,
+        "13": 1877,
+        "15": 1203,
+        "17": 571,
+        "19": 221,
+        "21": 59,
+        "23": 10,
+        "25": 3
+      },
+      "position_distribution": {
+        "1": 137,
+        "2": 303,
+        "3": 398,
+        "4": 581,
+        "5": 736,
+        "6": 946,
+        "7": 1182,
+        "8": 1609,
+        "9": 1914,
+        "10": 2194
+      },
+      "league_end_elo": 1419.869
+    }
+  ]
+}

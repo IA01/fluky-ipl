@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "data:2008": "python3 scripts/parse_cricsheet.py --input 'ipl_json (1)' --output data/parsed/seasons --season 2008",
+    "data:all": "python3 scripts/build_all.py",
+    "validate:data": "python3 scripts/validate_outputs.py",
     "test:data": "python3 -m unittest discover -s tests -v"
   },
   "dependencies": {

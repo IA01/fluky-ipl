@@ -1,91 +1,103 @@
-import season from "@/data/parsed/seasons/2008.json";
+import Link from "next/link";
+import { SeasonPicker } from "@/components/SeasonPicker";
+import { getAnalytics } from "@/lib/data";
+import { pct, teamClass } from "@/lib/format";
+import { YEARS, type Team } from "@/lib/types";
 
-const nav = ["Seasons", "What if?", "Greatest", "Matches", "Methods"];
+type SeasonSummary = {
+  season: number;
+  champion: Team;
+  champion_title_probability: number;
+  fluke_score: number;
+  robbery: { team: Team; title_probability: number };
+  dominance: { team: Team; elo_gap_to_field: number };
+};
+
+type Analytics = {
+  seasons: SeasonSummary[];
+  flukiest_champions: SeasonSummary[];
+  biggest_robberies: SeasonSummary[];
+  most_dominant: SeasonSummary[];
+  momentum: { team_seasons_tested: number; significant_at_5pct: number; significant_share: number };
+  regression_to_mean: { pairs: number; correlation: number; persistence_slope: number };
+};
 
 export default function Home() {
-  const leader = season.actual_table[0];
-  const matches = season.matches.slice(0, 5);
+  const analytics = getAnalytics<Analytics>("index");
+  const flukiest = analytics.flukiest_champions[0];
+  const robbery = analytics.biggest_robberies[0];
+  const dominant = analytics.most_dominant[0];
 
   return (
-    <main>
-      <header className="site-header shell">
-        <a className="wordmark" href="#top" aria-label="How Fluky Was the IPL home">
-          HOW FLUKY<span>?</span>
-        </a>
-        <nav aria-label="Primary navigation">
-          {nav.map((item) => <a href="#pipeline" key={item}>{item}</a>)}
-        </nav>
-        <div className="live-pill"><i /> Data lab · 01</div>
-      </header>
-
-      <section className="hero shell" id="top">
-        <div className="eyebrow"><span>01</span> An IPL counterfactual</div>
-        <h1>
-          Was the best<br className="mobile-break" /> team
-          <br className="desktop-break" />actually
-          <br className="mobile-break" /> <em>the best?</em>
-        </h1>
-        <p className="dek">Every IPL season, replayed 10,000 times. Skill gets a rating. Luck gets a number.</p>
-        <div className="hero-meta">
-          <span>19 seasons</span><span>1,243 source matches</span><span>Match-level simulation</span>
+    <main id="main">
+      <section className="hero shell">
+        <div className="eyebrow"><span>190,000</span> alternate IPL histories</div>
+        <h1>Did the best<br />team actually <em>win?</em></h1>
+        <div className="hero-bottom">
+          <p className="dek">Every IPL season from 2008 to 2026, replayed 10,000 times. Skill gets a rating. Luck gets a number.</p>
+          <SeasonPicker years={YEARS} />
         </div>
+        <div className="hero-meta"><span>19 seasons</span><span>1,243 source records</span><span>Fixed-seed simulations</span></div>
       </section>
 
-      <section className="scoreboard" aria-label="2008 ingest status">
+      <section className="scoreboard">
         <div className="shell score-grid">
           <div>
-            <div className="eyebrow amber"><span>DATA 001</span> First innings</div>
-            <h2>The archive<br />is talking.</h2>
-            <p>{season.summary.matches} matches from the inaugural season are now normalised into one deterministic, simulation-ready file.</p>
+            <div className="eyebrow amber"><span>THE ANSWER</span> Luck leaves fingerprints</div>
+            <h2>{flukiest.season}<br />was chaos.</h2>
+            <p><b>{flukiest.champion.name}</b> lifted the trophy in reality, but won only {pct(flukiest.champion_title_probability)} of the model’s replays.</p>
+            <Link className="text-link dark" href={`/season/${flukiest.season}/`}>Open the season <span>↗</span></Link>
           </div>
           <div className="stat-stack">
-            <article><small>Season parsed</small><strong>2008</strong><b>Complete</b></article>
-            <article><small>League fixtures</small><strong>{season.summary.league_matches}</strong><b>Verified</b></article>
-            <article><small>Playoff fixtures</small><strong>{season.summary.playoff_matches}</strong><b>Verified</b></article>
+            <article><small>Champion win rate</small><strong>{pct(flukiest.champion_title_probability)}</strong><b>Flukiest champion</b></article>
+            <article><small>Biggest robbery</small><strong>{robbery.robbery.team.abbr}</strong><b>{robbery.season} · {pct(robbery.robbery.title_probability)} title odds</b></article>
+            <article><small>Largest Elo gap</small><strong>{dominant.dominance.elo_gap_to_field.toFixed(0)}</strong><b>{dominant.season} · {dominant.dominance.team.abbr}</b></article>
           </div>
         </div>
       </section>
 
-      <section className="table-section shell" id="pipeline">
+      <section className="ranking-section shell" id="seasons">
         <div className="section-heading">
-          <div><div className="eyebrow"><span>ACTUAL</span> Before the simulations</div><h2>2008, as played.</h2></div>
-          <p><b>{leader.team.name}</b> set the benchmark at {leader.points} points. The model will soon ask how often they do it again.</p>
+          <div><div className="eyebrow"><span>01</span> Champion luck</div><h2>The fluke table.</h2></div>
+          <p>Lower simulated title odds mean a less repeatable championship. This is uncertainty quantified—not a claim that the trophy was undeserved.</p>
         </div>
-        <div className="table-wrap">
-          <table>
-            <thead><tr><th>Pos</th><th>Team</th><th>P</th><th>W</th><th>L</th><th>NR</th><th>NRR</th><th>Pts</th></tr></thead>
-            <tbody>
-              {season.actual_table.map((row) => (
-                <tr key={row.team.id}>
-                  <td>{String(row.position).padStart(2, "0")}</td>
-                  <td><span className={`team-dot team-${row.team.abbr.toLowerCase()}`} />{row.team.name}<small>{row.team.abbr}</small></td>
-                  <td>{row.played}</td><td>{row.won}</td><td>{row.lost}</td><td>{row.no_result}</td>
-                  <td>{row.net_run_rate > 0 ? "+" : ""}{row.net_run_rate.toFixed(3)}</td><td><b>{row.points}</b></td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section className="ledger shell">
-        <div className="section-heading"><div><div className="eyebrow"><span>PARSED</span> Source audit</div><h2>Opening five.</h2></div><p>Each compact record retains source identity, venue, toss, innings totals and the official outcome.</p></div>
-        <div className="match-list">
-          {matches.map((match, index) => (
-            <article key={match.id}>
-              <span className="match-no">M{String(index + 1).padStart(2, "0")}</span>
-              <div><small>{match.date} · {match.city}</small><h3>{match.teams[0].abbr} <i>v</i> {match.teams[1].abbr}</h3></div>
-              <p>{match.outcome.winner?.abbr ?? "NR"}<small>{match.outcome.margin ? `by ${match.outcome.margin.value} ${match.outcome.margin.unit}` : match.outcome.type}</small></p>
-            </article>
+        <div className="rank-list">
+          {analytics.flukiest_champions.map((row, index) => (
+            <Link href={`/season/${row.season}/`} className="rank-row" key={row.season}>
+              <span>{String(index + 1).padStart(2, "0")}</span>
+              <strong>{row.season}</strong>
+              <div><i className={teamClass(row.champion.id)} />{row.champion.name}<small>Champion</small></div>
+              <b>{pct(row.champion_title_probability)}</b>
+              <em>→</em>
+            </Link>
           ))}
         </div>
       </section>
 
-      <footer className="shell">
-        <div className="wordmark">HOW FLUKY<span>?</span></div>
-        <p>Built from Cricsheet ball-by-ball data.<br />Numbers before narratives.</p>
-        <span>Pipeline milestone 01 / 08</span>
-      </footer>
+      <section className="feature-band">
+        <div className="shell feature-grid">
+          <article>
+            <div className="eyebrow"><span>LIVE</span> What-If Machine</div>
+            <h2>Change one result.<br />Rewrite a season.</h2>
+            <p>Flip any league match, bend team strength, and run 1,000 new seasons in your browser.</p>
+            <Link className="button" href="/what-if/">Enter the machine <span>→</span></Link>
+          </article>
+          <div className="orbit" aria-hidden="true"><i /><i /><i /><b>1,000<br /><span>replays</span></b></div>
+        </div>
+      </section>
+
+      <section className="evidence shell">
+        <div className="section-heading">
+          <div><div className="eyebrow"><span>02</span> Beyond the trophy</div><h2>The myths, tested.</h2></div>
+          <p>The same archive tests momentum, repeatability, venue effects and player impact—not just season outcomes.</p>
+        </div>
+        <div className="evidence-grid">
+          <article><small>Momentum</small><strong>{pct(analytics.momentum.significant_share)}</strong><p>of team-seasons show significant clustering—almost exactly the 5% expected by chance.</p></article>
+          <article><small>Rating persistence</small><strong>{analytics.regression_to_mean.correlation.toFixed(2)}</strong><p>next-season correlation across {analytics.regression_to_mean.pairs} returning team pairs. Standout years fade fast.</p></article>
+          <article><small>Second opinion</small><strong>295k</strong><p>deliveries feed an independent venue-and-phase-adjusted ball rating.</p></article>
+        </div>
+        <div className="link-rail"><Link href="/greatest/">Greatest teams →</Link><Link href="/matches/">Famous finals →</Link><Link href="/methods/">Read the methods →</Link></div>
+      </section>
     </main>
   );
 }

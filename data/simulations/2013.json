@@ -1,0 +1,1159 @@
+{
+  "schema_version": 1,
+  "season": 2013,
+  "seed": 24054005,
+  "simulation_count": 10000,
+  "model": {
+    "elo_scale": 400.0,
+    "home_advantage": 0.0,
+    "playoff_format": "page_playoff",
+    "no_result_policy": "Preserve the observed no-result and award one point to each team in every replay.",
+    "nrr_policy": "Match-level simulation uses a sampled performance-margin proxy for the NRR tiebreak; it does not fabricate ball-by-ball innings."
+  },
+  "actual_champion": {
+    "id": "mumbai_indians",
+    "name": "Mumbai Indians",
+    "abbr": "MI"
+  },
+  "champion_title_probability": 0.2966,
+  "fluke_score": 0.7034,
+  "robbery": {
+    "team": {
+      "id": "chennai_super_kings",
+      "name": "Chennai Super Kings",
+      "abbr": "CSK"
+    },
+    "title_probability": 0.226
+  },
+  "dominance": {
+    "team": {
+      "id": "mumbai_indians",
+      "name": "Mumbai Indians",
+      "abbr": "MI"
+    },
+    "elo_gap_to_field": 103.29
+  },
+  "fixtures": [
+    {
+      "id": "597998",
+      "date": "2013-04-03",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.642356,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "597999",
+      "date": "2013-04-04",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.402602,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "598000",
+      "date": "2013-04-05",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "pune_warriors",
+      "probability_a": 0.721233,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "sunrisers_hyderabad"
+    },
+    {
+      "id": "598001",
+      "date": "2013-04-06",
+      "team_a": "delhi_capitals",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.268349,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "598002",
+      "date": "2013-04-06",
+      "team_a": "chennai_super_kings",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.475009,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "598003",
+      "date": "2013-04-07",
+      "team_a": "pune_warriors",
+      "team_b": "punjab_kings",
+      "probability_a": 0.305692,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "pune_warriors"
+    },
+    {
+      "id": "598004",
+      "date": "2013-04-07",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.527299,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "sunrisers_hyderabad"
+    },
+    {
+      "id": "598005",
+      "date": "2013-04-08",
+      "team_a": "rajasthan_royals",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.602864,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "598006",
+      "date": "2013-04-09",
+      "team_a": "mumbai_indians",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.78661,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "598048",
+      "date": "2013-04-09",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.472701,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "598007",
+      "date": "2013-04-10",
+      "team_a": "punjab_kings",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.421764,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "598008",
+      "date": "2013-04-11",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.580389,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "598009",
+      "date": "2013-04-11",
+      "team_a": "pune_warriors",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.282048,
+      "actual_winner": "pune_warriors",
+      "no_result": false,
+      "home_team_id": "pune_warriors"
+    },
+    {
+      "id": "598010",
+      "date": "2013-04-12",
+      "team_a": "delhi_capitals",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.265168,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "598011",
+      "date": "2013-04-13",
+      "team_a": "mumbai_indians",
+      "team_b": "pune_warriors",
+      "probability_a": 0.774853,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "598012",
+      "date": "2013-04-13",
+      "team_a": "chennai_super_kings",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.573119,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "598013",
+      "date": "2013-04-14",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.393249,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "598014",
+      "date": "2013-04-14",
+      "team_a": "rajasthan_royals",
+      "team_b": "punjab_kings",
+      "probability_a": 0.528467,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "598015",
+      "date": "2013-04-15",
+      "team_a": "chennai_super_kings",
+      "team_b": "pune_warriors",
+      "probability_a": 0.756921,
+      "actual_winner": "pune_warriors",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "598016",
+      "date": "2013-04-16",
+      "team_a": "punjab_kings",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.575279,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "598017",
+      "date": "2013-04-16",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.712995,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "598018",
+      "date": "2013-04-17",
+      "team_a": "pune_warriors",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.278767,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "pune_warriors"
+    },
+    {
+      "id": "598019",
+      "date": "2013-04-17",
+      "team_a": "rajasthan_royals",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.425168,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "598020",
+      "date": "2013-04-18",
+      "team_a": "delhi_capitals",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.230665,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "598021",
+      "date": "2013-04-19",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "punjab_kings",
+      "probability_a": 0.532517,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "sunrisers_hyderabad"
+    },
+    {
+      "id": "598022",
+      "date": "2013-04-20",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.350018,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "598023",
+      "date": "2013-04-20",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.476756,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "598024",
+      "date": "2013-04-21",
+      "team_a": "delhi_capitals",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.21339,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "598025",
+      "date": "2013-04-21",
+      "team_a": "punjab_kings",
+      "team_b": "pune_warriors",
+      "probability_a": 0.694308,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "598026",
+      "date": "2013-04-22",
+      "team_a": "chennai_super_kings",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.550216,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "598027",
+      "date": "2013-04-23",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "pune_warriors",
+      "probability_a": 0.698736,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "598059",
+      "date": "2013-04-23",
+      "team_a": "delhi_capitals",
+      "team_b": "punjab_kings",
+      "probability_a": 0.29131,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "598029",
+      "date": "2013-04-24",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.327612,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "598030",
+      "date": "2013-04-25",
+      "team_a": "chennai_super_kings",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.546189,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "598031",
+      "date": "2013-04-26",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "punjab_kings",
+      "probability_a": 0.424721,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "598032",
+      "date": "2013-04-27",
+      "team_a": "rajasthan_royals",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.495935,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "598033",
+      "date": "2013-04-27",
+      "team_a": "mumbai_indians",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.597398,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "598034",
+      "date": "2013-04-28",
+      "team_a": "chennai_super_kings",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.649982,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "598035",
+      "date": "2013-04-28",
+      "team_a": "delhi_capitals",
+      "team_b": "pune_warriors",
+      "probability_a": 0.482834,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "598036",
+      "date": "2013-04-29",
+      "team_a": "rajasthan_royals",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.523244,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "598037",
+      "date": "2013-04-29",
+      "team_a": "mumbai_indians",
+      "team_b": "punjab_kings",
+      "probability_a": 0.602426,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "598038",
+      "date": "2013-04-30",
+      "team_a": "pune_warriors",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.243079,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "pune_warriors"
+    },
+    {
+      "id": "598039",
+      "date": "2013-05-01",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.429147,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "sunrisers_hyderabad"
+    },
+    {
+      "id": "598040",
+      "date": "2013-05-01",
+      "team_a": "delhi_capitals",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.357644,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "598041",
+      "date": "2013-05-02",
+      "team_a": "chennai_super_kings",
+      "team_b": "punjab_kings",
+      "probability_a": 0.578236,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "598042",
+      "date": "2013-05-02",
+      "team_a": "pune_warriors",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.301264,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "pune_warriors"
+    },
+    {
+      "id": "598043",
+      "date": "2013-05-03",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.397136,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "kolkata_knight_riders"
+    },
+    {
+      "id": "598044",
+      "date": "2013-05-04",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.734832,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "sunrisers_hyderabad"
+    },
+    {
+      "id": "598046",
+      "date": "2013-05-05",
+      "team_a": "mumbai_indians",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.524991,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "598047",
+      "date": "2013-05-05",
+      "team_a": "rajasthan_royals",
+      "team_b": "pune_warriors",
+      "probability_a": 0.717952,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "598064",
+      "date": "2013-05-06",
+      "team_a": "punjab_kings",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.494763,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "598049",
+      "date": "2013-05-07",
+      "team_a": "rajasthan_royals",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.731651,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "598050",
+      "date": "2013-05-07",
+      "team_a": "mumbai_indians",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.672388,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "598051",
+      "date": "2013-05-08",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.453811,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "sunrisers_hyderabad"
+    },
+    {
+      "id": "598052",
+      "date": "2013-05-09",
+      "team_a": "punjab_kings",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.471533,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "598053",
+      "date": "2013-05-09",
+      "team_a": "pune_warriors",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.373574,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": "pune_warriors"
+    },
+    {
+      "id": "598054",
+      "date": "2013-05-10",
+      "team_a": "delhi_capitals",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.287005,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "delhi_capitals"
+    },
+    {
+      "id": "598055",
+      "date": "2013-05-11",
+      "team_a": "pune_warriors",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.225147,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "pune_warriors"
+    },
+    {
+      "id": "598056",
+      "date": "2013-05-11",
+      "team_a": "punjab_kings",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.467483,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "598057",
+      "date": "2013-05-12",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "royal_challengers_bengaluru",
+      "probability_a": 0.419611,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "598058",
+      "date": "2013-05-12",
+      "team_a": "rajasthan_royals",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.449784,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": "rajasthan_royals"
+    },
+    {
+      "id": "598060",
+      "date": "2013-05-13",
+      "team_a": "mumbai_indians",
+      "team_b": "sunrisers_hyderabad",
+      "probability_a": 0.570853,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "598045",
+      "date": "2013-05-14",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "punjab_kings",
+      "probability_a": 0.505237,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "598062",
+      "date": "2013-05-14",
+      "team_a": "chennai_super_kings",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.769335,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": "chennai_super_kings"
+    },
+    {
+      "id": "598061",
+      "date": "2013-05-15",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "pune_warriors",
+      "probability_a": 0.626426,
+      "actual_winner": "pune_warriors",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "598063",
+      "date": "2013-05-15",
+      "team_a": "mumbai_indians",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.574832,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": "mumbai_indians"
+    },
+    {
+      "id": "598028",
+      "date": "2013-05-16",
+      "team_a": "punjab_kings",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.70869,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "598065",
+      "date": "2013-05-17",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.504065,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "sunrisers_hyderabad"
+    },
+    {
+      "id": "598066",
+      "date": "2013-05-18",
+      "team_a": "punjab_kings",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.397574,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": "punjab_kings"
+    },
+    {
+      "id": "598068",
+      "date": "2013-05-18",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.426881,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": "royal_challengers_bengaluru"
+    },
+    {
+      "id": "598067",
+      "date": "2013-05-19",
+      "team_a": "pune_warriors",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.517166,
+      "actual_winner": "pune_warriors",
+      "no_result": false,
+      "home_team_id": "pune_warriors"
+    },
+    {
+      "id": "598069",
+      "date": "2013-05-19",
+      "team_a": "sunrisers_hyderabad",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.606751,
+      "actual_winner": "sunrisers_hyderabad",
+      "no_result": false,
+      "home_team_id": "sunrisers_hyderabad"
+    }
+  ],
+  "teams": [
+    {
+      "team": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "actual_points": 22,
+      "actual_position": 1,
+      "expected_points": 19.63,
+      "median_points": 20.0,
+      "expected_position": 3.24,
+      "luck_index": 2.0,
+      "playoff_probability": 0.7396,
+      "final_probability": 0.4339,
+      "title_probability": 0.226,
+      "points_distribution": {
+        "4": 2,
+        "6": 2,
+        "8": 23,
+        "10": 95,
+        "12": 302,
+        "14": 728,
+        "16": 1267,
+        "18": 1897,
+        "20": 2018,
+        "22": 1744,
+        "24": 1146,
+        "26": 569,
+        "28": 165,
+        "30": 38,
+        "32": 4
+      },
+      "position_distribution": {
+        "1": 2352,
+        "2": 2002,
+        "3": 1686,
+        "4": 1356,
+        "5": 1118,
+        "6": 738,
+        "7": 513,
+        "8": 177,
+        "9": 58
+      },
+      "league_end_elo": 1573.624
+    },
+    {
+      "team": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "actual_points": 22,
+      "actual_position": 2,
+      "expected_points": 20.38,
+      "median_points": 20.0,
+      "expected_position": 2.9,
+      "luck_index": 2.0,
+      "playoff_probability": 0.7961,
+      "final_probability": 0.5147,
+      "title_probability": 0.2966,
+      "points_distribution": {
+        "6": 3,
+        "8": 14,
+        "10": 58,
+        "12": 185,
+        "14": 537,
+        "16": 1043,
+        "18": 1692,
+        "20": 2068,
+        "22": 1903,
+        "24": 1403,
+        "26": 744,
+        "28": 272,
+        "30": 68,
+        "32": 10
+      },
+      "position_distribution": {
+        "1": 3084,
+        "2": 2041,
+        "3": 1629,
+        "4": 1207,
+        "5": 874,
+        "6": 652,
+        "7": 353,
+        "8": 121,
+        "9": 39
+      },
+      "league_end_elo": 1591.004
+    },
+    {
+      "team": {
+        "id": "rajasthan_royals",
+        "name": "Rajasthan Royals",
+        "abbr": "RR"
+      },
+      "actual_points": 20,
+      "actual_position": 3,
+      "expected_points": 17.94,
+      "median_points": 18.0,
+      "expected_position": 4.08,
+      "luck_index": 2.0,
+      "playoff_probability": 0.5801,
+      "final_probability": 0.2734,
+      "title_probability": 0.1357,
+      "points_distribution": {
+        "4": 4,
+        "6": 15,
+        "8": 78,
+        "10": 235,
+        "12": 701,
+        "14": 1211,
+        "16": 1866,
+        "18": 1887,
+        "20": 1832,
+        "22": 1175,
+        "24": 705,
+        "26": 225,
+        "28": 54,
+        "30": 11,
+        "32": 1
+      },
+      "position_distribution": {
+        "1": 1275,
+        "2": 1484,
+        "3": 1555,
+        "4": 1487,
+        "5": 1473,
+        "6": 1226,
+        "7": 924,
+        "8": 440,
+        "9": 136
+      },
+      "league_end_elo": 1538.612
+    },
+    {
+      "team": {
+        "id": "sunrisers_hyderabad",
+        "name": "Sunrisers Hyderabad",
+        "abbr": "SRH"
+      },
+      "actual_points": 20,
+      "actual_position": 4,
+      "expected_points": 18.06,
+      "median_points": 18.0,
+      "expected_position": 4.01,
+      "luck_index": 2.0,
+      "playoff_probability": 0.5944,
+      "final_probability": 0.2891,
+      "title_probability": 0.1312,
+      "points_distribution": {
+        "4": 4,
+        "6": 20,
+        "8": 68,
+        "10": 245,
+        "12": 626,
+        "14": 1189,
+        "16": 1701,
+        "18": 2057,
+        "20": 1829,
+        "22": 1259,
+        "24": 698,
+        "26": 238,
+        "28": 55,
+        "30": 10,
+        "32": 1
+      },
+      "position_distribution": {
+        "1": 1286,
+        "2": 1569,
+        "3": 1576,
+        "4": 1513,
+        "5": 1455,
+        "6": 1208,
+        "7": 873,
+        "8": 391,
+        "9": 129
+      },
+      "league_end_elo": 1541.437
+    },
+    {
+      "team": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "actual_points": 18,
+      "actual_position": 5,
+      "expected_points": 17.13,
+      "median_points": 18.0,
+      "expected_position": 4.49,
+      "luck_index": 0.0,
+      "playoff_probability": 0.4996,
+      "final_probability": 0.2125,
+      "title_probability": 0.0944,
+      "points_distribution": {
+        "4": 9,
+        "6": 31,
+        "8": 149,
+        "10": 410,
+        "12": 820,
+        "14": 1494,
+        "16": 1921,
+        "18": 1962,
+        "20": 1615,
+        "22": 946,
+        "24": 451,
+        "26": 155,
+        "28": 32,
+        "30": 5
+      },
+      "position_distribution": {
+        "1": 878,
+        "2": 1239,
+        "3": 1330,
+        "4": 1549,
+        "5": 1587,
+        "6": 1472,
+        "7": 1144,
+        "8": 591,
+        "9": 210
+      },
+      "league_end_elo": 1522.449
+    },
+    {
+      "team": {
+        "id": "punjab_kings",
+        "name": "Punjab Kings",
+        "abbr": "PBKS"
+      },
+      "actual_points": 16,
+      "actual_position": 6,
+      "expected_points": 16.99,
+      "median_points": 18.0,
+      "expected_position": 4.55,
+      "luck_index": -2.0,
+      "playoff_probability": 0.4914,
+      "final_probability": 0.1994,
+      "title_probability": 0.0892,
+      "points_distribution": {
+        "2": 2,
+        "4": 8,
+        "6": 42,
+        "8": 151,
+        "10": 431,
+        "12": 884,
+        "14": 1504,
+        "16": 1939,
+        "18": 1980,
+        "20": 1581,
+        "22": 899,
+        "24": 415,
+        "26": 123,
+        "28": 33,
+        "30": 8
+      },
+      "position_distribution": {
+        "1": 838,
+        "2": 1130,
+        "3": 1385,
+        "4": 1561,
+        "5": 1545,
+        "6": 1540,
+        "7": 1186,
+        "8": 587,
+        "9": 228
+      },
+      "league_end_elo": 1518.81
+    },
+    {
+      "team": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "actual_points": 12,
+      "actual_position": 7,
+      "expected_points": 14.28,
+      "median_points": 14.0,
+      "expected_position": 5.96,
+      "luck_index": -2.0,
+      "playoff_probability": 0.2316,
+      "final_probability": 0.0677,
+      "title_probability": 0.024,
+      "points_distribution": {
+        "0": 1,
+        "2": 11,
+        "4": 62,
+        "6": 183,
+        "8": 586,
+        "10": 1136,
+        "12": 1749,
+        "14": 2081,
+        "16": 1807,
+        "18": 1256,
+        "20": 704,
+        "22": 307,
+        "24": 86,
+        "26": 24,
+        "28": 5,
+        "30": 2
+      },
+      "position_distribution": {
+        "1": 247,
+        "2": 441,
+        "3": 664,
+        "4": 964,
+        "5": 1267,
+        "6": 1805,
+        "7": 2259,
+        "8": 1544,
+        "9": 809
+      },
+      "league_end_elo": 1466.1
+    },
+    {
+      "team": {
+        "id": "pune_warriors",
+        "name": "Pune Warriors",
+        "abbr": "PWI"
+      },
+      "actual_points": 8,
+      "actual_position": 8,
+      "expected_points": 10.04,
+      "median_points": 10.0,
+      "expected_position": 7.81,
+      "luck_index": -2.0,
+      "playoff_probability": 0.0385,
+      "final_probability": 0.0054,
+      "title_probability": 0.0015,
+      "points_distribution": {
+        "0": 22,
+        "2": 170,
+        "4": 578,
+        "6": 1253,
+        "8": 1996,
+        "10": 2126,
+        "12": 1805,
+        "14": 1158,
+        "16": 572,
+        "18": 242,
+        "20": 51,
+        "22": 23,
+        "24": 4
+      },
+      "position_distribution": {
+        "1": 23,
+        "2": 51,
+        "3": 105,
+        "4": 206,
+        "5": 374,
+        "6": 724,
+        "7": 1444,
+        "8": 3182,
+        "9": 3891
+      },
+      "league_end_elo": 1376.303
+    },
+    {
+      "team": {
+        "id": "delhi_capitals",
+        "name": "Delhi Capitals",
+        "abbr": "DC"
+      },
+      "actual_points": 6,
+      "actual_position": 9,
+      "expected_points": 9.55,
+      "median_points": 10.0,
+      "expected_position": 7.96,
+      "luck_index": -4.0,
+      "playoff_probability": 0.0287,
+      "final_probability": 0.0039,
+      "title_probability": 0.0014,
+      "points_distribution": {
+        "0": 37,
+        "2": 209,
+        "4": 686,
+        "6": 1496,
+        "8": 2136,
+        "10": 2103,
+        "12": 1677,
+        "14": 993,
+        "16": 442,
+        "18": 151,
+        "20": 57,
+        "22": 13
+      },
+      "position_distribution": {
+        "1": 17,
+        "2": 43,
+        "3": 70,
+        "4": 157,
+        "5": 307,
+        "6": 635,
+        "7": 1304,
+        "8": 2967,
+        "9": 4500
+      },
+      "league_end_elo": 1364.37
+    }
+  ]
+}

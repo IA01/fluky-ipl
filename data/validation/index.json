@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "seasons_checked": 19,
+  "published_table_fields": [
+    "played",
+    "won",
+    "lost",
+    "no_result",
+    "points"
+  ],
+  "calibration_beats_coin_flip": true,
+  "ball_rating_team_seasons": 166,
+  "famous_match_traces": 10,
+  "seasons": [
+    {
+      "season": 2008,
+      "status": "passed",
+      "official_matches": 59,
+      "records": 59,
+      "published_table_teams_checked": 8,
+      "simulation_count": 10000,
+      "seed": 24054000
+    },
+    {
+      "season": 2009,
+      "status": "passed",
+      "official_matches": 59,
+      "records": 59,
+      "published_table_teams_checked": 8,
+      "simulation_count": 10000,
+      "seed": 24054001
+    },
+    {
+      "season": 2010,
+      "status": "passed",
+      "official_matches": 60,
+      "records": 60,
+      "published_table_teams_checked": 8,
+      "simulation_count": 10000,
+      "seed": 24054002
+    },
+    {
+      "season": 2011,
+      "status": "passed",
+      "official_matches": 74,
+      "records": 74,
+      "published_table_teams_checked": 10,
+      "simulation_count": 10000,
+      "seed": 24054003
+    },
+    {
+      "season": 2012,
+      "status": "passed",
+      "official_matches": 76,
+      "records": 76,
+      "published_table_teams_checked": 9,
+      "simulation_count": 10000,
+      "seed": 24054004
+    },
+    {
+      "season": 2013,
+      "status": "passed",
+      "official_matches": 76,
+      "records": 76,
+      "published_table_teams_checked": 9,
+      "simulation_count": 10000,
+      "seed": 24054005
+    },
+    {
+      "season": 2014,
+      "status": "passed",
+      "official_matches": 60,
+      "records": 60,
+      "published_table_teams_checked": 8,
+      "simulation_count": 10000,
+      "seed": 24054006
+    },
+    {
+      "season": 2015,
+      "status": "passed",
+      "official_matches": 60,
+      "records": 60,
+      "published_table_teams_checked": 8,
+      "simulation_count": 10000,
+      "seed": 24054007
+    },
+    {
+      "season": 2016,
+      "status": "passed",
+      "official_matches": 60,
+      "records": 60,
+      "published_table_teams_checked": 8,
+      "simulation_count": 10000,
+      "seed": 24054008
+    },
+    {
+      "season": 2017,
+      "status": "passed",
+      "official_matches": 60,
+      "records": 60,
+      "published_table_teams_checked": 8,
+      "simulation_count": 10000,
+      "seed": 24054009
+    },
+    {
+      "season": 2018,
+      "status": "passed",
+      "official_matches": 60,
+      "records": 60,
+      "published_table_teams_checked": 8,
+      "simulation_count": 10000,
+      "seed": 24054010
+    },
+    {
+      "season": 2019,
+      "status": "passed",
+      "official_matches": 60,
+      "records": 60,
+      "published_table_teams_checked": 8,
+      "simulation_count": 10000,
+      "seed": 24054011
+    },
+    {
+      "season": 2020,
+      "status": "passed",
+      "official_matches": 60,
+      "records": 60,
+      "published_table_teams_checked": 8,
+      "simulation_count": 10000,
+      "seed": 24054012
+    },
+    {
+      "season": 2021,
+      "status": "passed",
+      "official_matches": 60,
+      "records": 60,
+      "published_table_teams_checked": 8,
+      "simulation_count": 10000,
+      "seed": 24054013
+    },
+    {
+      "season": 2022,
+      "status": "passed",
+      "official_matches": 74,
+      "records": 74,
+      "published_table_teams_checked": 10,
+      "simulation_count": 10000,
+      "seed": 24054014
+    },
+    {
+      "season": 2023,
+      "status": "passed",
+      "official_matches": 74,
+      "records": 74,
+      "published_table_teams_checked": 10,
+      "simulation_count": 10000,
+      "seed": 24054015
+    },
+    {
+      "season": 2024,
+      "status": "passed",
+      "official_matches": 74,
+      "records": 74,
+      "published_table_teams_checked": 10,
+      "simulation_count": 10000,
+      "seed": 24054016
+    },
+    {
+      "season": 2025,
+      "status": "passed",
+      "official_matches": 74,
+      "records": 75,
+      "published_table_teams_checked": 10,
+      "simulation_count": 10000,
+      "seed": 24054017
+    },
+    {
+      "season": 2026,
+      "status": "passed",
+      "official_matches": 74,
+      "records": 74,
+      "published_table_teams_checked": 10,
+      "simulation_count": 10000,
+      "seed": 24054018
+    }
+  ]
+}

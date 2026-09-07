@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "neutral_seasons": [2009, 2020, 2021, 2022],
+  "rules": [
+    { "team_id": "chennai_super_kings", "venue_contains": ["MA Chidambaram", "M.A. Chidambaram"] },
+    { "team_id": "chennai_super_kings", "venue_contains": ["Maharashtra Cricket Association"], "years": [2018] },
+    { "team_id": "mumbai_indians", "venue_contains": ["Wankhede Stadium"] },
+    { "team_id": "kolkata_knight_riders", "venue_contains": ["Eden Gardens"] },
+    { "team_id": "royal_challengers_bengaluru", "venue_contains": ["Chinnaswamy"] },
+    { "team_id": "delhi_capitals", "venue_contains": ["Feroz Shah Kotla", "Arun Jaitley"] },
+    { "team_id": "delhi_capitals", "venue_contains": ["Dr. Y.S. Rajasekhara Reddy", "ACA-VDCA"], "years": [2016, 2019, 2024] },
+    { "team_id": "delhi_capitals", "venue_contains": ["Shaheed Veer Narayan Singh"], "years": [2013, 2014, 2015, 2016] },
+    { "team_id": "punjab_kings", "venue_contains": ["Punjab Cricket Association", "Himachal Pradesh Cricket Association", "IS Bindra", "I.S. Bindra"] },
+    { "team_id": "punjab_kings", "venue_contains": ["Holkar Cricket Stadium"], "years": [2017, 2018] },
+    { "team_id": "rajasthan_royals", "venue_contains": ["Sawai Mansingh", "Barsapara", "Assam Cricket Association"] },
+    { "team_id": "rajasthan_royals", "venue_contains": ["Sardar Patel Stadium", "Narendra Modi Stadium"], "years": [2010] },
+    { "team_id": "deccan_chargers", "venue_contains": ["Rajiv Gandhi", "Barabati Stadium"], "years": [2008, 2009, 2010, 2011, 2012] },
+    { "team_id": "sunrisers_hyderabad", "venue_contains": ["Rajiv Gandhi"] },
+    { "team_id": "sunrisers_hyderabad", "venue_contains": ["Dr. Y.S. Rajasekhara Reddy", "ACA-VDCA"], "years": [2015] },
+    { "team_id": "pune_warriors", "venue_contains": ["Maharashtra Cricket Association", "Subrata Roy Sahara"] },
+    { "team_id": "rising_pune_supergiant", "venue_contains": ["Maharashtra Cricket Association"] },
+    { "team_id": "rising_pune_supergiant", "venue_contains": ["Dr. Y.S. Rajasekhara Reddy", "ACA-VDCA"], "years": [2016] },
+    { "team_id": "kochi_tuskers_kerala", "venue_contains": ["Nehru Stadium", "Holkar Cricket Stadium"], "years": [2011] },
+    { "team_id": "gujarat_lions", "venue_contains": ["Saurashtra Cricket Association", "Green Park"], "years": [2016, 2017] },
+    { "team_id": "gujarat_titans", "venue_contains": ["Narendra Modi Stadium"], "years": [2023, 2024, 2025, 2026] },
+    { "team_id": "lucknow_super_giants", "venue_contains": ["Bharat Ratna Shri Atal Bihari Vajpayee", "Ekana"] }
+  ],
+  "notes": [
+    "A venue only supplies home advantage when its configured franchise is playing there.",
+    "The South Africa 2009, UAE 2020, travelling 2021 and centralised 2022 seasons are neutral throughout.",
+    "Season-specific secondary homes are explicit; playoff hosting alone does not create home advantage."
+  ]
+}

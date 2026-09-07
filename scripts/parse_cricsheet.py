@@ -26,14 +26,33 @@ def stable_write(path: Path, payload: dict[str, Any]) -> None:
     path.write_text(rendered, encoding="utf-8")
 
 
+def overs_to_balls(value: Any, balls_per_over: int = 6) -> int:
+    """Convert cricket notation (for example 7.3) to a legal-ball count."""
+    text = str(value)
+    if "." not in text:
+        return int(text) * balls_per_over
+    overs, balls = text.split(".", 1)
+    remainder = int(balls)
+    if remainder >= balls_per_over:
+        raise ValueError(f"Invalid cricket overs value: {value!r}")
+    return int(overs) * balls_per_over + remainder
+
+
 def season_year(value: Any) -> int:
     text = str(value)
+    split_label_overrides = {
+        "2007/08": 2008,
+        "2009/10": 2010,
+        # The 2020 IPL retained its 2020 season identity despite being recorded
+        # by Cricsheet using the cross-calendar 2020/21 label.
+        "2020/21": 2020,
+    }
+    if text in split_label_overrides:
+        return split_label_overrides[text]
     match = re.search(r"(?:19|20)\d{2}", text)
     if not match:
         raise ValueError(f"Unrecognised season label: {value!r}")
-    first_year = int(match.group())
-    # Cricsheet labels the inaugural edition 2007/08; the IPL season is 2008.
-    return 2008 if text == "2007/08" else first_year
+    return int(match.group())
 
 
 class TeamRegistry:
@@ -67,15 +86,17 @@ def iter_match_paths(input_path: Path, wanted_year: int | None) -> Iterable[Path
 def stage_for(info: dict[str, Any]) -> str:
     event = info.get("event", {})
     raw = str(event.get("stage") or event.get("match_number") or "").lower()
-    if "final" in raw and "semi" not in raw:
-        return "final"
+    if "3rd place" in raw or "third place" in raw:
+        return "third_place"
     if "semi" in raw:
         return "semi_final"
-    if "qualifier" in raw:
+    if "eliminat" in raw:
+        return "eliminator"
+    if "qualifier" in raw or "qualifying final" in raw:
         number = re.search(r"\d+", raw)
         return f"qualifier_{number.group()}" if number else "qualifier"
-    if "eliminator" in raw:
-        return "eliminator"
+    if "final" in raw:
+        return "final"
     return "league"
 
 
@@ -179,7 +200,10 @@ def supplemental_match(raw: dict[str, Any], registry: TeamRegistry, defaults: di
         "stage": raw.get("stage", "league"),
         "match_number": raw.get("match_number"),
         "teams": teams,
-        "toss": {"winner": None, "decision": None},
+        "toss": {
+            "winner": registry.resolve(raw["toss_winner"]) if raw.get("toss_winner") else None,
+            "decision": raw.get("toss_decision"),
+        },
         "outcome": {"type": raw["outcome"], "winner": None, "margin": None, "method": None},
         "innings": [],
         "balls_per_over": 6,
@@ -212,7 +236,7 @@ def actual_table(matches: list[dict[str, Any]], season_config: dict[str, Any]) -
         return rows[team["id"]]
 
     for match in matches:
-        if match["stage"] != "league":
+        if match["stage"] != "league" or not match.get("counts_for_table", True):
             continue
         left, right = match["teams"]
         left_row, right_row = row_for(left), row_for(right)
@@ -255,7 +279,7 @@ def actual_table(matches: list[dict[str, Any]], season_config: dict[str, Any]) -
         chase_target = summaries[1].get("target")
         if match["outcome"].get("method") in {"D/L", "DLS"} and chase_target:
             dls_first_runs = int(chase_target["runs"]) - 1
-            dls_first_balls = int(float(chase_target["overs"]) * int(match["balls_per_over"]))
+            dls_first_balls = overs_to_balls(chase_target["overs"], int(match["balls_per_over"]))
         first_team_id = summaries[0]["team"]["id"]
         for own, opponent in ((left, right), (right, left)):
             own_innings, opp_innings = by_id[own["id"]], by_id[opponent["id"]]
@@ -279,13 +303,60 @@ def actual_table(matches: list[dict[str, Any]], season_config: dict[str, Any]) -
         rate_against = row["runs_against"] * 6 / row["balls_against"] if row["balls_against"] else 0.0
         row["net_run_rate"] = round(rate_for - rate_against, 3)
         table.append(row)
-    table.sort(key=lambda row: (-row["points"], -row["net_run_rate"], row["team"]["name"]))
+    table.sort(key=lambda row: (-row["points"], -row["won"], -row["net_run_rate"], row["team"]["name"]))
     for index, row in enumerate(table, start=1):
         row["position"] = index
     return table
 
 
-def parse_season(paths: list[Path], year: int, registry: TeamRegistry, configs: dict[str, Any]) -> dict[str, Any]:
+def reconcile_table(
+    calculated: list[dict[str, Any]], reference: dict[str, Any]
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Hard-check reconstructed results, then attach the published official ordering/NRR."""
+    calculated_by_team = {row["team"]["id"]: row for row in calculated}
+    reference_by_team = {row["team_id"]: row for row in reference["rows"]}
+    if set(calculated_by_team) != set(reference_by_team):
+        raise ValueError(
+            "Standings team mismatch: "
+            f"calculated={sorted(calculated_by_team)} reference={sorted(reference_by_team)}"
+        )
+    compared_fields = ("played", "won", "lost", "no_result", "points")
+    mismatches: list[dict[str, Any]] = []
+    table: list[dict[str, Any]] = []
+    for official in sorted(reference["rows"], key=lambda row: row["position"]):
+        row = calculated_by_team[official["team_id"]]
+        differences = {
+            field: {"calculated": row[field], "published": official[field]}
+            for field in compared_fields
+            if row[field] != official[field]
+        }
+        if differences:
+            mismatches.append({"team_id": official["team_id"], "differences": differences})
+        merged = dict(row)
+        merged["calculated_position"] = row["position"]
+        merged["calculated_net_run_rate"] = row["net_run_rate"]
+        merged["position"] = official["position"]
+        merged["net_run_rate"] = official["net_run_rate"]
+        merged["nrr_delta"] = round(row["net_run_rate"] - official["net_run_rate"], 3)
+        table.append(merged)
+    if mismatches:
+        raise ValueError(f"Published standings reconciliation failed: {mismatches}")
+    return table, {
+        "status": "passed",
+        "source_url": reference["source_url"],
+        "teams_checked": len(table),
+        "fields_checked": list(compared_fields),
+        "note": "Published NRR and ordering are authoritative; calculated NRR is retained for audit.",
+    }
+
+
+def parse_season(
+    paths: list[Path],
+    year: int,
+    registry: TeamRegistry,
+    configs: dict[str, Any],
+    standings: dict[str, Any],
+) -> dict[str, Any]:
     if str(year) not in configs["seasons"]:
         raise ValueError(f"No season config for {year}")
     matches = [parse_match(path, registry) for path in paths]
@@ -294,6 +365,12 @@ def parse_season(paths: list[Path], year: int, registry: TeamRegistry, configs: 
         supplemental_match(value, registry, configs["defaults"])
         for value in season_only_config.get("supplemental_fixtures", [])
     )
+    overrides = season_only_config.get("match_overrides", {})
+    for match in matches:
+        override = overrides.get(match["id"])
+        if override:
+            match.update(override)
+        match.setdefault("counts_for_table", True)
     matches.sort(key=lambda value: (value["date"] or "", value["id"]))
     season_config = {
         "defaults": configs["defaults"],
@@ -302,6 +379,11 @@ def parse_season(paths: list[Path], year: int, registry: TeamRegistry, configs: 
     stages: dict[str, int] = defaultdict(int)
     for match in matches:
         stages[match["stage"]] += 1
+    counted_matches = [match for match in matches if match.get("counts_for_table", True)]
+    counted_league = [match for match in counted_matches if match["stage"] == "league"]
+    counted_playoffs = [match for match in counted_matches if match["stage"] != "league"]
+    calculated_table = actual_table(matches, season_config)
+    table, validation = reconcile_table(calculated_table, standings["seasons"][str(year)])
     return {
         "schema_version": 1,
         "season": year,
@@ -314,13 +396,16 @@ def parse_season(paths: list[Path], year: int, registry: TeamRegistry, configs: 
         },
         "config": season_config,
         "summary": {
-            "matches": len(matches),
-            "league_matches": stages.get("league", 0),
-            "playoff_matches": len(matches) - stages.get("league", 0),
+            "matches": len(counted_matches),
+            "records": len(matches),
+            "league_matches": len(counted_league),
+            "playoff_matches": len(counted_playoffs),
+            "voided_matches": len(matches) - len(counted_matches),
             "stages": dict(sorted(stages.items())),
         },
         "team_identity_notes": registry.lineage_notes,
-        "actual_table": actual_table(matches, season_config),
+        "validation": validation,
+        "actual_table": table,
         "matches": matches,
     }
 
@@ -334,6 +419,7 @@ def main() -> None:
 
     registry = TeamRegistry()
     configs = load_json(CONFIG_DIR / "seasons.json")
+    standings = load_json(CONFIG_DIR / "actual_standings.json")
     grouped: dict[int, list[Path]] = defaultdict(list)
     for path in iter_match_paths(args.input.expanduser().resolve(), args.season):
         raw = load_json(path)
@@ -341,7 +427,7 @@ def main() -> None:
     if not grouped:
         raise SystemExit(f"No matches found for season {args.season}")
     for year, paths in sorted(grouped.items()):
-        artifact = parse_season(sorted(paths), year, registry, configs)
+        artifact = parse_season(sorted(paths), year, registry, configs, standings)
         output_path = args.output / f"{year}.json"
         stable_write(output_path, artifact)
         source_count = artifact["source"]["files"]

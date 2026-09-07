@@ -1,38 +1,64 @@
 # How Fluky Was the IPL?
 
-A static, reproducible analytics project that separates IPL skill from season-level luck. Cricsheet ball-by-ball files are parsed offline; later pipeline stages will build Elo ratings and replay each season 10,000 times. The Next.js site only reads baked JSON.
+A static analytics feature that asks whether every IPL champion from 2008–2026 was the season’s most repeatable winner. It combines auction-aware Elo, an independent ball-by-ball strength rating, 10,000 fixed-seed season replays, famous-final win probabilities, and a client-side What-If Machine.
 
-## First milestone
+Live site: [fluky-ipl.vercel.app](https://fluky-ipl.vercel.app/)
 
-- Static Next.js 14 + TypeScript + Tailwind shell
-- Deterministic Cricsheet JSON ingest
-- Explicit season and franchise identity configuration
-- Parsed 2008 season artifact with the actual league table
-- Raw source files excluded from Git
+## What is included
 
-## Run locally
+- 19 independently validated final points tables
+- 190,000 precomputed season simulations
+- Match-level Elo with margin of victory and auction-cycle resets
+- Ball-level runs-above-par ratings by season, venue, and innings phase
+- Momentum, close-game, toss/dew proxy, and regression-to-mean studies
+- 10 ball-by-ball final win-probability traces
+- 1,000-run deterministic browser simulator for result and strength counterfactuals
+- 28 fully static Next.js routes, with no production API or database
+
+## Rebuild the data
+
+Use Python 3.11+ and install the pinned packages in `requirements.txt`. Download/extract the IPL JSON archive with `scripts/fetch_cricsheet.sh`, then pass its directory to the orchestrator:
+
+```bash
+python3 scripts/build_all.py --input "/path/to/ipl_json"
+```
+
+The stages run in dependency order:
+
+1. Parse and normalise Cricsheet matches.
+2. Reconcile every season against the independent published table.
+3. Calibrate and build Elo.
+4. Run 19 × 10,000 match-level simulations.
+5. Build the venue/phase rating, player impact, and famous-match traces.
+6. Validate every distribution and write `data/validation/index.json`.
+
+Raw Cricsheet files are intentionally ignored; the fetch script, configuration, and compact derived artifacts are committed.
+
+## Run and verify
 
 ```bash
 npm install
-python3 scripts/parse_cricsheet.py \
-  --input "ipl_json (1)" \
-  --output data/parsed/seasons \
-  --season 2008
+npm run test:data
+npm run validate:data
+npm run build
 npm run dev
 ```
 
-The parser accepts either the extracted Cricsheet root or a specific season directory. Download fresh data with `./scripts/fetch_cricsheet.sh`.
+Generated JSON contains no wall-clock timestamps. Fixed seeds and stable JSON ordering make successive pipeline runs byte-identical.
 
-## Reproducibility
+## Model in brief
 
-```bash
-npm run test:data
-npm run build
-```
+- Base Elo: 1500; new-franchise entry: 1465.
+- Mega-auction years 2011, 2014, 2018, 2022, 2025 retain 10% of the prior rating edge; normal seasons retain 40%.
+- K, probability scale, and home term are selected on a 2019–2026 retrospective holdout. The current choice is K=24, scale=400, fitted home edge=0.
+- Observed no-results remain one point each. Abandoned-without-toss matches never update Elo.
+- True counterfactual NRR cannot exist in a match-level simulation, so equal-points ties use wins followed by a sampled symmetric performance-margin proxy.
+- Elo is a retrospective season-strength model for replay, not a pre-match forecasting claim.
 
-`test:data` parses 2008 twice and compares the SHA-256 digests. Generated JSON contains no wall-clock timestamps and is written with stable ordering.
+The site’s Methods page documents formulas, assumptions, lineage, exceptions, calibration, robustness, and limitations in full.
 
-## Data policy
+## Data sources
 
-Cricsheet data is free to download from [cricsheet.org](https://cricsheet.org/downloads/). This repository commits the fetch/parser code and compact derived artifacts, not the raw ball-by-ball archive.
-
+- [Cricsheet IPL downloads](https://cricsheet.org/downloads/)
+- [Official IPL match reports](https://www.iplt20.com/)
+- Independent published table links are attached to each season artifact and season page.

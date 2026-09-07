@@ -1,0 +1,939 @@
+{
+  "schema_version": 1,
+  "season": 2009,
+  "seed": 24054001,
+  "simulation_count": 10000,
+  "model": {
+    "elo_scale": 400.0,
+    "home_advantage": 0.0,
+    "playoff_format": "two_semifinals_final",
+    "no_result_policy": "Preserve the observed no-result and award one point to each team in every replay.",
+    "nrr_policy": "Match-level simulation uses a sampled performance-margin proxy for the NRR tiebreak; it does not fabricate ball-by-ball innings."
+  },
+  "actual_champion": {
+    "id": "deccan_chargers",
+    "name": "Deccan Chargers",
+    "abbr": "DEC"
+  },
+  "champion_title_probability": 0.0616,
+  "fluke_score": 0.9384,
+  "robbery": {
+    "team": {
+      "id": "chennai_super_kings",
+      "name": "Chennai Super Kings",
+      "abbr": "CSK"
+    },
+    "title_probability": 0.276
+  },
+  "dominance": {
+    "team": {
+      "id": "chennai_super_kings",
+      "name": "Chennai Super Kings",
+      "abbr": "CSK"
+    },
+    "elo_gap_to_field": 85.25
+  },
+  "fixtures": [
+    {
+      "id": "392181",
+      "date": "2009-04-18",
+      "team_a": "chennai_super_kings",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.647793,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392182",
+      "date": "2009-04-18",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.550461,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392183",
+      "date": "2009-04-19",
+      "team_a": "delhi_capitals",
+      "team_b": "punjab_kings",
+      "probability_a": 0.608045,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392184",
+      "date": "2009-04-19",
+      "team_a": "deccan_chargers",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.586126,
+      "actual_winner": "deccan_chargers",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392185",
+      "date": "2009-04-20",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.426322,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392186",
+      "date": "2009-04-21",
+      "team_a": "punjab_kings",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.616756,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392187",
+      "date": "2009-04-21",
+      "team_a": "mumbai_indians",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.472542,
+      "actual_winner": null,
+      "no_result": true,
+      "home_team_id": null
+    },
+    {
+      "id": "392188",
+      "date": "2009-04-22",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "deccan_chargers",
+      "probability_a": 0.573752,
+      "actual_winner": "deccan_chargers",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392189",
+      "date": "2009-04-23",
+      "team_a": "chennai_super_kings",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.506779,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392190",
+      "date": "2009-04-23",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.391118,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392191",
+      "date": "2009-04-24",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "punjab_kings",
+      "probability_a": 0.542236,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392192",
+      "date": "2009-04-25",
+      "team_a": "deccan_chargers",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.503825,
+      "actual_winner": "deccan_chargers",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392193",
+      "date": "2009-04-25",
+      "team_a": "chennai_super_kings",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.719508,
+      "actual_winner": null,
+      "no_result": true,
+      "home_team_id": null
+    },
+    {
+      "id": "392194",
+      "date": "2009-04-26",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.432968,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392195",
+      "date": "2009-04-26",
+      "team_a": "punjab_kings",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.508296,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392196",
+      "date": "2009-04-27",
+      "team_a": "chennai_super_kings",
+      "team_b": "deccan_chargers",
+      "probability_a": 0.644294,
+      "actual_winner": "deccan_chargers",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392197",
+      "date": "2009-04-27",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.417591,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392198",
+      "date": "2009-04-28",
+      "team_a": "delhi_capitals",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.615925,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392199",
+      "date": "2009-04-29",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.655917,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392200",
+      "date": "2009-04-29",
+      "team_a": "punjab_kings",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.535721,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392201",
+      "date": "2009-04-30",
+      "team_a": "deccan_chargers",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.361945,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392202",
+      "date": "2009-04-30",
+      "team_a": "chennai_super_kings",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.62232,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392203",
+      "date": "2009-05-01",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.417591,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392204",
+      "date": "2009-05-01",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "punjab_kings",
+      "probability_a": 0.542236,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392205",
+      "date": "2009-05-02",
+      "team_a": "deccan_chargers",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.476357,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392206",
+      "date": "2009-05-02",
+      "team_a": "chennai_super_kings",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.506779,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392207",
+      "date": "2009-05-03",
+      "team_a": "punjab_kings",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.616756,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392208",
+      "date": "2009-05-03",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.57749,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392209",
+      "date": "2009-05-04",
+      "team_a": "chennai_super_kings",
+      "team_b": "deccan_chargers",
+      "probability_a": 0.644294,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392210",
+      "date": "2009-05-05",
+      "team_a": "punjab_kings",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.508296,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392211",
+      "date": "2009-05-05",
+      "team_a": "delhi_capitals",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.714003,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392212",
+      "date": "2009-05-06",
+      "team_a": "deccan_chargers",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.503825,
+      "actual_winner": "deccan_chargers",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392213",
+      "date": "2009-05-07",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.550461,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392214",
+      "date": "2009-05-07",
+      "team_a": "chennai_super_kings",
+      "team_b": "punjab_kings",
+      "probability_a": 0.614489,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392215",
+      "date": "2009-05-08",
+      "team_a": "delhi_capitals",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.641581,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392216",
+      "date": "2009-05-09",
+      "team_a": "deccan_chargers",
+      "team_b": "punjab_kings",
+      "probability_a": 0.468086,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392217",
+      "date": "2009-05-09",
+      "team_a": "chennai_super_kings",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.62232,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392218",
+      "date": "2009-05-10",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.57749,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392219",
+      "date": "2009-05-10",
+      "team_a": "delhi_capitals",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.714003,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392220",
+      "date": "2009-05-11",
+      "team_a": "deccan_chargers",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.476357,
+      "actual_winner": "deccan_chargers",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392221",
+      "date": "2009-05-12",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.655917,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392222",
+      "date": "2009-05-12",
+      "team_a": "punjab_kings",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.535721,
+      "actual_winner": "mumbai_indians",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392223",
+      "date": "2009-05-13",
+      "team_a": "deccan_chargers",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.361945,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392224",
+      "date": "2009-05-14",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "chennai_super_kings",
+      "probability_a": 0.426322,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392225",
+      "date": "2009-05-14",
+      "team_a": "mumbai_indians",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.472542,
+      "actual_winner": "rajasthan_royals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392226",
+      "date": "2009-05-15",
+      "team_a": "delhi_capitals",
+      "team_b": "punjab_kings",
+      "probability_a": 0.608045,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392227",
+      "date": "2009-05-16",
+      "team_a": "chennai_super_kings",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.647793,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392228",
+      "date": "2009-05-16",
+      "team_a": "deccan_chargers",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.586126,
+      "actual_winner": "deccan_chargers",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392229",
+      "date": "2009-05-17",
+      "team_a": "deccan_chargers",
+      "team_b": "punjab_kings",
+      "probability_a": 0.468086,
+      "actual_winner": "punjab_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392230",
+      "date": "2009-05-17",
+      "team_a": "delhi_capitals",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.615925,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392231",
+      "date": "2009-05-18",
+      "team_a": "chennai_super_kings",
+      "team_b": "kolkata_knight_riders",
+      "probability_a": 0.719508,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392232",
+      "date": "2009-05-19",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "delhi_capitals",
+      "probability_a": 0.432968,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392233",
+      "date": "2009-05-20",
+      "team_a": "kolkata_knight_riders",
+      "team_b": "rajasthan_royals",
+      "probability_a": 0.391118,
+      "actual_winner": "kolkata_knight_riders",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392234",
+      "date": "2009-05-20",
+      "team_a": "chennai_super_kings",
+      "team_b": "punjab_kings",
+      "probability_a": 0.614489,
+      "actual_winner": "chennai_super_kings",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392235",
+      "date": "2009-05-21",
+      "team_a": "delhi_capitals",
+      "team_b": "mumbai_indians",
+      "probability_a": 0.641581,
+      "actual_winner": "delhi_capitals",
+      "no_result": false,
+      "home_team_id": null
+    },
+    {
+      "id": "392236",
+      "date": "2009-05-21",
+      "team_a": "royal_challengers_bengaluru",
+      "team_b": "deccan_chargers",
+      "probability_a": 0.573752,
+      "actual_winner": "royal_challengers_bengaluru",
+      "no_result": false,
+      "home_team_id": null
+    }
+  ],
+  "teams": [
+    {
+      "team": {
+        "id": "delhi_capitals",
+        "name": "Delhi Capitals",
+        "abbr": "DC"
+      },
+      "actual_points": 20,
+      "actual_position": 1,
+      "expected_points": 17.19,
+      "median_points": 18.0,
+      "expected_position": 2.83,
+      "luck_index": 2.0,
+      "playoff_probability": 0.8061,
+      "final_probability": 0.4719,
+      "title_probability": 0.2614,
+      "points_distribution": {
+        "4": 4,
+        "6": 22,
+        "8": 91,
+        "10": 344,
+        "12": 794,
+        "14": 1407,
+        "16": 2028,
+        "18": 2158,
+        "20": 1734,
+        "22": 959,
+        "24": 347,
+        "26": 101,
+        "28": 11
+      },
+      "position_distribution": {
+        "1": 3242,
+        "2": 2151,
+        "3": 1566,
+        "4": 1102,
+        "5": 780,
+        "6": 586,
+        "7": 369,
+        "8": 204
+      },
+      "league_end_elo": 1569.88
+    },
+    {
+      "team": {
+        "id": "chennai_super_kings",
+        "name": "Chennai Super Kings",
+        "abbr": "CSK"
+      },
+      "actual_points": 17,
+      "actual_position": 2,
+      "expected_points": 16.86,
+      "median_points": 17.0,
+      "expected_position": 2.97,
+      "luck_index": 0.0,
+      "playoff_probability": 0.7865,
+      "final_probability": 0.4709,
+      "title_probability": 0.276,
+      "points_distribution": {
+        "5": 8,
+        "7": 55,
+        "9": 184,
+        "11": 531,
+        "13": 1293,
+        "15": 1874,
+        "17": 2256,
+        "19": 1958,
+        "21": 1206,
+        "23": 499,
+        "25": 120,
+        "27": 16
+      },
+      "position_distribution": {
+        "1": 2774,
+        "2": 2256,
+        "3": 1612,
+        "4": 1223,
+        "5": 925,
+        "6": 633,
+        "7": 397,
+        "8": 180
+      },
+      "league_end_elo": 1574.591
+    },
+    {
+      "team": {
+        "id": "royal_challengers_bengaluru",
+        "name": "Royal Challengers Bengaluru",
+        "abbr": "RCB"
+      },
+      "actual_points": 16,
+      "actual_position": 3,
+      "expected_points": 15.04,
+      "median_points": 16.0,
+      "expected_position": 3.94,
+      "luck_index": 0.0,
+      "playoff_probability": 0.6133,
+      "final_probability": 0.308,
+      "title_probability": 0.1506,
+      "points_distribution": {
+        "0": 1,
+        "2": 4,
+        "4": 18,
+        "6": 119,
+        "8": 385,
+        "10": 814,
+        "12": 1518,
+        "14": 2098,
+        "16": 2064,
+        "18": 1576,
+        "20": 859,
+        "22": 415,
+        "24": 109,
+        "26": 17,
+        "28": 3
+      },
+      "position_distribution": {
+        "1": 1394,
+        "2": 1677,
+        "3": 1562,
+        "4": 1500,
+        "5": 1317,
+        "6": 1078,
+        "7": 843,
+        "8": 629
+      },
+      "league_end_elo": 1523.019
+    },
+    {
+      "team": {
+        "id": "deccan_chargers",
+        "name": "Deccan Chargers",
+        "abbr": "DEC"
+      },
+      "actual_points": 14,
+      "actual_position": 4,
+      "expected_points": 12.71,
+      "median_points": 12.0,
+      "expected_position": 5.2,
+      "luck_index": 2.0,
+      "playoff_probability": 0.3665,
+      "final_probability": 0.1502,
+      "title_probability": 0.0616,
+      "points_distribution": {
+        "0": 3,
+        "2": 18,
+        "4": 116,
+        "6": 445,
+        "8": 987,
+        "10": 1686,
+        "12": 2075,
+        "14": 2022,
+        "16": 1422,
+        "18": 781,
+        "20": 340,
+        "22": 83,
+        "24": 19,
+        "26": 3
+      },
+      "position_distribution": {
+        "1": 525,
+        "2": 786,
+        "3": 1112,
+        "4": 1242,
+        "5": 1424,
+        "6": 1613,
+        "7": 1627,
+        "8": 1671
+      },
+      "league_end_elo": 1471.394
+    },
+    {
+      "team": {
+        "id": "punjab_kings",
+        "name": "Punjab Kings",
+        "abbr": "PBKS"
+      },
+      "actual_points": 14,
+      "actual_position": 5,
+      "expected_points": 13.71,
+      "median_points": 14.0,
+      "expected_position": 4.66,
+      "luck_index": 0.0,
+      "playoff_probability": 0.4714,
+      "final_probability": 0.2125,
+      "title_probability": 0.0911,
+      "points_distribution": {
+        "0": 1,
+        "2": 8,
+        "4": 65,
+        "6": 220,
+        "8": 681,
+        "10": 1364,
+        "12": 1946,
+        "14": 2095,
+        "16": 1804,
+        "18": 1053,
+        "20": 509,
+        "22": 188,
+        "24": 58,
+        "26": 8
+      },
+      "position_distribution": {
+        "1": 819,
+        "2": 1092,
+        "3": 1333,
+        "4": 1470,
+        "5": 1433,
+        "6": 1453,
+        "7": 1349,
+        "8": 1051
+      },
+      "league_end_elo": 1493.6
+    },
+    {
+      "team": {
+        "id": "rajasthan_royals",
+        "name": "Rajasthan Royals",
+        "abbr": "RR"
+      },
+      "actual_points": 13,
+      "actual_position": 6,
+      "expected_points": 13.41,
+      "median_points": 13.0,
+      "expected_position": 4.81,
+      "luck_index": 0.0,
+      "playoff_probability": 0.4364,
+      "final_probability": 0.1919,
+      "title_probability": 0.0846,
+      "points_distribution": {
+        "1": 3,
+        "3": 24,
+        "5": 135,
+        "7": 467,
+        "9": 1061,
+        "11": 1818,
+        "13": 2162,
+        "15": 1971,
+        "17": 1326,
+        "19": 743,
+        "21": 230,
+        "23": 48,
+        "25": 12
+      },
+      "position_distribution": {
+        "1": 697,
+        "2": 984,
+        "3": 1276,
+        "4": 1407,
+        "5": 1526,
+        "6": 1526,
+        "7": 1463,
+        "8": 1121
+      },
+      "league_end_elo": 1487.835
+    },
+    {
+      "team": {
+        "id": "mumbai_indians",
+        "name": "Mumbai Indians",
+        "abbr": "MI"
+      },
+      "actual_points": 11,
+      "actual_position": 7,
+      "expected_points": 12.6,
+      "median_points": 13.0,
+      "expected_position": 5.26,
+      "luck_index": -2.0,
+      "playoff_probability": 0.352,
+      "final_probability": 0.1417,
+      "title_probability": 0.0565,
+      "points_distribution": {
+        "1": 1,
+        "3": 52,
+        "5": 234,
+        "7": 680,
+        "9": 1398,
+        "11": 2000,
+        "13": 2145,
+        "15": 1780,
+        "17": 1098,
+        "19": 429,
+        "21": 148,
+        "23": 29,
+        "25": 5,
+        "27": 1
+      },
+      "position_distribution": {
+        "1": 422,
+        "2": 782,
+        "3": 1016,
+        "4": 1300,
+        "5": 1530,
+        "6": 1586,
+        "7": 1744,
+        "8": 1620
+      },
+      "league_end_elo": 1468.736
+    },
+    {
+      "team": {
+        "id": "kolkata_knight_riders",
+        "name": "Kolkata Knight Riders",
+        "abbr": "KKR"
+      },
+      "actual_points": 7,
+      "actual_position": 8,
+      "expected_points": 10.47,
+      "median_points": 11.0,
+      "expected_position": 6.34,
+      "luck_index": -4.0,
+      "playoff_probability": 0.1678,
+      "final_probability": 0.0529,
+      "title_probability": 0.0182,
+      "points_distribution": {
+        "1": 22,
+        "3": 217,
+        "5": 743,
+        "7": 1417,
+        "9": 2075,
+        "11": 2308,
+        "13": 1687,
+        "15": 989,
+        "17": 395,
+        "19": 114,
+        "21": 29,
+        "23": 4
+      },
+      "position_distribution": {
+        "1": 127,
+        "2": 272,
+        "3": 523,
+        "4": 756,
+        "5": 1065,
+        "6": 1525,
+        "7": 2208,
+        "8": 3524
+      },
+      "league_end_elo": 1410.945
+    }
+  ]
+}
