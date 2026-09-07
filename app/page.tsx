@@ -37,7 +37,7 @@ export default function Home() {
           <p className="dek">Every IPL season from 2008 to 2026, replayed 10,000 times. Skill gets a rating. Luck gets a number.</p>
           <SeasonPicker years={YEARS} />
         </div>
-        <div className="hero-meta"><span>19 seasons</span><span>1,243 source records</span><span>Fixed-seed simulations</span></div>
+        <div className="hero-meta"><span>19 seasons</span><span>1,243 Cricsheet files</span><span>Fixed-seed simulations</span></div>
       </section>
 
       <section className="scoreboard">
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className="stat-stack">
             <article><small>Champion win rate</small><strong>{pct(flukiest.champion_title_probability)}</strong><b>Flukiest champion</b></article>
-            <article><small>Biggest robbery</small><strong>{robbery.robbery.team.abbr}</strong><b>{robbery.season} · {pct(robbery.robbery.title_probability)} title odds</b></article>
+            <article><small>Biggest robbery</small><strong>{robbery.robbery.team.abbr}</strong><b>{robbery.season} · {pct(robbery.robbery.title_probability)} title odds<span>Highest title chance among teams that did not win.</span></b></article>
             <article><small>Largest Elo gap</small><strong>{dominant.dominance.elo_gap_to_field.toFixed(0)}</strong><b>{dominant.season} · {dominant.dominance.team.abbr}</b></article>
           </div>
         </div>

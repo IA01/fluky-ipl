@@ -10,7 +10,15 @@ type EloData = {
   seasons: Record<string, { league_end: Record<string, number> }>;
 };
 type Robustness = { comparison_to_elo: { overall_correlation: number; team_seasons: number } };
-type Players = { seasons: Record<string, Array<{ player: string; matches: number; impact_runs: number }>> };
+type PlayerPeak = {
+  season: number;
+  player: string;
+  matches: number;
+  batting_runs_above_par: number;
+  bowling_impact_runs: number;
+  bowler_wickets: number;
+};
+type Players = { leaderboards: { batting: PlayerPeak[]; bowling: PlayerPeak[] } };
 
 export default function GreatestPage() {
   const elo = getRating<EloData>("elo");
@@ -28,7 +36,6 @@ export default function GreatestPage() {
     const entries = rows.filter((row) => row.team.id === team.id).sort((a, b) => a.year - b.year);
     return { team, entries, peak: Math.max(...entries.map((row) => row.rating)) };
   }).sort((a, b) => b.peak - a.peak).slice(0, 8);
-  const playerRows = Object.entries(players.seasons).map(([year, entries]) => ({ year: Number(year), ...entries[0] })).sort((a, b) => b.impact_runs - a.impact_runs).slice(0, 10);
   const minRating = 1350;
   const maxRating = 1700;
   const linePath = (entries: Array<{ year: number; rating: number }>) => entries.map((entry, index) => {
@@ -89,10 +96,13 @@ export default function GreatestPage() {
 
       <section className="ranking-section shell">
         <div className="section-heading compact">
-          <div><div className="eyebrow"><span>03</span> Ball-level impact</div><h2>Peak player seasons.</h2></div>
-          <p>Batting above venue/phase par, bowling runs saved, and bowler-credited wickets converted to a common run scale.</p>
+          <div><div className="eyebrow"><span>03</span> Ball-level impact</div><h2>Two disciplines.<br />Two scales.</h2></div>
+          <p>The combined score naturally favours wicket-takers, so batting and bowling are ranked separately here. Batting is runs above venue/phase par; bowling adds runs saved and 15 runs per credited wicket.</p>
         </div>
-        <div className="player-grid">{playerRows.map((row, index) => <article key={`${row.year}-${row.player}`}><span>{String(index + 1).padStart(2, "0")}</span><small>{row.year}</small><h3>{row.player}</h3><strong>{row.impact_runs.toFixed(0)}</strong><p>impact runs</p></article>)}</div>
+        <div className="player-leaderboards">
+          <section><h3>Batting above par</h3><div className="player-grid">{players.leaderboards.batting.map((row, index) => <article key={`${row.season}-${row.player}`}><span>{String(index + 1).padStart(2, "0")}</span><small>{row.season}</small><h3>{row.player}</h3><strong>{row.batting_runs_above_par.toFixed(0)}</strong><p>runs above par</p></article>)}</div></section>
+          <section><h3>Bowling impact</h3><div className="player-grid">{players.leaderboards.bowling.map((row, index) => <article key={`${row.season}-${row.player}`}><span>{String(index + 1).padStart(2, "0")}</span><small>{row.season}</small><h3>{row.player}</h3><strong>{row.bowling_impact_runs.toFixed(0)}</strong><p>{row.bowler_wickets} wickets · impact runs</p></article>)}</div></section>
+        </div>
       </section>
     </main>
   );

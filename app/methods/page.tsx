@@ -52,7 +52,7 @@ export default function MethodsPage() {
         <div className="methods-copy">
           <section id="data">
             <div className="eyebrow"><span>01</span> Data integrity</div><h2>Rebuild the record first.</h2>
-            <p>Cricsheet’s IPL JSON is the ball-level source. The parser normalises dates, teams, tosses, venues, innings, super-over outcomes and match stages into a stable season schema. It contains {records.toLocaleString()} source and supplemental records representing {official.toLocaleString()} official matches, of which {league.toLocaleString()} are league fixtures.</p>
+            <p>Cricsheet’s IPL JSON is the ball-level source. The parser normalises dates, teams, tosses, venues, innings, super-over outcomes and match stages into a stable season schema. The audit begins with 1,243 Cricsheet files and adds 12 configured no-ball supplements: {records.toLocaleString()} normalized records. One 2025 fixture was voided and replayed, leaving {official.toLocaleString()} official matches, of which {league.toLocaleString()} are league fixtures.</p>
             <p>Delhi Daredevils/Capitals, Kings XI/Punjab Kings and Bangalore/Bengaluru are continuous identities. Deccan Chargers and Sunrisers Hyderabad remain separate because SRH was a replacement franchise. Rising Pune Supergiant and Gujarat Lions remain independent of the suspended CSK and RR.</p>
             <h3>The missing-match audit</h3>
             <p>Ball-by-ball archives naturally omit games where no ball was bowled. We compare each season’s parsed records with the published final table, then explicitly add or exclude only documented exceptions.</p>

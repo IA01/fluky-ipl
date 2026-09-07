@@ -150,7 +150,7 @@ export function WhatIfMachine({ data }: { data: MachineData }) {
 
       <div className="machine-output">
         <section>
-          <div className="machine-heading"><div><small>Counterfactual table</small><h2>{year}, replayed.</h2></div><b>{data.simulation_count.toLocaleString()} runs</b></div>
+          <div className="machine-heading"><div><small>Counterfactual table</small><h2>{year}, replayed.</h2></div><b>{data.simulation_count.toLocaleString()} browser runs<span>Season pages use 10,000</span></b></div>
           <div className="table-wrap"><table className="machine-table"><thead><tr><th>Exp.</th><th>Team</th><th>Pts</th><th>Actual</th><th>Delta</th><th>Title</th></tr></thead><tbody>{results.map((row, position) => <tr key={row.team.id}><td>{position + 1}</td><td><i className={teamClass(row.team.id)} />{row.team.name}<small>{row.team.abbr}</small></td><td><b>{row.expectedPoints.toFixed(1)}</b></td><td>{row.actual_points}</td><td>{signed(row.expectedPoints - row.actual_points)}</td><td>{pct(row.titleProbability)}</td></tr>)}</tbody></table></div>
         </section>
         <aside>
@@ -160,7 +160,7 @@ export function WhatIfMachine({ data }: { data: MachineData }) {
       </div>
 
       <details className="strength-panel"><summary>Adjust individual team strength <span>±10%</span></summary><div>{season.teams.map((row) => <label key={row.team.id}><span><i className={teamClass(row.team.id)} />{row.team.abbr}</span><input aria-label={`${row.team.name} strength adjustment`} type="range" min="-10" max="10" value={adjustments[row.team.id] ?? 0} onChange={(event) => setAdjustments((current) => ({ ...current, [row.team.id]: Number(event.target.value) }))} /><b>{signed(adjustments[row.team.id] ?? 0, 0)}%</b></label>)}</div></details>
-      <p className="model-note">Same match-level structure as the 10,000-run pipeline; this client version uses {data.simulation_count.toLocaleString()} fixed-seed replays for speed. A forced upset locks only the chosen result and simulates every other league fixture.</p>
+      <p className="model-note">A forced upset locks only the chosen result and simulates every other league fixture.</p>
     </div>
   );
 }

@@ -194,18 +194,21 @@ def build_robustness(
         rows.sort(key=lambda row: (-row["rating_z"], row["team"]["name"]))
 
     players_by_season: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    all_player_rows: list[dict[str, Any]] = []
     for (year, player), row in player_stats.items():
-        total = row["batting_runs_above_par"] + row["bowling_runs_saved"] + 15.0 * row["wickets"]
-        players_by_season[str(year)].append(
-            {
-                "player": player,
-                "matches": len(row["matches"]),
-                "batting_runs_above_par": round(row["batting_runs_above_par"], 2),
-                "bowling_runs_saved": round(row["bowling_runs_saved"], 2),
-                "bowler_wickets": int(row["wickets"]),
-                "impact_runs": round(total, 2),
-            }
-        )
+        bowling_impact = row["bowling_runs_saved"] + 15.0 * row["wickets"]
+        total = row["batting_runs_above_par"] + bowling_impact
+        player_row = {
+            "player": player,
+            "matches": len(row["matches"]),
+            "batting_runs_above_par": round(row["batting_runs_above_par"], 2),
+            "bowling_runs_saved": round(row["bowling_runs_saved"], 2),
+            "bowler_wickets": int(row["wickets"]),
+            "bowling_impact_runs": round(bowling_impact, 2),
+            "impact_runs": round(total, 2),
+        }
+        players_by_season[str(year)].append(player_row)
+        all_player_rows.append({"season": year, **player_row})
     for year, rows in players_by_season.items():
         rows.sort(key=lambda row: (-row["impact_runs"], row["player"]))
         players_by_season[year] = rows[:25]
@@ -233,6 +236,16 @@ def build_robustness(
     players = {
         "schema_version": 1,
         "method": "Batting runs above venue/phase par + bowling runs saved + 15 runs per bowler-credited wicket.",
+        "leaderboards": {
+            "batting": sorted(
+                all_player_rows,
+                key=lambda row: (-row["batting_runs_above_par"], row["season"], row["player"]),
+            )[:10],
+            "bowling": sorted(
+                all_player_rows,
+                key=lambda row: (-row["bowling_impact_runs"], row["season"], row["player"]),
+            )[:10],
+        },
         "seasons": dict(sorted(players_by_season.items())),
     }
     return robustness, players

@@ -51,6 +51,7 @@ export default function SeasonPage({ params }: { params: { year: string } }) {
           <div><small>Luck score</small><strong>{pct(simulation.fluke_score)}</strong></div>
         </div>
         <p>The champion appeared in roughly one of every {Math.max(1, Math.round(1 / simulation.champion_title_probability))} simulated title outcomes. Their actual {champion.actual_points} points were {signed(champion.actual_points - champion.expected_points)} versus the model expectation.</p>
+        <small className="metric-footnote">Hero comparison uses simulated mean points; the table’s Luck column uses the simulated median.</small>
       </section>
 
       <section className="season-data shell">

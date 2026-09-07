@@ -1,6 +1,212 @@
 {
   "schema_version": 1,
   "method": "Batting runs above venue/phase par + bowling runs saved + 15 runs per bowler-credited wicket.",
+  "leaderboards": {
+    "batting": [
+      {
+        "season": 2026,
+        "player": "V Suryavanshi",
+        "matches": 16,
+        "batting_runs_above_par": 205.69,
+        "bowling_runs_saved": 0.0,
+        "bowler_wickets": 0,
+        "bowling_impact_runs": 0.0,
+        "impact_runs": 205.69
+      },
+      {
+        "season": 2011,
+        "player": "CH Gayle",
+        "matches": 12,
+        "batting_runs_above_par": 204.85,
+        "bowling_runs_saved": 35.76,
+        "bowler_wickets": 8,
+        "bowling_impact_runs": 155.76,
+        "impact_runs": 360.61
+      },
+      {
+        "season": 2014,
+        "player": "GJ Maxwell",
+        "matches": 16,
+        "batting_runs_above_par": 165.94,
+        "bowling_runs_saved": -48.01,
+        "bowler_wickets": 1,
+        "bowling_impact_runs": -33.01,
+        "impact_runs": 132.93
+      },
+      {
+        "season": 2012,
+        "player": "CH Gayle",
+        "matches": 14,
+        "batting_runs_above_par": 161.36,
+        "bowling_runs_saved": -25.83,
+        "bowler_wickets": 0,
+        "bowling_impact_runs": -25.83,
+        "impact_runs": 135.53
+      },
+      {
+        "season": 2016,
+        "player": "DA Warner",
+        "matches": 17,
+        "batting_runs_above_par": 135.55,
+        "bowling_runs_saved": 0.0,
+        "bowler_wickets": 0,
+        "bowling_impact_runs": 0.0,
+        "impact_runs": 135.55
+      },
+      {
+        "season": 2011,
+        "player": "V Sehwag",
+        "matches": 11,
+        "batting_runs_above_par": 127.94,
+        "bowling_runs_saved": 0.0,
+        "bowler_wickets": 0,
+        "bowling_impact_runs": 0.0,
+        "impact_runs": 127.94
+      },
+      {
+        "season": 2013,
+        "player": "CH Gayle",
+        "matches": 16,
+        "batting_runs_above_par": 122.3,
+        "bowling_runs_saved": -3.88,
+        "bowler_wickets": 3,
+        "bowling_impact_runs": 41.12,
+        "impact_runs": 163.42
+      },
+      {
+        "season": 2009,
+        "player": "AC Gilchrist",
+        "matches": 16,
+        "batting_runs_above_par": 112.01,
+        "bowling_runs_saved": 0.0,
+        "bowler_wickets": 0,
+        "bowling_impact_runs": 0.0,
+        "impact_runs": 112.01
+      },
+      {
+        "season": 2012,
+        "player": "V Sehwag",
+        "matches": 16,
+        "batting_runs_above_par": 110.18,
+        "bowling_runs_saved": -12.03,
+        "bowler_wickets": 0,
+        "bowling_impact_runs": -12.03,
+        "impact_runs": 98.15
+      },
+      {
+        "season": 2008,
+        "player": "V Sehwag",
+        "matches": 14,
+        "batting_runs_above_par": 110.05,
+        "bowling_runs_saved": -39.5,
+        "bowler_wickets": 3,
+        "bowling_impact_runs": 5.5,
+        "impact_runs": 115.55
+      }
+    ],
+    "bowling": [
+      {
+        "season": 2020,
+        "player": "JJ Bumrah",
+        "matches": 15,
+        "batting_runs_above_par": -0.01,
+        "bowling_runs_saved": 122.82,
+        "bowler_wickets": 29,
+        "bowling_impact_runs": 557.82,
+        "impact_runs": 557.8
+      },
+      {
+        "season": 2026,
+        "player": "B Kumar",
+        "matches": 16,
+        "batting_runs_above_par": -9.49,
+        "bowling_runs_saved": 137.0,
+        "bowler_wickets": 28,
+        "bowling_impact_runs": 557.0,
+        "impact_runs": 547.5
+      },
+      {
+        "season": 2011,
+        "player": "SL Malinga",
+        "matches": 16,
+        "batting_runs_above_par": -5.2,
+        "bowling_runs_saved": 121.79,
+        "bowler_wickets": 28,
+        "bowling_impact_runs": 541.79,
+        "impact_runs": 536.59
+      },
+      {
+        "season": 2013,
+        "player": "DJ Bravo",
+        "matches": 18,
+        "batting_runs_above_par": -30.88,
+        "bowling_runs_saved": 52.67,
+        "bowler_wickets": 32,
+        "bowling_impact_runs": 532.67,
+        "impact_runs": 501.79
+      },
+      {
+        "season": 2012,
+        "player": "SP Narine",
+        "matches": 15,
+        "batting_runs_above_par": -1.02,
+        "bowling_runs_saved": 156.48,
+        "bowler_wickets": 24,
+        "bowling_impact_runs": 516.48,
+        "impact_runs": 515.46
+      },
+      {
+        "season": 2013,
+        "player": "JP Faulkner",
+        "matches": 16,
+        "batting_runs_above_par": -24.44,
+        "bowling_runs_saved": 83.76,
+        "bowler_wickets": 28,
+        "bowling_impact_runs": 503.76,
+        "impact_runs": 479.32
+      },
+      {
+        "season": 2020,
+        "player": "K Rabada",
+        "matches": 17,
+        "batting_runs_above_par": -24.88,
+        "bowling_runs_saved": 19.11,
+        "bowler_wickets": 32,
+        "bowling_impact_runs": 499.11,
+        "impact_runs": 474.23
+      },
+      {
+        "season": 2021,
+        "player": "HV Patel",
+        "matches": 15,
+        "batting_runs_above_par": -10.53,
+        "bowling_runs_saved": 9.32,
+        "bowler_wickets": 32,
+        "bowling_impact_runs": 489.32,
+        "impact_runs": 478.78
+      },
+      {
+        "season": 2013,
+        "player": "SP Narine",
+        "matches": 16,
+        "batting_runs_above_par": -8.96,
+        "bowling_runs_saved": 154.68,
+        "bowler_wickets": 22,
+        "bowling_impact_runs": 484.68,
+        "impact_runs": 475.72
+      },
+      {
+        "season": 2017,
+        "player": "B Kumar",
+        "matches": 14,
+        "batting_runs_above_par": -2.62,
+        "bowling_runs_saved": 93.96,
+        "bowler_wickets": 26,
+        "bowling_impact_runs": 483.96,
+        "impact_runs": 481.34
+      }
+    ]
+  },
   "seasons": {
     "2008": [
       {
@@ -9,6 +215,7 @@
         "batting_runs_above_par": -1.87,
         "bowling_runs_saved": 74.65,
         "bowler_wickets": 22,
+        "bowling_impact_runs": 404.65,
         "impact_runs": 402.78
       },
       {
@@ -17,6 +224,7 @@
         "batting_runs_above_par": 57.29,
         "bowling_runs_saved": 59.4,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 314.4,
         "impact_runs": 371.69
       },
       {
@@ -25,6 +233,7 @@
         "batting_runs_above_par": -0.21,
         "bowling_runs_saved": 43.24,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 298.24,
         "impact_runs": 298.03
       },
       {
@@ -33,6 +242,7 @@
         "batting_runs_above_par": -22.56,
         "bowling_runs_saved": 28.9,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 313.9,
         "impact_runs": 291.34
       },
       {
@@ -41,6 +251,7 @@
         "batting_runs_above_par": 2.39,
         "bowling_runs_saved": 63.53,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 288.53,
         "impact_runs": 290.92
       },
       {
@@ -49,6 +260,7 @@
         "batting_runs_above_par": -44.34,
         "bowling_runs_saved": 104.74,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 329.74,
         "impact_runs": 285.39
       },
       {
@@ -57,6 +269,7 @@
         "batting_runs_above_par": -4.34,
         "bowling_runs_saved": 108.95,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 288.95,
         "impact_runs": 284.61
       },
       {
@@ -65,6 +278,7 @@
         "batting_runs_above_par": -2.27,
         "bowling_runs_saved": 18.67,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 273.67,
         "impact_runs": 271.39
       },
       {
@@ -73,6 +287,7 @@
         "batting_runs_above_par": -5.21,
         "bowling_runs_saved": -9.89,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 275.11,
         "impact_runs": 269.9
       },
       {
@@ -81,6 +296,7 @@
         "batting_runs_above_par": -0.27,
         "bowling_runs_saved": 5.38,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 260.38,
         "impact_runs": 260.12
       },
       {
@@ -89,6 +305,7 @@
         "batting_runs_above_par": -4.75,
         "bowling_runs_saved": 86.53,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 251.53,
         "impact_runs": 246.78
       },
       {
@@ -97,6 +314,7 @@
         "batting_runs_above_par": -1.54,
         "bowling_runs_saved": 28.63,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 238.63,
         "impact_runs": 237.09
       },
       {
@@ -105,6 +323,7 @@
         "batting_runs_above_par": 106.32,
         "bowling_runs_saved": -1.76,
         "bowler_wickets": 8,
+        "bowling_impact_runs": 118.24,
         "impact_runs": 224.56
       },
       {
@@ -113,6 +332,7 @@
         "batting_runs_above_par": -17.21,
         "bowling_runs_saved": 63.41,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 228.41,
         "impact_runs": 211.2
       },
       {
@@ -121,6 +341,7 @@
         "batting_runs_above_par": -16.4,
         "bowling_runs_saved": 0.42,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 225.42,
         "impact_runs": 209.02
       },
       {
@@ -129,6 +350,7 @@
         "batting_runs_above_par": -26.41,
         "bowling_runs_saved": -10.27,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 229.73,
         "impact_runs": 203.32
       },
       {
@@ -137,6 +359,7 @@
         "batting_runs_above_par": -5.95,
         "bowling_runs_saved": 57.39,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 207.39,
         "impact_runs": 201.44
       },
       {
@@ -145,6 +368,7 @@
         "batting_runs_above_par": 8.63,
         "bowling_runs_saved": 4.08,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 184.08,
         "impact_runs": 192.71
       },
       {
@@ -153,6 +377,7 @@
         "batting_runs_above_par": -4.69,
         "bowling_runs_saved": 32.11,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 197.11,
         "impact_runs": 192.42
       },
       {
@@ -161,6 +386,7 @@
         "batting_runs_above_par": -17.3,
         "bowling_runs_saved": 26.91,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 206.91,
         "impact_runs": 189.61
       },
       {
@@ -169,6 +395,7 @@
         "batting_runs_above_par": 107.55,
         "bowling_runs_saved": 14.44,
         "bowler_wickets": 4,
+        "bowling_impact_runs": 74.44,
         "impact_runs": 181.99
       },
       {
@@ -177,6 +404,7 @@
         "batting_runs_above_par": -14.54,
         "bowling_runs_saved": -3.8,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 191.2,
         "impact_runs": 176.66
       },
       {
@@ -185,6 +413,7 @@
         "batting_runs_above_par": 13.35,
         "bowling_runs_saved": 28.26,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 163.26,
         "impact_runs": 176.61
       },
       {
@@ -193,6 +422,7 @@
         "batting_runs_above_par": -18.87,
         "bowling_runs_saved": 28.99,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 193.99,
         "impact_runs": 175.11
       },
       {
@@ -201,6 +431,7 @@
         "batting_runs_above_par": -5.63,
         "bowling_runs_saved": 13.75,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 178.75,
         "impact_runs": 173.12
       }
     ],
@@ -211,6 +442,7 @@
         "batting_runs_above_par": -10.78,
         "bowling_runs_saved": 85.09,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 400.09,
         "impact_runs": 389.31
       },
       {
@@ -219,6 +451,7 @@
         "batting_runs_above_par": -15.1,
         "bowling_runs_saved": 55.57,
         "bowler_wickets": 23,
+        "bowling_impact_runs": 400.57,
         "impact_runs": 385.48
       },
       {
@@ -227,6 +460,7 @@
         "batting_runs_above_par": -1.45,
         "bowling_runs_saved": 84.43,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 354.43,
         "impact_runs": 352.99
       },
       {
@@ -235,6 +469,7 @@
         "batting_runs_above_par": -0.46,
         "bowling_runs_saved": 52.54,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 337.54,
         "impact_runs": 337.09
       },
       {
@@ -243,6 +478,7 @@
         "batting_runs_above_par": -4.07,
         "bowling_runs_saved": 101.3,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 311.3,
         "impact_runs": 307.22
       },
       {
@@ -251,6 +487,7 @@
         "batting_runs_above_par": -8.49,
         "bowling_runs_saved": 43.79,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 313.79,
         "impact_runs": 305.3
       },
       {
@@ -259,6 +496,7 @@
         "batting_runs_above_par": -11.02,
         "bowling_runs_saved": 16.32,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 271.32,
         "impact_runs": 260.3
       },
       {
@@ -267,6 +505,7 @@
         "batting_runs_above_par": -5.44,
         "bowling_runs_saved": 22.29,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 262.29,
         "impact_runs": 256.85
       },
       {
@@ -275,6 +514,7 @@
         "batting_runs_above_par": 9.74,
         "bowling_runs_saved": 60.04,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 240.04,
         "impact_runs": 249.78
       },
       {
@@ -283,6 +523,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 15.08,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 240.08,
         "impact_runs": 240.08
       },
       {
@@ -291,6 +532,7 @@
         "batting_runs_above_par": -5.36,
         "bowling_runs_saved": 8.08,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 218.08,
         "impact_runs": 212.73
       },
       {
@@ -299,6 +541,7 @@
         "batting_runs_above_par": -9.21,
         "bowling_runs_saved": -12.09,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 212.91,
         "impact_runs": 203.71
       },
       {
@@ -307,6 +550,7 @@
         "batting_runs_above_par": 54.84,
         "bowling_runs_saved": 39.81,
         "bowler_wickets": 7,
+        "bowling_impact_runs": 144.81,
         "impact_runs": 199.65
       },
       {
@@ -315,6 +559,7 @@
         "batting_runs_above_par": -2.7,
         "bowling_runs_saved": -2.01,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 192.99,
         "impact_runs": 190.29
       },
       {
@@ -323,6 +568,7 @@
         "batting_runs_above_par": -2.34,
         "bowling_runs_saved": 27.56,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 192.56,
         "impact_runs": 190.21
       },
       {
@@ -331,6 +577,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": -26.23,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 183.77,
         "impact_runs": 183.77
       },
       {
@@ -339,6 +586,7 @@
         "batting_runs_above_par": -46.13,
         "bowling_runs_saved": 19.23,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 229.23,
         "impact_runs": 183.1
       },
       {
@@ -347,6 +595,7 @@
         "batting_runs_above_par": -2.71,
         "bowling_runs_saved": -11.08,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 183.92,
         "impact_runs": 181.2
       },
       {
@@ -355,6 +604,7 @@
         "batting_runs_above_par": -3.35,
         "bowling_runs_saved": 41.2,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 176.2,
         "impact_runs": 172.85
       },
       {
@@ -363,6 +613,7 @@
         "batting_runs_above_par": -10.84,
         "bowling_runs_saved": -17.17,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 177.83,
         "impact_runs": 166.99
       },
       {
@@ -371,6 +622,7 @@
         "batting_runs_above_par": -20.54,
         "bowling_runs_saved": 7.25,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 187.25,
         "impact_runs": 166.71
       },
       {
@@ -379,6 +631,7 @@
         "batting_runs_above_par": 47.43,
         "bowling_runs_saved": 13.76,
         "bowler_wickets": 7,
+        "bowling_impact_runs": 118.76,
         "impact_runs": 166.19
       },
       {
@@ -387,6 +640,7 @@
         "batting_runs_above_par": -6.83,
         "bowling_runs_saved": -27.49,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 167.51,
         "impact_runs": 160.68
       },
       {
@@ -395,6 +649,7 @@
         "batting_runs_above_par": -19.66,
         "bowling_runs_saved": 20.8,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 170.8,
         "impact_runs": 151.15
       },
       {
@@ -403,6 +658,7 @@
         "batting_runs_above_par": -2.05,
         "bowling_runs_saved": 13.73,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 148.73,
         "impact_runs": 146.67
       }
     ],
@@ -413,6 +669,7 @@
         "batting_runs_above_par": -11.32,
         "bowling_runs_saved": 108.72,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 363.72,
         "impact_runs": 352.4
       },
       {
@@ -421,6 +678,7 @@
         "batting_runs_above_par": -10.24,
         "bowling_runs_saved": 25.13,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 340.13,
         "impact_runs": 329.89
       },
       {
@@ -429,6 +687,7 @@
         "batting_runs_above_par": 9.54,
         "bowling_runs_saved": 49.28,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 304.28,
         "impact_runs": 313.81
       },
       {
@@ -437,6 +696,7 @@
         "batting_runs_above_par": -0.64,
         "bowling_runs_saved": 80.79,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 305.79,
         "impact_runs": 305.15
       },
       {
@@ -445,6 +705,7 @@
         "batting_runs_above_par": 55.09,
         "bowling_runs_saved": 15.81,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 240.81,
         "impact_runs": 295.9
       },
       {
@@ -453,6 +714,7 @@
         "batting_runs_above_par": -2.16,
         "bowling_runs_saved": 57.91,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 297.91,
         "impact_runs": 295.75
       },
       {
@@ -461,6 +723,7 @@
         "batting_runs_above_par": -15.89,
         "bowling_runs_saved": 86.53,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 311.53,
         "impact_runs": 295.63
       },
       {
@@ -469,6 +732,7 @@
         "batting_runs_above_par": -31.79,
         "bowling_runs_saved": 60.24,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 315.24,
         "impact_runs": 283.45
       },
       {
@@ -477,6 +741,7 @@
         "batting_runs_above_par": -30.53,
         "bowling_runs_saved": 105.49,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 300.49,
         "impact_runs": 269.96
       },
       {
@@ -485,6 +750,7 @@
         "batting_runs_above_par": 2.22,
         "bowling_runs_saved": 41.59,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 266.59,
         "impact_runs": 268.81
       },
       {
@@ -493,6 +759,7 @@
         "batting_runs_above_par": -6.71,
         "bowling_runs_saved": 61.89,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 241.89,
         "impact_runs": 235.18
       },
       {
@@ -501,6 +768,7 @@
         "batting_runs_above_par": -13.16,
         "bowling_runs_saved": 25.9,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 235.9,
         "impact_runs": 222.74
       },
       {
@@ -509,6 +777,7 @@
         "batting_runs_above_par": -24.8,
         "bowling_runs_saved": -1.02,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 238.98,
         "impact_runs": 214.18
       },
       {
@@ -517,6 +786,7 @@
         "batting_runs_above_par": -23.18,
         "bowling_runs_saved": 56.58,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 236.58,
         "impact_runs": 213.39
       },
       {
@@ -525,6 +795,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 7.29,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 202.29,
         "impact_runs": 202.29
       },
       {
@@ -533,6 +804,7 @@
         "batting_runs_above_par": 4.07,
         "bowling_runs_saved": -34.82,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 190.18,
         "impact_runs": 194.25
       },
       {
@@ -541,6 +813,7 @@
         "batting_runs_above_par": -0.51,
         "bowling_runs_saved": 22.98,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 187.98,
         "impact_runs": 187.47
       },
       {
@@ -549,6 +822,7 @@
         "batting_runs_above_par": -9.91,
         "bowling_runs_saved": 56.84,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 191.84,
         "impact_runs": 181.93
       },
       {
@@ -557,6 +831,7 @@
         "batting_runs_above_par": -29.96,
         "bowling_runs_saved": 30.49,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 210.49,
         "impact_runs": 180.53
       },
       {
@@ -565,6 +840,7 @@
         "batting_runs_above_par": 77.81,
         "bowling_runs_saved": 25.26,
         "bowler_wickets": 5,
+        "bowling_impact_runs": 100.26,
         "impact_runs": 178.07
       },
       {
@@ -573,6 +849,7 @@
         "batting_runs_above_par": -1.75,
         "bowling_runs_saved": 34.91,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 169.91,
         "impact_runs": 168.16
       },
       {
@@ -581,6 +858,7 @@
         "batting_runs_above_par": -1.53,
         "bowling_runs_saved": 33.57,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 168.57,
         "impact_runs": 167.05
       },
       {
@@ -589,6 +867,7 @@
         "batting_runs_above_par": 4.18,
         "bowling_runs_saved": -7.14,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 157.86,
         "impact_runs": 162.04
       },
       {
@@ -597,6 +876,7 @@
         "batting_runs_above_par": -20.42,
         "bowling_runs_saved": -15.99,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 179.01,
         "impact_runs": 158.59
       },
       {
@@ -605,6 +885,7 @@
         "batting_runs_above_par": -14.76,
         "bowling_runs_saved": 67.15,
         "bowler_wickets": 7,
+        "bowling_impact_runs": 172.15,
         "impact_runs": 157.39
       }
     ],
@@ -615,6 +896,7 @@
         "batting_runs_above_par": -5.2,
         "bowling_runs_saved": 121.79,
         "bowler_wickets": 28,
+        "bowling_impact_runs": 541.79,
         "impact_runs": 536.59
       },
       {
@@ -623,6 +905,7 @@
         "batting_runs_above_par": -7.07,
         "bowling_runs_saved": 92.7,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 392.7,
         "impact_runs": 385.63
       },
       {
@@ -631,6 +914,7 @@
         "batting_runs_above_par": -1.39,
         "bowling_runs_saved": 49.66,
         "bowler_wickets": 22,
+        "bowling_impact_runs": 379.66,
         "impact_runs": 378.26
       },
       {
@@ -639,6 +923,7 @@
         "batting_runs_above_par": 204.85,
         "bowling_runs_saved": 35.76,
         "bowler_wickets": 8,
+        "bowling_impact_runs": 155.76,
         "impact_runs": 360.61
       },
       {
@@ -647,6 +932,7 @@
         "batting_runs_above_par": -9.52,
         "bowling_runs_saved": 67.34,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 352.34,
         "impact_runs": 342.82
       },
       {
@@ -655,6 +941,7 @@
         "batting_runs_above_par": -8.13,
         "bowling_runs_saved": 105.01,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 345.01,
         "impact_runs": 336.87
       },
       {
@@ -663,6 +950,7 @@
         "batting_runs_above_par": -1.55,
         "bowling_runs_saved": 51.53,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 306.53,
         "impact_runs": 304.99
       },
       {
@@ -671,6 +959,7 @@
         "batting_runs_above_par": 0.52,
         "bowling_runs_saved": -11.53,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 303.47,
         "impact_runs": 303.99
       },
       {
@@ -679,6 +968,7 @@
         "batting_runs_above_par": -3.29,
         "bowling_runs_saved": 61.04,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 301.04,
         "impact_runs": 297.74
       },
       {
@@ -687,6 +977,7 @@
         "batting_runs_above_par": 21.26,
         "bowling_runs_saved": 40.63,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 235.63,
         "impact_runs": 256.89
       },
       {
@@ -695,6 +986,7 @@
         "batting_runs_above_par": 8.98,
         "bowling_runs_saved": 33.58,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 243.58,
         "impact_runs": 252.55
       },
       {
@@ -703,6 +995,7 @@
         "batting_runs_above_par": -19.35,
         "bowling_runs_saved": 61.76,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 271.76,
         "impact_runs": 252.41
       },
       {
@@ -711,6 +1004,7 @@
         "batting_runs_above_par": -17.51,
         "bowling_runs_saved": 80.95,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 260.95,
         "impact_runs": 243.45
       },
       {
@@ -719,6 +1013,7 @@
         "batting_runs_above_par": -16.15,
         "bowling_runs_saved": 51.5,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 246.5,
         "impact_runs": 230.35
       },
       {
@@ -727,6 +1022,7 @@
         "batting_runs_above_par": -4.07,
         "bowling_runs_saved": 32.11,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 227.11,
         "impact_runs": 223.04
       },
       {
@@ -735,6 +1031,7 @@
         "batting_runs_above_par": -21.48,
         "bowling_runs_saved": -1.07,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 238.93,
         "impact_runs": 217.45
       },
       {
@@ -743,6 +1040,7 @@
         "batting_runs_above_par": -26.38,
         "bowling_runs_saved": 0.92,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 240.92,
         "impact_runs": 214.54
       },
       {
@@ -751,6 +1049,7 @@
         "batting_runs_above_par": 3.49,
         "bowling_runs_saved": 9.44,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 204.44,
         "impact_runs": 207.93
       },
       {
@@ -759,6 +1058,7 @@
         "batting_runs_above_par": -13.35,
         "bowling_runs_saved": 9.85,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 219.85,
         "impact_runs": 206.5
       },
       {
@@ -767,6 +1067,7 @@
         "batting_runs_above_par": -3.92,
         "bowling_runs_saved": 22.54,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 187.54,
         "impact_runs": 183.62
       },
       {
@@ -775,6 +1076,7 @@
         "batting_runs_above_par": -1.27,
         "bowling_runs_saved": 10.79,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 175.79,
         "impact_runs": 174.52
       },
       {
@@ -783,6 +1085,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 19.9,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 169.9,
         "impact_runs": 169.9
       },
       {
@@ -791,6 +1094,7 @@
         "batting_runs_above_par": -10.66,
         "bowling_runs_saved": -45.58,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 179.42,
         "impact_runs": 168.76
       },
       {
@@ -799,6 +1103,7 @@
         "batting_runs_above_par": 8.7,
         "bowling_runs_saved": 24.89,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 159.89,
         "impact_runs": 168.59
       },
       {
@@ -807,6 +1112,7 @@
         "batting_runs_above_par": -15.69,
         "bowling_runs_saved": 3.57,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 183.57,
         "impact_runs": 167.89
       }
     ],
@@ -817,6 +1123,7 @@
         "batting_runs_above_par": -1.02,
         "bowling_runs_saved": 156.48,
         "bowler_wickets": 24,
+        "bowling_impact_runs": 516.48,
         "impact_runs": 515.46
       },
       {
@@ -825,6 +1132,7 @@
         "batting_runs_above_par": -5.28,
         "bowling_runs_saved": 57.27,
         "bowler_wickets": 25,
+        "bowling_impact_runs": 432.27,
         "impact_runs": 426.99
       },
       {
@@ -833,6 +1141,7 @@
         "batting_runs_above_par": -26.61,
         "bowling_runs_saved": 92.36,
         "bowler_wickets": 22,
+        "bowling_impact_runs": 422.36,
         "impact_runs": 395.76
       },
       {
@@ -841,6 +1150,7 @@
         "batting_runs_above_par": -12.78,
         "bowling_runs_saved": 90.34,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 360.34,
         "impact_runs": 347.56
       },
       {
@@ -849,6 +1159,7 @@
         "batting_runs_above_par": -8.5,
         "bowling_runs_saved": 42.98,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 327.98,
         "impact_runs": 319.49
       },
       {
@@ -857,6 +1168,7 @@
         "batting_runs_above_par": -17.0,
         "bowling_runs_saved": 40.38,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 295.38,
         "impact_runs": 278.38
       },
       {
@@ -865,6 +1177,7 @@
         "batting_runs_above_par": -9.58,
         "bowling_runs_saved": 55.31,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 280.31,
         "impact_runs": 270.73
       },
       {
@@ -873,6 +1186,7 @@
         "batting_runs_above_par": -4.55,
         "bowling_runs_saved": 64.75,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 274.75,
         "impact_runs": 270.19
       },
       {
@@ -881,6 +1195,7 @@
         "batting_runs_above_par": -3.75,
         "bowling_runs_saved": -2.23,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 252.77,
         "impact_runs": 249.02
       },
       {
@@ -889,6 +1204,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 25.11,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 235.11,
         "impact_runs": 235.11
       },
       {
@@ -897,6 +1213,7 @@
         "batting_runs_above_par": -33.34,
         "bowling_runs_saved": -17.51,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 267.49,
         "impact_runs": 234.15
       },
       {
@@ -905,6 +1222,7 @@
         "batting_runs_above_par": -28.03,
         "bowling_runs_saved": 19.18,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 259.18,
         "impact_runs": 231.16
       },
       {
@@ -913,6 +1231,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 65.36,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 230.36,
         "impact_runs": 230.36
       },
       {
@@ -921,6 +1240,7 @@
         "batting_runs_above_par": 3.76,
         "bowling_runs_saved": -14.49,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 225.51,
         "impact_runs": 229.27
       },
       {
@@ -929,6 +1249,7 @@
         "batting_runs_above_par": -4.24,
         "bowling_runs_saved": 21.97,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 231.97,
         "impact_runs": 227.72
       },
       {
@@ -937,6 +1258,7 @@
         "batting_runs_above_par": -3.3,
         "bowling_runs_saved": 29.5,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 224.5,
         "impact_runs": 221.2
       },
       {
@@ -945,6 +1267,7 @@
         "batting_runs_above_par": 4.13,
         "bowling_runs_saved": -8.14,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 216.86,
         "impact_runs": 220.99
       },
       {
@@ -953,6 +1276,7 @@
         "batting_runs_above_par": -1.78,
         "bowling_runs_saved": 19.74,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 214.74,
         "impact_runs": 212.96
       },
       {
@@ -961,6 +1285,7 @@
         "batting_runs_above_par": -5.32,
         "bowling_runs_saved": 37.41,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 217.41,
         "impact_runs": 212.09
       },
       {
@@ -969,6 +1294,7 @@
         "batting_runs_above_par": -7.69,
         "bowling_runs_saved": -16.8,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 208.2,
         "impact_runs": 200.51
       },
       {
@@ -977,6 +1303,7 @@
         "batting_runs_above_par": 8.81,
         "bowling_runs_saved": -11.75,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 183.25,
         "impact_runs": 192.06
       },
       {
@@ -985,6 +1312,7 @@
         "batting_runs_above_par": 7.37,
         "bowling_runs_saved": 26.56,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 176.56,
         "impact_runs": 183.94
       },
       {
@@ -993,6 +1321,7 @@
         "batting_runs_above_par": -12.49,
         "bowling_runs_saved": 5.97,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 185.97,
         "impact_runs": 173.48
       },
       {
@@ -1001,6 +1330,7 @@
         "batting_runs_above_par": -10.81,
         "bowling_runs_saved": 28.16,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 178.16,
         "impact_runs": 167.35
       },
       {
@@ -1009,6 +1339,7 @@
         "batting_runs_above_par": -11.57,
         "bowling_runs_saved": 43.81,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 178.81,
         "impact_runs": 167.23
       }
     ],
@@ -1019,6 +1350,7 @@
         "batting_runs_above_par": -30.88,
         "bowling_runs_saved": 52.67,
         "bowler_wickets": 32,
+        "bowling_impact_runs": 532.67,
         "impact_runs": 501.79
       },
       {
@@ -1027,6 +1359,7 @@
         "batting_runs_above_par": -24.44,
         "bowling_runs_saved": 83.76,
         "bowler_wickets": 28,
+        "bowling_impact_runs": 503.76,
         "impact_runs": 479.32
       },
       {
@@ -1035,6 +1368,7 @@
         "batting_runs_above_par": -8.96,
         "bowling_runs_saved": 154.68,
         "bowler_wickets": 22,
+        "bowling_impact_runs": 484.68,
         "impact_runs": 475.72
       },
       {
@@ -1043,6 +1377,7 @@
         "batting_runs_above_par": -8.96,
         "bowling_runs_saved": 70.01,
         "bowler_wickets": 24,
+        "bowling_impact_runs": 430.01,
         "impact_runs": 421.05
       },
       {
@@ -1051,6 +1386,7 @@
         "batting_runs_above_par": -1.37,
         "bowling_runs_saved": 120.99,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 405.99,
         "impact_runs": 404.62
       },
       {
@@ -1059,6 +1395,7 @@
         "batting_runs_above_par": -17.89,
         "bowling_runs_saved": 29.89,
         "bowler_wickets": 24,
+        "bowling_impact_runs": 389.89,
         "impact_runs": 372.01
       },
       {
@@ -1067,6 +1404,7 @@
         "batting_runs_above_par": -19.79,
         "bowling_runs_saved": 65.07,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 365.07,
         "impact_runs": 345.28
       },
       {
@@ -1075,6 +1413,7 @@
         "batting_runs_above_par": 1.47,
         "bowling_runs_saved": -5.91,
         "bowler_wickets": 23,
+        "bowling_impact_runs": 339.09,
         "impact_runs": 340.56
       },
       {
@@ -1083,6 +1422,7 @@
         "batting_runs_above_par": -33.5,
         "bowling_runs_saved": 58.63,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 373.63,
         "impact_runs": 340.13
       },
       {
@@ -1091,6 +1431,7 @@
         "batting_runs_above_par": -6.84,
         "bowling_runs_saved": 44.25,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 344.25,
         "impact_runs": 337.41
       },
       {
@@ -1099,6 +1440,7 @@
         "batting_runs_above_par": 72.83,
         "bowling_runs_saved": 29.07,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 224.07,
         "impact_runs": 296.89
       },
       {
@@ -1107,6 +1449,7 @@
         "batting_runs_above_par": 5.96,
         "bowling_runs_saved": -0.67,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 284.33,
         "impact_runs": 290.29
       },
       {
@@ -1115,6 +1458,7 @@
         "batting_runs_above_par": 11.68,
         "bowling_runs_saved": -28.19,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 256.81,
         "impact_runs": 268.49
       },
       {
@@ -1123,6 +1467,7 @@
         "batting_runs_above_par": -4.23,
         "bowling_runs_saved": 12.26,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 252.26,
         "impact_runs": 248.03
       },
       {
@@ -1131,6 +1476,7 @@
         "batting_runs_above_par": -20.58,
         "bowling_runs_saved": 34.17,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 259.17,
         "impact_runs": 238.59
       },
       {
@@ -1139,6 +1485,7 @@
         "batting_runs_above_par": -12.49,
         "bowling_runs_saved": 26.0,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 251.0,
         "impact_runs": 238.51
       },
       {
@@ -1147,6 +1494,7 @@
         "batting_runs_above_par": -30.79,
         "bowling_runs_saved": 44.18,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 269.18,
         "impact_runs": 238.4
       },
       {
@@ -1155,6 +1503,7 @@
         "batting_runs_above_par": -14.57,
         "bowling_runs_saved": 65.62,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 245.62,
         "impact_runs": 231.05
       },
       {
@@ -1163,6 +1512,7 @@
         "batting_runs_above_par": -13.9,
         "bowling_runs_saved": 14.9,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 239.9,
         "impact_runs": 226.0
       },
       {
@@ -1171,6 +1521,7 @@
         "batting_runs_above_par": -11.16,
         "bowling_runs_saved": 1.01,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 226.01,
         "impact_runs": 214.86
       },
       {
@@ -1179,6 +1530,7 @@
         "batting_runs_above_par": -0.91,
         "bowling_runs_saved": 19.33,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 214.33,
         "impact_runs": 213.42
       },
       {
@@ -1187,6 +1539,7 @@
         "batting_runs_above_par": 12.71,
         "bowling_runs_saved": 4.55,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 199.55,
         "impact_runs": 212.26
       },
       {
@@ -1195,6 +1548,7 @@
         "batting_runs_above_par": -8.41,
         "bowling_runs_saved": 33.13,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 213.13,
         "impact_runs": 204.71
       },
       {
@@ -1203,6 +1557,7 @@
         "batting_runs_above_par": -57.35,
         "bowling_runs_saved": 62.73,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 257.73,
         "impact_runs": 200.38
       },
       {
@@ -1211,6 +1566,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 0.59,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 195.59,
         "impact_runs": 195.59
       }
     ],
@@ -1221,6 +1577,7 @@
         "batting_runs_above_par": -12.48,
         "bowling_runs_saved": 145.41,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 460.41,
         "impact_runs": 447.94
       },
       {
@@ -1229,6 +1586,7 @@
         "batting_runs_above_par": -5.23,
         "bowling_runs_saved": 82.37,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 382.37,
         "impact_runs": 377.14
       },
       {
@@ -1237,6 +1595,7 @@
         "batting_runs_above_par": -27.26,
         "bowling_runs_saved": 147.89,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 402.89,
         "impact_runs": 375.63
       },
       {
@@ -1245,6 +1604,7 @@
         "batting_runs_above_par": -4.09,
         "bowling_runs_saved": 2.34,
         "bowler_wickets": 23,
+        "bowling_impact_runs": 347.34,
         "impact_runs": 343.25
       },
       {
@@ -1253,6 +1613,7 @@
         "batting_runs_above_par": -4.16,
         "bowling_runs_saved": 81.43,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 321.43,
         "impact_runs": 317.26
       },
       {
@@ -1261,6 +1622,7 @@
         "batting_runs_above_par": -11.38,
         "bowling_runs_saved": 83.63,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 293.63,
         "impact_runs": 282.26
       },
       {
@@ -1269,6 +1631,7 @@
         "batting_runs_above_par": -16.41,
         "bowling_runs_saved": 4.9,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 289.9,
         "impact_runs": 273.49
       },
       {
@@ -1277,6 +1640,7 @@
         "batting_runs_above_par": -19.98,
         "bowling_runs_saved": 41.34,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 281.34,
         "impact_runs": 261.36
       },
       {
@@ -1285,6 +1649,7 @@
         "batting_runs_above_par": -4.04,
         "bowling_runs_saved": 21.28,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 246.28,
         "impact_runs": 242.24
       },
       {
@@ -1293,6 +1658,7 @@
         "batting_runs_above_par": -9.07,
         "bowling_runs_saved": 20.89,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 245.89,
         "impact_runs": 236.81
       },
       {
@@ -1301,6 +1667,7 @@
         "batting_runs_above_par": -1.63,
         "bowling_runs_saved": 27.42,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 237.42,
         "impact_runs": 235.79
       },
       {
@@ -1309,6 +1676,7 @@
         "batting_runs_above_par": -5.9,
         "bowling_runs_saved": -31.66,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 238.34,
         "impact_runs": 232.44
       },
       {
@@ -1317,6 +1685,7 @@
         "batting_runs_above_par": -1.18,
         "bowling_runs_saved": 66.98,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 231.98,
         "impact_runs": 230.8
       },
       {
@@ -1325,6 +1694,7 @@
         "batting_runs_above_par": -1.03,
         "bowling_runs_saved": 50.03,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 230.03,
         "impact_runs": 229.0
       },
       {
@@ -1333,6 +1703,7 @@
         "batting_runs_above_par": -22.15,
         "bowling_runs_saved": 7.65,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 247.65,
         "impact_runs": 225.5
       },
       {
@@ -1341,6 +1712,7 @@
         "batting_runs_above_par": -32.78,
         "bowling_runs_saved": 1.08,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 256.08,
         "impact_runs": 223.3
       },
       {
@@ -1349,6 +1721,7 @@
         "batting_runs_above_par": -45.83,
         "bowling_runs_saved": 55.96,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 265.96,
         "impact_runs": 220.13
       },
       {
@@ -1357,6 +1730,7 @@
         "batting_runs_above_par": -0.74,
         "bowling_runs_saved": 1.19,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 181.19,
         "impact_runs": 180.45
       },
       {
@@ -1365,6 +1739,7 @@
         "batting_runs_above_par": -32.73,
         "bowling_runs_saved": 15.91,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 210.91,
         "impact_runs": 178.18
       },
       {
@@ -1373,6 +1748,7 @@
         "batting_runs_above_par": -18.1,
         "bowling_runs_saved": 30.27,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 195.27,
         "impact_runs": 177.16
       },
       {
@@ -1381,6 +1757,7 @@
         "batting_runs_above_par": -4.32,
         "bowling_runs_saved": 15.03,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 180.03,
         "impact_runs": 175.71
       },
       {
@@ -1389,6 +1766,7 @@
         "batting_runs_above_par": -8.4,
         "bowling_runs_saved": 1.12,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 181.12,
         "impact_runs": 172.72
       },
       {
@@ -1397,6 +1775,7 @@
         "batting_runs_above_par": -0.69,
         "bowling_runs_saved": 2.48,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 167.48,
         "impact_runs": 166.79
       },
       {
@@ -1405,6 +1784,7 @@
         "batting_runs_above_par": -4.19,
         "bowling_runs_saved": -12.72,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 167.28,
         "impact_runs": 163.09
       },
       {
@@ -1413,6 +1793,7 @@
         "batting_runs_above_par": -2.14,
         "bowling_runs_saved": 16.54,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 151.54,
         "impact_runs": 149.4
       }
     ],
@@ -1423,6 +1804,7 @@
         "batting_runs_above_par": -9.89,
         "bowling_runs_saved": 105.52,
         "bowler_wickets": 24,
+        "bowling_impact_runs": 465.52,
         "impact_runs": 455.63
       },
       {
@@ -1431,6 +1813,7 @@
         "batting_runs_above_par": -24.89,
         "bowling_runs_saved": 55.84,
         "bowler_wickets": 26,
+        "bowling_impact_runs": 445.84,
         "impact_runs": 420.95
       },
       {
@@ -1439,6 +1822,7 @@
         "batting_runs_above_par": -11.54,
         "bowling_runs_saved": 66.43,
         "bowler_wickets": 22,
+        "bowling_impact_runs": 396.43,
         "impact_runs": 384.89
       },
       {
@@ -1447,6 +1831,7 @@
         "batting_runs_above_par": -12.81,
         "bowling_runs_saved": 85.6,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 385.6,
         "impact_runs": 372.8
       },
       {
@@ -1455,6 +1840,7 @@
         "batting_runs_above_par": -0.86,
         "bowling_runs_saved": -1.73,
         "bowler_wickets": 23,
+        "bowling_impact_runs": 343.27,
         "impact_runs": 342.41
       },
       {
@@ -1463,6 +1849,7 @@
         "batting_runs_above_par": -1.15,
         "bowling_runs_saved": 52.06,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 322.06,
         "impact_runs": 320.91
       },
       {
@@ -1471,6 +1858,7 @@
         "batting_runs_above_par": 74.07,
         "bowling_runs_saved": 21.17,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 231.17,
         "impact_runs": 305.23
       },
       {
@@ -1479,6 +1867,7 @@
         "batting_runs_above_par": -2.51,
         "bowling_runs_saved": 46.82,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 301.82,
         "impact_runs": 299.3
       },
       {
@@ -1487,6 +1876,7 @@
         "batting_runs_above_par": 1.92,
         "bowling_runs_saved": 25.92,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 295.92,
         "impact_runs": 297.84
       },
       {
@@ -1495,6 +1885,7 @@
         "batting_runs_above_par": 0.47,
         "bowling_runs_saved": 1.1,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 271.1,
         "impact_runs": 271.56
       },
       {
@@ -1503,6 +1894,7 @@
         "batting_runs_above_par": -1.04,
         "bowling_runs_saved": 51.26,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 261.26,
         "impact_runs": 260.21
       },
       {
@@ -1511,6 +1903,7 @@
         "batting_runs_above_par": -12.54,
         "bowling_runs_saved": 60.83,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 255.83,
         "impact_runs": 243.29
       },
       {
@@ -1519,6 +1912,7 @@
         "batting_runs_above_par": -7.75,
         "bowling_runs_saved": 22.26,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 247.26,
         "impact_runs": 239.52
       },
       {
@@ -1527,6 +1921,7 @@
         "batting_runs_above_par": -21.26,
         "bowling_runs_saved": 15.65,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 255.65,
         "impact_runs": 234.39
       },
       {
@@ -1535,6 +1930,7 @@
         "batting_runs_above_par": -4.48,
         "bowling_runs_saved": -7.73,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 217.27,
         "impact_runs": 212.79
       },
       {
@@ -1543,6 +1939,7 @@
         "batting_runs_above_par": -3.44,
         "bowling_runs_saved": 46.59,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 211.59,
         "impact_runs": 208.16
       },
       {
@@ -1551,6 +1948,7 @@
         "batting_runs_above_par": -4.06,
         "bowling_runs_saved": 61.92,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 211.92,
         "impact_runs": 207.86
       },
       {
@@ -1559,6 +1957,7 @@
         "batting_runs_above_par": -4.84,
         "bowling_runs_saved": -3.95,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 206.05,
         "impact_runs": 201.21
       },
       {
@@ -1567,6 +1966,7 @@
         "batting_runs_above_par": -14.26,
         "bowling_runs_saved": 13.4,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 208.4,
         "impact_runs": 194.14
       },
       {
@@ -1575,6 +1975,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 18.04,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 183.04,
         "impact_runs": 183.04
       },
       {
@@ -1583,6 +1984,7 @@
         "batting_runs_above_par": -27.72,
         "bowling_runs_saved": -16.74,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 208.26,
         "impact_runs": 180.54
       },
       {
@@ -1591,6 +1993,7 @@
         "batting_runs_above_par": -1.72,
         "bowling_runs_saved": 25.12,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 175.12,
         "impact_runs": 173.4
       },
       {
@@ -1599,6 +2002,7 @@
         "batting_runs_above_par": -3.59,
         "bowling_runs_saved": 33.71,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 168.71,
         "impact_runs": 165.12
       },
       {
@@ -1607,6 +2011,7 @@
         "batting_runs_above_par": -21.35,
         "bowling_runs_saved": 9.13,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 174.13,
         "impact_runs": 152.78
       },
       {
@@ -1615,6 +2020,7 @@
         "batting_runs_above_par": -10.91,
         "bowling_runs_saved": 27.72,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 162.72,
         "impact_runs": 151.8
       }
     ],
@@ -1625,6 +2031,7 @@
         "batting_runs_above_par": -0.33,
         "bowling_runs_saved": 66.28,
         "bowler_wickets": 23,
+        "bowling_impact_runs": 411.28,
         "impact_runs": 410.96
       },
       {
@@ -1633,6 +2040,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 104.26,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 359.26,
         "impact_runs": 359.26
       },
       {
@@ -1641,6 +2049,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 43.43,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 358.43,
         "impact_runs": 358.43
       },
       {
@@ -1649,6 +2058,7 @@
         "batting_runs_above_par": -0.95,
         "bowling_runs_saved": 45.98,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 315.98,
         "impact_runs": 315.02
       },
       {
@@ -1657,6 +2067,7 @@
         "batting_runs_above_par": -30.71,
         "bowling_runs_saved": 33.81,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 333.81,
         "impact_runs": 303.1
       },
       {
@@ -1665,6 +2076,7 @@
         "batting_runs_above_par": 26.89,
         "bowling_runs_saved": 68.84,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 263.84,
         "impact_runs": 290.73
       },
       {
@@ -1673,6 +2085,7 @@
         "batting_runs_above_par": 1.79,
         "bowling_runs_saved": 18.79,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 273.79,
         "impact_runs": 275.59
       },
       {
@@ -1681,6 +2094,7 @@
         "batting_runs_above_par": -7.92,
         "bowling_runs_saved": 55.11,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 280.11,
         "impact_runs": 272.19
       },
       {
@@ -1689,6 +2103,7 @@
         "batting_runs_above_par": -6.19,
         "bowling_runs_saved": 50.63,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 275.63,
         "impact_runs": 269.44
       },
       {
@@ -1697,6 +2112,7 @@
         "batting_runs_above_par": 10.4,
         "bowling_runs_saved": 5.81,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 230.81,
         "impact_runs": 241.21
       },
       {
@@ -1705,6 +2121,7 @@
         "batting_runs_above_par": -20.99,
         "bowling_runs_saved": 6.26,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 261.26,
         "impact_runs": 240.28
       },
       {
@@ -1713,6 +2130,7 @@
         "batting_runs_above_par": -1.65,
         "bowling_runs_saved": 29.6,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 209.6,
         "impact_runs": 207.95
       },
       {
@@ -1721,6 +2139,7 @@
         "batting_runs_above_par": -16.04,
         "bowling_runs_saved": 26.35,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 221.35,
         "impact_runs": 205.31
       },
       {
@@ -1729,6 +2148,7 @@
         "batting_runs_above_par": -13.95,
         "bowling_runs_saved": 51.2,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 216.2,
         "impact_runs": 202.25
       },
       {
@@ -1737,6 +2157,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 34.61,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 199.61,
         "impact_runs": 199.61
       },
       {
@@ -1745,6 +2166,7 @@
         "batting_runs_above_par": -9.58,
         "bowling_runs_saved": 11.06,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 206.06,
         "impact_runs": 196.48
       },
       {
@@ -1753,6 +2175,7 @@
         "batting_runs_above_par": -3.78,
         "bowling_runs_saved": -2.16,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 192.84,
         "impact_runs": 189.06
       },
       {
@@ -1761,6 +2184,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 18.52,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 183.52,
         "impact_runs": 183.52
       },
       {
@@ -1769,6 +2193,7 @@
         "batting_runs_above_par": -0.75,
         "bowling_runs_saved": -26.07,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 183.93,
         "impact_runs": 183.18
       },
       {
@@ -1777,6 +2202,7 @@
         "batting_runs_above_par": -9.72,
         "bowling_runs_saved": 27.04,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 192.04,
         "impact_runs": 182.32
       },
       {
@@ -1785,6 +2211,7 @@
         "batting_runs_above_par": -11.42,
         "bowling_runs_saved": 43.71,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 193.71,
         "impact_runs": 182.28
       },
       {
@@ -1793,6 +2220,7 @@
         "batting_runs_above_par": -4.93,
         "bowling_runs_saved": 8.67,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 173.67,
         "impact_runs": 168.75
       },
       {
@@ -1801,6 +2229,7 @@
         "batting_runs_above_par": -18.97,
         "bowling_runs_saved": 45.78,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 180.78,
         "impact_runs": 161.81
       },
       {
@@ -1809,6 +2238,7 @@
         "batting_runs_above_par": 65.15,
         "bowling_runs_saved": 4.79,
         "bowler_wickets": 6,
+        "bowling_impact_runs": 94.79,
         "impact_runs": 159.94
       },
       {
@@ -1817,6 +2247,7 @@
         "batting_runs_above_par": 0.07,
         "bowling_runs_saved": 19.25,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 154.25,
         "impact_runs": 154.33
       }
     ],
@@ -1827,6 +2258,7 @@
         "batting_runs_above_par": -2.62,
         "bowling_runs_saved": 93.96,
         "bowler_wickets": 26,
+        "bowling_impact_runs": 483.96,
         "impact_runs": 481.34
       },
       {
@@ -1835,6 +2267,7 @@
         "batting_runs_above_par": -5.52,
         "bowling_runs_saved": 82.57,
         "bowler_wickets": 24,
+        "bowling_impact_runs": 442.57,
         "impact_runs": 437.05
       },
       {
@@ -1843,6 +2276,7 @@
         "batting_runs_above_par": -4.27,
         "bowling_runs_saved": 99.29,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 399.29,
         "impact_runs": 395.03
       },
       {
@@ -1851,6 +2285,7 @@
         "batting_runs_above_par": -3.52,
         "bowling_runs_saved": 82.03,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 337.03,
         "impact_runs": 333.51
       },
       {
@@ -1859,6 +2294,7 @@
         "batting_runs_above_par": -13.05,
         "bowling_runs_saved": 58.32,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 298.32,
         "impact_runs": 285.27
       },
       {
@@ -1867,6 +2303,7 @@
         "batting_runs_above_par": -3.39,
         "bowling_runs_saved": 16.34,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 286.34,
         "impact_runs": 282.95
       },
       {
@@ -1875,6 +2312,7 @@
         "batting_runs_above_par": -1.08,
         "bowling_runs_saved": 26.7,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 281.7,
         "impact_runs": 280.62
       },
       {
@@ -1883,6 +2321,7 @@
         "batting_runs_above_par": 34.68,
         "bowling_runs_saved": 80.67,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 230.67,
         "impact_runs": 265.35
       },
       {
@@ -1891,6 +2330,7 @@
         "batting_runs_above_par": -6.68,
         "bowling_runs_saved": 33.94,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 258.94,
         "impact_runs": 252.26
       },
       {
@@ -1899,6 +2339,7 @@
         "batting_runs_above_par": -8.46,
         "bowling_runs_saved": -24.68,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 260.32,
         "impact_runs": 251.86
       },
       {
@@ -1907,6 +2348,7 @@
         "batting_runs_above_par": -9.04,
         "bowling_runs_saved": 1.1,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 256.1,
         "impact_runs": 247.06
       },
       {
@@ -1915,6 +2357,7 @@
         "batting_runs_above_par": -15.51,
         "bowling_runs_saved": 37.16,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 262.16,
         "impact_runs": 246.65
       },
       {
@@ -1923,6 +2366,7 @@
         "batting_runs_above_par": 4.75,
         "bowling_runs_saved": 60.24,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 240.24,
         "impact_runs": 245.0
       },
       {
@@ -1931,6 +2375,7 @@
         "batting_runs_above_par": -3.1,
         "bowling_runs_saved": 6.41,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 246.41,
         "impact_runs": 243.31
       },
       {
@@ -1939,6 +2384,7 @@
         "batting_runs_above_par": 6.16,
         "bowling_runs_saved": 51.31,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 231.31,
         "impact_runs": 237.46
       },
       {
@@ -1947,6 +2393,7 @@
         "batting_runs_above_par": -3.64,
         "bowling_runs_saved": 13.94,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 238.94,
         "impact_runs": 235.3
       },
       {
@@ -1955,6 +2402,7 @@
         "batting_runs_above_par": 10.36,
         "bowling_runs_saved": 35.86,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 215.86,
         "impact_runs": 226.22
       },
       {
@@ -1963,6 +2411,7 @@
         "batting_runs_above_par": -24.47,
         "bowling_runs_saved": -8.82,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 246.18,
         "impact_runs": 221.71
       },
       {
@@ -1971,6 +2420,7 @@
         "batting_runs_above_par": -12.85,
         "bowling_runs_saved": 32.84,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 227.84,
         "impact_runs": 214.99
       },
       {
@@ -1979,6 +2429,7 @@
         "batting_runs_above_par": -27.8,
         "bowling_runs_saved": 20.18,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 230.18,
         "impact_runs": 202.38
       },
       {
@@ -1987,6 +2438,7 @@
         "batting_runs_above_par": -1.44,
         "bowling_runs_saved": 36.56,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 201.56,
         "impact_runs": 200.13
       },
       {
@@ -1995,6 +2447,7 @@
         "batting_runs_above_par": -4.11,
         "bowling_runs_saved": 49.78,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 199.78,
         "impact_runs": 195.67
       },
       {
@@ -2003,6 +2456,7 @@
         "batting_runs_above_par": 57.94,
         "bowling_runs_saved": 29.65,
         "bowler_wickets": 7,
+        "bowling_impact_runs": 134.65,
         "impact_runs": 192.58
       },
       {
@@ -2011,6 +2465,7 @@
         "batting_runs_above_par": 1.94,
         "bowling_runs_saved": 9.2,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 174.2,
         "impact_runs": 176.14
       },
       {
@@ -2019,6 +2474,7 @@
         "batting_runs_above_par": -11.56,
         "bowling_runs_saved": 4.83,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 184.83,
         "impact_runs": 173.27
       }
     ],
@@ -2029,6 +2485,7 @@
         "batting_runs_above_par": 13.56,
         "bowling_runs_saved": 102.92,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 417.92,
         "impact_runs": 431.47
       },
       {
@@ -2037,6 +2494,7 @@
         "batting_runs_above_par": 87.76,
         "bowling_runs_saved": 65.58,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 320.58,
         "impact_runs": 408.34
       },
       {
@@ -2045,6 +2503,7 @@
         "batting_runs_above_par": -35.39,
         "bowling_runs_saved": 66.96,
         "bowler_wickets": 24,
+        "bowling_impact_runs": 426.96,
         "impact_runs": 391.57
       },
       {
@@ -2053,6 +2512,7 @@
         "batting_runs_above_par": -5.43,
         "bowling_runs_saved": 112.98,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 367.98,
         "impact_runs": 362.55
       },
       {
@@ -2061,6 +2521,7 @@
         "batting_runs_above_par": -18.53,
         "bowling_runs_saved": 24.67,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 339.67,
         "impact_runs": 321.15
       },
       {
@@ -2069,6 +2530,7 @@
         "batting_runs_above_par": -14.85,
         "bowling_runs_saved": 33.18,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 333.18,
         "impact_runs": 318.33
       },
       {
@@ -2077,6 +2539,7 @@
         "batting_runs_above_par": -2.74,
         "bowling_runs_saved": 13.47,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 283.47,
         "impact_runs": 280.73
       },
       {
@@ -2085,6 +2548,7 @@
         "batting_runs_above_par": -1.08,
         "bowling_runs_saved": 70.42,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 280.42,
         "impact_runs": 279.34
       },
       {
@@ -2093,6 +2557,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 76.97,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 241.97,
         "impact_runs": 241.97
       },
       {
@@ -2101,6 +2566,7 @@
         "batting_runs_above_par": -6.21,
         "bowling_runs_saved": 66.72,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 246.72,
         "impact_runs": 240.51
       },
       {
@@ -2109,6 +2575,7 @@
         "batting_runs_above_par": 7.01,
         "bowling_runs_saved": -9.07,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 230.93,
         "impact_runs": 237.94
       },
       {
@@ -2117,6 +2584,7 @@
         "batting_runs_above_par": -25.67,
         "bowling_runs_saved": 5.5,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 260.5,
         "impact_runs": 234.82
       },
       {
@@ -2125,6 +2593,7 @@
         "batting_runs_above_par": -13.75,
         "bowling_runs_saved": 20.91,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 245.91,
         "impact_runs": 232.16
       },
       {
@@ -2133,6 +2602,7 @@
         "batting_runs_above_par": 54.79,
         "bowling_runs_saved": -18.16,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 176.84,
         "impact_runs": 231.63
       },
       {
@@ -2141,6 +2611,7 @@
         "batting_runs_above_par": -2.44,
         "bowling_runs_saved": 49.76,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 229.76,
         "impact_runs": 227.32
       },
       {
@@ -2149,6 +2620,7 @@
         "batting_runs_above_par": -10.1,
         "bowling_runs_saved": 55.3,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 235.3,
         "impact_runs": 225.19
       },
       {
@@ -2157,6 +2629,7 @@
         "batting_runs_above_par": -3.09,
         "bowling_runs_saved": 17.43,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 227.43,
         "impact_runs": 224.34
       },
       {
@@ -2165,6 +2638,7 @@
         "batting_runs_above_par": -40.12,
         "bowling_runs_saved": -6.91,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 263.09,
         "impact_runs": 222.96
       },
       {
@@ -2173,6 +2647,7 @@
         "batting_runs_above_par": 30.1,
         "bowling_runs_saved": 17.86,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 182.86,
         "impact_runs": 212.96
       },
       {
@@ -2181,6 +2656,7 @@
         "batting_runs_above_par": -17.71,
         "bowling_runs_saved": -0.88,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 224.12,
         "impact_runs": 206.41
       },
       {
@@ -2189,6 +2665,7 @@
         "batting_runs_above_par": -5.89,
         "bowling_runs_saved": 26.78,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 206.78,
         "impact_runs": 200.9
       },
       {
@@ -2197,6 +2674,7 @@
         "batting_runs_above_par": -24.1,
         "bowling_runs_saved": 14.34,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 224.34,
         "impact_runs": 200.24
       },
       {
@@ -2205,6 +2683,7 @@
         "batting_runs_above_par": 8.25,
         "bowling_runs_saved": 38.89,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 188.89,
         "impact_runs": 197.14
       },
       {
@@ -2213,6 +2692,7 @@
         "batting_runs_above_par": -26.21,
         "bowling_runs_saved": 2.31,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 212.31,
         "impact_runs": 186.1
       },
       {
@@ -2221,6 +2701,7 @@
         "batting_runs_above_par": -28.56,
         "bowling_runs_saved": 41.29,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 206.29,
         "impact_runs": 177.72
       }
     ],
@@ -2231,6 +2712,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 73.42,
         "bowler_wickets": 26,
+        "bowling_impact_runs": 463.42,
         "impact_runs": 463.42
       },
       {
@@ -2239,6 +2721,7 @@
         "batting_runs_above_par": -1.82,
         "bowling_runs_saved": 152.93,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 452.93,
         "impact_runs": 451.11
       },
       {
@@ -2247,6 +2730,7 @@
         "batting_runs_above_par": -9.93,
         "bowling_runs_saved": 56.77,
         "bowler_wickets": 26,
+        "bowling_impact_runs": 446.77,
         "impact_runs": 436.83
       },
       {
@@ -2255,6 +2739,7 @@
         "batting_runs_above_par": -2.59,
         "bowling_runs_saved": 114.32,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 369.32,
         "impact_runs": 366.73
       },
       {
@@ -2263,6 +2748,7 @@
         "batting_runs_above_par": -8.87,
         "bowling_runs_saved": 36.15,
         "bowler_wickets": 22,
+        "bowling_impact_runs": 366.15,
         "impact_runs": 357.28
       },
       {
@@ -2271,6 +2757,7 @@
         "batting_runs_above_par": -4.07,
         "bowling_runs_saved": 47.29,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 347.29,
         "impact_runs": 343.22
       },
       {
@@ -2279,6 +2766,7 @@
         "batting_runs_above_par": -1.56,
         "bowling_runs_saved": 13.93,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 298.93,
         "impact_runs": 297.37
       },
       {
@@ -2287,6 +2775,7 @@
         "batting_runs_above_par": -2.16,
         "bowling_runs_saved": 12.83,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 297.83,
         "impact_runs": 295.67
       },
       {
@@ -2295,6 +2784,7 @@
         "batting_runs_above_par": -13.64,
         "bowling_runs_saved": 32.96,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 302.96,
         "impact_runs": 289.31
       },
       {
@@ -2303,6 +2793,7 @@
         "batting_runs_above_par": -0.67,
         "bowling_runs_saved": 57.36,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 282.36,
         "impact_runs": 281.69
       },
       {
@@ -2311,6 +2802,7 @@
         "batting_runs_above_par": -36.04,
         "bowling_runs_saved": 72.82,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 297.82,
         "impact_runs": 261.77
       },
       {
@@ -2319,6 +2811,7 @@
         "batting_runs_above_par": 106.51,
         "bowling_runs_saved": -13.29,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 151.71,
         "impact_runs": 258.22
       },
       {
@@ -2327,6 +2820,7 @@
         "batting_runs_above_par": 70.7,
         "bowling_runs_saved": -22.56,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 187.44,
         "impact_runs": 258.14
       },
       {
@@ -2335,6 +2829,7 @@
         "batting_runs_above_par": -1.27,
         "bowling_runs_saved": 89.93,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 254.93,
         "impact_runs": 253.65
       },
       {
@@ -2343,6 +2838,7 @@
         "batting_runs_above_par": -3.79,
         "bowling_runs_saved": 16.04,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 256.04,
         "impact_runs": 252.24
       },
       {
@@ -2351,6 +2847,7 @@
         "batting_runs_above_par": -5.88,
         "bowling_runs_saved": 59.77,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 254.77,
         "impact_runs": 248.89
       },
       {
@@ -2359,6 +2856,7 @@
         "batting_runs_above_par": 4.91,
         "bowling_runs_saved": 40.91,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 235.91,
         "impact_runs": 240.81
       },
       {
@@ -2367,6 +2865,7 @@
         "batting_runs_above_par": -18.98,
         "bowling_runs_saved": 62.7,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 257.7,
         "impact_runs": 238.72
       },
       {
@@ -2375,6 +2874,7 @@
         "batting_runs_above_par": 27.27,
         "bowling_runs_saved": 41.94,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 191.94,
         "impact_runs": 219.21
       },
       {
@@ -2383,6 +2883,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": -33.23,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 206.77,
         "impact_runs": 206.77
       },
       {
@@ -2391,6 +2892,7 @@
         "batting_runs_above_par": -2.78,
         "bowling_runs_saved": 33.4,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 198.4,
         "impact_runs": 195.62
       },
       {
@@ -2399,6 +2901,7 @@
         "batting_runs_above_par": 1.31,
         "bowling_runs_saved": 7.27,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 187.27,
         "impact_runs": 188.58
       },
       {
@@ -2407,6 +2910,7 @@
         "batting_runs_above_par": -35.72,
         "bowling_runs_saved": 38.88,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 218.88,
         "impact_runs": 183.16
       },
       {
@@ -2415,6 +2919,7 @@
         "batting_runs_above_par": -14.85,
         "bowling_runs_saved": 26.73,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 191.73,
         "impact_runs": 176.88
       },
       {
@@ -2423,6 +2928,7 @@
         "batting_runs_above_par": -15.08,
         "bowling_runs_saved": 39.54,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 189.54,
         "impact_runs": 174.46
       }
     ],
@@ -2433,6 +2939,7 @@
         "batting_runs_above_par": -0.01,
         "bowling_runs_saved": 122.82,
         "bowler_wickets": 29,
+        "bowling_impact_runs": 557.82,
         "impact_runs": 557.8
       },
       {
@@ -2441,6 +2948,7 @@
         "batting_runs_above_par": -24.88,
         "bowling_runs_saved": 19.11,
         "bowler_wickets": 32,
+        "bowling_impact_runs": 499.11,
         "impact_runs": 474.23
       },
       {
@@ -2449,6 +2957,7 @@
         "batting_runs_above_par": -14.77,
         "bowling_runs_saved": 171.33,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 471.33,
         "impact_runs": 456.56
       },
       {
@@ -2457,6 +2966,7 @@
         "batting_runs_above_par": 14.29,
         "bowling_runs_saved": 116.52,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 416.52,
         "impact_runs": 430.82
       },
       {
@@ -2465,6 +2975,7 @@
         "batting_runs_above_par": -1.67,
         "bowling_runs_saved": 17.16,
         "bowler_wickets": 25,
+        "bowling_impact_runs": 392.16,
         "impact_runs": 390.49
       },
       {
@@ -2473,6 +2984,7 @@
         "batting_runs_above_par": -4.09,
         "bowling_runs_saved": 63.41,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 378.41,
         "impact_runs": 374.32
       },
       {
@@ -2481,6 +2993,7 @@
         "batting_runs_above_par": -3.13,
         "bowling_runs_saved": 17.75,
         "bowler_wickets": 22,
+        "bowling_impact_runs": 347.75,
         "impact_runs": 344.61
       },
       {
@@ -2489,6 +3002,7 @@
         "batting_runs_above_par": -16.93,
         "bowling_runs_saved": 66.32,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 321.32,
         "impact_runs": 304.38
       },
       {
@@ -2497,6 +3011,7 @@
         "batting_runs_above_par": -2.6,
         "bowling_runs_saved": -4.06,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 295.94,
         "impact_runs": 293.34
       },
       {
@@ -2505,6 +3020,7 @@
         "batting_runs_above_par": -5.49,
         "bowling_runs_saved": 45.93,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 285.93,
         "impact_runs": 280.44
       },
       {
@@ -2513,6 +3029,7 @@
         "batting_runs_above_par": -13.47,
         "bowling_runs_saved": 60.31,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 270.31,
         "impact_runs": 256.84
       },
       {
@@ -2521,6 +3038,7 @@
         "batting_runs_above_par": -2.83,
         "bowling_runs_saved": 63.14,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 228.14,
         "impact_runs": 225.32
       },
       {
@@ -2529,6 +3047,7 @@
         "batting_runs_above_par": -12.8,
         "bowling_runs_saved": 41.3,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 221.3,
         "impact_runs": 208.5
       },
       {
@@ -2537,6 +3056,7 @@
         "batting_runs_above_par": -10.87,
         "bowling_runs_saved": 6.98,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 216.98,
         "impact_runs": 206.11
       },
       {
@@ -2545,6 +3065,7 @@
         "batting_runs_above_par": -4.68,
         "bowling_runs_saved": -14.59,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 210.41,
         "impact_runs": 205.73
       },
       {
@@ -2553,6 +3074,7 @@
         "batting_runs_above_par": -10.65,
         "bowling_runs_saved": 68.9,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 203.9,
         "impact_runs": 193.25
       },
       {
@@ -2561,6 +3083,7 @@
         "batting_runs_above_par": -11.74,
         "bowling_runs_saved": 23.14,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 203.14,
         "impact_runs": 191.4
       },
       {
@@ -2569,6 +3092,7 @@
         "batting_runs_above_par": -25.15,
         "bowling_runs_saved": 95.49,
         "bowler_wickets": 8,
+        "bowling_impact_runs": 215.49,
         "impact_runs": 190.34
       },
       {
@@ -2577,6 +3101,7 @@
         "batting_runs_above_par": -20.29,
         "bowling_runs_saved": 12.69,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 207.69,
         "impact_runs": 187.4
       },
       {
@@ -2585,6 +3110,7 @@
         "batting_runs_above_par": -20.04,
         "bowling_runs_saved": 11.57,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 206.57,
         "impact_runs": 186.52
       },
       {
@@ -2593,6 +3119,7 @@
         "batting_runs_above_par": 16.89,
         "bowling_runs_saved": -26.51,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 168.49,
         "impact_runs": 185.37
       },
       {
@@ -2601,6 +3128,7 @@
         "batting_runs_above_par": -27.36,
         "bowling_runs_saved": 16.49,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 196.49,
         "impact_runs": 169.13
       },
       {
@@ -2609,6 +3137,7 @@
         "batting_runs_above_par": -2.79,
         "bowling_runs_saved": 21.85,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 171.85,
         "impact_runs": 169.06
       },
       {
@@ -2617,6 +3146,7 @@
         "batting_runs_above_par": -23.19,
         "bowling_runs_saved": 31.79,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 181.79,
         "impact_runs": 158.61
       },
       {
@@ -2625,6 +3155,7 @@
         "batting_runs_above_par": -6.9,
         "bowling_runs_saved": -5.67,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 159.33,
         "impact_runs": 152.43
       }
     ],
@@ -2635,6 +3166,7 @@
         "batting_runs_above_par": -10.53,
         "bowling_runs_saved": 9.32,
         "bowler_wickets": 32,
+        "bowling_impact_runs": 489.32,
         "impact_runs": 478.78
       },
       {
@@ -2643,6 +3175,7 @@
         "batting_runs_above_par": 0.86,
         "bowling_runs_saved": 64.99,
         "bowler_wickets": 24,
+        "bowling_impact_runs": 424.99,
         "impact_runs": 425.85
       },
       {
@@ -2651,6 +3184,7 @@
         "batting_runs_above_par": -9.3,
         "bowling_runs_saved": 46.61,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 361.61,
         "impact_runs": 352.31
       },
       {
@@ -2659,6 +3193,7 @@
         "batting_runs_above_par": -4.09,
         "bowling_runs_saved": 73.28,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 343.28,
         "impact_runs": 339.19
       },
       {
@@ -2667,6 +3202,7 @@
         "batting_runs_above_par": -15.01,
         "bowling_runs_saved": 61.97,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 331.97,
         "impact_runs": 316.97
       },
       {
@@ -2675,6 +3211,7 @@
         "batting_runs_above_par": -0.05,
         "bowling_runs_saved": 70.6,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 310.6,
         "impact_runs": 310.54
       },
       {
@@ -2683,6 +3220,7 @@
         "batting_runs_above_par": -15.92,
         "bowling_runs_saved": 33.86,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 318.86,
         "impact_runs": 302.94
       },
       {
@@ -2691,6 +3229,7 @@
         "batting_runs_above_par": -0.8,
         "bowling_runs_saved": -15.64,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 299.36,
         "impact_runs": 298.56
       },
       {
@@ -2699,6 +3238,7 @@
         "batting_runs_above_par": -2.65,
         "bowling_runs_saved": -4.4,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 265.6,
         "impact_runs": 262.95
       },
       {
@@ -2707,6 +3247,7 @@
         "batting_runs_above_par": -33.09,
         "bowling_runs_saved": 25.14,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 295.14,
         "impact_runs": 262.05
       },
       {
@@ -2715,6 +3256,7 @@
         "batting_runs_above_par": 17.71,
         "bowling_runs_saved": 28.47,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 238.47,
         "impact_runs": 256.18
       },
       {
@@ -2723,6 +3265,7 @@
         "batting_runs_above_par": -21.32,
         "bowling_runs_saved": 40.89,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 265.89,
         "impact_runs": 244.57
       },
       {
@@ -2731,6 +3274,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 54.25,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 234.25,
         "impact_runs": 234.25
       },
       {
@@ -2739,6 +3283,7 @@
         "batting_runs_above_par": -11.6,
         "bowling_runs_saved": 4.09,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 244.09,
         "impact_runs": 232.48
       },
       {
@@ -2747,6 +3292,7 @@
         "batting_runs_above_par": -10.84,
         "bowling_runs_saved": 45.55,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 240.55,
         "impact_runs": 229.71
       },
       {
@@ -2755,6 +3301,7 @@
         "batting_runs_above_par": 3.07,
         "bowling_runs_saved": -4.96,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 220.04,
         "impact_runs": 223.11
       },
       {
@@ -2763,6 +3310,7 @@
         "batting_runs_above_par": -6.05,
         "bowling_runs_saved": 39.4,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 219.4,
         "impact_runs": 213.34
       },
       {
@@ -2771,6 +3319,7 @@
         "batting_runs_above_par": -12.83,
         "bowling_runs_saved": 12.92,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 222.92,
         "impact_runs": 210.09
       },
       {
@@ -2779,6 +3328,7 @@
         "batting_runs_above_par": 2.76,
         "bowling_runs_saved": 11.97,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 206.97,
         "impact_runs": 209.73
       },
       {
@@ -2787,6 +3337,7 @@
         "batting_runs_above_par": -23.11,
         "bowling_runs_saved": 65.85,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 230.85,
         "impact_runs": 207.74
       },
       {
@@ -2795,6 +3346,7 @@
         "batting_runs_above_par": -17.67,
         "bowling_runs_saved": 11.94,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 221.94,
         "impact_runs": 204.28
       },
       {
@@ -2803,6 +3355,7 @@
         "batting_runs_above_par": -7.81,
         "bowling_runs_saved": 16.22,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 211.22,
         "impact_runs": 203.41
       },
       {
@@ -2811,6 +3364,7 @@
         "batting_runs_above_par": -5.02,
         "bowling_runs_saved": 9.44,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 204.44,
         "impact_runs": 199.42
       },
       {
@@ -2819,6 +3373,7 @@
         "batting_runs_above_par": -13.1,
         "bowling_runs_saved": -20.41,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 204.59,
         "impact_runs": 191.49
       },
       {
@@ -2827,6 +3382,7 @@
         "batting_runs_above_par": -0.53,
         "bowling_runs_saved": -30.8,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 179.2,
         "impact_runs": 178.67
       }
     ],
@@ -2837,6 +3393,7 @@
         "batting_runs_above_par": -8.44,
         "bowling_runs_saved": 66.05,
         "bowler_wickets": 27,
+        "bowling_impact_runs": 471.05,
         "impact_runs": 462.61
       },
       {
@@ -2845,6 +3402,7 @@
         "batting_runs_above_par": 15.94,
         "bowling_runs_saved": 123.47,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 408.47,
         "impact_runs": 424.41
       },
       {
@@ -2853,6 +3411,7 @@
         "batting_runs_above_par": -28.13,
         "bowling_runs_saved": 58.13,
         "bowler_wickets": 26,
+        "bowling_impact_runs": 448.13,
         "impact_runs": 420.01
       },
       {
@@ -2861,6 +3420,7 @@
         "batting_runs_above_par": -21.43,
         "bowling_runs_saved": 77.16,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 362.16,
         "impact_runs": 340.74
       },
       {
@@ -2869,6 +3429,7 @@
         "batting_runs_above_par": -22.84,
         "bowling_runs_saved": 7.05,
         "bowler_wickets": 23,
+        "bowling_impact_runs": 352.05,
         "impact_runs": 329.21
       },
       {
@@ -2877,6 +3438,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 22.56,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 322.56,
         "impact_runs": 322.56
       },
       {
@@ -2885,6 +3447,7 @@
         "batting_runs_above_par": -23.36,
         "bowling_runs_saved": 34.58,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 334.58,
         "impact_runs": 311.22
       },
       {
@@ -2893,6 +3456,7 @@
         "batting_runs_above_par": 13.6,
         "bowling_runs_saved": 161.35,
         "bowler_wickets": 9,
+        "bowling_impact_runs": 296.35,
         "impact_runs": 309.95
       },
       {
@@ -2901,6 +3465,7 @@
         "batting_runs_above_par": -14.32,
         "bowling_runs_saved": 30.11,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 315.11,
         "impact_runs": 300.79
       },
       {
@@ -2909,6 +3474,7 @@
         "batting_runs_above_par": -14.46,
         "bowling_runs_saved": 84.55,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 309.55,
         "impact_runs": 295.09
       },
       {
@@ -2917,6 +3483,7 @@
         "batting_runs_above_par": 56.92,
         "bowling_runs_saved": -23.45,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 231.55,
         "impact_runs": 288.48
       },
       {
@@ -2925,6 +3492,7 @@
         "batting_runs_above_par": -9.93,
         "bowling_runs_saved": -31.7,
         "bowler_wickets": 22,
+        "bowling_impact_runs": 298.3,
         "impact_runs": 288.36
       },
       {
@@ -2933,6 +3501,7 @@
         "batting_runs_above_par": -3.11,
         "bowling_runs_saved": 79.69,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 289.69,
         "impact_runs": 286.57
       },
       {
@@ -2941,6 +3510,7 @@
         "batting_runs_above_par": 1.09,
         "bowling_runs_saved": 6.43,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 276.43,
         "impact_runs": 277.51
       },
       {
@@ -2949,6 +3519,7 @@
         "batting_runs_above_par": -37.99,
         "bowling_runs_saved": -0.93,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 314.07,
         "impact_runs": 276.08
       },
       {
@@ -2957,6 +3528,7 @@
         "batting_runs_above_par": -11.9,
         "bowling_runs_saved": 46.42,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 286.42,
         "impact_runs": 274.51
       },
       {
@@ -2965,6 +3537,7 @@
         "batting_runs_above_par": -3.39,
         "bowling_runs_saved": 30.7,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 270.7,
         "impact_runs": 267.31
       },
       {
@@ -2973,6 +3546,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": -18.82,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 251.18,
         "impact_runs": 251.18
       },
       {
@@ -2981,6 +3555,7 @@
         "batting_runs_above_par": -9.69,
         "bowling_runs_saved": 20.77,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 260.77,
         "impact_runs": 251.09
       },
       {
@@ -2989,6 +3564,7 @@
         "batting_runs_above_par": -11.72,
         "bowling_runs_saved": 17.95,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 257.95,
         "impact_runs": 246.23
       },
       {
@@ -2997,6 +3573,7 @@
         "batting_runs_above_par": -20.02,
         "bowling_runs_saved": 77.45,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 257.45,
         "impact_runs": 237.43
       },
       {
@@ -3005,6 +3582,7 @@
         "batting_runs_above_par": -6.01,
         "bowling_runs_saved": 51.83,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 231.83,
         "impact_runs": 225.81
       },
       {
@@ -3013,6 +3591,7 @@
         "batting_runs_above_par": -16.31,
         "bowling_runs_saved": 27.55,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 237.55,
         "impact_runs": 221.24
       },
       {
@@ -3021,6 +3600,7 @@
         "batting_runs_above_par": -35.67,
         "bowling_runs_saved": 36.69,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 246.69,
         "impact_runs": 211.02
       },
       {
@@ -3029,6 +3609,7 @@
         "batting_runs_above_par": -3.82,
         "bowling_runs_saved": 26.51,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 206.51,
         "impact_runs": 202.69
       }
     ],
@@ -3039,6 +3620,7 @@
         "batting_runs_above_par": -5.07,
         "bowling_runs_saved": 59.91,
         "bowler_wickets": 28,
+        "bowling_impact_runs": 479.91,
         "impact_runs": 474.84
       },
       {
@@ -3047,6 +3629,7 @@
         "batting_runs_above_par": 25.79,
         "bowling_runs_saved": 41.68,
         "bowler_wickets": 27,
+        "bowling_impact_runs": 446.68,
         "impact_runs": 472.47
       },
       {
@@ -3055,6 +3638,7 @@
         "batting_runs_above_par": -1.76,
         "bowling_runs_saved": 56.63,
         "bowler_wickets": 27,
+        "bowling_impact_runs": 461.63,
         "impact_runs": 459.88
       },
       {
@@ -3063,6 +3647,7 @@
         "batting_runs_above_par": -2.37,
         "bowling_runs_saved": 89.3,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 374.3,
         "impact_runs": 371.93
       },
       {
@@ -3071,6 +3656,7 @@
         "batting_runs_above_par": -12.75,
         "bowling_runs_saved": 46.23,
         "bowler_wickets": 22,
+        "bowling_impact_runs": 376.23,
         "impact_runs": 363.48
       },
       {
@@ -3079,6 +3665,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 44.93,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 359.93,
         "impact_runs": 359.93
       },
       {
@@ -3087,6 +3674,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 62.81,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 347.81,
         "impact_runs": 347.81
       },
       {
@@ -3095,6 +3683,7 @@
         "batting_runs_above_par": -14.43,
         "bowling_runs_saved": 57.79,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 357.79,
         "impact_runs": 343.36
       },
       {
@@ -3103,6 +3692,7 @@
         "batting_runs_above_par": -25.33,
         "bowling_runs_saved": 30.19,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 330.19,
         "impact_runs": 304.86
       },
       {
@@ -3111,6 +3701,7 @@
         "batting_runs_above_par": -1.66,
         "bowling_runs_saved": -29.0,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 286.0,
         "impact_runs": 284.34
       },
       {
@@ -3119,6 +3710,7 @@
         "batting_runs_above_par": -6.75,
         "bowling_runs_saved": 46.64,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 286.64,
         "impact_runs": 279.9
       },
       {
@@ -3127,6 +3719,7 @@
         "batting_runs_above_par": -8.87,
         "bowling_runs_saved": 60.23,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 270.23,
         "impact_runs": 261.36
       },
       {
@@ -3135,6 +3728,7 @@
         "batting_runs_above_par": -33.19,
         "bowling_runs_saved": 38.78,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 278.78,
         "impact_runs": 245.59
       },
       {
@@ -3143,6 +3737,7 @@
         "batting_runs_above_par": -18.36,
         "bowling_runs_saved": 19.79,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 259.79,
         "impact_runs": 241.43
       },
       {
@@ -3151,6 +3746,7 @@
         "batting_runs_above_par": -1.56,
         "bowling_runs_saved": -15.15,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 239.85,
         "impact_runs": 238.29
       },
       {
@@ -3159,6 +3755,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 23.95,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 233.95,
         "impact_runs": 233.95
       },
       {
@@ -3167,6 +3764,7 @@
         "batting_runs_above_par": -7.04,
         "bowling_runs_saved": 27.13,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 222.13,
         "impact_runs": 215.1
       },
       {
@@ -3175,6 +3773,7 @@
         "batting_runs_above_par": -3.28,
         "bowling_runs_saved": 6.57,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 216.57,
         "impact_runs": 213.29
       },
       {
@@ -3183,6 +3782,7 @@
         "batting_runs_above_par": -9.39,
         "bowling_runs_saved": 20.9,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 215.9,
         "impact_runs": 206.51
       },
       {
@@ -3191,6 +3791,7 @@
         "batting_runs_above_par": -1.54,
         "bowling_runs_saved": 22.4,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 202.4,
         "impact_runs": 200.86
       },
       {
@@ -3199,6 +3800,7 @@
         "batting_runs_above_par": -9.84,
         "bowling_runs_saved": -0.75,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 209.25,
         "impact_runs": 199.41
       },
       {
@@ -3207,6 +3809,7 @@
         "batting_runs_above_par": -17.24,
         "bowling_runs_saved": 48.94,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 213.94,
         "impact_runs": 196.7
       },
       {
@@ -3215,6 +3818,7 @@
         "batting_runs_above_par": -20.32,
         "bowling_runs_saved": 50.97,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 215.97,
         "impact_runs": 195.65
       },
       {
@@ -3223,6 +3827,7 @@
         "batting_runs_above_par": -2.32,
         "bowling_runs_saved": 2.78,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 197.78,
         "impact_runs": 195.45
       },
       {
@@ -3231,6 +3836,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 27.99,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 192.99,
         "impact_runs": 192.99
       }
     ],
@@ -3241,6 +3847,7 @@
         "batting_runs_above_par": -10.94,
         "bowling_runs_saved": 181.23,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 481.23,
         "impact_runs": 470.3
       },
       {
@@ -3249,6 +3856,7 @@
         "batting_runs_above_par": 55.2,
         "bowling_runs_saved": 141.45,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 396.45,
         "impact_runs": 451.65
       },
       {
@@ -3257,6 +3865,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 72.39,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 387.39,
         "impact_runs": 387.39
       },
       {
@@ -3265,6 +3874,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 58.74,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 343.74,
         "impact_runs": 343.74
       },
       {
@@ -3273,6 +3883,7 @@
         "batting_runs_above_par": -16.61,
         "bowling_runs_saved": 0.03,
         "bowler_wickets": 24,
+        "bowling_impact_runs": 360.03,
         "impact_runs": 343.43
       },
       {
@@ -3281,6 +3892,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 55.54,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 340.54,
         "impact_runs": 340.54
       },
       {
@@ -3289,6 +3901,7 @@
         "batting_runs_above_par": 0.17,
         "bowling_runs_saved": 16.91,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 301.91,
         "impact_runs": 302.08
       },
       {
@@ -3297,6 +3910,7 @@
         "batting_runs_above_par": -1.89,
         "bowling_runs_saved": 42.74,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 297.74,
         "impact_runs": 295.85
       },
       {
@@ -3305,6 +3919,7 @@
         "batting_runs_above_par": 16.93,
         "bowling_runs_saved": -7.46,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 277.54,
         "impact_runs": 294.47
       },
       {
@@ -3313,6 +3928,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 31.75,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 286.75,
         "impact_runs": 286.75
       },
       {
@@ -3321,6 +3937,7 @@
         "batting_runs_above_par": -15.96,
         "bowling_runs_saved": 60.93,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 300.93,
         "impact_runs": 284.97
       },
       {
@@ -3329,6 +3946,7 @@
         "batting_runs_above_par": -31.23,
         "bowling_runs_saved": 43.24,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 313.24,
         "impact_runs": 282.0
       },
       {
@@ -3337,6 +3955,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 45.39,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 270.39,
         "impact_runs": 270.39
       },
       {
@@ -3345,6 +3964,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": -2.09,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 267.91,
         "impact_runs": 267.91
       },
       {
@@ -3353,6 +3973,7 @@
         "batting_runs_above_par": -3.21,
         "bowling_runs_saved": 43.12,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 268.12,
         "impact_runs": 264.92
       },
       {
@@ -3361,6 +3982,7 @@
         "batting_runs_above_par": -1.66,
         "bowling_runs_saved": -20.11,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 264.89,
         "impact_runs": 263.23
       },
       {
@@ -3369,6 +3991,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 64.72,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 259.72,
         "impact_runs": 259.72
       },
       {
@@ -3377,6 +4000,7 @@
         "batting_runs_above_par": -14.47,
         "bowling_runs_saved": 12.26,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 267.26,
         "impact_runs": 252.79
       },
       {
@@ -3385,6 +4009,7 @@
         "batting_runs_above_par": -32.49,
         "bowling_runs_saved": 38.55,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 278.55,
         "impact_runs": 246.06
       },
       {
@@ -3393,6 +4018,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 46.57,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 241.57,
         "impact_runs": 241.57
       },
       {
@@ -3401,6 +4027,7 @@
         "batting_runs_above_par": -12.64,
         "bowling_runs_saved": -14.35,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 240.65,
         "impact_runs": 228.01
       },
       {
@@ -3409,6 +4036,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 14.46,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 224.46,
         "impact_runs": 224.46
       },
       {
@@ -3417,6 +4045,7 @@
         "batting_runs_above_par": -12.0,
         "bowling_runs_saved": 12.65,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 207.65,
         "impact_runs": 195.64
       },
       {
@@ -3425,6 +4054,7 @@
         "batting_runs_above_par": -6.33,
         "bowling_runs_saved": -11.7,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 198.3,
         "impact_runs": 191.96
       },
       {
@@ -3433,6 +4063,7 @@
         "batting_runs_above_par": -0.84,
         "bowling_runs_saved": 21.23,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 186.23,
         "impact_runs": 185.38
       }
     ],
@@ -3443,6 +4074,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 101.24,
         "bowler_wickets": 25,
+        "bowling_impact_runs": 476.24,
         "impact_runs": 476.24
       },
       {
@@ -3451,6 +4083,7 @@
         "batting_runs_above_par": -1.73,
         "bowling_runs_saved": 145.85,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 415.85,
         "impact_runs": 414.12
       },
       {
@@ -3459,6 +4092,7 @@
         "batting_runs_above_par": -21.8,
         "bowling_runs_saved": 45.37,
         "bowler_wickets": 24,
+        "bowling_impact_runs": 405.37,
         "impact_runs": 383.57
       },
       {
@@ -3467,6 +4101,7 @@
         "batting_runs_above_par": -7.96,
         "bowling_runs_saved": 64.07,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 379.07,
         "impact_runs": 371.11
       },
       {
@@ -3475,6 +4110,7 @@
         "batting_runs_above_par": -1.47,
         "bowling_runs_saved": 40.66,
         "bowler_wickets": 22,
+        "bowling_impact_runs": 370.66,
         "impact_runs": 369.19
       },
       {
@@ -3483,6 +4119,7 @@
         "batting_runs_above_par": -3.05,
         "bowling_runs_saved": 41.05,
         "bowler_wickets": 22,
+        "bowling_impact_runs": 371.05,
         "impact_runs": 368.0
       },
       {
@@ -3491,6 +4128,7 @@
         "batting_runs_above_par": -0.91,
         "bowling_runs_saved": 82.0,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 337.0,
         "impact_runs": 336.08
       },
       {
@@ -3499,6 +4137,7 @@
         "batting_runs_above_par": -10.26,
         "bowling_runs_saved": 116.83,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 341.83,
         "impact_runs": 331.57
       },
       {
@@ -3507,6 +4146,7 @@
         "batting_runs_above_par": -13.39,
         "bowling_runs_saved": 17.95,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 302.95,
         "impact_runs": 289.56
       },
       {
@@ -3515,6 +4155,7 @@
         "batting_runs_above_par": -4.19,
         "bowling_runs_saved": 80.96,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 290.96,
         "impact_runs": 286.77
       },
       {
@@ -3523,6 +4164,7 @@
         "batting_runs_above_par": -4.36,
         "bowling_runs_saved": 50.36,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 290.36,
         "impact_runs": 286.0
       },
       {
@@ -3531,6 +4173,7 @@
         "batting_runs_above_par": -4.77,
         "bowling_runs_saved": 45.22,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 285.22,
         "impact_runs": 280.45
       },
       {
@@ -3539,6 +4182,7 @@
         "batting_runs_above_par": -30.4,
         "bowling_runs_saved": 42.72,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 297.72,
         "impact_runs": 267.32
       },
       {
@@ -3547,6 +4191,7 @@
         "batting_runs_above_par": 17.79,
         "bowling_runs_saved": 61.59,
         "bowler_wickets": 12,
+        "bowling_impact_runs": 241.59,
         "impact_runs": 259.38
       },
       {
@@ -3555,6 +4200,7 @@
         "batting_runs_above_par": -26.93,
         "bowling_runs_saved": 27.66,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 282.66,
         "impact_runs": 255.73
       },
       {
@@ -3563,6 +4209,7 @@
         "batting_runs_above_par": -11.46,
         "bowling_runs_saved": -13.77,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 241.23,
         "impact_runs": 229.78
       },
       {
@@ -3571,6 +4218,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": -13.56,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 226.44,
         "impact_runs": 226.44
       },
       {
@@ -3579,6 +4227,7 @@
         "batting_runs_above_par": -29.78,
         "bowling_runs_saved": 15.85,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 255.85,
         "impact_runs": 226.07
       },
       {
@@ -3587,6 +4236,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 59.78,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 224.78,
         "impact_runs": 224.78
       },
       {
@@ -3595,6 +4245,7 @@
         "batting_runs_above_par": 0.0,
         "bowling_runs_saved": 28.98,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 223.98,
         "impact_runs": 223.98
       },
       {
@@ -3603,6 +4254,7 @@
         "batting_runs_above_par": -26.92,
         "bowling_runs_saved": 8.49,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 248.49,
         "impact_runs": 221.57
       },
       {
@@ -3611,6 +4263,7 @@
         "batting_runs_above_par": -2.32,
         "bowling_runs_saved": -13.64,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 211.36,
         "impact_runs": 209.05
       },
       {
@@ -3619,6 +4272,7 @@
         "batting_runs_above_par": 7.7,
         "bowling_runs_saved": 14.66,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 179.66,
         "impact_runs": 187.36
       },
       {
@@ -3627,6 +4281,7 @@
         "batting_runs_above_par": -1.89,
         "bowling_runs_saved": -6.05,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 188.95,
         "impact_runs": 187.06
       },
       {
@@ -3635,6 +4290,7 @@
         "batting_runs_above_par": -15.88,
         "bowling_runs_saved": 52.72,
         "bowler_wickets": 10,
+        "bowling_impact_runs": 202.72,
         "impact_runs": 186.84
       }
     ],
@@ -3645,6 +4301,7 @@
         "batting_runs_above_par": -9.49,
         "bowling_runs_saved": 137.0,
         "bowler_wickets": 28,
+        "bowling_impact_runs": 557.0,
         "impact_runs": 547.5
       },
       {
@@ -3653,6 +4310,7 @@
         "batting_runs_above_par": -16.85,
         "bowling_runs_saved": 77.18,
         "bowler_wickets": 25,
+        "bowling_impact_runs": 452.18,
         "impact_runs": 435.33
       },
       {
@@ -3661,6 +4319,7 @@
         "batting_runs_above_par": -13.75,
         "bowling_runs_saved": 5.54,
         "bowler_wickets": 29,
+        "bowling_impact_runs": 440.54,
         "impact_runs": 426.78
       },
       {
@@ -3669,6 +4328,7 @@
         "batting_runs_above_par": -13.89,
         "bowling_runs_saved": 140.02,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 395.02,
         "impact_runs": 381.13
       },
       {
@@ -3677,6 +4337,7 @@
         "batting_runs_above_par": -22.35,
         "bowling_runs_saved": 48.38,
         "bowler_wickets": 20,
+        "bowling_impact_runs": 348.38,
         "impact_runs": 326.03
       },
       {
@@ -3685,6 +4346,7 @@
         "batting_runs_above_par": -15.75,
         "bowling_runs_saved": 22.63,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 337.63,
         "impact_runs": 321.87
       },
       {
@@ -3693,6 +4355,7 @@
         "batting_runs_above_par": -22.03,
         "bowling_runs_saved": 45.89,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 330.89,
         "impact_runs": 308.86
       },
       {
@@ -3701,6 +4364,7 @@
         "batting_runs_above_par": -0.4,
         "bowling_runs_saved": 20.34,
         "bowler_wickets": 19,
+        "bowling_impact_runs": 305.34,
         "impact_runs": 304.94
       },
       {
@@ -3709,6 +4373,7 @@
         "batting_runs_above_par": -22.43,
         "bowling_runs_saved": 69.95,
         "bowler_wickets": 17,
+        "bowling_impact_runs": 324.95,
         "impact_runs": 302.52
       },
       {
@@ -3717,6 +4382,7 @@
         "batting_runs_above_par": -2.99,
         "bowling_runs_saved": -21.74,
         "bowler_wickets": 21,
+        "bowling_impact_runs": 293.26,
         "impact_runs": 290.28
       },
       {
@@ -3725,6 +4391,7 @@
         "batting_runs_above_par": -1.86,
         "bowling_runs_saved": 48.86,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 288.86,
         "impact_runs": 287.0
       },
       {
@@ -3733,6 +4400,7 @@
         "batting_runs_above_par": -5.77,
         "bowling_runs_saved": 3.14,
         "bowler_wickets": 18,
+        "bowling_impact_runs": 273.14,
         "impact_runs": 267.37
       },
       {
@@ -3741,6 +4409,7 @@
         "batting_runs_above_par": -6.52,
         "bowling_runs_saved": 77.79,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 272.79,
         "impact_runs": 266.27
       },
       {
@@ -3749,6 +4418,7 @@
         "batting_runs_above_par": -23.77,
         "bowling_runs_saved": 60.64,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 270.64,
         "impact_runs": 246.87
       },
       {
@@ -3757,6 +4427,7 @@
         "batting_runs_above_par": -7.92,
         "bowling_runs_saved": 25.08,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 250.08,
         "impact_runs": 242.16
       },
       {
@@ -3765,6 +4436,7 @@
         "batting_runs_above_par": -1.66,
         "bowling_runs_saved": 14.85,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 239.85,
         "impact_runs": 238.19
       },
       {
@@ -3773,6 +4445,7 @@
         "batting_runs_above_par": -5.32,
         "bowling_runs_saved": 26.46,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 236.46,
         "impact_runs": 231.15
       },
       {
@@ -3781,6 +4454,7 @@
         "batting_runs_above_par": -7.35,
         "bowling_runs_saved": 24.05,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 234.05,
         "impact_runs": 226.7
       },
       {
@@ -3789,6 +4463,7 @@
         "batting_runs_above_par": -3.46,
         "bowling_runs_saved": 3.91,
         "bowler_wickets": 15,
+        "bowling_impact_runs": 228.91,
         "impact_runs": 225.45
       },
       {
@@ -3797,6 +4472,7 @@
         "batting_runs_above_par": -1.94,
         "bowling_runs_saved": 16.4,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 226.4,
         "impact_runs": 224.46
       },
       {
@@ -3805,6 +4481,7 @@
         "batting_runs_above_par": -0.66,
         "bowling_runs_saved": 3.75,
         "bowler_wickets": 14,
+        "bowling_impact_runs": 213.75,
         "impact_runs": 213.08
       },
       {
@@ -3813,6 +4490,7 @@
         "batting_runs_above_par": -26.14,
         "bowling_runs_saved": 41.52,
         "bowler_wickets": 13,
+        "bowling_impact_runs": 236.52,
         "impact_runs": 210.38
       },
       {
@@ -3821,6 +4499,7 @@
         "batting_runs_above_par": -7.45,
         "bowling_runs_saved": 50.58,
         "bowler_wickets": 11,
+        "bowling_impact_runs": 215.58,
         "impact_runs": 208.13
       },
       {
@@ -3829,6 +4508,7 @@
         "batting_runs_above_par": 205.69,
         "bowling_runs_saved": 0.0,
         "bowler_wickets": 0,
+        "bowling_impact_runs": 0.0,
         "impact_runs": 205.69
       },
       {
@@ -3837,6 +4517,7 @@
         "batting_runs_above_par": -8.55,
         "bowling_runs_saved": -29.2,
         "bowler_wickets": 16,
+        "bowling_impact_runs": 210.8,
         "impact_runs": 202.25
       }
     ]
